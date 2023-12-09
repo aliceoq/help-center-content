@@ -26,12 +26,12 @@ jobs:
 
       - name: Get changed files
         id: changed_files
-        uses: tj-actions/changed-files@v29.0.2
+        uses: tj-actions/changed-files@v36
         with:
           separator: ","
 
       - name: Commit and Push
-        if: steps.changed_files.outputs.files
+        if: ${{ steps.get-changed-files.outputs.any_changed == 'true' }}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update documentation files
