@@ -1,0 +1,34 @@
+name: Retrieve docs from Contentful
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      
+      - name: Update docs
+        run: |
+          node index.js
+        env:
+          CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
+
+      - name: Get changed files
+        id: changed_files
+        uses: tj-actions/changed-files@v29.0.2
+        with:
+          separator: ","
+
+      - name: Commit and Push
+        if: steps.changed_files.outputs.files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: update documentation files
