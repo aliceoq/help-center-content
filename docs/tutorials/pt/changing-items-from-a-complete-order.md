@@ -3,8 +3,8 @@ title: 'Alteração de itens de um pedido finalizado'
 id: tutorials_190
 status: PUBLISHED
 createdAt: 2017-04-27T22:15:22.411Z
-updatedAt: 2023-05-03T14:22:00.584Z
-publishedAt: 2023-05-03T14:22:00.584Z
+updatedAt: 2023-10-18T17:14:16.446Z
+publishedAt: 2023-10-18T17:14:16.446Z
 firstPublishedAt: 2017-04-27T23:00:47.264Z
 contentType: tutorial
 productTeam: Post-purchase

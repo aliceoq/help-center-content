@@ -3,8 +3,8 @@ title: 'Configuring payment with AdyenV3 in VTEX Sales App'
 id: 24yO6KloBn6DN6CbprHtgt
 status: PUBLISHED
 createdAt: 2023-05-09T14:12:03.567Z
-updatedAt: 2023-06-01T11:38:18.504Z
-publishedAt: 2023-06-01T11:38:18.504Z
+updatedAt: 2023-07-07T20:27:39.984Z
+publishedAt: 2023-07-07T20:27:39.984Z
 firstPublishedAt: 2023-05-11T20:30:50.460Z
 contentType: tutorial
 productTeam: Financial
@@ -51,12 +51,16 @@ To enable VTEX access to the Adyen environment, follow the instructions below:
 2. In the left sidebar, copy and save the information shown above **Company**. This is your Company account.
 3. In the list below Company, search for the Merchant Account that will be used (highlighted in white). Copy and save this information.
 
-![Adyenv3_1](https://images.ctfassets.net/alneenqid6w5/4BHwn5SIUl6AuiiEjreluk/a7404c85f6fda7f7ccbae66070d0db0d/Adyenv3_1.PNG)
+![Adyenv3_1](//images.ctfassets.net/alneenqid6w5/4BHwn5SIUl6AuiiEjreluk/a7404c85f6fda7f7ccbae66070d0db0d/Adyenv3_1.PNG)
 
 ### Getting the POS Live URL
 
+This information is related to the endpoints used by Adyen's endpoint APIs in a production environment. For more information, visit the [Adyen docs](https://docs.adyen.com/point-of-sale/design-your-integration/terminal-api#cloud).
+
+### Getting the Live URL prefix
+
 1. In the sidebar, go to **Developers > API URLs**.
-2. Click `Copy` in the **Point of Sale** field, and store the information in a safe place.
+2. Click `Copy` in the **Prefix** field, and store the information in a safe place. This prefix controls your endpoint on the Adyen platform.
 
 ### Getting the API Key
 
@@ -66,7 +70,7 @@ The steps below assume that the API Key has been previously generated in the Ady
 2. Select your API credential.
 3. In **Server Settings > Authentication**, select **API key**. 
 
-![Adyenv3_2](https://images.ctfassets.net/alneenqid6w5/5y5TAeZmhsKrn2nZTJexIw/bfbe2587739f39fa70c4e1f08e86bd71/Adyenv3_2.PNG)
+![Adyenv3_2](//images.ctfassets.net/alneenqid6w5/5y5TAeZmhsKrn2nZTJexIw/bfbe2587739f39fa70c4e1f08e86bd71/Adyenv3_2.PNG)
 
 <blockquote><ui>4. Click <b>Generate key</b> and store the generated key in a safe location.</ui>
 
@@ -82,7 +86,7 @@ Follow the steps below to configure a webhook:
 4. In **General > Description**, add a description for the new webhook. Example: "Webhook Adyen Connector Provider v3".
 5. In **General > Server configuration > URL**, enter the URL of your VTEX account. Example: https://{{account}}.myvtex.com/_v3/api/webhook/notification.
 
-![Adyenv3_4](https://images.ctfassets.net/alneenqid6w5/1gAXlQfBoEUm5qnfSsHJkl/c18036816afbfe9ed8434d1211679879/Adyenv3_4.PNG)
+![Adyenv3_4](//images.ctfassets.net/alneenqid6w5/1gAXlQfBoEUm5qnfSsHJkl/c18036816afbfe9ed8434d1211679879/Adyenv3_4.PNG)
 
 <blockquote><ui>6. Click <b>Apply</b>.</ui>
 
@@ -90,11 +94,11 @@ Follow the steps below to configure a webhook:
 
 <blockquote><ui>8. Click <b>Save changes</b>.</ui>
 
-![Adyenv3_5](https://images.ctfassets.net/alneenqid6w5/4dNUcUg9OKni8eT1wXcjO1/19eddc41d854adb8976e6e90ed54589c/Adyenv3_5.PNG)
+![Adyenv3_5](//images.ctfassets.net/alneenqid6w5/4dNUcUg9OKni8eT1wXcjO1/19eddc41d854adb8976e6e90ed54589c/Adyenv3_5.PNG)
 
-![Adyenv3_6](https://images.ctfassets.net/alneenqid6w5/2ocxDKULle6hnu2fFPnjfZ/7787ff93f023d3ec17c669758aefb82f/Adyenv3_6.PNG)
+![Adyenv3_6](//images.ctfassets.net/alneenqid6w5/2ocxDKULle6hnu2fFPnjfZ/7787ff93f023d3ec17c669758aefb82f/Adyenv3_6.PNG)
 
-![Adyenv3_7](https://images.ctfassets.net/alneenqid6w5/dEbiVnYj1Ic4eYgkSNolQ/79bba40bd6820d29de275e3cab19f22e/Adyenv3_7.PNG)
+![Adyenv3_7](//images.ctfassets.net/alneenqid6w5/dEbiVnYj1Ic4eYgkSNolQ/79bba40bd6820d29de275e3cab19f22e/Adyenv3_7.PNG)
 
 <div class="alert alert-info">
 If you have several stores, you need to configure a webhook for each of them.
@@ -108,16 +112,16 @@ If you have several stores, you need to configure a webhook for each of them.
 4. Complete the following fields with the information provided by Adyen:
     - **Application Key**: name of your Merchant account (step 3 in the [Getting the Company and Merchant account credentials](#getting-the-company-and-merchant-account-credentials) section).
     - **Application Token**: API Key (step 4 in the [Getting the API Key](#getting-the-api-key) section).
-    - **Live URL prefix**: it is not necessary to fill in this field (only applicable to other online sales channels).
+    - **Live URL prefix**: prefix available in Adyen customer area (step 2 in the [Getting the Live URL prefix](#getting-the-live-url-prefix) section).
     - **Company account**: the name of your Company account (step 2 in the [Getting the Company and Merchant account credentials](#getting-the-company-and-merchant-account-credentials) section).
-    - **Live POS URL**: URL prefix (step 2 in the [Getting the POS Live URL](#getting-the-pos-live-url) section). 
+    - **Live POS URL**: endpoints used to access Adyen terminal APIs. Learn more at [Adyen documentation](https://docs.adyen.com/point-of-sale/design-your-integration/terminal-api#cloud). 
     - **Client key**: it is not necessary to fill in this field (only applicable to other online sales channels).
 
 <blockquote><ui>  5. If a warning message is displayed indicating that the app needs to be installed, click the <b>Install app</b> button and follow the installation instructions.</ui>
 
 <blockquote><ui>  6. Click <b>Save</b>.</ui>
 
-![Adyenv3_9](https://images.ctfassets.net/alneenqid6w5/SCflCIOFcwFro09YTxEZy/27b941b772a6afb021d0fa2fe25c9fa9/Adyenv3_9.PNG)
+![Adyenv3_9](//images.ctfassets.net/alneenqid6w5/SCflCIOFcwFro09YTxEZy/27b941b772a6afb021d0fa2fe25c9fa9/Adyenv3_9.PNG)
 
 ## Configuring payment condition
 

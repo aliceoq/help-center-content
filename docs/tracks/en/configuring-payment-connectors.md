@@ -3,8 +3,8 @@ title: 'Configuring payment connectors'
 id: 7pAEMAo4iqNHwYOarZ3zgm
 status: PUBLISHED
 createdAt: 2019-11-12T17:29:10.501Z
-updatedAt: 2023-03-21T20:10:49.512Z
-publishedAt: 2023-03-21T20:10:49.512Z
+updatedAt: 2023-10-18T15:12:06.862Z
+publishedAt: 2023-10-18T15:12:06.862Z
 firstPublishedAt: 2019-11-24T21:05:50.533Z
 contentType: trackArticle
 productTeam: Financial
@@ -22,7 +22,7 @@ Another important feature is the connections parity. Just as a payment method ca
 
 **Gateway affiliations** is a set of configurations that represents your contract with a payment gateway.
 
-In addition to payment gateways, other affiliations include promissory, acquirers and sub-acquirers, for example. This allows you to decide which payment gateways will process the different types of transactions in your VTEX store.
+In addition to payment gateways, other affiliations include notes payable, acquirers and sub-acquirers, for example. This allows you to decide which payment gateways will process the different types of transactions in your VTEX store.
 
 The VTEX Payments Module supports multiple affiliations with one or more Payment Gateways of your choice to process different payment methods.
 

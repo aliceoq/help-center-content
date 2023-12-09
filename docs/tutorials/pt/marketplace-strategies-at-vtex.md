@@ -3,8 +3,8 @@ title: 'Estratégias de marketplace na VTEX'
 id: tutorials_402
 status: PUBLISHED
 createdAt: 2017-04-27T22:06:47.209Z
-updatedAt: 2023-04-20T20:53:42.948Z
-publishedAt: 2023-04-20T20:53:42.948Z
+updatedAt: 2023-08-24T20:03:18.118Z
+publishedAt: 2023-08-24T20:03:18.118Z
 firstPublishedAt: 2017-04-27T23:03:23.819Z
 contentType: tutorial
 productTeam: Channels
@@ -108,6 +108,7 @@ Atualmente, na plataforma VTEX existem os seguintes conectores certificados:
 - [Camicado](https://help.vtex.com/pt/tutorial/integracao-com-renner-e-camicado--5qf2wloosKlmIB8o2AitnT)
 - [Renner](https://help.vtex.com/pt/tutorial/integracao-com-renner-e-camicado--5qf2wloosKlmIB8o2AitnT)
 - [Loopi](https://help.vtex.com/pt/tutorial/integracao-com-loopi--2wmap3hWksLxJ0IYe7nYFP)
+- [Livelo](https://help.vtex.com/pt/tracks/integracao-livelo--4ZSHEiuTkh8HR9ubJQj8BP/5rhGcaM0SedoK7lDMBkVFD)
 - GrupoLTM
 - TudoAzul
 - Webcontinental
@@ -166,7 +167,7 @@ A configuração da para [se tornar um marketplace VTEX](https://help.vtex.com/p
 
 Veja abaixo os principais marketplaces VTEX:
 
-![mkt br](https://images.ctfassets.net/alneenqid6w5/6DB08TtDzQ0tuesrK1I1XU/d42c1c45fff7301eea1e2fe7160274b5/mkt_br.png)
+![mkt br](//images.ctfassets.net/alneenqid6w5/6DB08TtDzQ0tuesrK1I1XU/d42c1c45fff7301eea1e2fe7160274b5/mkt_br.png)
 
 Além disso, a página __Marketplaces e integrações__ promove e facilita o contato entre marketplaces VTEX, sellers VTEX e conectores certificados interessados em colaborações.
 

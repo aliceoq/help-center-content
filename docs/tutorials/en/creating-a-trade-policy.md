@@ -3,8 +3,8 @@ title: 'Creating a trade policy'
 id: 563tbcL0TYKEKeOY4IAgAE
 status: PUBLISHED
 createdAt: 2019-01-24T20:45:49.369Z
-updatedAt: 2022-12-08T14:40:14.268Z
-publishedAt: 2022-12-08T14:40:14.268Z
+updatedAt: 2023-08-31T21:48:48.504Z
+publishedAt: 2023-08-31T21:48:48.504Z
 firstPublishedAt: 2019-01-24T22:14:00.848Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -45,6 +45,12 @@ To define the logistics settings applied to this trade policy, you must <a href=
 - __Active?:__ checkbox to activate or deactivate the trade policy in your VTEX environment.  
 - __Conditional Rule:__ customizable field where you can define an additional criterion for the trade policy. An example of a conditional rule is to limit access to the store through a [customer cluster](https://help.vtex.com/tutorial/como-criar-um-cluster-de-clientes).  
 - __Inherit trade policy catalog:__ indicates whether the trade policy you are creating will "inherit" the catalog of an existing trade policy. If the policies are different but share the same catalog, we recommend filling in this field to optimize system performance.  
+
+<div class="alert alert-warning">
+  The field <b>Inherit trade policy catalog</b> is not changeable.
+To use the same catalog in more than one trade policy, access the
+<a href="https://developers.vtex.com/docs/api-reference/catalog-api#post-/api/catalog/pvt/product/-productId-/salespolicy/-tradepolicyId-">Associate Product with Trade Policy</a> documentation.
+ </div>
 
 ## Learn more
 

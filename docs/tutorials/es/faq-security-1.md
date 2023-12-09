@@ -3,7 +3,7 @@ title: 'FAQ - Seguridad 1'
 id: 7AmPOGXykmE9SYyYDzdAZ4
 status: DRAFT
 createdAt: 2022-05-26T00:09:53.997Z
-updatedAt: 2022-08-22T12:22:09.869Z
+updatedAt: 2023-08-01T22:28:02.023Z
 publishedAt: 
 firstPublishedAt: 2022-06-02T18:56:44.116Z
 contentType: tutorial
@@ -33,6 +33,7 @@ Ver más temas en la parte 2 de este FAQ. Ingrese su [nombre de cuenta](https://
 <iframe src="https://help.vtex.com/insertaccountname?id=1ayXEtqawI9yuxFXutiITh" title="Ingrese su nombre de cuenta y haga click en el botón." frameBorder="0" width="400" height="50"></iframe>
 
 ## Política y organización de la seguridad
+
 ### ¿Tiene VTEX una política de seguridad de la información? En caso afirmativo, ¿con qué frecuencia se revisa? ¿Se ha distribuido y comunicado la política a toda la empresa?
 
 VTEX cuenta con una política de seguridad de la información que ha sido transmitida a toda la empresa a través de nuestros canales de comunicación interna. La política se revisa anualmente dentro de nuestro proceso de gestión de documentos. Nuestra política de seguridad de la información se basa en la norma ISO IEC 27001, en los marcos de mejores prácticas de seguridad reconocidos por el sector, en la legislación sobre protección de datos y en otras obligaciones aplicables al contexto de VTEX. Nuestros clientes pueden acceder a nuestra versión pública a través del Portal de Administración de la Tienda.  
@@ -86,14 +87,15 @@ VTEX garantiza que sus proveedores subcontratados respetan y siguen las mismas p
 ### ¿Tienen un programa de gestión de riesgos de los proveedores?
 
 VTEX tiene establecido un proceso de análisis de riesgos de seguridad de la información para los proveedores críticos, es decir, los que tratarán datos sensibles. 
+
 Evaluamos la madurez y la postura de seguridad de estos proveedores para entender cuáles son los riesgos y las lagunas y abordar estas cuestiones para una adecuada toma de decisiones interna. Además, todos los proveedores pasan por un proceso de evaluación de riesgos para garantizar el cumplimiento de las leyes de protección de datos y el análisis de riesgos comerciales, y solo después de todas las evaluaciones necesarias, y con un nivel de madurez adecuado, se procede a la contratación.  
 
 ## Acceso, identificación y autentificación
+
 ### ¿Tiene VTEX una política de gestión de accesos lógicos? Describir en términos generales cómo funcionan sus procesos de gestión de acceso.
 
 VTEX controla y monitorea constantemente el acceso a los entornos de producción. 
-Esta política se alinea a nuestra práctica del principio de mínimo privilegio y la segregación de funciones, donde el acceso se concede con base en una necesidad legítima. Además, adoptamos procesos periódicos de revisión de acceso y perfiles. 
-Cada vez que se produce una desvinculación laboral, nuestro proceso de revocación se activa de forma oportuna.  
+Esta política se alinea a nuestra práctica del principio de mínimo privilegio y la segregación de funciones, donde el acceso se concede con base en una necesidad legítima. Además, adoptamos procesos periódicos de revisión de acceso y perfiles. Cada vez que se produce una desvinculación laboral, nuestro proceso de revocación se activa de forma oportuna.  
 
 ### ¿Tiene VTEX una política de contraseñas? En caso afirmativo, ¿cuáles son los criterios considerados?
 
@@ -118,10 +120,13 @@ Sí, VTEX brinda acceso a nuestros entornos de producción (codificación, fusi�
 De forma nativa, por email o por el número de celular. Utilizamos inicio de sesión por email, autenticación 2 FA, VPN, entre otros, para que solo las personas autorizadas tengan acceso a su trabajo. 
 
 ## Educación y concienciación sobre seguridad
+
 ### ¿Dispone VTEX de procesos y procedimientos de concienciación de seguridad informática? Describir, en términos generales, cómo funciona actualmente este proceso.
 
 Nuestros programas integrales incluyen la incorporación de nuevos colaboradores y una capacitación anual de seguridad.
+
 Capacitamos a los colaboradores para que identifiquen los vectores de ataque más frecuentes, como los emails de phishing, y sepan cómo denunciarlos. Esto se aplica a todos los colaboradores y a través de los KPI medimos la eficacia de los programas de concienciación de seguridad.
+
 Cada año establecemos un calendario para el programa de concienciación. Además, siempre revisamos nuestros contenidos, y tomamos en cuenta los escenarios actuales y los vectores de ataque y vulnerabilidades. 
 
 ### ¿Hay capacitaciones técnicas para el equipo de Security? 
@@ -131,6 +136,7 @@ VTEX cuenta con programas y capacitación interna para aumentar los niveles de a
 ### ¿VTEX adopta un programa de concientización enfocado en la mitigación y protección de malware, se educa a los empleados sobre este tema?
 
 La empresa cuenta con programas internos para generar conciencia sobre el malware y los problemas que surgen de él. Todos los empleados de VTEX son informados regularmente a través de comunicaciones internas y capacitación sobre los riesgos asociados con el malware, cómo el malware puede instalarse en un dispositivo y los síntomas más familiares de una máquina que ha sido infectada con malware. Dentro de la capacitación mencionada, los usuarios serán: Instruidos para realizar escaneos manuales con las herramientas provistas por la empresa. En caso de sospecha o infección de malware, es necesario ponerse en contacto con el equipo responsable para solucionar los problemas relacionados con esta infección.
+
 Además, la protección contra malware está respaldada por un monitoreo constante a través de nuestras tecnologías de seguridad.
 
 El software antimalware instalado en las instancias supervisa activamente el malware en los entornos de producción. Si se detecta malware, la instancia afectada se termina para que los procesos de escalado automático creen una instancia limpia desde cero. 
@@ -145,6 +151,7 @@ Los activos se gestionan de forma centralizada a través de un sistema de gesti�
 VTEX opera 100 % en la nube y es el mayor socio de AWS en América Latina. Por lo tanto, no es necesario realizar un inventario físico de los activos. Para el inventario de software, utilizamos el inventario de AWS Systems Manager, que proporciona visibilidad en nuestro entorno informático de AWS. En el escenario corporativo, utilizamos una solución para gestionar los endpoints y aplicar las reglas de seguridad.  
 
 ## Privacidad y datos
+
 ### ¿Tiene la empresa una política de privacidad y datos? Si es así, ¿con qué frecuencia se revisa? ¿Se ha distribuido y comunicado la política a toda la empresa?
 
 Sí, VTEX tiene una política de privacidad y datos que es revisada anualmente. La política se distribuyó y comunicó a toda la empresa a través de nuestro canal de anuncios internos. La política también se mantiene en nuestra herramienta de documentos corporativos internos. 
@@ -155,18 +162,17 @@ VTEX tiene un DPO que es responsable de coordinar el programa de privacidad.
 
 ### ¿Qué tipo de datos personales trata VTEX a nombre de los clientes?
 
-VTEX trata información personal a nombre de sus clientes, como el nombre, dirección postal, número de teléfono o celular, dirección de email, dirección y otros datos que el cliente considere necesarios. Para más información, consulta nuestra Adenda de tratamiento de datos (DPA): https://vtex.com/us-en/data-processing-addendum/. 
+VTEX trata información personal a nombre de sus clientes, como el nombre, dirección postal, número de teléfono o celular, dirección de email, dirección y otros datos que el cliente considere necesarios. Para más información, consulta nuestra [Adenda de tratamiento de datos (DPA)](https://vtex.com/us-en/data-processing-addendum/). 
 
 ### ¿Cómo cumple VTEX con la ley LGPD (legislación de Brasil) y el reglamento GDPR (legislación de la UE)?
 
-VTEX está plenamente comprometido a cumplir con las normas de protección de datos. En este sentido, estamos creando un espacio en el que podemos divulgar las medidas que ya hemos tomado para abordar este asunto tan importante. Puedes leer más sobre nuestro compromiso con los controladores (tú, nuestro cliente) y los principios tanto de la LGPD como del GDPR en «¿Qué es la LGPD?» y «¿Qué es el GDPR?», respectivamente, en la sección de VTEX’s Commitment en https://vtex.com/us-en/trust/. Actualmente, las herramientas proporcionadas por VTEX, a través de nuestra GUI y las API, les permiten a nuestros usuarios empresariales cumplir con el GDPR. Esto significa que también tenemos métodos para satisfacer las solicitudes de los titulares de datos personales y que nuestro producto sigue las normas establecidas por la legislación europea.
+VTEX está plenamente comprometido a cumplir con las normas de protección de datos. En este sentido, estamos creando un espacio en el que podemos divulgar las medidas que ya hemos tomado para abordar este asunto tan importante. Puedes leer más sobre nuestro compromiso con los controladores (tú, nuestro cliente) y los principios tanto de la LGPD como del GDPR en «¿Qué es la LGPD?» y «¿Qué es el GDPR?», respectivamente, en la sección de VTEX’s Commitment en [VTEX Trust Hub](https://vtex.com/us-en/trust/). Actualmente, las herramientas proporcionadas por VTEX, a través de nuestra GUI y las API, les permiten a nuestros usuarios empresariales cumplir con el GDPR. Esto significa que también tenemos métodos para satisfacer las solicitudes de los titulares de datos personales y que nuestro producto sigue las normas establecidas por la legislación europea.
 
-Nuestros contratos, políticas y notificaciones ya cumplen con la LGPD y el GDPR, como puedes comprobar en nuestro VTEX Trust Hub, disponible en
-https://vtex.com/us-en/trust/. Te invitamos a consultar también nuestra Adenda de tratamiento de datos (DPA) para entender cómo tratamos los datos de nuestros clientes en https://vtex.com/us-en/data-processing-addendum/.  
+Nuestros contratos, políticas y notificaciones ya cumplen con la LGPD y el GDPR, como puedes comprobar en nuestro [VTEX Trust Hub](https://vtex.com/us-en/trust/). Te invitamos a consultar también nuestra [Adenda de tratamiento de datos (DPA)](https://vtex.com/us-en/data-processing-addendum/) para entender cómo tratamos los datos de nuestros clientes.  
 
 ### ¿Qué derechos de los titulares garantiza la plataforma VTEX?
 
-En la gran mayoría de los casos, VTEX actúa como encargado de datos en relación con los datos de los consumidores tratados por nuestros clientes. Por lo tanto, VTEX debe satisfacer los derechos de los titulares solo bajo órdenes directas de nuestros clientes, los responsables de los datos. Para más detalles, consulta la cláusula Derechos de los interesados de los datos de la Adenda de tratamiento de datos (DPA) de VTEX, disponible en: https://vtex.com/us-en/privacy-and-agreements/data-processing-addendum/. 
+En la gran mayoría de los casos, VTEX actúa como encargado de datos en relación con los datos de los consumidores tratados por nuestros clientes. Por lo tanto, VTEX debe satisfacer los derechos de los titulares solo bajo órdenes directas de nuestros clientes, los responsables de los datos. Para más detalles, consulta la cláusula Derechos de los interesados de los datos de la [Adenda de tratamiento de datos (DPA)](https://vtex.com/us-en/privacy-and-agreements/data-processing-addendum/) de VTEX. 
 
 ### ¿Tiene VTEX una política de clasificación de la información?
 
@@ -233,14 +239,15 @@ VTEX mantiene la segregación de los datos de los clientes mediante controles l�
 
 ### Proporcionar detalles sobre cómo se gestiona el acceso de los usuarios en la plataforma, incluyendo el traslado, adición, cambio y eliminación de cuentas.
 
-Cuando se crea una cuenta de entorno, se asigna un usuario titular, elegido por el usuario empresarial. Este usuario titular es utilizado por el propio usuario empresarial para delegar los derechos otorgados por medio de perfiles también creados por ellos. Se puede obtener más información sobre los usuarios titulares aquí: https://help.vtex.com/tutorial/what-is-the-master-user--3oPr7YuIkeyqUGmEqIMSEy. 
+Cuando se crea una cuenta de entorno, se asigna un usuario titular, elegido por el usuario empresarial. Este usuario titular es utilizado por el propio usuario empresarial para delegar los derechos otorgados por medio de perfiles también creados por ellos. Obtenga más información sobre los [usuarios titulares](https://help.vtex.com/es/tutorial/que-es-el-usuario-titular--3oPr7YuIkEYqUGmEqIMSEy).
 
-Las cuentas de usuario pueden ser gestionadas directamente desde el Admin VTEX. A los usuarios administradores se les asigna un perfil, que puede tener uno o varios permisos asignados, definidos por el usuario titular o un usuario con permisos para delegar responsabilidades. Cuando se modifican o eliminan las cuentas de usuario, los datos se replican inmediatamente en todos los nodos que soportan los datos de esa cuenta. Después de la eliminación, los datos se remueven de todos los nodos, aunque siguen residiendo en una copia de seguridad correspondiente durante el plazo de la copia (normalmente 7 días). Se puede obtener más información sobre el funcionamiento de la gestión de usuarios aquí: https://help.vtex.com/en/tutorial/managing-users--tutorials_512. 
+Las cuentas de usuario pueden ser gestionadas directamente desde el Admin VTEX. A los usuarios administradores se les asigna un perfil, que puede tener uno o varios permisos asignados, definidos por el usuario titular o un usuario con permisos para delegar responsabilidades. Cuando se modifican o eliminan las cuentas de usuario, los datos se replican inmediatamente en todos los nodos que soportan los datos de esa cuenta. Después de la eliminación, los datos se remueven de todos los nodos, aunque siguen residiendo en una copia de seguridad correspondiente durante el plazo de la copia (normalmente 7 días). Obtenga más información sobre el funcionamiento de la [gestión de usuarios](https://help.vtex.com/es/tutorial/managing-users--tutorials_512). 
 
 ### ¿Dispone la plataforma de funcionalidades para gestionar, organizar y personalizar los permisos de gestión de la tienda?
 
-El Admin VTEX tiene el módulo License Manager que permite la gestión de usuarios. Para organizar los permisos de los usuarios que tienen acceso al entorno administrativo de la tienda VTEX, License Manager proporciona perfiles de acceso. 
-Los perfiles de acceso definen qué funcionalidades puede ver y/o modificar el usuario dentro de cada módulo de la plataforma. Es posible utilizar una de las diversas políticas (conjunto de roles / permisos) disponibles o crear políticas personalizadas según las necesidades de cada área. A través de la biblioteca de API de License Manager es posible desarrollar una integración que permita el acceso, renovación y revocación de usuarios. Más información en: https://help.vtex.com/pt/tutorial/visao-geral-do-modulo-license-manager/. 
+El Admin VTEX tiene el módulo License Manager que permite la gestión de usuarios. Para organizar los permisos de los usuarios que tienen acceso al entorno administrativo de la tienda VTEX, License Manager proporciona perfiles de acceso.
+
+Los perfiles de acceso definen qué funcionalidades puede ver y/o modificar el usuario dentro de cada módulo de la plataforma. Es posible utilizar una de las diversas políticas (conjunto de roles / permisos) disponibles o crear políticas personalizadas según las necesidades de cada área. A través de la biblioteca de API de License Manager es posible desarrollar una integración que permita el acceso, renovación y revocación de usuarios. Más información en [Visión general configuraciones de la cuenta](https://help.vtex.com/es/tutorial/vision-general-configuraciones-de-la-cuenta--6USYxLuzNt4uAkvjdPF7I8). 
 
 ### Explicar el proceso de gestión de parches de seguridad.
 
@@ -252,8 +259,7 @@ Sí, los bloqueos de cuentas se producen cuando se realizan múltiples intentos 
 
 ### ¿La plataforma cierra la sesión por inactividad?
 
-La plataforma VTEX tiene un mecanismo de cierre de sesión por inactividad; se desconecta automáticamente al cliente del checkout después de 15 minutos de inactividad.
-Sin embargo, el administrador de la tienda puede activar y configurar los ajustes de inactividad en el portal administrativo. 
+La plataforma VTEX tiene un mecanismo de cierre de sesión por inactividad; se desconecta automáticamente al cliente del checkout después de 15 minutos de inactividad. Sin embargo, el administrador de la tienda puede activar y configurar los ajustes de inactividad en el portal administrativo. 
 
 ### ¿Se monitorea la plataforma para evaluar su rendimiento? ¿Cuáles son las variables que definen la escalabilidad de la plataforma?
 
@@ -277,8 +283,8 @@ Al tratarse de una plataforma SaaS (Software as a Service) con acceso a través 
 
 ### ¿La plataforma VTEX utiliza el concepto API First (Application Programming Interface)?
 
-VTEX prioriza el desarrollo API First, donde todos los datos que se manejan en la plataforma pueden ser manipulados a través de API que siguen el estándar REST. Toda la documentación está disponible aquí:  https://developers.vtex. com/vtex-developer-docs/reference/get-to-know-vtex-apis.
-VTEX no solo sigue las mejores prácticas, sino que también tiene capas muy bien separadas de back-end, API, front-end y componentes APP. Esto asegura que cada parte responsable interactúe solo con su propia capa, garantizando así la simplicidad y agilidad, tanto en el desarrollo como en la evolución. La documentación de apoyo al desarrollador y al equipo de TI está disponible en https://developers.vtex.com/. 
+VTEX prioriza el desarrollo API First, donde todos los datos que se manejan en la plataforma pueden ser manipulados a través de API que siguen el estándar REST. Toda la documentación está disponible en el [Developer Portal](https://developers.vtex.com/docs/api-reference).
+VTEX no solo sigue las mejores prácticas, sino que también tiene capas muy bien separadas de back-end, API, front-end y componentes APP. Esto asegura que cada parte responsable interactúe solo con su propia capa, garantizando así la simplicidad y agilidad, tanto en el desarrollo como en la evolución. La documentación de apoyo al desarrollador y al equipo de TI está disponible en el [Developer Portal](https://developers.vtex.com/). 
 
 ### ¿Proporciona la solución detección de anomalías, es decir, tiene la capacidad de detectar comportamientos inusuales y posibles tráficos maliciosos, además de los comportamientos de cuentas de usuario?
 
@@ -305,10 +311,12 @@ VTEX no rastrea de forma nativa la ubicación del origen de las compras. La info
 ### ¿La plataforma permite separar, por ejemplo, los entornos de prueba, desarrollo u homologación? ¿Puede utilizarse para gestionar la implementación de mejoras en la solución?
 
 Para controlar el flujo de actualizaciones de contenido, VTEX ofrece el concepto de workspaces. Un workspace es casi un entorno de «staging» del entorno de producción. Es posible crear tantos workspaces como sea necesario para atender las implementaciones de nuestros clientes. 
-Además, se puede combinar los entornos y crear pruebas A/B de forma nativa en la plataforma. Más información en: https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-creating-a-development-workspace.
-Este servicio solo está disponible para los clientes que han migrado a VTEX IO; para la versión antigua tenemos la posibilidad de crear un nuevo entorno de tienda para pruebas. 
+Además, se puede combinar los entornos y crear pruebas A/B de forma nativa en la plataforma. Más información en [Creating a Development workspace](https://developers.vtex.com/docs/guides/vtex-io-documentation-creating-a-development-workspace).
+
+Este servicio solo está disponible para los clientes que han migrado a VTEX IO; para el Portal CMS Legado tenemos la posibilidad de crear un nuevo entorno de tienda para pruebas. 
 
 ## Auditoría de logs
+
 ### ¿Están protegidos los logs del sistema contra la alteración, falsificación o acceso indebido?
 
 Nuestros logs se recopilan y analizan mediante un software SIEM (Security Information and Event Management). Nuestras aplicaciones tienen logs de auditoría y recopilan logs relevantes para ser almacenados y correlacionados. Los logs se mantienen según nuestras normas y las leyes aplicables. 
@@ -337,6 +345,7 @@ Los logs del sistema VTEX no son accesibles directamente a los usuarios empresar
 Si el usuario empresarial desea un enfoque de seguridad más práctico, puede implementar un proxy inverso, que le dará acceso directo a los logs de conexión a su entorno.
 
 ## Desarrollo seguro
+
 ### ¿Cuáles son las mejores prácticas de seguridad de desarrollo que utiliza la empresa?
 
 El ciclo de vida del software se mantiene a través de procesos altamente automatizados. Cada vez que un equipo de desarrollo considera que tiene una versión lista de un componente del que es responsable, la versión se marca con una TAG en el sistema de control de versiones (git). Esto activa un proceso de implementación automatizado, ya sea al entorno BETA, donde se prueban las próximas versiones, o al entorno STABLE, que es el entorno de producción real. Además de las pruebas en BETA, realizadas por los equipos de QA (aunque también las pueden hacer los propios usuarios empresariales), las pruebas automatizadas se actualizan para adaptarse a nuevas funcionalidades o situaciones. Estas pruebas se utilizan para monitorear las posibles regresiones en el entorno de producción por una nueva versión o por eventuales problemas de infraestructura. 
@@ -354,7 +363,8 @@ Sí, los desarrolladores siguen los principios de OWASP; y la revisión por pare
 VTEX utiliza GitHub como sistema de control de origen. Los repositorios son privados. Añadir y eliminar usuarios de la organización forma parte de los procesos de contratación y desvinculación de los programadores. Solo los desarrolladores de VTEX tienen acceso a los repositorios de código. Así que utilizamos Git para el control del código fuente y la información sobre las bibliotecas y los paquetes de software; también tenemos un escaneo de código estático. 
 
 ## Seguridad de los datos
-### ¿La organización procesa información personal identificable (PII)?
+
+### ¿VTEX procesa información personal identificable (PII)?
 
 Sí, procesamos datos PII. Actualmente, realizamos la encriptación de acuerdo con los requisitos de las normas de privacidad y cumplimiento relacionados con los datos PII y datos de tarjetas de pago, lo que refuerza nuestro compromiso con el cumplimiento del GDPR. 
 
@@ -373,7 +383,7 @@ Analizamos la forma en que se trata la información de un entorno a otro, ya sea
 
 ### Explicar cómo los datos pueden entrar en contacto con terceros o trabajos tercerizados o subcontratados y cómo se protegen y monitorean estas interacciones.
 
-VTEX depende exclusivamente de terceros para el aprovisionamiento de la infraestructura y, por lo tanto, los datos de los usuarios empresariales nunca están disponibles para terceros. La lista completa de los partners y afiliados de VTEX está disponible en https://vtex.com/us-en/privacy-and-agreements/subprocessors/.
+VTEX depende exclusivamente de terceros para el aprovisionamiento de la infraestructura y, por lo tanto, los datos de los usuarios empresariales nunca están disponibles para terceros. Acceda a la [lista completa de los partners y afiliados de VTEX](https://vtex.com/us-en/privacy-and-agreements/subprocessors/).
 
 Si el usuario empresarial desea permitir el acceso a sus datos a un tercero propio, lo puede lograr a través de nuestra integración de API y el sistema de control de acceso basado en perfiles (que es gestionado por el usuario empresarial). 
 
@@ -382,4 +392,3 @@ Si el usuario empresarial desea permitir el acceso a sus datos a un tercero prop
 Actualmente, la mayoría de los datos almacenados por VTEX se basan en AWS us-east-1. Esto significa que el cliente no puede definir la región geográfica, pero también significa que, a menos que el cliente lo autorice, VTEX no migrará los datos fuera de esta región. También vale la pena mencionar que recientemente hemos implementado una segunda región en Europa para hospedar datos, no para todos los módulos, pero sí para los principales que manejan datos PII.
 
 Luego, mediante una configuración en la tienda, sabremos en qué región deben hospedarse los datos de la tienda. 
-

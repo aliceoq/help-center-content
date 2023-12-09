@@ -1,9 +1,9 @@
 ---
 title: 'Gerenciar contas no Customer Credit'
 id: 4eknoeqaj6EGC20amsm6Gc
-status: PUBLISHED
+status: CHANGED
 createdAt: 2018-11-06T21:15:25.330Z
-updatedAt: 2023-05-12T12:21:21.583Z
+updatedAt: 2023-12-04T18:30:36.393Z
 publishedAt: 2023-05-12T12:21:21.583Z
 firstPublishedAt: 2018-11-07T17:10:45.883Z
 contentType: trackArticle
@@ -22,7 +22,7 @@ O limite de crédito e indica o valor máximo de títulos em aberto que um clien
 Além disso, lembre-se que as alterações no limite de crédito são atualizadas em poucos minutos no sistema.
 
 ## Títulos
-O título é o documento gerado quando um cliente fecha uma compra utilizando o Customer Credit como meio de pagamento. 
+O título é o documento gerado após um cliente realizar uma compra utilizando o Customer Credit como meio de pagamento e o pedido ser faturado. 
 
 Em casos de compras parceladas, os títulos são referentes ao número de parcelas. Ou seja, se o cliente optou por fazer um pagamento em 10 parcelas, o sistema computará 10 títulos relacionados ao mesmo pedido. 
 

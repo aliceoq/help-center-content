@@ -1,10 +1,10 @@
 ---
 title: 'Setting up Bradesco registered ticket'
 id: bbnXBjvKOkWYiOosmASiA
-status: DRAFT
+status: PUBLISHED
 createdAt: 2018-03-20T22:08:43.187Z
-updatedAt: 2022-12-23T20:13:39.299Z
-publishedAt: 
+updatedAt: 2023-06-27T15:34:15.224Z
+publishedAt: 2023-06-27T15:34:15.224Z
 firstPublishedAt: 2018-03-21T17:27:23.026Z
 contentType: tutorial
 productTeam: Financial

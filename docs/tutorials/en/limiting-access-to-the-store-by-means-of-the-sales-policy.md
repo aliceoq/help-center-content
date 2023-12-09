@@ -3,8 +3,8 @@ title: 'How to limit access to the store using sales policy'
 id: tutorials_3063
 status: PUBLISHED
 createdAt: 2017-04-27T21:52:28.228Z
-updatedAt: 2023-03-28T23:21:55.016Z
-publishedAt: 2023-03-28T23:21:55.016Z
+updatedAt: 2023-08-02T16:15:46.981Z
+publishedAt: 2023-08-02T16:15:46.981Z
 firstPublishedAt: 2017-04-27T23:03:54.732Z
 contentType: tutorial
 productTeam: Master Data
@@ -48,7 +48,7 @@ After creating a cluster, you must include a rule in the sales policy allowing a
 3. In the **Conditional Rule** field, enter the value **ClusterName=”true”**. Note that the value **ClusterName** must be changed to the name of the field in the data entity.
 4. Click on the **Save** button.
 
-![Cluster EN](https://images.ctfassets.net/alneenqid6w5/1Nsw3FMZT2K0mQ4mcYImCy/c15e260101a8e43ccad6ce1191a904a3/Cluster_EN.png)
+![Catalog EN](//images.ctfassets.net/alneenqid6w5/7r2ANIP2U6JDt1B0dxGmF6/8d11cabbb359f20a73667b2a787e1ee4/politicas_comerciais_EN.png)
 
 In the above configuration, only customers with the value “true” (using a Boolean field – where values are either true or false) can access the site.
 

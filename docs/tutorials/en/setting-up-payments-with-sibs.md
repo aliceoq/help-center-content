@@ -3,8 +3,8 @@ title: 'Setting up payments with SIBS'
 id: sNLPtJlAMnDpq40CCPKNo
 status: PUBLISHED
 createdAt: 2023-04-06T18:57:27.591Z
-updatedAt: 2023-04-06T19:07:28.327Z
-publishedAt: 2023-04-06T19:07:28.327Z
+updatedAt: 2023-10-18T16:57:05.576Z
+publishedAt: 2023-10-18T16:57:05.576Z
 firstPublishedAt: 2023-04-06T19:07:28.327Z
 contentType: tutorial
 productTeam: Financial
@@ -15,7 +15,7 @@ legacySlug: setting-up-payments-with-sibs
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the SIBS payment provider. With this connector, your store can make sales through SIBS credit card, promissory notes, MBWay and MultiBanco.
+At VTEX, it is possible to integrate with the SIBS payment provider. With this connector, your store can make sales through SIBS credit card, Notes Payable, MBWay and MultiBanco.
 
 To configure SIBS affiliation, follow the steps below:
 

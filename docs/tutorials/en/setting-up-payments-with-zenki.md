@@ -3,8 +3,8 @@ title: 'Setting up payments with Zenki'
 id: 6LK7wMg0OB39UQKoZILoNL
 status: PUBLISHED
 createdAt: 2023-03-30T17:34:01.758Z
-updatedAt: 2023-03-30T18:04:59.870Z
-publishedAt: 2023-03-30T18:04:59.870Z
+updatedAt: 2023-07-14T17:47:34.052Z
+publishedAt: 2023-07-14T17:47:34.052Z
 firstPublishedAt: 2023-03-30T18:02:25.796Z
 contentType: tutorial
 productTeam: Financial
@@ -37,4 +37,4 @@ To configure Zenki affiliation, follow the steps below:
 7. If you want, you can also [configure special payment conditions](https://help.vtex.com/en/tutorial/condiciones-especiales--tutorials_456?&utm_source=autocomplete#).
 8. Click on `Save`.
 
-After following the indicated steps, Bancolombia BNPL connector may take up to 10 minutes to appear at your store's checkout as a payment option.
+After following the indicated steps, Zenki connector may take up to 10 minutes to appear at your store's checkout as a payment option.

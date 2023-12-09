@@ -3,8 +3,8 @@ title: 'Roles de usuario predefinidos'
 id: jGDurZKJHvHJS13LnO7Dy
 status: PUBLISHED
 createdAt: 2022-04-07T21:34:06.385Z
-updatedAt: 2023-06-06T21:37:23.798Z
-publishedAt: 2023-06-06T21:37:23.798Z
+updatedAt: 2023-11-30T22:45:55.789Z
+publishedAt: 2023-11-30T22:45:55.789Z
 firstPublishedAt: 2022-04-07T21:48:28.951Z
 contentType: tutorial
 productTeam: Identity
@@ -15,7 +15,13 @@ legacySlug: perfiles-de-acceso-predefinidos
 subcategory: 1HSqkejwuYcQSMC400uY84
 ---
 
-En este documento haremos una lista de los [roles de usuario](https://help.vtex.com/es/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) que están predeterminados para las nuevas tiendas VTEX. Para acceder a estos de forma directa utilice la siguiente lista:
+[Roles de usuario](https://help.vtex.com/es/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) agrupan los [recursos del License Manager](https://help.vtex.com/es/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#), siendo que cada recurso representa una permisión en la plataforma VTEX.
+
+En este documento, se enumeran [roles](https://help.vtex.com/es/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) que están predefinidos para las nuevas tiendas VTEX y sus respectivos [recursos](https://help.vtex.com/es/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#). Para acceder a ellos directamente, utilice la lista a continuación.
+
+<div class="alert alert-info">
+Para obtener más información sobre cada recurso listado en los perfiles a continuación, consulte el artículo <a href="https://help.vtex.com/es/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">Recursos del License Manager</a>.
+</div>
 
 * [Admin - Start page only](#admin-start-page-only)
 * [Checkout Admin](#checkout-admin)
@@ -100,12 +106,16 @@ Mínimo requerido para que un usuario no sea recibido con un mensaje de error al
 
 ## Call center operator
 
-Este es un rol que tiene características especiales. El recurso **Assisted sales** hace que el usuario sea redirigido automáticamente a la tienda,  con lo cual el usuario que inicie sesión en una cuenta con este rol no tiene acceso a recursos importantes del menú administrativo. Recomendamos el uso de dos cuentas para los usuarios de televentas. Una cuenta separada para el rol **Call center operator** y otra para otras operaciones que el usuario pueda necesitar realizar en el menú administrativo.  
+Se trata de un rol dedicado a los teleoperadores, ya que permite acceder a las funcionalidades de televenta de VTEX y consultar los pedidos.
+
+El recurso __Assisted Sales__ hace que el usuario sea redirigido automáticamente a la página de televenta de la tienda, lo que dejará al usuario que acceda a una cuenta con este perfil sin acceso a importantes funcionalidades del menú administrativo.
+
+Por lo tanto, recomendamos utilizar dos cuentas separadas (con correos electrónicos separados) para los usuarios de televenta: una cuenta para el rol de __Call center operator__ (con los recursos *Assisted Sales* y *View order*) y otra cuenta para realizar operaciones en Admin, si es necesario.
 
 <div class="alert alert-warning">Al crear un <a href="https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#">rol</a>, evita incluir <a href="https://help.vtex.com/pt/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">recursos</a> de televentas junto con otros recursos. De lo contrario, puede que el rol no funcione de forma esperada.
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Tabla de recursos:
+Tabla de recursos:
 
 <table>
   <tr>
@@ -118,7 +128,7 @@ Este es un rol que tiene características especiales. El recurso **Assisted sale
     <td>Assisted Sales</td>
     <td>Catalog</td>
     <td>Televentas</td>
-    <td>Después de iniciar sesión, el usuario es redirigido al sitio de televentas www.sutienda.com/a/televentas. De esta manera, el operador puede hacer operaciones en la tienda en nombre del cliente. Aparecerá una barra en la parte superior de la pantalla.</td>
+    <td>Funcionalidades de televenta. Tras iniciar sesión, el usuario es redirigido al sitio web de televenta <code>www.{nombredetienda}.com.br/a/televendas</code>. De esta forma, el operador puede utilizar las funcionalidades de televenta, como navegar por la tienda en nombre del cliente.<br/><br/>Como este recurso provoca la redirección automática a la tienda, el usuario que entre en una cuenta con un perfil con este recurso no tendrá acceso a importantes funcionalidades del Admin.</td>
   </tr>
   <tr>
     <td>View order</td>
@@ -408,6 +418,10 @@ Este es un rol que tiene características especiales. El recurso **Assisted sale
 </table>
 
 ## VTEX Sales App Sales Person  
+
+<div class="alert alert-warning">
+  <p>Los vendedores registrados en Sales App no tienen acceso a VTEX Admin, sólo a Sales App.</p>
+</div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Tabla de recursos:
 

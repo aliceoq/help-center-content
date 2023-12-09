@@ -3,8 +3,8 @@ title: 'VTEX Shipping Network: Progreso de las entregas'
 id: 5CZRA0lq60EecmwZpsjvfq
 status: PUBLISHED
 createdAt: 2022-03-04T13:12:38.617Z
-updatedAt: 2023-06-09T12:56:36.259Z
-publishedAt: 2023-06-09T12:56:36.259Z
+updatedAt: 2023-08-25T15:38:36.458Z
+publishedAt: 2023-08-25T15:38:36.458Z
 firstPublishedAt: 2022-03-04T13:17:13.380Z
 contentType: tutorial
 productTeam: Others

@@ -3,8 +3,8 @@ title: 'Shipping Simulator'
 id: tutorials_144
 status: PUBLISHED
 createdAt: 2017-04-27T22:16:36.879Z
-updatedAt: 2023-03-29T19:24:17.032Z
-publishedAt: 2023-03-29T19:24:17.032Z
+updatedAt: 2023-09-22T23:27:51.927Z
+publishedAt: 2023-09-22T23:27:51.927Z
 firstPublishedAt: 2017-04-27T23:00:45.450Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -41,7 +41,7 @@ There may be a discrepancy between the final price indicated by the simulator an
  6. Select the SKU `quantity`.  
  7. Fill in the `Price`. This field is optional.
 
- > The simulator does not take into account the price given in the Catalog module. Therefore, the rate indicated by the simulator does not consider any current promotion for those SKUs, and may indicate a rate that is different from the real rate in your store. We suggest that you manually enter the SKU’s exact rate with the applied promotions, so that the simulator returns an accurate calculation.*
+ > The simulator does not take into account the price registered in the Catalog module. Therefore, the calculation does not consider any current promotions for those SKUs, or shipping taxes for the shopping cart price, if there is any. This may result in a different rate from the real one in your store. To avoid this, we suggest that you manually enter the SKU’s exact rate with the applied promotions, which will make the simulator result more accurate.
 
  8. Click on the `+` icon to add more than one product to the simulation.
 If you want, you can check the `Simulate items individually` box.

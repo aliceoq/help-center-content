@@ -3,8 +3,8 @@ title: 'Configuração do conector Dafiti'
 id: 3PV2OACP2E4O4uOKKW2sMg
 status: PUBLISHED
 createdAt: 2018-09-27T17:57:53.647Z
-updatedAt: 2022-01-25T15:51:13.004Z
-publishedAt: 2022-01-25T15:51:13.004Z
+updatedAt: 2023-08-11T18:39:12.181Z
+publishedAt: 2023-08-11T18:39:12.181Z
 firstPublishedAt: 2018-09-27T20:41:13.133Z
 contentType: trackArticle
 productTeam: Channels
@@ -16,11 +16,9 @@ trackSlugPT: configurar-integracao-da-dafiti
 
 A configuração do conector é feita no Admin. Para realizá-la, siga as instruções abaixo:
 
-1. Acesse o Admin.
-2. No módulo _MARKETPLACE_, clique em `Integrações`.
-3. Clique em `Configurações`.
-4. No _card_ da Dafiti, clique em `Integrar`.
-5. Preencha os campos da tela descritos logo abaixo e em seguida, clique no botão `Salvar configuração` (campos marcados com o símbolo * são obrigatórios).
+1. Acesse no Admin **Marketplace > Conexões > Marketplaces e Integrações** ou digite **Marketplaces e Integrações**.
+3. Selecione o marketplace **Dafiti** e clique em `Conectar`.
+4. Preencha os campos da tela descritos logo abaixo e em seguida, clique no botão `Salvar configuração` (campos marcados com o símbolo * são obrigatórios).
 
 - **Integração (se optar por desativar a integração, toda a configuração, incluindo afiliado, serão excluídos)*:** marque _Ativada_ para que a integração comece a operar.
 
@@ -45,7 +43,7 @@ A configuração do conector é feita no Admin. Para realizá-la, siga as instru
 - **Enviar KIT*:** ao escolher _Não_, SKUs [cadastrados como kit](https://help.vtex.com/pt/tutorial/cadastrando-kit--tutorials_215) não são enviados para a Dafiti. Ao habilitar _Sim_, todos os itens da sua política comercial são enviados para o marketplace, sem filtrar SKUs cadastrados como kit. Mudanças na configuração do conector podem ser feitas a qualquer momento, sendo que isso não afeta SKUs que já tenham sido enviados. Por exemplo, se você mudasse sua configuração de _Sim_ para _Não_, SKUs enviados anteriormente para a Dafiti não seriam removidos ou sofreriam qualquer alteração.
 
   <div class="alert alert-info">
-Com a opção <i>Não</i> ativada, tentativas de envio para a Dafiti de SKUs cadastrados como kit resultarão no seguinte aviso: <i>O conector está configurado para não enviar SKUs do tipo Kit</i>. Esta mensagem pode ser visualizada no Admin, no módulo <b>MARKETPLACE > Integrações > Produtos,</b> ao se clicar sobre o SKU.
+Com a opção <i>Não</i> ativada, tentativas de envio para a Dafiti de SKUs cadastrados como kit resultarão no seguinte aviso: <i>O conector está configurado para não enviar SKUs do tipo Kit</i>. Esta mensagem pode ser visualizada no Admin, no módulo <b>Marketplace> Conexões> Produtos,</b> ao se clicar sobre o SKU.
 </div>
 
 - **Nome do SKU*:** determina qual será a regra para nomeação de SKUs no portal da Dafiti. Você deve selecionar uma das combinações disponíveis dos seguintes atributos: _Marca_, _Nome do Produto_ e _Nome do SKU_.

@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Fpay'
 id: 6BaLIO2R7tOh6E1MmNoDXj
 status: PUBLISHED
 createdAt: 2022-10-18T19:13:32.326Z
-updatedAt: 2023-03-21T20:52:34.889Z
-publishedAt: 2023-03-21T20:52:34.889Z
+updatedAt: 2023-10-18T15:01:26.169Z
+publishedAt: 2023-10-18T15:01:26.169Z
 firstPublishedAt: 2022-10-18T19:42:03.523Z
 contentType: tutorial
 productTeam: Financial

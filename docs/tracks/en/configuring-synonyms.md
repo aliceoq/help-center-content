@@ -3,8 +3,8 @@ title: 'Configuring Synonyms'
 id: 3ExbC3QKNF4zH7Gs8jD1cL
 status: PUBLISHED
 createdAt: 2019-11-29T12:04:33.557Z
-updatedAt: 2023-03-30T19:19:37.658Z
-publishedAt: 2023-03-30T19:19:37.658Z
+updatedAt: 2023-07-13T19:58:57.503Z
+publishedAt: 2023-07-13T19:58:57.503Z
 firstPublishedAt: 2020-03-05T19:56:02.826Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -45,7 +45,7 @@ Changes can take up to two hours to take effect.
 
 In case there are many synonyms to be added, you can make a .csv file and import it in the Admin. The file must contain the following format, according to the [types of synonyms](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/1pxAWPEglBey1UFdvcetZV#types-of-synonyms) chosen:
 
- - __Unidirectional:__ `{terms separated by comma};{expanded terms separated by comma};{status}`
+ - __Unidirectional:__ `{terms separated by comma};{equivalent term};{status}`
 
    __Examples:__
 

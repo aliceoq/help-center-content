@@ -3,8 +3,8 @@ title: 'How to configure Subscriptions in your store'
 id: 1FA9dfE7vJqxBna9Nft5Sj
 status: PUBLISHED
 createdAt: 2019-01-31T16:00:03.228Z
-updatedAt: 2023-04-11T00:33:27.310Z
-publishedAt: 2023-04-11T00:33:27.310Z
+updatedAt: 2023-10-18T20:07:15.211Z
+publishedAt: 2023-10-18T20:07:15.211Z
 firstPublishedAt: 2019-01-31T16:01:57.927Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -67,7 +67,7 @@ Currently, the following payment methods are enabled for subscription orders:
   <p>To make the <strong>Credit card</strong> payment option available, contact your store's acquirer and make sure they accept recurring purchase transactions coming from tokenized cards (no CVV). The <strong>Subscriptions</strong> system will use the same card data from the first purchase to place subsequent subscription orders, ensuring the security of the entire process.</p>
 </div>
 
-To enable this type of transaction in the connector, the store manager must ask the acquirer for permission to process recurring payments. Check out our article on [how to set up a payment gateway in your store](https://help.vtex.com/en/tutorial/pci-gateway-visao-geral/).
+To enable this type of transaction in the connector, the store manager must ask the acquirer for permission to process recurring payments. Check out our article [Registering gateway affiliations](https://help.vtex.com/en/tutorial/registering-gateway-affiliations--tutorials_444).
 
 ## 3. Create a subscription plan
 

@@ -3,8 +3,8 @@ title: 'Configuring promotions with highlights / flags'
 id: tutorials_2295
 status: PUBLISHED
 createdAt: 2017-04-27T21:55:19.949Z
-updatedAt: 2023-03-31T19:22:08.848Z
-publishedAt: 2023-03-31T19:22:08.848Z
+updatedAt: 2023-07-14T11:41:47.420Z
+publishedAt: 2023-07-14T11:41:47.420Z
 firstPublishedAt: 2017-04-27T23:03:51.539Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -14,6 +14,10 @@ locale: en
 legacySlug: configuring-promotions-with-a-highlightflag
 subcategory: 1yTYB5p4b6iwMsUg8uieyq
 ---
+
+<div style="background-color:#FCF8F2; border-left: 2px solid #F0AD4E; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 15px; margin-bottom: 10px">
+Tutorial valid only for Legacy CMS Stores.
+</div>
 
 The promotion highlight is a notice that can be placed on shelves and product pages stating that the product is eligible for a promotion. A common example is an image below a product picture indicating free shipping.
 
@@ -63,7 +67,7 @@ This configuration consists of editing the page template used for the product pa
 9. On the right side of the screen, click on **New Layout**.
 10. In the side menu, click on the layout with a red check mark, and in the __Template__ field check the name of the template used.
 
-![Layout com check - PT](https://images.ctfassets.net/alneenqid6w5/4GmSglkpk78c4M5hDZEgZX/ab47d3105213471fe370be0b11afcfab/image.png)
+![Layout com check - PT](//images.ctfassets.net/alneenqid6w5/4GmSglkpk78c4M5hDZEgZX/ab47d3105213471fe370be0b11afcfab/image.png)
 
 ![Template](//images.contentful.com/alneenqid6w5/2OzzBkU2YwsgCGeICsgIcg/61aaf502c787cb4f0468ab8cee821072/Template.png)
 

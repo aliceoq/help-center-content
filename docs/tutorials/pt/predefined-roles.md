@@ -3,8 +3,8 @@ title: 'Perfis de acesso predefinidos'
 id: jGDurZKJHvHJS13LnO7Dy
 status: PUBLISHED
 createdAt: 2022-04-07T21:34:06.385Z
-updatedAt: 2023-06-06T21:37:23.798Z
-publishedAt: 2023-06-06T21:37:23.798Z
+updatedAt: 2023-11-30T22:45:55.789Z
+publishedAt: 2023-11-30T22:45:55.789Z
 firstPublishedAt: 2022-04-07T21:48:28.951Z
 contentType: tutorial
 productTeam: Identity
@@ -15,14 +15,20 @@ legacySlug:
 subcategory: 1HSqkejwuYcQSMC400uY84
 ---
 
-Nesse documento listaremos os [perfis de acesso](https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) que estão predefinidos para novas lojas VTEX. Para acessá-los diretamente, use a lista abaixo:
+[Perfis de acesso](https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) agrupam [recursos do License Manager](https://help.vtex.com/pt/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#), sendo que cada recurso representa uma permissão na plataforma VTEX.
+
+Nesse documento estão listados os [perfis de acesso](https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) que estão predefinidos para novas lojas VTEX e respectivos [recursos](https://help.vtex.com/pt/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#). Para acessá-los diretamente, use a lista abaixo.
+
+<div class = "alert alert-info">
+Para saber mais sobre cada recurso listado nos perfis abaixo, veja o artigo <a href="https://help.vtex.com/pt/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">Recursos do License Manager</a>
+</div>
 
 * [Admin - Start page only](#admin-start-page-only)
 * [Checkout Admin](#checkout-admin)
 * [Call center operator](#call-center-operator)
 * [Finance](#finance)
 * [Finance - Full access](#finance-full-access)
-* [inStore Sales Person](#instore-sales-person)
+* [VTEX Sales App Sales Person](#instore-sales-person)
 * [IntegrationProfile - Fulfillment](#integrationprofile-fulfillment)
 * [IntegrationProfile - Fulfillment Gateway](#integrationprofile-fulfillment-gateway)
 * [IntegrationProfile - Fulfillment Gateway GetOrder](#integrationprofile-fulfillment-gateway-getorder)
@@ -99,13 +105,17 @@ Perfil básico que dá acesso à página inicial do ambiente administrativo. Mí
 
 ## Call center operator
 
-Este é um perfil que tem características especiais. O recurso **Assisted Sales** causa o redirecionamento automático do usuário para a loja; isso deixará o usuário que fizer login numa conta com esse perfil sem acesso a recursos importantes do menu administrativo. Recomendamos a utilização de duas contas para usuários de televendas. Uma conta separada para o perfil **Call center operator** e uma para outras operações que o usuário possa precisar realizar no menu administrativo.
+Este é um perfil dedicado a operadores de televendas, pois concede acesso às [funcionalidades de televendas](https://help.vtex.com/pt/tutorial/funcionalidades-de-televendas--UqhiccIRIK2KD0OqkzJaS) da VTEX e permite visualizar pedidos.
+
+O recurso **Assisted Sales** causa o redirecionamento automático do usuário para a página de televendas da loja, o que deixará o usuário que fizer login numa conta com esse perfil sem acesso a recursos importantes do menu administrativo.
+
+Portanto, recomendamos a utilização de duas contas separadas (com emails distintos) para usuários de televendas: uma conta para o perfil __Call center operator__ (com os recursos <em>Assisted Sales</em> e <em>View order</em>) e outra conta para realizar operações no Admin, se necessário.
 
 <div class="alert alert-warning">
-  Ao criar um <a href="https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#">perfil</a>, evite incluir <a href="https://help.vtex.com/pt/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">recursos</a> de televendas junto com outros recursos. Do contrário, o perfil pode não funcionar como esperado.
+  Ao criar um <a href="https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#">perfil de acesso</a>, evite incluir <a href="https://help.vtex.com/pt/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">recursos</a> de televendas junto com outros recursos. Do contrário, o perfil pode não funcionar como esperado.
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Tabela de recursos:
+Tabela de recursos:
 
 <table>
   <tr>
@@ -118,7 +128,7 @@ Este é um perfil que tem características especiais. O recurso **Assisted Sales
     <td>Assisted Sales</td>
     <td>Catalog</td>
     <td>Televendas</td>
-    <td>Após o login o usuario é redirecionado para o site de televendas www.sualoja.com.br/a/televendas. Dessa forma, o operador pode fazer operações na loja em nome do cliente. Uma barra aparecerá no topo da tela.</td>
+    <td>Funcionalidades de televendas. Após o login, o usuário é redirecionado para o site de televendas <code>www.{nomedaloja}.com.br/a/televendas</code>. Dessa forma, o operador pode utilizar as funcionalidades de televendas, como navegar na loja em nome do cliente.</br></br>Como este recurso causa o redirecionamento automático para a loja, o usuário que fizer login em uma conta com esse perfil não terá acesso a recursos importantes do Admin.</td>
   </tr>
   <tr>
     <td>View order</td>
@@ -407,6 +417,10 @@ Este é um perfil que tem características especiais. O recurso **Assisted Sales
 </table>
 
 ## inStore Sales Person  
+
+<div class="alert alert-warning">
+  <p>Vendedores registrados no Sales App não têm acesso ao Admin VTEX, apenas ao Sales App.</p>
+</div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Tabela de recursos:
 

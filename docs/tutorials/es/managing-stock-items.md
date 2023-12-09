@@ -3,8 +3,8 @@ title: 'Gestión del stock'
 id: tutorials_139
 status: PUBLISHED
 createdAt: 2017-04-27T22:17:21.085Z
-updatedAt: 2023-03-31T00:44:36.047Z
-publishedAt: 2023-03-31T00:44:36.047Z
+updatedAt: 2023-09-22T19:23:25.111Z
+publishedAt: 2023-09-22T19:23:25.111Z
 firstPublishedAt: 2017-04-27T23:00:44.889Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -47,13 +47,14 @@ Aparecerá una tabla con los SKU y sus respectivos almacenes. La tabla está org
     * **Productos**: el nombre del producto.
     * **Almacén**: indica el almacén de la tienda en el que se encuentra el SKU.
     * **ID del SKU**: código que identifica el SKU.
-    * **Última actualización**: número de unidades del SKU más reciente registrado en la plataforma VTEX. <p>Puedes hacer clic en los valores de este campo para comprobar el **Registro de actualizaciones** y ver los datos de los usuarios que actualizaron el campo, las fechas en que se hicieron los cambios y las cantidades antes y después de las actualizaciones.</p>
+    * **Última actualización**: número de unidades del SKU más reciente registrado en la plataforma VTEX.<p><div class = "alert alert-info">Al hacer clic en cualquier valor en la columna <b>Última actualización</b>, se abrirá la ventana <b>Registro de actualizaciones</b> con datos de cambios. Cada fila corresponde a una actualización, y las columnas contienen el usuario que realizó el cambio, la fecha de la última actualización y la cantidad de ítems antes y después de la actualización. Solo puedes consultar las últimas 50 actualizaciones en el registro de un SKU.</div></p>
     * **Reservado**: unidades de ítems del SKU reservadas. Los pedidos de las reservas aún no tienen el pago aprobado. 
     Haz clic en los valores de esta columna para ver los detalles de los datos de las reservas del SKU y se te redirigirá a la gestión de pedidos. Para saber más sobre cómo consultar una reserva, consulta [Cómo seguir el status de la reserva](https://help.vtex.com/es/tutorial/how-does-reservation-work--tutorials_92#como-seguir-el-status-de-la-reserva).
     * **Enviados**: unidades del SKU enviadas. Los ítems de esta columna provienen de pedidos con status `Pago aprobado`, `Preparando entrega` o `Facturado`. <p>Al hacer clic en los ítems de la columna para ver los detalles de los SKU enviados, se te redirigirá a la gestión de pedidos.</p>
     * **Disponibles**: unidades del SKU disponibles para la venta.
     * **Actualizar recuento**: campo para actualizar manualmente la cantidad disponible de ítems del SKU. Para saber más sobre cómo actualizar el recuento, consulta el artículo [Cómo actualizar stock](https://help.vtex.com/es/tutorial/como-atualizar-estoque--2MDwYV1COA6YuoiY22AyGo).
     * **Stock infinito**: permite registrar unidades infinitas del SKU para que siempre esté disponible en el _checkout_ de tu tienda. Esto elimina la necesidad de actualizar el recuento del SKU.
+    * **Lead time (días):** configuración opcional del tiempo de envío al nivel de SKU. Al definir un tiempo para el SKU de un almacén, él se agregará al [cálculo de tiempo total de envío](https://help.vtex.com/es/tutorial/como-funciona-o-calculo-de-envio--tutorials_116) del pedido. Por defecto, el [lead time](https://help.vtex.com/es/tutorial/lead_time-shipping-time-at-sku-level--16yv5Mkj6bTyWR1hCN2f4B) está definido como zero días y su contaje se realiza en días laborables. Puedes [alterarlo para días naturales](https://help.vtex.com/es/tutorial/lead_time-shipping-time-at-sku-level--16yv5Mkj6bTyWR1hCN2f4B#configurar-el-contaje-del-lead-time-en-dias-naturales-opcional) y, si quieres configurar periodos en horas, minutos y segundos, puedes utilizar el endpoint [Update inventory by SKU and warehouse endpoint](https://developers.vtex.com/docs/api-reference/logistics-api#put-/api/logistics/pvt/inventory/skus/-skuId-/warehouses/-warehouseId-).
 
 <div class="alert alert-danger">
 Para garantizar que los ítems agregados al stock estén disponibles para venta en la tienda, el <a href="url">ID del SKU</a> no debe contener <b>el número cero a la izquierda</b>. Por ejemplo, el sistema no reconoce ID con el formato <code>01</code>, <code>02</code> , <code>021</code>, ya que espera el formato <code>1</code>, <code>2</code>, <code>21</code>.

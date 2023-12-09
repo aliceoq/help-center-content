@@ -3,8 +3,8 @@ title: 'Creating merchandising rules - Visual Editor (Beta)'
 id: 6xteumx9MsDt0uEppbChu3
 status: PUBLISHED
 createdAt: 2023-04-03T21:05:14.304Z
-updatedAt: 2023-04-11T22:34:40.303Z
-publishedAt: 2023-04-11T22:34:40.303Z
+updatedAt: 2023-06-29T17:16:46.614Z
+publishedAt: 2023-06-29T17:16:46.614Z
 firstPublishedAt: 2023-04-03T21:30:34.359Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -21,7 +21,7 @@ subcategory: 23WdCYqmn2V2Z7SDlc14DF
 
 The Visual Editor (beta) for[ merchandising rules](https://help.vtex.com/pt/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/5tBSYXb9EIdePa0MWTnFd0) in VTEX Intelligent Search allows you to:
 
-![visual-merch-rules-EN](https://images.ctfassets.net/alneenqid6w5/5Pah0D3Y9CfUyczqFR99bd/4d8ea287aaed825eb017a0c6325b6e05/visual-merch-rules-EN.png)
+![visual-merch-rules-EN](//images.ctfassets.net/alneenqid6w5/5Pah0D3Y9CfUyczqFR99bd/4d8ea287aaed825eb017a0c6325b6e05/visual-merch-rules-EN.png)
 
 <ol class="mv7" type="I">
     <li class="t-body c-on-base mb5 lh-copy">Edit the name of the merchandising rule.</li>
@@ -36,10 +36,8 @@ The Visual Editor (beta) for[ merchandising rules](https://help.vtex.com/pt/trac
     <li class="t-body c-on-base mb5 lh-copy">Navigate between search results pages.</li>
     <li class="t-body c-on-base mb5 lh-copy">Drag and drop products to the desired position in the search results.
         You can only drag products that have been pinned (action IX).</li>
-    <li class="t-body c-on-base mb5 lh-copy">Hide products from the search results. This action cannot be undone,
-        so to make a product display in the results again, you need to create another merchandising rule.</li>
-    <li class="t-body c-on-base mb5 lh-copy">Pin products to the top positions of the search results. By pinning
-        product A and then product B, they will appear in this order in the search results, just before the others.</li>
+    <li class="t-body c-on-base mb5 lh-copy">Hide products from the search results. Hidden products appear in gray with the eye slash <i class="far fa-eye-slash"></i> icon in the Visual Editor. To show a hidden product again, hover the cursor over it and click the eye <i class="far fa-eye"></i> icon.</li>
+    <li class="t-body c-on-base mb5 lh-copy">Pin products to the top positions of the search results. By pinning product A and then product B, they will appear in this order in the search results, just before the others.</li>
     <li class="t-body c-on-base mb5 lh-copy">See product details.</li>
     <li class="t-body c-on-base mb5 lh-copy">Cancel editing.</li>
     <li class="t-body c-on-base mb5 lh-copy">Save settings.</li>

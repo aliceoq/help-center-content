@@ -3,8 +3,8 @@ title: 'Marketplace strategies at VTEX'
 id: tutorials_402
 status: PUBLISHED
 createdAt: 2017-04-27T22:06:47.209Z
-updatedAt: 2023-04-20T20:53:42.948Z
-publishedAt: 2023-04-20T20:53:42.948Z
+updatedAt: 2023-08-24T20:03:18.118Z
+publishedAt: 2023-08-24T20:03:18.118Z
 firstPublishedAt: 2017-04-27T23:03:23.819Z
 contentType: tutorial
 productTeam: Channels

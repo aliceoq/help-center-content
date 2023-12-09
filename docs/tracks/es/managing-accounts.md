@@ -1,9 +1,9 @@
 ---
 title: 'Gestionar cuentas en Customer Credit'
 id: 4eknoeqaj6EGC20amsm6Gc
-status: PUBLISHED
+status: CHANGED
 createdAt: 2018-11-06T21:15:25.330Z
-updatedAt: 2023-05-12T12:21:21.583Z
+updatedAt: 2023-12-04T18:30:36.393Z
 publishedAt: 2023-05-12T12:21:21.583Z
 firstPublishedAt: 2018-11-07T17:10:45.883Z
 contentType: trackArticle

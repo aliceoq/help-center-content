@@ -3,8 +3,8 @@ title: 'Multimedia - Visión general'
 id: 31fhjHTt4TBoo50AmGQ9b2
 status: PUBLISHED
 createdAt: 2023-05-29T23:26:35.354Z
-updatedAt: 2023-05-31T12:29:38.226Z
-publishedAt: 2023-05-31T12:29:38.226Z
+updatedAt: 2023-06-26T17:14:09.147Z
+publishedAt: 2023-06-26T17:14:09.147Z
 firstPublishedAt: 2023-05-30T18:01:54.161Z
 contentType: tutorial
 productTeam: VTEX IO
@@ -16,9 +16,13 @@ subcategory: 27t6x0lngvjI3bnUg5AgEO
 ---
 
 En el módulo Multimedia puedes gestionar los archivos multimedia de tu tienda, como imágenes y gifs. Puedes cargar y organizar archivos multimedia en los siguientes formatos: `PNG`, `JPG`, `GIF`, `SVG` y `WEBP`.
-![Multimedia Visión general](https://images.ctfassets.net/alneenqid6w5/3HL6n5pBx5OpIyJMmPccuZ/4b7fca26bb4f3b1f72d3a6fff9eca887/es-multimedia-overview.png)
+![Multimedia Visión general](//images.ctfassets.net/alneenqid6w5/3HL6n5pBx5OpIyJMmPccuZ/4b7fca26bb4f3b1f72d3a6fff9eca887/es-multimedia-overview.png)
 
 Además, Multimedia está integrado con **Site Editor** y **Headless CMS**. Esta integración te permite acceder y gestionar Multimedia directamente a través de las soluciones de CMS de VTEX.
+
+<div style="background-color:#FCF8F2; border-left: 2px solid #F0AD4E; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 15px; margin-bottom: 10px">
+  El límite de tamaño de archivo para cargar en Media es de <b>5 MB</b>.
+</div>
 
 En esta guía aprenderás a:
 
@@ -36,7 +40,7 @@ Hay tres formas de acceder al módulo Multimedia:
 
 En la siguiente imagen tendrás acceso a una visión general de la interfaz Multimedia y las acciones disponibles para gestionar tus archivos multimedia:
 
-![Multimedia Features](https://images.ctfassets.net/alneenqid6w5/2teyzkUy2zP5vjMLPxlXgD/db95f45451326e0664992cefa1cd8a6f/es-multimedia-features.png)
+![Multimedia Features](//images.ctfassets.net/alneenqid6w5/2teyzkUy2zP5vjMLPxlXgD/db95f45451326e0664992cefa1cd8a6f/es-multimedia-features.png)
 
 | Campo | Descripción |
 | ---------- | ------------- |
@@ -54,7 +58,7 @@ Consulta las secciones a continuación sobre las acciones disponibles para gesti
 2. Elige en tu dispositivo la imagen que deseas agregar y haz clic en `Abrir`.
 
 <div style="background-color:#FCF8F2; border-left: 2px solid #F0AD4E; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 15px; margin-bottom: 10px">
-Recuerda que en Multimedia se admiten los siguientes formatos: <i>PNG</i>, <i>JPG</i>, <i>GIF</i>, <i>SVG</i>, and <i>WEBP</i>.
+Recuerda que en Multimedia se admiten los siguientes formatos: <i>PNG</i>, <i>JPG</i>, <i>GIF</i>, <i>SVG</i>, y <i>WEBP</i>, con un límite de tamaño de archivo de 5 MB.
 </div>
 
 3. Una vez cargada la imagen, aparecerá un mensaje de éxito. Ahora, puedes realizar otras operaciones haciendo clic en `Más acciones` (tres puntos verticales) en la imagen en miniatura y eligiendo una de las siguientes acciones:

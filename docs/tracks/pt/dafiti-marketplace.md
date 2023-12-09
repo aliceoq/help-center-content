@@ -3,8 +3,8 @@ title: 'Dafiti marketplace'
 id: 5lAIj7OCqizD5EisLJvatx
 status: PUBLISHED
 createdAt: 2021-05-26T15:09:29.538Z
-updatedAt: 2021-05-26T15:51:04.313Z
-publishedAt: 2021-05-26T15:51:04.313Z
+updatedAt: 2023-09-22T20:08:29.475Z
+publishedAt: 2023-09-22T20:08:29.475Z
 firstPublishedAt: 2021-05-26T15:28:12.852Z
 contentType: trackArticle
 productTeam: Channels
@@ -20,7 +20,7 @@ A Dafiti é o maior marketplace de moda e _lifestyle_ da América Latina. Fundad
 
 Na Dafiti você pode vender produtos de diversas categorias, tais como roupas, esporte, beleza, decoração, dentre outros. O marketplace concentra cerca de 6 mil marcas e um portifólio de mais de 400 mil produtos.
 
-Por meio do conector nativo da VTEX, você pode anunciar seus produtos na Dafiti de forma simples e eficiente, garantindo mais visibilidade para seus produtos e aumentando suas chances de conversão.
+Por meio do conector nativo da VTEX, você pode anunciar seus produtos na Dafiti de forma simples e eficiente, garantindo mais visibilidade para seus produtos e aumentando suas chances de conversão. 
 
 Atualmente, a Dafiti opera no Brasil, Argentina, Chile e Colômbia. Entretanto, **o conector nativo da VTEX só está disponível para integração com Brasil e Colômbia. **É necessário definir um desses países para configurar a integração, assim a venda dos seus produtos será feita exclusivamente no país escolhido.
 

@@ -3,8 +3,8 @@ title: 'Como configurar Assinaturas na sua loja'
 id: 1FA9dfE7vJqxBna9Nft5Sj
 status: PUBLISHED
 createdAt: 2019-01-31T16:00:03.228Z
-updatedAt: 2023-04-11T00:33:27.310Z
-publishedAt: 2023-04-11T00:33:27.310Z
+updatedAt: 2023-10-18T20:07:15.211Z
+publishedAt: 2023-10-18T20:07:15.211Z
 firstPublishedAt: 2019-01-31T16:01:57.927Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -67,7 +67,7 @@ Atualmente, os seguintes meios de pagamento estão habilitados para pedidos de a
   <p>Para disponibilizar a opção de pagamento <strong>Cartão de Crédito</strong>, entre em contato com o adquirente da sua loja e certifique-se que ele aceita transações de compras recorrentes oriundas de cartões tokenizados (sem CVV). O sistema de <strong>Assinaturas</strong> utilizará os mesmos dados do cartão da primeira compra para realizar os pedidos seguintes da assinatura, garantindo a segurança de todo o processo.</p>
 </div>
 
-Para habilitar esse tipo de transação no conector, o gestor da loja deverá solicitar ao adquirente a liberação para transacionar pagamentos recorrentes. Confira o nosso artigo sobre [como configurar um gateway de pagamento na sua loja](https://help.vtex.com/pt/tutorial/pci-gateway-visao-geral/).
+Para habilitar esse tipo de transação no conector, o gestor da loja deverá solicitar ao adquirente a liberação para transacionar pagamentos recorrentes. Confira o nosso artigo sobre [Cadastrar afiliações de gateway](https://help.vtex.com/pt/tutorial/afiliacoes-de-gateway--tutorials_444).
 
 ## 3. Criar um plano de assinatura
 

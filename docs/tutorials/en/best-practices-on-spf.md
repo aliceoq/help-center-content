@@ -3,8 +3,8 @@ title: 'Best Practices on Sender Policy Framework (SPF)'
 id: 42t0lkl2VyC6Yewc4wA6wI
 status: PUBLISHED
 createdAt: 2017-08-09T16:58:00.716Z
-updatedAt: 2023-03-10T18:49:18.935Z
-publishedAt: 2023-03-10T18:49:18.935Z
+updatedAt: 2023-08-15T17:15:09.621Z
+publishedAt: 2023-08-15T17:15:09.621Z
 firstPublishedAt: 2017-08-10T00:04:19.239Z
 contentType: tutorial
 productTeam: Reliability
@@ -44,10 +44,10 @@ The inclusion or exclusion condition can have the following values:
 
 - `+all`: any sender will be authorized.
 - `-all`: any sender (except the declared ones) will be rejected.
-- `~all`: another verification step will be required to reject unauthorized senders.
+- `~all`: another verification step will be required to reject unauthorized senders. (Recommended)
 - `?all`: the verification of unauthorized senders will be disregarded.
 
-We recommend using -all, which has a better deliverability rate. Make sure all domains sending messages on your behalf are properly configured. Otherwise, messages will not be delivered.
+We recommend using `~all`, which has a better deliverability rate. If there is an unauthorized sender, this option does not stop the sending of the email, but informs that the SPF validation failed.
 
 ## SPF in the VTEX context
 VTEX uses the `include:amazonses.com` SPF. This is Amazon's transactional email sending service, used in the default sender (VTEX type) of Message Center.

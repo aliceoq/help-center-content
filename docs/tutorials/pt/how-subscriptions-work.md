@@ -3,8 +3,8 @@ title: 'Como funciona a assinatura'
 id: frequentlyAskedQuestions_4453
 status: PUBLISHED
 createdAt: 2019-01-24T20:46:00.886Z
-updatedAt: 2023-02-15T23:42:14.386Z
-publishedAt: 2023-02-15T23:42:14.386Z
+updatedAt: 2023-08-30T18:53:03.830Z
+publishedAt: 2023-08-30T18:53:03.830Z
 firstPublishedAt: 2019-01-24T22:14:56.290Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -21,7 +21,7 @@ Seu cliente indica a periodicidade que deseja repetir a compra de um determinado
 
 A assinatura na VTEX consiste em uma lista de SKUs vinculada a uma certa configuração de compra. Todas as operações de gerenciamento giram em torno dessa entidade Assinatura, que contém toda a informação necessária para gerar um pedido recorrente. O diagrama abaixo demonstra o conceito de assinatura:
 
-![img8 subscriptions PT](https://images.ctfassets.net/alneenqid6w5/1tNo9gQza7gWuDXZPRxQRO/474f3170b2f10977be30172465ffd630/img8_subscriptions_PT.png)
+![img8 subscriptions PT](//images.ctfassets.net/alneenqid6w5/1tNo9gQza7gWuDXZPRxQRO/474f3170b2f10977be30172465ffd630/img8_subscriptions_PT.png)
 
 A assinatura é uma forma simples de poupar o tempo de seu cliente, trazendo mais um fluxo programado de vendas para a sua loja. 
 
@@ -44,6 +44,10 @@ O cliente da sua loja tem acesso a uma tela de criação de assinaturas, na pág
 Para isso, basta entrar na página **Minha Conta** no site da sua loja, acessar a seção **Assinaturas** e clicar no botão **Nova assinatura**.  Uma vez cadastrados os meios de pagamento e um endereço de entrega, basta clicar no botão **Assinar** para ativar a assinatura dos produtos selecionados.  
 
 ## Como o cliente da sua loja visualiza suas Assinaturas
+
+<div class = "alert alert-info">
+Em <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>, os clientes conseguem acessar somente os seus pedidos criados nos últimos dois anos. Para informações de pedidos mais antigos, o lojista deve entrar em contato com <a href="https://support.vtex.com/hc/pt-br/requests">nosso Suporte</a>. O acesso à informação é temporário, com duração de 15 dias.
+</div>
 
 Após a finalização do pedido com Assinatura, o seu cliente visualiza na página **Minha Conta** a seção **Assinaturas**. Nessa seção, ele também pode encontrar a lista de assinaturas realizadas com os detalhes e estado individual. Seu cliente também receberá por e-mail uma confirmação da Assinatura e do pedido gerado.
 

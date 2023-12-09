@@ -3,8 +3,8 @@ title: 'Setting up payments with Ebanx'
 id: 4yKdQrt57AW7aElfHH4QKM
 status: PUBLISHED
 createdAt: 2023-03-22T14:27:42.440Z
-updatedAt: 2023-03-23T12:45:53.859Z
-publishedAt: 2023-03-23T12:45:53.859Z
+updatedAt: 2023-09-08T15:37:08.799Z
+publishedAt: 2023-09-08T15:37:08.799Z
 firstPublishedAt: 2023-03-22T17:04:49.283Z
 contentType: tutorial
 productTeam: Financial

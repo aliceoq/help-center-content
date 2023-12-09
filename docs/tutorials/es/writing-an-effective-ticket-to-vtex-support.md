@@ -3,8 +3,8 @@ title: 'Cómo escribir un ticket completo para Soporte VTEX'
 id: 6u4ehk6F0ksuDgYuCbFDRX
 status: PUBLISHED
 createdAt: 2023-03-23T22:00:24.560Z
-updatedAt: 2023-03-24T18:24:48.580Z
-publishedAt: 2023-03-24T18:24:48.580Z
+updatedAt: 2023-07-27T20:50:02.235Z
+publishedAt: 2023-07-27T20:50:02.235Z
 firstPublishedAt: 2023-03-23T22:57:50.828Z
 contentType: tutorial
 productTeam: Others
@@ -28,7 +28,28 @@ Este artículo es una guía para que los clientes y partners abran los tickets c
 
 ## Guías generales
 
-Para rellenar un ticket de forma completa, se deben seguir algunas guías:
+Antes de abrir un ticket, es importante ver si el problema está relacionado con personalizaciones de la tienda.  
+
+Para verificar esto, hay que realizar dos acciones según se describe a continuación.  
+
+**Tienda CMS**  
+
+1. Bloquea archivos en las herramientas para desarrolladores (devtools) de la página (`.js` y `.css`).
+
+![Herramienta para desarrolladores](//images.ctfassets.net/alneenqid6w5/1BXRvp3Ogpx83gJnB5kFeG/53aa27f00849dfe0507c5f9d6fe9a88f/devtolls.png)  
+
+2. Realiza la acción que mostraba el error en el carrito o checkout.  
+
+**Tienda VTEX IO**  
+
+1. Asocia el tema predeterminado de VTEX IO a un workspace de desarrollo.  
+2. En el workspace, reproduce el proceso que mostraba el error en el sitio web.  
+
+Si el error continúa, abre un ticket con el equipo de VTEX siguiendo las guías de la tabla a continuación. Si el error no vuelve a ocurrir después de bloquear los archivos o en el tema predeterminado de VTEX IO, significa que es un error relacionado con las personalizaciones del sitio web y para resolverlo, debes ponerte en contacto con el equipo responsable del frontend de tu tienda.
+
+### Rellenar un ticket
+
+Para rellenar un ticket de forma completa, sigue estas guías:  
 
 | Información | Guías |
 | ----------- | ----------- |

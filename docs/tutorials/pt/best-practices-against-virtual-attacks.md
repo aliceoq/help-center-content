@@ -3,8 +3,8 @@ title: 'Boas práticas contra ataques virtuais'
 id: 191rpbF7UgrKapVCi1PCDE
 status: PUBLISHED
 createdAt: 2022-04-06T19:04:13.387Z
-updatedAt: 2022-06-10T14:24:42.121Z
-publishedAt: 2022-06-10T14:24:42.121Z
+updatedAt: 2023-10-11T17:05:08.015Z
+publishedAt: 2023-10-11T17:05:08.015Z
 firstPublishedAt: 2022-04-06T19:23:22.326Z
 contentType: tutorial
 productTeam: Reliability
@@ -56,6 +56,7 @@ A validação por reCAPTCHA também está ativa por padrão no fluxo de <a href=
 Se sua loja está sofre ataques mesmo com a aplicação dos recursos citados acima, recomendamos desabilitar o login por senha. Essa medida pode ser aplicada temporariamente ou não, com o intuito de quebrar o fluxo da automação do ataque.
 
 Para realizar esta configuração:
+
 1. Acesse *Configurações da conta* > *Autenticação*.
 2. Desabilite o campo *senha*.
 

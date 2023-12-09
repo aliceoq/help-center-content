@@ -3,8 +3,8 @@ title: 'Cómo realizar el go live de tu tienda'
 id: 1iP90RcJvlrfQhnlxM54wo
 status: PUBLISHED
 createdAt: 2022-12-09T19:12:28.218Z
-updatedAt: 2023-03-27T14:51:55.484Z
-publishedAt: 2023-03-27T14:51:55.484Z
+updatedAt: 2023-09-27T19:36:12.413Z
+publishedAt: 2023-09-27T19:36:12.413Z
 firstPublishedAt: 2022-12-09T22:09:43.345Z
 contentType: trackArticle
 productTeam: Reliability
@@ -18,7 +18,7 @@ Si has [configurado el funcionamiento de tu tienda](https://help.vtex.com/pt/tra
 
 En este tutorial, encontrarás una guía detallada paso a paso sobre cómo realizar el _go live_ de tu tienda.
 
-![Go live](https://images.ctfassets.net/alneenqid6w5/1DBW4Cw10Z3Gt4orXMAqWE/d2dcbd2093cd822624d8ed29642eae4e/go_live_es.jpg)
+![Go live](//images.ctfassets.net/alneenqid6w5/1DBW4Cw10Z3Gt4orXMAqWE/d2dcbd2093cd822624d8ed29642eae4e/go_live_es.jpg)
 
 <div class = "alert alert-info">
 Ten en cuenta que una tienda en producción es diferente de una cuenta en producción. En general, se puede decir que para que una tienda esté en producción, es necesario poner la cuenta en producción y realizar el apuntamiento de DNS. Consulta todos los pasos de este proceso a continuación.

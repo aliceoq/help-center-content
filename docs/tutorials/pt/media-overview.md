@@ -3,8 +3,8 @@ title: 'Mídia - Visão geral'
 id: 31fhjHTt4TBoo50AmGQ9b2
 status: PUBLISHED
 createdAt: 2023-05-29T23:26:35.354Z
-updatedAt: 2023-05-31T12:29:38.226Z
-publishedAt: 2023-05-31T12:29:38.226Z
+updatedAt: 2023-06-26T17:14:09.147Z
+publishedAt: 2023-06-26T17:14:09.147Z
 firstPublishedAt: 2023-05-30T18:01:54.161Z
 contentType: tutorial
 productTeam: VTEX IO
@@ -16,9 +16,13 @@ subcategory: 27t6x0lngvjI3bnUg5AgEO
 ---
 
 O Mídia é responsável por gerenciar os arquivos de mídia da sua loja, como imagens e gifs. Você pode fazer o upload e organizar arquivos de mídia usando o Mídia nos seguintes formatos: `PNG`, `JPG`, `GIF`, `SVG` e `WEBP`.
-![Mídia Visão Geral](https://images.ctfassets.net/alneenqid6w5/3HL6n5pBx5OpIyJMmPccuZ/1daf233a39aa1f3e4bd5b42b1f4b8805/pt-m__dia-overview.png)
+![Mídia Visão Geral](//images.ctfassets.net/alneenqid6w5/3HL6n5pBx5OpIyJMmPccuZ/1daf233a39aa1f3e4bd5b42b1f4b8805/pt-m__dia-overview.png)
 
 Além disso, o Mídia está integrado ao **Site Editor** e ao **Headless CMS**. Essa integração permite que você acesse e gerencie o Mídia diretamente através das soluções de CMS da VTEX.
+
+<div style="background-color:#FCF8F2; border-left: 2px solid #F0AD4E; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 15px; margin-bottom: 10px">
+  O limite de tamanho de arquivo para o upload no Media é de <b>5 MB</b>.
+</div>
 
 Neste guia, aprenda a:
 
@@ -36,7 +40,7 @@ Há três maneiras de acessar o Mídia no Admin:
 
 Na imagem a seguir, confira a visão geral da interface do Mídia e as ações disponíveis para gerenciar seus arquivos de mídia:
 
-![Mídia Features](https://images.ctfassets.net/alneenqid6w5/2teyzkUy2zP5vjMLPxlXgD/4ffd0d22e2c3ce0173f5643177728be4/pt-m__dia-features.png)
+![Mídia Features](//images.ctfassets.net/alneenqid6w5/2teyzkUy2zP5vjMLPxlXgD/4ffd0d22e2c3ce0173f5643177728be4/pt-m__dia-features.png)
 
 | Campo | Descrição |
 | ---------- | ------------- |
@@ -54,7 +58,7 @@ Veja nas seções abaixo as ações disponíveis para gerenciamento de arquivos 
 2. Escolha a imagem em sua máquina que deseja adicionar e clique em `Abrir`.
 
 <div style="background-color:#FCF8F2; border-left: 2px solid #F0AD4E; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 15px; margin-bottom: 10px">
- Lembre-se, o Mídia aceita os seguintes formatos: <i>PNG</i>, <i>JPG</i>, <i>GIF</i>, <i>SVG</i>, and <i>WEBP</i>.
+ Lembre-se, o Mídia aceita os seguintes formatos: <i>PNG</i>, <i>JPG</i>, <i>GIF</i>, <i>SVG</i>, e <i>WEBP</i>, , com um limite de tamanho de arquivo de 5 MB.
 </div>
 
 3. Depois que a imagem é carregada, uma mensagem de sucesso aparecerá. Agora, você pode executar outras ações clicando em `Mais ações` (três pontos verticais) na miniatura da imagem e escolhendo uma das seguintes ações:

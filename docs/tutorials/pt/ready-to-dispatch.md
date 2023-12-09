@@ -3,8 +3,8 @@ title: 'VTEX Shipping Network: Pronto para envio'
 id: 5YOZV7Aotv3pap0fGNESDs
 status: PUBLISHED
 createdAt: 2021-11-11T20:13:17.128Z
-updatedAt: 2023-06-09T12:57:15.077Z
-publishedAt: 2023-06-09T12:57:15.077Z
+updatedAt: 2023-11-10T21:13:14.869Z
+publishedAt: 2023-11-10T21:13:14.869Z
 firstPublishedAt: 2021-11-11T20:44:13.846Z
 contentType: tutorial
 productTeam: Others
@@ -14,6 +14,10 @@ locale: pt
 legacySlug: pronto-para-envio
 subcategory: 5n5MnINzWTQUX1I2EZl4Ib
 ---
+
+<div class="alert alert-info">
+Essa funcionalidade está em fase Beta, o que significa que estamos trabalhando para aprimorá-la. Caso tenha interesse em adotar essa funcionalidade no seu negócio, acesse o site <a href="https://vtex.com/br-pt/shipping-network/">VTEX Shipping Network</a>.
+</div>
 
 <div class="alert alert-warning">
 <p>O <a href="https://help.vtex.com/pt/tutorial/vtex-shipping-network-correios-faq--2Wavf7Wie5GEUAEHKtn5oC">VTEX Shipping Network Correios</a> integra sua operação com os serviços PAC e SEDEX dos Correios, e o <a href="https://vtex.com/br-pt/shipping-network/">VTEX Shipping Network</a> integra a sua operação com os Correios e outras transportadoras. Com ambas as soluções você pode usar as funcionalidades:</p><p><ul><li><a href="https://help.vtex.com/pt/tutorial/painel-vtex-shipping-network--51e8tx1IehiN4ZtURRWU92">Painel VTEX Shipping Network</a></li><li><a href="https://help.vtex.com/pt/tutorial/entregas-correios-vtex-shipping-network--5CZRA0lq60EecmwZpsjvfq">Entregas Correios</a></li><li>Pronto para envio</li></ul></p>
@@ -148,7 +152,7 @@ Para baixar novamente as etiquetas e notfis, realize os passos abaixo:
 1. No Admin VTEX, acesse **Envio > Pronto para envio**, ou digite *Pronto para envio* na barra de busca no topo da página.
 2. Na aba `Pacotes enviados`, na linha do pacote desejado, clique em menu <i class="fas fa-ellipsis-v"></i> e selecione a opção desejada:
     * Reimprimir etiquetas
-    * Bauxar arquivos notfis
+    * Baixar arquivos notfis
 3. Confira o arquivo baixado.
 
 ## Saiba mais

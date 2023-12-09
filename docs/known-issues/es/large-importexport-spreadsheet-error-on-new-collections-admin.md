@@ -3,8 +3,8 @@ title: 'Error al importar/exportar una hoja de cálculo grande en el nuevo admin
 id: 6xbBVR2Z7CCpIC0iCAKHgN
 status: PUBLISHED
 createdAt: 2023-02-16T19:04:08.298Z
-updatedAt: 2023-02-16T19:04:08.784Z
-publishedAt: 2023-02-16T19:04:08.784Z
+updatedAt: 2023-10-10T13:49:47.046Z
+publishedAt: 2023-10-10T13:49:47.046Z
 firstPublishedAt: 2023-02-16T19:04:08.784Z
 contentType: knownIssue
 productTeam: Catalog
@@ -23,9 +23,8 @@ internalReference: 362017
 </div>
 
 
-Actualmente, el administrador de la nueva colección, en la función de importación de una inclusión SKU, utilizando la fila SKU, suele devolver una respuesta de error inespecífica al intentar importar un archivo con demasiados registros.
-
-"Su archivo no se ha importado. Por favor, intente importar este archivo de nuevo.`"
+Actualmente, subir artículos al nuevo módulo de colecciones con una lista con más de 1000 SKUs es imposible, ya que el proceso se agotará. Devuelve una respuesta de error inespecífica
+"Su archivo no fue importado. Por favor, intente importar este archivo de nuevo.`"
 
 
 ##
@@ -34,7 +33,19 @@ Actualmente, el administrador de la nueva colección, en la función de importac
 
 
 
+1. Ir al módulo de nuevas colecciones
+2. Selecciona la pestaña "Importar"
+3. Utilice una hoja que tenga más de 1000 SKUs (es decir, 300 productos con 50 SKUs, cada uno)
+4. La importación generará un tiempo de espera.
+
+
+
 ## Workaround
+
+
+Cargue gradualmente utilizando hojas más pequeñas, las colecciones CMS heredadas y/o la API de inserción de SKU a subcolección https://developers.vtex.com/docs/api-reference/catalog-api#post-/api/catalog/pvt/subcollection/-subCollectionId-/stockkeepingunit
+
+
 
 
 

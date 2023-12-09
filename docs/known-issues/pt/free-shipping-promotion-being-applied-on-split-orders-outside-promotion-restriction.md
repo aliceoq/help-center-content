@@ -3,8 +3,8 @@ title: 'Promoção de remessa gratuita sendo aplicada em pedidos divididos fora 
 id: APAIGZx8tdtIjGsQJmvgu
 status: PUBLISHED
 createdAt: 2023-01-12T16:19:47.878Z
-updatedAt: 2023-01-12T16:19:48.479Z
-publishedAt: 2023-01-12T16:19:48.479Z
+updatedAt: 2023-09-11T17:41:51.992Z
+publishedAt: 2023-09-11T17:41:51.992Z
 firstPublishedAt: 2023-01-12T16:19:48.479Z
 contentType: knownIssue
 productTeam: Pricing & Promotions
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Pricing & Promotions
 slug: promocao-de-remessa-gratuita-sendo-aplicada-em-pedidos-divididos-fora-da-restricao-de-promocao
 locale: pt
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 732302
 ---
 

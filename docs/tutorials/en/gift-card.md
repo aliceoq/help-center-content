@@ -3,8 +3,8 @@ title: 'Setting up Gift cards'
 id: tutorials_995
 status: PUBLISHED
 createdAt: 2017-04-27T21:57:54.816Z
-updatedAt: 2023-04-27T17:11:31.494Z
-publishedAt: 2023-04-27T17:11:31.494Z
+updatedAt: 2023-07-27T17:14:06.984Z
+publishedAt: 2023-07-27T17:14:06.984Z
 firstPublishedAt: 2017-04-27T23:03:42.674Z
 contentType: tutorial
 productTeam: Financial
@@ -40,6 +40,7 @@ To create a new voucher, follow the step by step:
   <br>
 <ul>  
   <li><b>Value</b>: the nominal value that will be granted for the voucher use.</li>
+  <li><b>Currency code</b>: currency in which the voucher will be created. The options available for selection are presented in accordance with the commercial policies of each store.</li>
   <li><b>Expiration Date</b>: this is the effective date for using the voucher.</li>
   <li><b>Customer ID</b>: data that identifies and defines the voucher for a specific client.</li>
   <li><b>Collection</b>: identifies the product collection that defines the items to which the voucher can be applied.</li>
@@ -79,8 +80,9 @@ To create more than one new voucher at the same time (a batch), follow the step 
   <li>Fill in the fields that will be displayed as explained below:</li>  
 <br>
 <ul>
-  <li><b>Number of gift cards</b>: this is the number of vouchers that you want to create as a batch. A maximum of 500 (five hundred) vouchers can be created per batch;</li>
+  <li><b>Number of gift cards</b>: this is the number of vouchers that you want to create as a batch. A maximum of 500 (five hundred) vouchers can be created per batch.</li>
   <li><b>Value</b>: the nominal value that will be granted for all vouchers in this batch.</li>
+  <li><b>Currency code</b>: currency in which vouchers will be batched. The options available for selection are customized according to the commercial policies of each store.</li>
   <li><b>Expiration Date</b>: this is the effective date for using all vouchers of this batch.</li>
   <li><b>Collection</b>: identifies the product collection that defines the items to which the vouchers can be applied.</li>
 <br>
@@ -107,9 +109,9 @@ There is no limit to the creation of gift cards, however only 8000 gift cards ca
 
 ## How to set a Gift Card as a payment method
 
-Perfect! Now that you created the Gift Card, you need to set it as a payment method. It allows your Gift Card to be displayed in the Checkout and your customers will be able to complete their order using the amount available in it.
+After creating the Gift Card, it must be configured as a payment method. This way, your customers will be able to use it at Checkout.
 
-Follow the instructions below: 
+Follow the steps below to set up the Gift card:
 
 1. In the VTEX Admin, go to __Store Settings > Payment > Settings__, or type Settings in the search bar at the top of the page.
 2. In the __Payment Conditions__ tab, click on the `+` button.

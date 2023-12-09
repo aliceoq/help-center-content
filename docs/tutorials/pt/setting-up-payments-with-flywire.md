@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Flywire'
 id: 12nQ0teCWM1UUtd2Fo6lzO
 status: PUBLISHED
 createdAt: 2023-04-03T13:05:10.955Z
-updatedAt: 2023-04-03T13:32:26.361Z
-publishedAt: 2023-04-03T13:32:26.361Z
+updatedAt: 2023-10-18T17:28:06.537Z
+publishedAt: 2023-10-18T17:28:06.537Z
 firstPublishedAt: 2023-04-03T13:32:26.361Z
 contentType: tutorial
 productTeam: Financial

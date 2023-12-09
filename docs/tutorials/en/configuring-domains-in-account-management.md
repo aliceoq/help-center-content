@@ -3,8 +3,8 @@ title: "Configure your store's domain"
 id: tutorials_2450
 status: PUBLISHED
 createdAt: 2017-04-27T21:55:00.603Z
-updatedAt: 2023-05-31T22:31:46.690Z
-publishedAt: 2023-05-31T22:31:46.690Z
+updatedAt: 2023-07-04T12:17:10.104Z
+publishedAt: 2023-07-04T12:17:10.104Z
 firstPublishedAt: 2017-04-27T23:03:51.625Z
 contentType: tutorial
 productTeam: Identity
@@ -23,8 +23,8 @@ In case your operation has more than one VTEX account or subaccounts, do not tra
 
 <div class="alert alert-warning">
 If you add more than one domain as your store's host, they will all display the same content. However, we recommend registering only one domain and using redirections for the other ones. Learn more about redirections:
-<ul><li><a href=”https://help.vtex.com/en/tutorial/redirecionamento-de-outros-enderecos--3Xi2AeLUx2QpJQu8DTX8KQ”>Redirection from other addresses</a></li>
-<li><a href=”https://help.vtex.com/en/tutorial/configurando-acesso-sem-www--tutorials_4278”>Configuring access without www</a></li></ul>  
+<ul><li><a href="https://help.vtex.com/en/tutorial/redirecionamento-de-outros-enderecos--3Xi2AeLUx2QpJQu8DTX8KQ">Redirection from other addresses</a></li>
+<li><a href="https://help.vtex.com/en/tutorial/configurando-acesso-sem-www--tutorials_4278">Configuring access without www</a></li></ul>  
 </div>
 
 ## Subdomain
@@ -59,4 +59,5 @@ The VTEX platform is prepared to support domain changes without adverse impacts.
 1. Create new Host entries, as described above. At this moment, the DNS of the new domain should not be pointed to VTEX yet. 
 2. Check the settings of the new Portal. This step is crucial for the Checkout to continue operating after the change. You must check whether the Sites set up are connected to some inexisting Account Name created in License Manager. Learn more about the [portal settings](/en/faq/configure-template-in-the-smartcheckout).
 3. Point the DNS of the new domain to VTEX. Learn more about [DNS pointing](/en/tutorial/configuring-dns-pointing-to-vtex/).
-4. After DNS propagation of the new host, remove the old ones, keeping only the new.
+4. Contact [VTEX support](https://help.vtex.com/en/support) and request internal pointing, providing the new domain. Once the ticket is opened, the support team has up to three business days to analyze the configurations and perform the pointing.
+5. After getting confirmation of the internal pointing and DNS propagation of the new host, remove the old ones, keeping only the new.

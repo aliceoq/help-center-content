@@ -3,8 +3,8 @@ title: 'VTEX Shipping Network: Painel'
 id: 51e8tx1IehiN4ZtURRWU92
 status: PUBLISHED
 createdAt: 2020-04-06T20:01:00.909Z
-updatedAt: 2023-06-09T12:56:22.175Z
-publishedAt: 2023-06-09T12:56:22.175Z
+updatedAt: 2023-08-25T15:40:16.143Z
+publishedAt: 2023-08-25T15:40:16.143Z
 firstPublishedAt: 2020-04-16T21:37:18.831Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -14,6 +14,10 @@ locale: pt
 legacySlug: painel-vtex-log
 subcategory: 5n5MnINzWTQUX1I2EZl4Ib
 ---
+
+<div class="alert alert-info">
+Essa funcionalidade está em fase Beta, o que significa que estamos trabalhando para aprimorá-la. Caso tenha interesse em adotar essa funcionalidade no seu negócio, acesse o site <a href="https://vtex.com/br-pt/shipping-network/">VTEX Shipping Network</a>.
+</div>
 
 <div class="alert alert-warning">
 <p>O <a href="https://help.vtex.com/pt/tutorial/vtex-shipping-network-correios-faq--2Wavf7Wie5GEUAEHKtn5oC">VTEX Shipping Network Correios</a> integra sua operação com os serviços PAC e SEDEX dos Correios, e o <a href="https://vtex.com/br-pt/shipping-network/">VTEX Shipping Network</a> integra a sua operação com os Correios e outras transportadoras. Com ambas as soluções você pode usar as funcionalidades:</p><p><ul><li><a href="https://help.vtex.com/pt/tutorial/pronto-para-envio--5YOZV7Aotv3pap0fGNESDs">Pronto para envio</a></li><li><a href="https://help.vtex.com/pt/tutorial/entregas-correios-vtex-shipping-network--5CZRA0lq60EecmwZpsjvfq">Entregas Correios</a></li><li>Painel VTEX Shipping Network</li></ul></p>
@@ -62,7 +66,7 @@ No cálculo da performance, são considerados todos os pacotes que fazem parte d
 
 A performance é o resultado em percentual do cálculo entre a relação dos pacotes entregues dentro do  prazo pelo total de pacotes entregues. Assim, o cálculo da performance só leva em consideração os pacotes que foram entregues. Veja:
 
-![equation PT performance](https://images.ctfassets.net/alneenqid6w5/24t2KA8ivoNmb4y3oaDDxf/5f190d7ed6439920a22dfbb5d86fe127/CodeCogsEqn.gif)
+![equation PT performance](//images.ctfassets.net/alneenqid6w5/24t2KA8ivoNmb4y3oaDDxf/5f190d7ed6439920a22dfbb5d86fe127/CodeCogsEqn.gif)
 
  A ferramenta de Performance do **VTEX Shipping Network** permite:
 

@@ -3,8 +3,8 @@ title: 'Configurar un conector de pagos'
 id: 7pAEMAo4iqNHwYOarZ3zgm
 status: PUBLISHED
 createdAt: 2019-11-12T17:29:10.501Z
-updatedAt: 2023-03-21T20:10:49.512Z
-publishedAt: 2023-03-21T20:10:49.512Z
+updatedAt: 2023-10-18T15:12:06.862Z
+publishedAt: 2023-10-18T15:12:06.862Z
 firstPublishedAt: 2019-11-24T21:05:50.533Z
 contentType: trackArticle
 productTeam: Financial

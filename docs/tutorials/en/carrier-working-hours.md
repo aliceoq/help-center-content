@@ -3,8 +3,8 @@ title: 'Carrier working hours'
 id: 2oGpbInIgdxSWUi3TZjdCS
 status: PUBLISHED
 createdAt: 2019-02-06T16:21:24.412Z
-updatedAt: 2021-08-11T17:43:41.414Z
-publishedAt: 2021-08-11T17:43:41.414Z
+updatedAt: 2023-10-25T02:09:18.332Z
+publishedAt: 2023-10-25T02:09:18.332Z
 firstPublishedAt: 2019-02-06T18:25:37.545Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -17,7 +17,7 @@ subcategory: 7fTH6bP0C4IaM8qWi0kkQC
 
 On the VTEX platform, you can determine working hours for your store’s carriers. To do that, you have to configure pickup times and shipping windows available in your store.
 
-To configure a carrier’s working hours in your store, go to `Inventory & shipping` and click on `Shipping strategy`. Then, you can create a [shipping policy](https://help.vtex.com/en/tutorial/politica-de-envio--tutorials_140) or edit an existing one. 
+To configure a carrier’s working hours in your store, go to **Shipping > Shipping strategy**. Then, you can create a [shipping policy](https://help.vtex.com/en/tutorial/politica-de-envio--tutorials_140) or edit an existing one. 
 
 The way you configure working hours will influence the delivery time calculation. These configurations can be made on the shipping policy’s details page, in the following options:
 

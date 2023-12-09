@@ -3,8 +3,8 @@ title: 'Multilevel Omnichannel Inventory'
 id: 7M1xyCZWUyCB7PcjNtOyw4
 status: PUBLISHED
 createdAt: 2020-11-30T19:44:58.255Z
-updatedAt: 2023-04-19T00:59:40.265Z
-publishedAt: 2023-04-19T00:59:40.265Z
+updatedAt: 2023-08-15T20:05:09.731Z
+publishedAt: 2023-08-15T20:05:09.731Z
 firstPublishedAt: 2020-12-08T19:12:43.325Z
 contentType: tutorial
 productTeam: Shopping
@@ -38,7 +38,7 @@ Também é possível que esse seller principal venda seus produtos em um marketp
 
 Quando isso ocorre, temos uma arquitetura de três níveis entre marketplace, seller principal,  e seus sellers white label, como ilustra a imagem abaixo.
 
-![Arquitetura Multilevel omichannel inventory](https://images.ctfassets.net/alneenqid6w5/7k6hYv3kWxBVZrPFkUbsCK/b70689c18e55ad472f71176a283b9c17/Screen_Shot_2022-09-30_at_18.57.26.png)
+![Arquitetura Multilevel omichannel inventory](//images.ctfassets.net/alneenqid6w5/7k6hYv3kWxBVZrPFkUbsCK/b70689c18e55ad472f71176a283b9c17/Screen_Shot_2022-09-30_at_18.57.26.png)
 
 Por padrão, os produtos das lojas físicas, ou sellers white label (nível 3, na imagem), não ficam disponíveis para serem vendidos pelo marketplace do nível 1. Mas é possível torná-los disponíveis com a funcionalidade Multilevel Omnichannel Inventory.
 
@@ -75,7 +75,7 @@ Note que no Brasil, o Banco Central (BACEN) regulamenta a atuação de marketpla
 
 ### Marketplaces externos
 
-Essa funcionalidade pode ser configurada para [marketplaces VTEX](https://help.vtex.com/pt/tutorial/marketplace-strategies-at-vtex--tutorials_402#ser-um-marketplace-vtex), [conectores nativos](https://help.vtex.com/pt/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-a-conector-nativo-vtex) e [parceiros certificados](https://help.vtex.com/pt/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-a-conector-certificado-parceiro). Além disso, [B2W](https://help.vtex.com/pt/tracks/configurar-integracao-da-b2w--6w07SJBVqE020KIOOS8ygk), [Mercado Livre](https://help.vtex.com/pt/tracks/configurar-integracao-do-mercado-livre--2YfvI3Jxe0CGIKoWIGQEIq) e [Magazine Luiza](https://help.vtex.com/pt/tracks/configurar-integracao-com-o-magazine-luiza--5Yx5IrNa7Y48c6aSC8wu2Y) já possibilitam a integração de estoque de lojas físicas.
+Essa funcionalidade pode ser configurada para [marketplaces VTEX](https://help.vtex.com/pt/tutorial/marketplace-strategies-at-vtex--tutorials_402#ser-um-marketplace-vtex), [conectores nativos](https://help.vtex.com/pt/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-a-conector-nativo-vtex) e [parceiros certificados](https://help.vtex.com/pt/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-a-conector-certificado-parceiro). Além disso, [B2W](https://help.vtex.com/pt/tracks/configurar-integracao-da-b2w--6w07SJBVqE020KIOOS8ygk) e [Magazine Luiza](https://help.vtex.com/pt/tracks/configurar-integracao-com-o-magazine-luiza--5Yx5IrNa7Y48c6aSC8wu2Y) já possibilitam a integração de estoque de lojas físicas.
 
 Apesar de suportarem a funcionalidade, ela não está disponível automaticamente para esses marketplaces, sendo necessário fazer a configuração para cada um. Isso se aplica em marketplaces integrados pela primeira vez, e naqueles que já utilizavam a API de fulfillment - que se restringe a dois níveis. Saiba mais em [Como configurar](#como-configurar) e em nosso [artigo no Developer Portal](https://developers.vtex.com/vtex-rest-api/docs/multilevel-omnichannel-inventory).
 
@@ -150,7 +150,7 @@ Note que a configuração deve ser feita para cada seller direto (nível 2) em q
 
 Para configurá-la em sellers que já foram integrados anteriormente, o marketplace deve seguir os passos abaixo:
 
-  1. Na seção _Marketplace _de seu Admin VTEX, acesse a aba **Sellers**. 
+  1. Na seção _Marketplace_ de seu Admin VTEX, acesse a aba **Sellers**. 
   2. Clique em **Gerenciamento de Sellers.**  
   3. Na linha correspondente ao seller cujos sellers white label você deseja acessar, clique em `Alterar/Visualizar`.   
   4. Preencha o campo **Fulfillment EndPoint** seguindo o exemplo:    

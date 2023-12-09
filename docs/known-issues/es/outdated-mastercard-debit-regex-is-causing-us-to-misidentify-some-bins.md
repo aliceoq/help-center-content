@@ -3,8 +3,8 @@ title: 'La regex de Mastercard no está actualizada, lo que hace que identifique
 id: 5gx4dSY2P5gGE0JI661hGL
 status: PUBLISHED
 createdAt: 2022-08-20T00:03:11.640Z
-updatedAt: 2022-11-25T22:04:24.418Z
-publishedAt: 2022-11-25T22:04:24.418Z
+updatedAt: 2023-11-30T15:10:48.393Z
+publishedAt: 2023-11-30T15:10:48.393Z
 firstPublishedAt: 2022-08-20T00:03:12.490Z
 contentType: knownIssue
 productTeam: Payments

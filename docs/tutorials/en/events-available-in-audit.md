@@ -3,8 +3,8 @@ title: 'Events available in Audit'
 id: 6r1Mzcu5NmkmmDLJlz9CCZ
 status: PUBLISHED
 createdAt: 2022-06-22T16:05:16.214Z
-updatedAt: 2023-04-25T14:51:35.871Z
-publishedAt: 2023-04-25T14:51:35.871Z
+updatedAt: 2023-12-08T14:47:29.878Z
+publishedAt: 2023-12-08T14:47:29.878Z
 firstPublishedAt: 2022-06-22T16:28:52.801Z
 contentType: tutorial
 productTeam: Master Data
@@ -17,15 +17,27 @@ subcategory: 2TNXiKzLZOPxjMTyGiEeJu
 
 Below, you will find a list of the potential events available in [Audit](https://help.vtex.com/pt/tutorial/searching-for-events-on-audit--5RXf9WJ5YLFBcS8q8KcxTA#) for each app.
 
+* [OMS](#oms)
+* [Inventory & Shipping](#inventory-shipping)
+* [Catalog (Admin)](#catalog-admin)
+* [Prices](#prices)
+* [Promotions](#promotions)
+* [Checkout](#checkout)
+* [Portal CMS](#portal-cms)
+* [Portal](#portal)
+* [License Manager](#license-manager)
+* [VTEX ID](#vtex-id)
+* [Headless CMS](#headless-cms)
+
 <div class = "alert alert-info">
-In case you encounter an event in Audit which has not been included in this list, please contact us through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmnotPvPjw-SjiE7lt2Nt3RQgNUe10ixXZmuO2v9enOJReoQ/viewform">documentation feedback page</a>.
+In case you encounter an event in Audit which has not been included in this list, please inform us through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmnotPvPjw-SjiE7lt2Nt3RQgNUe10ixXZmuO2v9enOJReoQ/viewform">documentation feedback page</a>.
 </div>
 
 <div class="alert alert-warning">
 In the Audit filter options, you can find the <code>Profile System</code> option and the applications mentioned below. As this option refers to features in closed beta, most accounts will not have events associated with them.
 </div>
 
-## Catalog admin
+## OMS
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -37,158 +49,48 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Product Activation
+   <td class="t-body pa5" style="min-width: 15rem;">Start Handling
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Product activation.
+   <td class="t-body pa5" style="min-width: 15rem;">Informs VTEX that the store has started handling an order. This helps order workflow.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Product ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Product Commercial Condition Change
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Change in product commercial condition.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Product ID and changed list of conditions.
+   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Attachment Association    
+   <td class="t-body pa5" style="min-width: 15rem;">Change Status
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Attachment Association.
+   <td class="t-body pa5" style="min-width: 15rem;">Changes order status.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">SKU ID, name and attachment ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Archive Upload    
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">File delivery.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">File name.
+   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Field Activation    
+   <td class="t-body pa5" style="min-width: 15rem;">Payment Notification
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Catalog field activation.
+   <td class="t-body pa5" style="min-width: 15rem;">Sends payment notification of certain orders.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Field name, ID and status.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Binding    
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">SKU and seller binding.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Seller’s ID, SKU ID in seller’s catalog and SKU ID in the marketplace catalog.
+   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Unbinding
+   <td class="t-body pa5" style="min-width: 15rem;">Save Configuration
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Removal of SKU and seller binding.
+   <td class="t-body pa5" style="min-width: 15rem;">Changes price module settings.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Seller’s ID, SKU ID in seller’s catalog and SKU ID in the marketplace catalog.
+   <td class="t-body pa5" style="min-width: 15rem;">Short description of the change.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Removal
+   <td class="t-body pa5" style="min-width: 15rem;">Resend Last Email
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Removal of seller SKU.
+   <td class="t-body pa5" style="min-width: 15rem;">Resends the last email related to the order in the Message Center.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">SKU ID in seller’s catalog.
+   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
    </td>
   </tr>
 </table>
 
-## Pricing
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Description</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Put Price
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of a SKU price.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">SKU ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Price Table
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of a price table.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identifies the created or changed table.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Price Tables
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of multiple price tables.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identifies the created or changed tables.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Price Deleted
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Deletion of a SKU price.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">SKU ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Config
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of price settings.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identifies the created or changed configuration.
-   </td>
-  </tr>
-
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Fixed Price Modified
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Change of fixed price.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identification of the fixed price changed.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Put Catalog Step
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of a price rule.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Price rule created or changed.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Deleted Fixed Prices From Table
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Deletion of fixed price from the related price table.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identification of the table and the deleted price.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Compatibility Post Prices
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Change of price using the compatibility API with the PricingV1 contract
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identification of the changed price.
-   </td>
-  </tr>
-</table>
-
-## Logistics
+## Inventory & Shipping
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -281,7 +183,7 @@ In the Audit filter options, you can find the <code>Profile System</code> option
   </tr>
 </table>
 
-## OMS
+## Catalog (Admin)
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -293,43 +195,152 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Start Handling
+   <td class="t-body pa5" style="min-width: 15rem;">Product Activation
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Informs VTEX that the store has started handling an order. This helps order workflow.
+   <td class="t-body pa5" style="min-width: 15rem;">Product activation.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Change Status
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Changes order status.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
+   <td class="t-body pa5" style="min-width: 15rem;">Product ID.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Payment Notification
+   <td class="t-body pa5" style="min-width: 15rem;">Product Commercial Condition Change
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Sends payment notification of certain orders.
+   <td class="t-body pa5" style="min-width: 15rem;">Change in product commercial condition.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Configuration
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Changes price module settings.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Short description of the change.
+   <td class="t-body pa5" style="min-width: 15rem;">Product ID and changed list of conditions.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Resend Last Email
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Attachment Association    
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Resends the last email related to the order in the Message Center.
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Attachment Association.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
+   <td class="t-body pa5" style="min-width: 15rem;">SKU ID, name and attachment ID.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Archive Upload    
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">File delivery.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">File name.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Field Activation    
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Catalog field activation.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Field name, ID and status.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Binding    
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">SKU and seller binding.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Seller’s ID, SKU ID in seller’s catalog and SKU ID in the marketplace catalog.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Unbinding
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Removal of SKU and seller binding.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Seller’s ID, SKU ID in seller’s catalog and SKU ID in the marketplace catalog.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Removal
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Removal of seller SKU.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">SKU ID in seller’s catalog.
+   </td>
+  </tr>
+</table>
+
+## Prices
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Description</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Put Price
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of a SKU price.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">SKU ID.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Save Price Table
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of a price table.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identifies the created or changed table.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Save Price Tables
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of multiple price tables.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identifies the created or changed tables.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Price Deleted
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Deletion of a SKU price.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">SKU ID.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Save Config
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of price settings.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identifies the created or changed configuration.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Fixed Price Modified
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Change of fixed price.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identification of the fixed price changed.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Put Catalog Step
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creation or change of a price rule.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Price rule created or changed.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Deleted Fixed Prices From Table
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Deletion of fixed price from the related price table.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identification of the table and the deleted price.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Compatibility Post Prices
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Change of price using the compatibility API with the PricingV1 contract
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identification of the changed price.
    </td>
   </tr>
 </table>
@@ -400,7 +411,44 @@ In the Audit filter options, you can find the <code>Profile System</code> option
   </tr>
 </table>
 
-## Portalv2
+## Portal CMS
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">File Update
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Change in portal file.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">File name and ID changed.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">File Upload
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Portal file upload.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">File name changed.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">File Deleted
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">File removal.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">File name and ID changed.
+   </td>
+  </tr>
+</table>
+
+## Portal
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -449,101 +497,6 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    <td class="t-body pa5" style="min-width: 15rem;">Page changes.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Page name.
-   </td>
-  </tr>
-</table>
-
-## Portal CMS
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Update
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Change in portal file.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">File name and ID changed.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Upload
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Portal file upload.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">File name changed.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Deleted
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">File removal.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">File name and ID changed.
-   </td>
-  </tr>
-</table>
-
-## Conditions
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">PutCondition
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Condition creation.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identification of the condition created.
-   </td>
-  </tr>
-</table>
-
-## VTEX ID
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">PasswordCreated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creation of a first-time password in the store or the VTEX Admin
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">User ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">PasswordUpdated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Change of store or VTEX Admin password by the user.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">User ID.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">IdentityProviderChanged
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identity provider configuration change. For example: Creating a customized OAuth integration and changing information in an existing OAuth configuration.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identity provider.
    </td>
   </tr>
 </table>
@@ -673,3 +626,121 @@ In the Audit filter options, you can find the <code>Profile System</code> option
   </tr>
 </table>
 
+## VTEX ID
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">PasswordCreated
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creation of a first-time password in the store or the VTEX Admin
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">User ID.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">PasswordUpdated
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Change of store or VTEX Admin password by the user.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">User ID.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">IdentityProviderChanged
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identity provider configuration change. For example: Creating a customized OAuth integration and changing information in an existing OAuth configuration.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identity provider.
+   </td>
+  </tr>
+</table>
+
+## Headless CMS
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_PUBLISHING
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Attempt to publish a page.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_PUBLISH_IN_RELEASE
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Attempt to publish a release.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_UNPUBLISHING
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Attempt to unpublish a page.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">RESTORE_CONTENT
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Content restore.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_UPDATING_DRAFT
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Attempt to update a draft.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_UNPUBLISHING_AND_OVERWRITING
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Attempt to unpublish and overwrite a page.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">done.invoke.deleteContent</td>
+    <td class="t-body pa5" style="min-width: 15rem;">Delete content.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">done.invoke.deleteContentVariant
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Delete content version.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Event ID.
+    </td>
+  </tr>
+</table>
+
+In the **Action** column, all Headless CMS events also display the following information:
+
+* **CONTENT_ID:** unique identifier of the content.
+* **VARIANT_ID:** unique identifier of the content version.
+* **WORKSPACE**: workspace where the action occurred.

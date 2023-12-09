@@ -3,8 +3,8 @@ title: 'Configurar logística para o Mercado Livre'
 id: 4551ZlEQI8qmiSWieigoKy
 status: PUBLISHED
 createdAt: 2018-08-13T12:53:57.008Z
-updatedAt: 2023-03-28T13:36:16.191Z
-publishedAt: 2023-03-28T13:36:16.191Z
+updatedAt: 2023-09-20T18:54:45.324Z
+publishedAt: 2023-09-20T18:54:45.324Z
 firstPublishedAt: 2018-08-13T14:27:58.483Z
 contentType: trackArticle
 productTeam: Channels
@@ -67,6 +67,10 @@ Alguns tipos logísticos possuem a obrigatoriedade de envio de nota fiscal ou co
 - [Flex](#flex)
 - [Mercado Envios Full](#mercado-envios-full)
 
+<div class="alert alert-info">
+Para Segmentar qual tipo de frete utilizado pela loja, é necessário criar um <a href="https://help.vtex.com/pt/tutorial/cadastrar-especificacoes-ou-campos-de-produto--tutorials_106"><i>atributo de produto</i></a> com o nome <code>meli_shipping_mode</code>, onde estará preenchido se é ME1 ou ME2. 
+</div>
+
 ### Drop Off
 
 <div class="alert alert-info">
@@ -127,7 +131,7 @@ Para configurar, siga os passos a seguir:
 2. [Cadastre](https://help.vtex.com/pt/tutorial/gerenciar-estoque) um estoque.    
 3. Na aba **Estoques**, copie o ID do estoque que você criou.    
 4. Acesse **Marketplace > Conexões > Integrações**, ou digite *Integrações* na barra de busca no topo da página.     
-5. Na integração do Mercado Livre, clique na engrenagem <img class="shadow-4" src="https:https://images.ctfassets.net/alneenqid6w5/39oIVAfBAL5iIPqR5mrg2y/f1943060e88dd71804dcc7844a71c1cd/engrenagem.JPG" />  e selecione a opção `Editar configuração`.    
+5. Na integração do Mercado Livre, clique na engrenagem <img class="shadow-4" src="https://images.ctfassets.net/alneenqid6w5/39oIVAfBAL5iIPqR5mrg2y/f1943060e88dd71804dcc7844a71c1cd/engrenagem.JPG" />  e selecione a opção `Editar configuração`.    
 6. Insira o ID do estoque selecionado no campo **Armazém Mercado Full**.  
 7. Clique em `Salvar Configuração`.    
 

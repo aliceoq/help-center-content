@@ -3,8 +3,8 @@ title: 'Seller Portal: Primeiros Passos do seller'
 id: 6w1vBdRH2uuBGmUqgNQjwK
 status: PUBLISHED
 createdAt: 2021-01-26T15:08:22.524Z
-updatedAt: 2023-03-02T21:29:12.945Z
-publishedAt: 2023-03-02T21:29:12.945Z
+updatedAt: 2023-11-22T14:12:07.981Z
+publishedAt: 2023-11-22T14:12:07.981Z
 firstPublishedAt: 2021-09-15T20:50:27.452Z
 contentType: tutorial
 productTeam: Channels
@@ -44,6 +44,8 @@ Saiba alguns detalhes sobre o Seller Portal:
 - O suporte à experiência do seller será fornecido pelo próprio marketplace.  
 
 ## Configurar sua loja
+
+<div class="alert alert-warning"> O limite para cada conta do Seller Portal é de 100 mil produtos. Para mais informações, entre em contato com nosso <a href="https://support.vtex.com/hc/pt-br/requests">Suporte.</div>
 
 Para começar a vender seus produtos no marketplace, é preciso configurar a sua loja no Seller Portal. Este artigo explica o fluxo completo dessa configuração inicial e indica outras documentações para que você acesse cada passo em mais detalhes. A configuração básica do Seller Portal inclui os passos listados abaixo.
 

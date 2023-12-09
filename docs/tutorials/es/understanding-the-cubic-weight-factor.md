@@ -3,8 +3,8 @@ title: 'Calcular el factor cúbico de peso'
 id: tutorials_128
 status: PUBLISHED
 createdAt: 2017-04-27T22:17:52.970Z
-updatedAt: 2022-11-08T19:15:57.550Z
-publishedAt: 2022-11-08T19:15:57.550Z
+updatedAt: 2023-08-08T20:38:41.469Z
+publishedAt: 2023-08-08T20:38:41.469Z
 firstPublishedAt: 2017-04-27T23:00:44.419Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -34,9 +34,13 @@ Es el coeficiente resultante de la relación entre peso y volumen más adecuada 
 
 El cálculo del peso cúbico se realiza efectuando la multiplicación de la Longitud x Anchura X Altura y división por el factor cúbico proporcionado por la trasportadora.
 
+<div class="alert alert-warning">
+Al calcular el factor de peso volumétrico, la plataforma VTEX no utiliza unidades de medida y los números generados son absolutos. Por lo tanto, los números y medidas que tengas en cuenta serán los del resultado final. Vale la pena señalar que la unidad de medida utilizada en su cálculo debe ser la misma utilizada por la transportadora.
+</div>
+
 Vea el ejemplo siguiente:
 
-![](//images.contentful.com/alneenqid6w5/3KZDUQlPBYEY8mSwqQgW6k/15cef41598f4fc1359f482cddbcca756/pesocubado.jpg)
+![example_cubic_weight_es](//images.contentful.com/alneenqid6w5/3KZDUQlPBYEY8mSwqQgW6k/15cef41598f4fc1359f482cddbcca756/pesocubado.jpg)
 
 - __Dimensiones del paquete:__ `50cm x 60cm x 15cm`
 - __Peso real del paquete:__ `9kg`
@@ -47,18 +51,14 @@ Al comparar el peso real con el peso cúbico del paquete, el transportista hará
 
 Sin embargo, el cálculo anterior es sólo ilustrativo. En el transportista, el valor registrado como factor cúbico será multiplicado al producto de `Longitud x Anchura x Altura`. Es decir, el cálculo a realizar será `Longitud x Anchura x Altura x Factor Cúbico`
 
-O sea, si el valor ofrecido por su compañía es `6.000`, es necesario realizar el cálculo donde este valor dividirá 1.000: Ejemplo: `1.000 / 6.000 = 0,167`.
+O sea, si el valor ofrecido por su compañía es `6.000`, es necesario realizar el cálculo donde este valor dividirá 1.000: Ejemplo: `1000g/6000 cm³ = 0,167`.
 
-Al realizar el registro de su transportista, ese es el valor que usted debe llenar en el campo __Factor Cúbico de Peso__:
+Ese es el valor que usted debe llenar en el campo Factor de peso volumétrico en su [política de envío](https://help.vtex.com/es/tutorial/politica-de-envio--tutorials_140).
 
-![peso cubico es](//images.contentful.com/alneenqid6w5/4Z0zLrnCHuKSKyoE8wGgMa/6239feb2d9610b12d19747732fae508e/peso_cubico_es.png)
+![cubic_weight_ES](//images.ctfassets.net/alneenqid6w5/44WaAckgByWYgyYGXtEoOj/034836d577be3c7f920c2b195b255adb/cubic_weight_ES.png)
 
 Por lo tanto, el cálculo final sería:
 
 - __Dimensiones del paquete:__ `50cm x 60cm x 15cm`
 - __Peso real del paquete:__ `9kg`
 - __Peso cúbico:__ `50cm x 60cm x 15cm x 0,167 = 7.515kg`
-
-<div class="alert alert-info">
-  <p>Compruebe con su transportista si la unidad de medida está en gramos, que es la unidad utilizada en VTEX.</p>
-</div>

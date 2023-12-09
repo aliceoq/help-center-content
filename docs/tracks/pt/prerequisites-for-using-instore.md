@@ -3,8 +3,8 @@ title: 'Pré-requisitos para usar o VTEX Sales App'
 id: 1wtAanSRA3g2316dw7bw8u
 status: PUBLISHED
 createdAt: 2020-06-28T13:28:33.600Z
-updatedAt: 2023-05-31T15:30:38.223Z
-publishedAt: 2023-05-31T15:30:38.223Z
+updatedAt: 2023-11-21T16:13:11.117Z
+publishedAt: 2023-11-21T16:13:11.117Z
 firstPublishedAt: 2020-06-28T13:41:36.817Z
 contentType: trackArticle
 productTeam: Shopping
@@ -30,15 +30,12 @@ Para manter o equipamento e o bom funcionamento de sua operação, é importante
 
 ### Tablets, smartphones e computadores
 
-O aplicativo do VTEX Sales App funciona em tablets e smartphones que utilizam os sistemas operacionais **Android 6.0** (ou superior) e **iOS 9** (ou superior).
+É recomendado que os dispositivos estejam atualizados com a versão mais recente do sistema operacional, ou, no mínimo, utilize alguma das:
 
-Alguns exemplos de dispositivos que podem ser utilizados:
+* Três versões mais recentes do IOS, ou
+* Quatro versões mais recentes do Android.
 
-* Tablet Samsung Galaxy Tab A Note
-* Motorola G4
-* Samsung S8
-
-Recomendamos que os dispositivos usados para acessar o VTEX Sales App tenham chips 4G para acesso à internet. Dessa forma, sua loja continuará funcionando normalmente mesmo se a rede Wi-Fi tiver problemas.
+Ao acessar o VTEX Sales App, é necessário que os dispositivos utilizados possuam chips 4G para conexão à internet. Dessa forma, sua loja continuará funcionando normalmente, mesmo em situações em que a rede Wi-Fi apresente problemas.
 
 O VTEX Sales App também funciona em computadores que utilizam o sistema operacional **Windows**, desde que os seguintes requisitos mínimos sejam atendidos:
 

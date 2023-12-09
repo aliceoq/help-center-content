@@ -3,8 +3,8 @@ title: 'Setting up payments with Flywire'
 id: 12nQ0teCWM1UUtd2Fo6lzO
 status: PUBLISHED
 createdAt: 2023-04-03T13:05:10.955Z
-updatedAt: 2023-04-03T13:32:26.361Z
-publishedAt: 2023-04-03T13:32:26.361Z
+updatedAt: 2023-10-18T17:28:06.537Z
+publishedAt: 2023-10-18T17:28:06.537Z
 firstPublishedAt: 2023-04-03T13:32:26.361Z
 contentType: tutorial
 productTeam: Financial
@@ -15,7 +15,7 @@ legacySlug: setting-up-payments-with-flywire
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Flywire payment provider. With this connector, your store can make sales through promissory and Flywire.
+At VTEX, it is possible to integrate with the Flywire payment provider. With this connector, your store can make sales through Notes Payable and Flywire.
 
 To configure Flywire affiliation, follow the steps below:
 
@@ -27,15 +27,15 @@ To configure Flywire affiliation, follow the steps below:
 6. Under __Display Payer Information__, choose one of two options: __True__ or __False__.
 7. Click on `Save`.
 
-## Setting up payment condition Promissory
+## Setting up payment condition Notes Payable
 
-If you want to use Flywire with a promissory note and you have not yet configured the promissory note as a payment method in other connectors in your store, go to [Setting up payments with Promissory](https://help.vtex.com/en/tutorial/setting-up-payments-with-promissory--5pW7avTwtyQcMu4uiW8quQ).
+If you want to use Flywire with a note payable and you have not yet configured the note payable as a payment method in other connectors in your store, go to [Setting up payments with Notes Payable](https://help.vtex.com/en/tutorial/setting-up-payments-with-notes-payable--5pW7avTwtyQcMu4uiW8quQ).
 
 Then, follow the steps below:
 
 1. In the VTEX Admin, go to __Store Settings > Payment > Settings__, or type __Settings__ in the search bar at the top of the page.
 2. In the __Payment Conditions__ tab, click on the `+` button.
-3. On __Custom Payment__, click the button corresponding to the name used for the promissory note payment method (configured in the previous section).
+3. On __Custom Payment__, click the button corresponding to the name used for the note payable payment method (configured in the previous section).
 4. Activate the condition in the __Status__ field.
 5. On __Process with affiliation__, select __flywirepartnermx-payment-provider-config-v0__.
 6. If you wish, you can also configure [payment special conditionso](https://help.vtex.com/en/tutorial/special-conditions--tutorials_456).

@@ -3,8 +3,8 @@ title: '¿Cómo funciona el soporte de VTEX?'
 id: 3kACEfni4m8Yxa1vnf2ebe
 status: PUBLISHED
 createdAt: 2019-03-10T19:06:12.818Z
-updatedAt: 2022-12-23T15:50:55.141Z
-publishedAt: 2022-12-23T15:50:55.141Z
+updatedAt: 2023-12-01T18:52:06.733Z
+publishedAt: 2023-12-01T18:52:06.733Z
 firstPublishedAt: 2019-03-10T19:08:36.723Z
 contentType: frequentlyAskedQuestion
 productTeam: Others
@@ -18,7 +18,7 @@ En VTEX, compartimos la responsabilidad por el éxito de nuestros clientes. Nues
 
 ## Soporte	
 
-Todos los clientes tienen acceso al servicio de atención ofrecido por nuestro equipo de especialistas del Soporte. Estos especialistas están preparados para brindar la mejor experiencia posible en la atención de las solicitudes. Para contactarlos, [es necesario abrir un ticket para el soporte VTEX](https://help.vtex.com/es/tutorial/abrir-chamados-para-o-suporte-vtex--16yOEqpO32UQYygSmMSSAM?locale=pt).
+Todos los clientes tienen acceso al servicio de atención ofrecido por nuestro equipo de especialistas del Soporte. Estos especialistas están preparados para brindar la mejor experiencia posible en la atención de las solicitudes. Para contactarlos, [es necesario abrir un ticket para el soporte VTEX](https://help.vtex.com/es/tutorial/abrir-chamados-para-o-suporte-vtex--16yOEqpO32UQYygSmMSSAM).
 
 ### Sistema de Tickets
 
@@ -54,8 +54,6 @@ Dirigimos nuestros esfuerzos a la transparencia relacionada con la integridad de
 
 - La página de [Status](https://status.vtex.com/) exhibe una línea de tiempo con el historial reciente de incidentes del sistema. En ese historial, detallamos la información de cada incidente: lo que sucedió, los módulos que fueron afectados, la secuencia de acciones hasta su resolución y un resumen final de lo que ocurrió. 
 
-- La página de [Releases](https://releases.vtex.com/) muestra una línea de tiempo, detallada por módulo y versión, de todas las actualizaciones hechas en los ambientes stable y beta.  
-
 Tomaremos todas las medidas pertinentes para resolver la situación lo antes posible y para garantizar el cumplimiento de nuestro [SLA](https://help.vtex.com/es/tutorial/o-que-e-o-sla-de-operacao-da-plataforma--2cIFrsY5S8usk84OU4QOKm?locale=pt) previsto en contrato.
 
 ### Help Center
@@ -70,11 +68,7 @@ En este [portal para desarrolladores](https://developers.vtex.com), usted encuen
 
 En el panel administrativo tenemos nuestro canal de comunicación de actualizaciones del producto, en el cual publicamos comunicados siempre que alguna funcionalidad nueva se lanza o cuando alguna acción es necesaria para evitar una interrupción del servicio. Estos comunicados también están disponibles en la sección de [Noticias](https://help.vtex.com/es/announcements) del Help Center.
 
-Las actualizaciones técnicas, dirigidas a desarrolladores y partners, son publicadas en la sección [Release Notes](https://developers.vtex.com/changelog) del portal del desarrollador. Eso incluye actualizaciones en las APIs, nuevas guías de desarrollo y comunicados sobre VTEX IO.
+Las actualizaciones técnicas, dirigidas a desarrolladores y partners, son publicadas en la sección [Release Notes](https://developers.vtex.com/updates/release-notes) del portal del desarrollador. Eso incluye actualizaciones en las APIs, nuevas guías de desarrollo y comunicados sobre VTEX IO.
 
 Los lanzamientos que tienen una mayor relevancia para el mercado, como nuevos productos, nuevos recursos de gran impacto sobre los productos existentes y  actualizaciones de la empresa son divulgados en el [Blog](https://vtex.com/pt-br/category/produto/) y en el boletín informativo mensual del producto.
-
-## Servicios adicionales bajo demanda
-
-En las situaciones en que nuestros clientes necesitan mayor ayuda para proyectos complejos, ofrecemos servicios de consultoría de proyectos. En caso de que tenga interés, su Customer Success Manager podrá orientarlo sobre las alternativas disponibles y direccionará la demanda a los equipos responsables.
 

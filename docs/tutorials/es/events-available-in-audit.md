@@ -3,8 +3,8 @@ title: 'Eventos disponibles en Audit'
 id: 6r1Mzcu5NmkmmDLJlz9CCZ
 status: PUBLISHED
 createdAt: 2022-06-22T16:05:16.214Z
-updatedAt: 2023-04-25T14:51:35.871Z
-publishedAt: 2023-04-25T14:51:35.871Z
+updatedAt: 2023-12-08T14:47:29.878Z
+publishedAt: 2023-12-08T14:47:29.878Z
 firstPublishedAt: 2022-06-22T16:28:52.801Z
 contentType: tutorial
 productTeam: Master Data
@@ -15,7 +15,19 @@ legacySlug: eventos-disponibles-en-audit
 subcategory: 2TNXiKzLZOPxjMTyGiEeJu
 ---
 
-A continuación, verás la lista de posibles eventos disponibles en [Audit] (https://help.vtex.com/pt/tutorial/searching-for-events-on-audit--5RXf9WJ5YLFBcS8q8KcxTA#) para cada aplicación.
+A continuación, verás la lista de posibles eventos disponibles en [Audit] (https://help.vtex.com/es/tutorial/audit--5RXf9WJ5YLFBcS8q8KcxTA) para cada aplicación.
+
+* [OMS](#oms)
+* [Inventario y envio](#inventario-y-envio)
+* [Catálogo (Admin)](#catalogo-admin)
+* [Precios](#precios)
+* [Promociones](#promociones)
+* [Checkout](#checkout)
+* [Portal CMS](#portal-cms)
+* [Portal](#portal)
+* [License Manager](#license-manager)
+* [VTEX ID](#vtex-id)
+* [Headless CMS](#headless-cms)
 
 <div class = "alert alert-info">
 Si, en Audit, ves algún evento no incluido en esta lista, por favor, envíanos más información a través de la <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmnotPvPjw-SjiE7lt2Nt3RQgNUe10ixXZmuO2v9enOJReoQ/viewform">página de feedback sobre documentación</a>.
@@ -25,7 +37,7 @@ Si, en Audit, ves algún evento no incluido en esta lista, por favor, envíanos 
 En el módulo Audit, al hacer clic en los filtros de auditoría puedes encontrar <code>Profile System</code>, además de otras aplicaciones citadas a continuación. Esta opción se refiere a funcionalidades en beta cerrada, por lo que la mayoría de las cuentas no tendrán eventos asociados.
 </div>
 
-## Catalog admin
+## OMS
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -37,158 +49,48 @@ En el módulo Audit, al hacer clic en los filtros de auditoría puedes encontrar
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Product Activation
+   <td class="t-body pa5" style="min-width: 15rem;">Start Handling
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Activación de producto.
+   <td class="t-body pa5" style="min-width: 15rem;">Acción que le indica a VTEX que la tienda comenzó a preparar determinado pedido. Esto desencadena la continuidad del flujo de dicho pedido.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del producto.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Product Commercial Condition Change
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Cambios en las condiciones comerciales de un producto.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del producto y lista de las condiciones modificadas.
+   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Attachment Association    
+   <td class="t-body pa5" style="min-width: 15rem;">Change Status
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Asociación de un adjunto a un SKU.
+   <td class="t-body pa5" style="min-width: 15rem;">Cambio en el status de un pedido.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU, nombre e ID del adjunto.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Archive Upload    
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Envío de archivo.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nombre de archivo.
+   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Field Activation    
+   <td class="t-body pa5" style="min-width: 15rem;">Payment Notification
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Activación de campo de catálogo.
+   <td class="t-body pa5" style="min-width: 15rem;">Envío de notificación de pago de un pedido determinado.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nombre, ID y status del campo.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Binding    
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Conexión de un SKU con un <em>seller</em>.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del <em>seller</em>, ID del SKU en el catálogo del <em>seller </em>e ID del SKU en el catálogo del <em>marketplace</em>.
+   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Unbinding
+   <td class="t-body pa5" style="min-width: 15rem;">Save Configuration
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Eliminación de la conexión entre un SKU y un <em>seller</em>.
+   <td class="t-body pa5" style="min-width: 15rem;">Cambio en la configuración del módulo de pedidos.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del <em>seller</em>, ID del SKU en el catálogo del <em>seller </em>e ID del SKU en el catálogo del <em>marketplace</em>.
+   <td class="t-body pa5" style="min-width: 15rem;">Breve descripción del cambio.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Removal
+   <td class="t-body pa5" style="min-width: 15rem;">Resend Last Email
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Eliminación del SKU del <em>seller</em>.
+   <td class="t-body pa5" style="min-width: 15rem;">Reenvío del último email relacionado con el pedido en el Centro de mensajes.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU en el catálogo del <em>seller</em>.
+   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
    </td>
   </tr>
 </table>
 
-## Pricing
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Put Price
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación del precio de un SKU determinado.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Price Table
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de la tabla de precios.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identificación de la tabla creada o modificada.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Price Tables
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de varias tablas de precios.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identificación de las tablas creadas o modificadas.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Price Deleted
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Eliminación del precio de un SKU determinado.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Config
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de la configuración del precio.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identificación de la configuración creada o modificada.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Fixed Price Modified
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Modificación del precio fijo.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identificación del precio fijo modificado.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Put Catalog Step
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de una regla de precio.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Regla de precio creada o modificada.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Deleted Fixed Prices From Table
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Eliminación del precio fijo de la lista de precios correspondiente.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identificación de la lista y del precio eliminado.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Compatibility Post Prices
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Modificación del precio utilizando la API de compatibilidad con el contrato de PricingV1.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identificación del precio modificado.
-   </td>
-  </tr>
-
-</table>
-
-## Logistics
+## Inventario y envio
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -281,7 +183,7 @@ En el módulo Audit, al hacer clic en los filtros de auditoría puedes encontrar
   </tr>
 </table>
 
-## OMS
+## Catálogo (Admin)
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -293,48 +195,158 @@ En el módulo Audit, al hacer clic en los filtros de auditoría puedes encontrar
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Start Handling
+   <td class="t-body pa5" style="min-width: 15rem;">Product Activation
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Acción que le indica a VTEX que la tienda comenzó a preparar determinado pedido. Esto desencadena la continuidad del flujo de dicho pedido.
+   <td class="t-body pa5" style="min-width: 15rem;">Activación de producto.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Change Status
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Cambio en el status de un pedido.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
+   <td class="t-body pa5" style="min-width: 15rem;">ID del producto.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Payment Notification
+   <td class="t-body pa5" style="min-width: 15rem;">Product Commercial Condition Change
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Envío de notificación de pago de un pedido determinado.
+   <td class="t-body pa5" style="min-width: 15rem;">Cambios en las condiciones comerciales de un producto.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Configuration
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Cambio en la configuración del módulo de pedidos.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Breve descripción del cambio.
+   <td class="t-body pa5" style="min-width: 15rem;">ID del producto y lista de las condiciones modificadas.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Resend Last Email
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Attachment Association    
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Reenvío del último email relacionado con el pedido en el Centro de mensajes.
+   <td class="t-body pa5" style="min-width: 15rem;">Asociación de un adjunto a un SKU.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID del pedido.
+   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU, nombre e ID del adjunto.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Archive Upload    
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Envío de archivo.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Nombre de archivo.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Field Activation    
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Activación de campo de catálogo.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Nombre, ID y status del campo.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Binding    
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Conexión de un SKU con un <em>seller</em>.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID del <em>seller</em>, ID del SKU en el catálogo del <em>seller </em>e ID del SKU en el catálogo del <em>marketplace</em>.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Unbinding
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Eliminación de la conexión entre un SKU y un <em>seller</em>.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID del <em>seller</em>, ID del SKU en el catálogo del <em>seller </em>e ID del SKU en el catálogo del <em>marketplace</em>.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">SKU Seller Removal
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Eliminación del SKU del <em>seller</em>.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU en el catálogo del <em>seller</em>.
    </td>
   </tr>
 </table>
 
-## Promotions
+## Precios
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Put Price
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación del precio de un SKU determinado.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Save Price Table
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de la tabla de precios.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identificación de la tabla creada o modificada.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Save Price Tables
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de varias tablas de precios.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identificación de las tablas creadas o modificadas.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Price Deleted
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Eliminación del precio de un SKU determinado.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID del SKU.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Save Config
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de la configuración del precio.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identificación de la configuración creada o modificada.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Fixed Price Modified
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Modificación del precio fijo.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identificación del precio fijo modificado.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Put Catalog Step
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Creación o modificación de una regla de precio.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Regla de precio creada o modificada.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Deleted Fixed Prices From Table
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Eliminación del precio fijo de la lista de precios correspondiente.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identificación de la lista y del precio eliminado.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Compatibility Post Prices
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Modificación del precio utilizando la API de compatibilidad con el contrato de PricingV1.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Identificación del precio modificado.
+   </td>
+  </tr>
+
+</table>
+
+## Promociones
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -400,7 +412,44 @@ En el módulo Audit, al hacer clic en los filtros de auditoría puedes encontrar
   </tr>
 </table>
 
-## Portalv2
+## Portal CMS
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción del evento</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">File Update
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Modificación del archivo del portal.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Nombre e ID del archivo modificado.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">File Upload
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Carga del archivo del portal.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Nombre del archivo modificado.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">File Deleted
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Eliminación de archivo.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Nombre e ID del archivo modificado.
+   </td>
+  </tr>
+</table>
+
+## Portal
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -449,101 +498,6 @@ En el módulo Audit, al hacer clic en los filtros de auditoría puedes encontrar
    <td class="t-body pa5" style="min-width: 15rem;">Modificación de la página.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Nombre de la página.
-   </td>
-  </tr>
-</table>
-
-## Portal CMS
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción del evento</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Update
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Modificación del archivo del portal.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nombre e ID del archivo modificado.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Upload
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Carga del archivo del portal.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nombre del archivo modificado.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Deleted
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Eliminación de archivo.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nombre e ID del archivo modificado.
-   </td>
-  </tr>
-</table>
-
-## Conditions
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción del evento</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">PutCondition
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Creación de condición.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Identificación de la condición creada.
-   </td>
-  </tr>
-</table>
-
-## VTEX ID
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción del evento</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">PasswordCreated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">El usuario registra una contraseña por primera vez en la tienda o en el Admin VTEX.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID de usuario.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">PasswordUpdated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">El usuario cambia su contraseña de la tienda o del Admin VTEX.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID de usuario.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">IdentityProviderChanged
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Cambios en la configuración del proveedor de identidad. Por ejemplo, cuando se crea una integración OAuth personalizada, o se modifica la información de una configuración OAuth existente.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Proveedor de identidad.
    </td>
   </tr>
 </table>
@@ -673,3 +627,121 @@ En el módulo Audit, al hacer clic en los filtros de auditoría puedes encontrar
   </tr>
 </table>
 
+## VTEX ID
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción del evento</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">PasswordCreated
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">El usuario registra una contraseña por primera vez en la tienda o en el Admin VTEX.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID de usuario.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">PasswordUpdated
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">El usuario cambia su contraseña de la tienda o del Admin VTEX.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID de usuario.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">IdentityProviderChanged
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Cambios en la configuración del proveedor de identidad. Por ejemplo, cuando se crea una integración OAuth personalizada, o se modifica la información de una configuración OAuth existente.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Proveedor de identidad.
+   </td>
+  </tr>
+</table>
+
+## Headless CMS
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Acción</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Descripción</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalles del evento</strong>
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_PUBLISHING
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Intento de publicar una página.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_PUBLISH_IN_RELEASE
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Intento de publicar un release.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_UNPUBLISHING
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Intento de despublicar una página.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">RESTORE_CONTENT
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Restauración de contenido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_UPDATING_DRAFT
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Intento de actualizar un borrador.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TRY_UNPUBLISHING_AND_OVERWRITING
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Intento de despublicar y sobrescribir una página.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">done.invoke.deleteContent</td>
+    <td class="t-body pa5" style="min-width: 15rem;">Eliminación de contenido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">done.invoke.deleteContentVariant
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Eliminación de una versión del contenido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID del evento.
+    </td>
+  </tr>
+</table>
+
+En la columna **Acción**, todos los eventos de Headless CMS también muestran la siguiente información:
+
+* **CONTENT_ID:** código identificador único de contenido.
+* **VARIANT_ID:** código identificador único de la versión del contenido.
+* **WORKSPACE**: workspace en el que se realizó el cambio.

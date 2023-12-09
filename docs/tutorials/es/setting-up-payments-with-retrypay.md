@@ -3,8 +3,8 @@ title: 'Configurar pago con Retrypay'
 id: 3QGioVKVI1Qnk3JbbJlJVY
 status: PUBLISHED
 createdAt: 2023-03-30T19:35:06.661Z
-updatedAt: 2023-03-30T20:01:51.283Z
-publishedAt: 2023-03-30T20:01:51.283Z
+updatedAt: 2023-10-18T12:06:49.130Z
+publishedAt: 2023-10-18T12:06:49.130Z
 firstPublishedAt: 2023-03-30T20:01:51.283Z
 contentType: tutorial
 productTeam: Financial
@@ -29,7 +29,7 @@ Para configurar la afiliación Retrypay, siga los pasos a continuación:
 
 ## Configurar la condición de pago Pagaré
 
-Si quieres utilizar Retrypay con pagaré y no has configurado el pagaré como método de pago en otros conectores de tu tienda, accede a [Configurar pagos con Pagaré](https://help.vtex.com/es/tutorial/configurar-pagos-con-pagare--5pW7avTwtyQcMu4uiW8quQ).
+Si quieres utilizar Retrypay con pagaré y no has configurado el pagaré como método de pago en otros conectores de tu tienda, accede a [Configurar pagos con Pagaré](https://help.vtex.com/es/tutorial/configurar-pagos-con-pagare).
 
 Luego siga los pasos a continuación:
 

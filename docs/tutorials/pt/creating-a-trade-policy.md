@@ -3,8 +3,8 @@ title: 'Criar uma política comercial'
 id: 563tbcL0TYKEKeOY4IAgAE
 status: PUBLISHED
 createdAt: 2019-01-24T20:45:49.369Z
-updatedAt: 2022-12-08T14:40:14.268Z
-publishedAt: 2022-12-08T14:40:14.268Z
+updatedAt: 2023-08-31T21:48:48.504Z
+publishedAt: 2023-08-31T21:48:48.504Z
 firstPublishedAt: 2019-01-24T22:14:00.848Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -44,7 +44,12 @@ Para definir as configurações de logística aplicadas a essa política comerci
 - **TimeZone:** fuso horário aplicado à política comercial seguindo o padrão Tempo Universal Coordenado (UTC).   
 - **Ativo:** caixa de seleção para ativar ou inativar a política comercial no seu ambiente VTEX.   
 - **Regra condicional:** campo customizável onde é possível definir um critério adicional para a política comercial. Exemplos de regras condicionais incluem limitar o acesso à loja pela política comercial através de um [cluster de clientes](https://help.vtex.com/pt/tutorial/como-criar-um-cluster-de-clientes).  
-- **Herdar Catálogo da política comercial:** catálogo de uma política comercial já criada, que será aplicado na política comercial que está sendo cadastrada. Caso as políticas só se diferenciem nos outros campos, mas o catálogo seja o mesmo, sempre que possível marque esse campo para otimizar a performance do sistema.   
+- **Herdar Catálogo da política comercial:** catálogo de uma política comercial já criada, que será aplicado na política comercial que está sendo cadastrada. Caso as políticas só se diferenciem nos outros campos, mas o catálogo seja o mesmo, sempre que possível marque esse campo para otimizar a performance do sistema. 
+
+<div class="alert alert-warning">
+O campo <b>Herdar catálogo da política comercial,</b> não é alterável.
+Para utilizar o mesmo catálogo em mais de uma política comercial, acesse a documentação <a href="https://developers.vtex.com/docs/api-reference/catalog-api#post-/api/catalog/pvt/product/-productId-/salespolicy/-tradepolicyId-">Associate Product with Trade Policy</a>.
+ </div>
 
 ## Saiba mais
 

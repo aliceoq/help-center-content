@@ -3,8 +3,8 @@ title: 'Buenas prácticas de SPF (Sender Policy Framework)'
 id: 42t0lkl2VyC6Yewc4wA6wI
 status: PUBLISHED
 createdAt: 2017-08-09T16:58:00.716Z
-updatedAt: 2023-03-10T18:49:18.935Z
-publishedAt: 2023-03-10T18:49:18.935Z
+updatedAt: 2023-08-15T17:15:09.621Z
+publishedAt: 2023-08-15T17:15:09.621Z
 firstPublishedAt: 2017-08-10T00:04:19.239Z
 contentType: tutorial
 productTeam: Reliability
@@ -44,10 +44,10 @@ La condición de inclusión o exclusión puede presentar los siguientes valores:
 
 - `+all`: se permitirá cualquier remitente fuera de los declarados.
 - `-all`: se rechazará cualquier remitente fuera de los declarados.
-- `~all`: se necesitará otra etapa de verificación para rechazar a los remitentes no autorizados.
+- `~all`: se necesitará otra etapa de verificación para rechazar a los remitentes no autorizados. (Recomendado)
 - `?all`: se omitirá la verificación de los remitentes no autorizados.  
 
-Recomendamos la utilización de -all, que tiene una mejor tasa de entregabilidad. Sin embargo, debe asegurarse de que todos los dominios que envían mensajes en su nombre están correctamente configurados, de lo contrario los mensajes no se entregarán.   
+Recomendamos utilizar `~all`, que tiene un mejor índice de entregabilidad. Si hay un remitente no autorizado, esta opción no detiene el envío del correo, sino que informa de que la validación SPF ha fallado.
 
 ## SPF en el contexto VTEX
 

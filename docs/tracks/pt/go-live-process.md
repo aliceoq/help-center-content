@@ -3,8 +3,8 @@ title: 'Realizando o go-live da sua loja'
 id: 1iP90RcJvlrfQhnlxM54wo
 status: PUBLISHED
 createdAt: 2022-12-09T19:12:28.218Z
-updatedAt: 2023-03-27T14:51:55.484Z
-publishedAt: 2023-03-27T14:51:55.484Z
+updatedAt: 2023-09-27T19:36:12.413Z
+publishedAt: 2023-09-27T19:36:12.413Z
 firstPublishedAt: 2022-12-09T22:09:43.345Z
 contentType: trackArticle
 productTeam: Reliability
@@ -18,7 +18,7 @@ Se você já [configurou o funcionamento da sua loja](https://help.vtex.com/pt/t
 
 Neste tutorial você encontra o passo a passo detalhado de como realizar o go-live da sua loja.
 
-![Go-live](https://images.ctfassets.net/alneenqid6w5/1DBW4Cw10Z3Gt4orXMAqWE/032594f36e1fe4fda13252502060b753/go_live_pt.jpg)
+![Go-live](//images.ctfassets.net/alneenqid6w5/1DBW4Cw10Z3Gt4orXMAqWE/032594f36e1fe4fda13252502060b753/go_live_pt.jpg)
 
 <div class = "alert alert-info">
 Note que uma loja em produção é diferente de uma conta em produção. De modo geral, pode-se dizer que para ter uma loja em produção é necessário colocar a conta em produção e realizar o apontamento de DNS. Confira abaixo todos os passos envolvidos nesse processo.
@@ -39,7 +39,7 @@ A checklist indicada acima lista funcionalidades e configurações básicas para
 O processo de go-live da sua loja pode ter variações dependendo de algumas características da sua operação. Além disso, alguns passos são sensíveis ao tempo. Por esses motivos recomendamos que planeje o processo completo do seu go-live com no mínimo 15 dias de antecedência.
 
 <div class = "alert alert-info">
-Se você usa o CMS Legado Portal e deseja migrar para uma frente de loja construída com [CMS IO](https://help.vtex.com/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/4yB9wSl79cArd68aRBnBZ2), siga as instruções no guia [Migrando sua frente de loja do CMS Legado Portal para Store Framework](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-migrating-storefront-from-legacy-to-io).
+  <p>Se você usa o CMS Legado Portal e deseja migrar para uma frente de loja construída com <a href="https://help.vtex.com/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/4yB9wSl79cArd68aRBnBZ2">VTEX IO</a>, siga as instruções no guia <a href="https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-migrating-storefront-from-legacy-to-io">Migrando sua frente de loja do CMS Legado Portal para Store Framework</a>.</p>
 </div>
 
 Por motivo de organização e conveniência, este guia divide os passos envolvidos no go-live em quatro estágios:

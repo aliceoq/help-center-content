@@ -3,8 +3,8 @@ title: 'Simulador de envio'
 id: tutorials_144
 status: PUBLISHED
 createdAt: 2017-04-27T22:16:36.879Z
-updatedAt: 2023-03-29T19:24:17.032Z
-publishedAt: 2023-03-29T19:24:17.032Z
+updatedAt: 2023-09-22T23:27:51.927Z
+publishedAt: 2023-09-22T23:27:51.927Z
 firstPublishedAt: 2017-04-27T23:00:45.450Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -47,7 +47,7 @@ Nesse artigo contém:
  6. Selecione a `quantidade`do SKU.    
  7. Determine o `Preço`. Este campo é aberto, e opcional.  
 
-	> O simulador não leva em consideração o preço cadastrado no módulo Catálogo. Portanto, o custo indicado pelo simulador não considera qualquer promoção vigente para aqueles SKUs, podendo indicar um custo diferente do valor real na sua loja. Sugerimos que insira manualmente o valor exato do SKU já com as promoções aplicadas, para que o simulador retorne um cálculo preciso.    
+	> O simulador não leva em consideração o preço cadastrado no módulo Catálogo, portanto, ele não considera possíveis acréscimos nos valores do frete de acordo com o preço do carrinho e promoções de SKUs, o que pode resultar em um custo diferente do valor real do item na sua loja. Para que o simulador realize um cálculo preciso, sugerimos que você insira manualmente o valor final do SKU com as promoções aplicadas.  
 
  8. Clique no ícone `+` para adicionar mais de um produto na simulação. 
 Se desejar, pode preencher o box `Simular itens individualmente`.    

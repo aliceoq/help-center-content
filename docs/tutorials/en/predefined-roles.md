@@ -3,8 +3,8 @@ title: 'Predefined roles'
 id: jGDurZKJHvHJS13LnO7Dy
 status: PUBLISHED
 createdAt: 2022-04-07T21:34:06.385Z
-updatedAt: 2023-06-06T21:37:23.798Z
-publishedAt: 2023-06-06T21:37:23.798Z
+updatedAt: 2023-11-30T22:45:55.789Z
+publishedAt: 2023-11-30T22:45:55.789Z
 firstPublishedAt: 2022-04-07T21:48:28.951Z
 contentType: tutorial
 productTeam: Identity
@@ -15,14 +15,20 @@ legacySlug:
 subcategory: 1HSqkejwuYcQSMC400uY84
 ---
 
-In this document we  list the predefined [roles](https://help.vtex.com/en/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) for new VTEX stores. To access them directly, use the list below:
+[Roles](https://help.vtex.com/en/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) group [License Manager resources](https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#), with each resource representing a permission in the VTEX platform.
+
+In this document, are listed the [roles](https://help.vtex.com/en/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#) that are predefined for new VTEX stores and their respective [resources](https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#). To access them directly, use the list below.
+
+<div class="alert alert-info">
+To learn more about each resource listed in the roles below, see the article <a href="https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">License Manager Resources</a>.
+</div>
 
 * [Admin - Start page only](#admin-start-page-only)
 * [Checkout Admin](#checkout-admin)
 * [Call center operator](#call-center-operator)
 * [Finance](#finance)
 * [Finance - Full access](#finance-full-access)
-* [inStore Sales Person](#instore-sales-person)
+* [VTEX Sales App Sales Person](#instore-sales-person)
 * [IntegrationProfile - Fulfillment](#integrationprofile-fulfillment)
 * [IntegrationProfile - Fulfillment Gateway](#integrationprofile-fulfillment-gateway)
 * [IntegrationProfile - Fulfillment Gateway GetOrder](#integrationprofile-fulfillment-gateway-getorder)
@@ -99,13 +105,17 @@ This is the basic role that grants access to the home page of the administrative
 
 ## Call center operator
 
-This role includes special resources. The **Assisted Sales** resource causes the user to be automatically redirected to the store, which will leave the user who logs in to an account with this role without access to important resources in the administrative menu. We recommend using two accounts for telesales users - a separate account for the **Call center operator** role and one for other operations that the user may need to perform in the administrative menu.
+This is a role dedicated to telesales operators, as it grants access to VTEX's [telesales features](https://help.vtex.com/en/tutorial/telesales-features--UqhiccIRIK2KD0OqkzJaS) and allows you to view orders.
+
+The Assisted Sales resource causes the user to be automatically redirected to the store's telesales page, which will leave the user logging into an account with this role without access to important features of the administrative menu.
+
+We therefore recommend using two separate accounts (with different emails) for telesales users: one account for the __Call center operator__ role (with the *Assisted Sales* and *View order* resources) and another account for carrying out operations in Admin, if necessary.
 
 <div class="alert alert-warning">
-When creating a  <a href="https://help.vtex.com/en/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#">role</a>, avoid including call center <a href="https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">resources</a> with other resources. Otherwise, the role might not work as expected.
+When creating a <a href="https://help.vtex.com/en/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#">role</a>, avoid including call center <a href="https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3#">resources</a> with other resources. Otherwise, the role might not work as expected.
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Resource table:
+Resource table:
 
 <table>
   <tr>
@@ -118,7 +128,7 @@ When creating a  <a href="https://help.vtex.com/en/tutorial/roles--7HKK5Uau2H6wx
     <td>Assisted Sales</td>
     <td>Catalog</td>
     <td>Telesales</td>
-    <td>After logging in, the user will be redirected to the telesales website www.yourstore.com/a/telesales. In this way, the operator can carry out operations in the store on the customer’s behalf. A bar will be displayed at the top of the screen.</td>
+    <td>Telesales features. After the login, the user is redirected to the telesales site <code>www.{storename}.com.br/a/telesales</code>. This way, the operator can use telesales features such as navigating the store in the name of the customer.<br/><br/>As this feature causes an automatic redirect to the store, the user who logs in an account with this resource in their role will not have access to important resources from Admin.</td>
   </tr>
   <tr>
     <td>View order</td>
@@ -407,6 +417,10 @@ When creating a  <a href="https://help.vtex.com/en/tutorial/roles--7HKK5Uau2H6wx
 </table>
 
 ## inStore Sales Person  
+
+<div class="alert alert-warning">
+  <p>Sales associates registered in Sales App cannot access the VTEX Admin, only Sales App.</p>
+</div>
 
 &nbsp;&nbsp;&nbsp;&nbsp; Resource table:
 

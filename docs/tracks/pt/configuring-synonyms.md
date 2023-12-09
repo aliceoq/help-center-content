@@ -3,8 +3,8 @@ title: 'Configurar Sinônimos'
 id: 3ExbC3QKNF4zH7Gs8jD1cL
 status: PUBLISHED
 createdAt: 2019-11-29T12:04:33.557Z
-updatedAt: 2023-03-30T19:19:37.658Z
-publishedAt: 2023-03-30T19:19:37.658Z
+updatedAt: 2023-07-13T19:58:57.503Z
+publishedAt: 2023-07-13T19:58:57.503Z
 firstPublishedAt: 2020-03-05T19:56:02.826Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -45,7 +45,7 @@ A alteração pode demorar até duas horas para ser aplicada.
 
 Caso existam muitos sinônimos a serem cadastrados, você pode fazer um arquivo .csv e depois importá-lo no Admin VTEX. O arquivo deve conter o seguinte formato, de acordo com os [tipos de sinônimos](https://help.vtex.com/pt/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/1pxAWPEglBey1UFdvcetZV#tipos-de-sinonimos) escolhidos:
 
- - **Unidirecional**: `{termos separados por vírgula};{termos expandidos separados por vírgula};{status}`
+ - **Unidirecional**: `{termos separados por vírgula};{termo equivalente};{status}`
 
    __Exemplos:__
 
@@ -56,8 +56,8 @@ Caso existam muitos sinônimos a serem cadastrados, você pode fazer um arquivo 
 
    __Exemplos:__
 
-    - `tv,televisão,televisor;true`: ao pesquisar por qualquer um dos ternos, qual produto que contenha um deles será exibido.
-    - `monitor,tela,display;true`: ao pesquisar por qualquer um dos ternos, qualquer produto que contenha um deles será exibido.
+    - `tv,televisão,televisor;true`: ao pesquisar por qualquer um dos termos, qualquer produto que contenha um deles será exibido.
+    - `monitor,tela,display;true`: ao pesquisar por qualquer um dos termos, qualquer produto que contenha um deles será exibido.
 
 Para importar a planilha, siga os passos abaixo:
 

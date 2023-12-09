@@ -3,8 +3,8 @@ title: 'Configurar Sinónimos'
 id: 3ExbC3QKNF4zH7Gs8jD1cL
 status: PUBLISHED
 createdAt: 2019-11-29T12:04:33.557Z
-updatedAt: 2023-03-30T19:19:37.658Z
-publishedAt: 2023-03-30T19:19:37.658Z
+updatedAt: 2023-07-13T19:58:57.503Z
+publishedAt: 2023-07-13T19:58:57.503Z
 firstPublishedAt: 2020-03-05T19:56:02.826Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -46,7 +46,7 @@ La alteración puede tardar hasta dos horas en aplicarse.
 
 Si existen muchos sinónimos para registrar, puedes hacer un archivo .csv y luego importarlo en el Admin. El fichero debe contener el siguiente formato, según los [tipos de sinónimos](https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/1pxAWPEglBey1UFdvcetZV#tipos-de-sinonimos) elegidos:
 
-- __Unidireccional:__ `{términos separados por una coma};{términos expandidos separados por una coma};{status}`
+- __Unidireccional:__ `{términos separados por una coma};{término equivalente};{status}`
 
    __Ejemplos:__
 

@@ -1,10 +1,10 @@
 ---
 title: 'Setting up payments with PayU India'
 id: 7JFaP3jBukdZHWel9p7dKX
-status: CHANGED
+status: PUBLISHED
 createdAt: 2022-08-15T12:33:46.519Z
-updatedAt: 2023-03-21T20:56:57.589Z
-publishedAt: 2023-03-21T20:56:44.797Z
+updatedAt: 2023-10-18T15:07:42.021Z
+publishedAt: 2023-10-18T15:07:42.021Z
 firstPublishedAt: 2022-08-15T14:38:06.151Z
 contentType: tutorial
 productTeam: Financial
@@ -15,7 +15,7 @@ legacySlug: setting-up-payments-with-payu-india
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the PayU India payment provider. With this connector, your store can make sales through credit cards and promissories.
+At VTEX, it is possible to integrate with the PayU India payment provider. With this connector, your store can make sales through credit cards and Notes Payable.
 
 To configure PayU India affiliation, follow the steps below:
 

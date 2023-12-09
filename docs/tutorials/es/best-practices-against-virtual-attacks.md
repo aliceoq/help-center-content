@@ -3,8 +3,8 @@ title: 'Prácticas recomendadas para evitar ataques virtuales'
 id: 191rpbF7UgrKapVCi1PCDE
 status: PUBLISHED
 createdAt: 2022-04-06T19:04:13.387Z
-updatedAt: 2022-06-10T14:24:42.121Z
-publishedAt: 2022-06-10T14:24:42.121Z
+updatedAt: 2023-10-11T17:05:08.015Z
+publishedAt: 2023-10-11T17:05:08.015Z
 firstPublishedAt: 2022-04-06T19:23:22.326Z
 contentType: tutorial
 productTeam: Reliability
@@ -56,6 +56,7 @@ La validación por reCAPTCHA también está activada de forma predeterminada en 
 Si tu tienda sufre ataques a pesar de haberse aplicado los recursos que mencionamos anteriormente, te recomendamos deshabilitar el inicio de sesión con contraseña. Esta medida se puede aplicar de forma temporal o permanente, y tiene como objetivo poner fin al flujo de automatización del ataque.
 
 Para activar esta configuración:
+
 1. Ingresa a **Configuración de la cuenta** > **Autenticación**.
 2. Desactiva el campo **Contraseña**.
 

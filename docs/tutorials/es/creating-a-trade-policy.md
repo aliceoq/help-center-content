@@ -3,8 +3,8 @@ title: 'Crear una política comercial'
 id: 563tbcL0TYKEKeOY4IAgAE
 status: PUBLISHED
 createdAt: 2019-01-24T20:45:49.369Z
-updatedAt: 2022-12-08T14:40:14.268Z
-publishedAt: 2022-12-08T14:40:14.268Z
+updatedAt: 2023-08-31T21:48:48.504Z
+publishedAt: 2023-08-31T21:48:48.504Z
 firstPublishedAt: 2019-01-24T22:14:00.848Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -46,6 +46,11 @@ Para definir la configuración logística aplicada a una política comercial, ha
 - __Activo__: casilla de verificación para activar o desactivar la política comercial en su entorno VTEX.  
 - __Regla condicional__: campo personalizable a través del cual es posible definir un criterio adicional para la política comercial. Un ejemplo de regla condicional es limitar el acceso a la tienda a través de un [clúster de clientes](https://help.vtex.com/es/tutorial/como-criar-um-cluster-de-clientes).  
 - __Heredar catálogo de una política comercial:__ indica si la política comercial que se está registrando heredará el catálogo de una política comercial ya existente. Si las políticas comparten el mismo catálogo y solo difieren en otros campos, marque este campo siempre que sea posible para optimizar el rendimiento del sistema.     
+
+<div class="alert alert-warning">
+  El campo <b>Heredar catálogo de una política comercial</b> no se puede modificar.
+Para utilizar el mismo catálogo en más de una política comercial, acceda a la documentación <a href="https://developers.vtex.com/docs/api-reference/catalog-api#post-/api/catalog/pvt/product/-productId-/salespolicy/-tradepolicyId-">Associate Product with Trade Policy</a>.
+ </div>  
 
 ## Más información
 

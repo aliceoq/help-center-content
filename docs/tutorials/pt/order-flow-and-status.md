@@ -3,8 +3,8 @@ title: 'Fluxo e status de pedidos'
 id: tutorials_196
 status: PUBLISHED
 createdAt: 2017-04-27T22:14:33.518Z
-updatedAt: 2023-02-28T16:04:19.511Z
-publishedAt: 2023-02-28T16:04:19.511Z
+updatedAt: 2023-08-25T14:32:25.052Z
+publishedAt: 2023-08-25T14:32:25.052Z
 firstPublishedAt: 2017-04-27T23:02:47.616Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -40,7 +40,7 @@ Para os casos de pedidos incompletos, confira o artigo <a href="https://help.vte
 
 ### Fluxo do marketplace
 
-![pedido_marketplace_pt](https://images.ctfassets.net/alneenqid6w5/5XrrV8mQNzqESn0XKJHJW7/7916b546cd4e92b0bdddf0e9f4a2ec11/pedido_marketplace_pt.png)
+![pedido_marketplace_pt](//images.ctfassets.net/alneenqid6w5/5XrrV8mQNzqESn0XKJHJW7/7916b546cd4e92b0bdddf0e9f4a2ec11/pedido_marketplace_pt.png)
 
 O fluxo do marketplace está integrado ao fluxo do seller. Quando um pedido que será entregue por um seller externo (não sendo o seller principal) é finalizado, o fluxo visto pelo marketplace é:
 
@@ -57,7 +57,7 @@ Para saber como identificar pedidos que são provenientes de marketplace, consul
 
 ### Fluxo do seller
 
-![pedido_fluxo_seller_pt](https://images.ctfassets.net/alneenqid6w5/wAez6nwupt5Fw7OosaTUH/23f611308f135cf4b591991934afac70/pedido_fluxo_seller_pt.png)
+![pedido_fluxo_seller_pt](//images.ctfassets.net/alneenqid6w5/wAez6nwupt5Fw7OosaTUH/23f611308f135cf4b591991934afac70/pedido_fluxo_seller_pt.png)
 
 Esse é o fluxo do pedido visto pela loja responsável pelo envio dos produtos que compõem o pedido. O pedido foi realizado através de outra loja (o marketplace), e o fluxo do seller é iniciado depois da confirmação do pedido.
 
@@ -95,7 +95,7 @@ Note que:
 
 ### Fluxo completo
 
-![pedido_fluxo_completo_pt](https://images.ctfassets.net/alneenqid6w5/5b57cGGmPatcg8TtS1UZvW/8ceb29cc95740b3c4d70574f8bf79ab3/pedido_fluxo_completo_pt.png)
+![pedido_fluxo_completo_pt](//images.ctfassets.net/alneenqid6w5/5b57cGGmPatcg8TtS1UZvW/8ceb29cc95740b3c4d70574f8bf79ab3/pedido_fluxo_completo_pt.png)
 
 O fluxo completo do pedido é visto pela loja que realiza a venda e entrega do pedido. Ele é composto pelo fluxo de marketplace e o fluxo do seller de forma sequencial.
 
@@ -137,7 +137,7 @@ Para saber mais sobre cancelamento de pedidos, confira o artigo [Por que meu ped
 
 ### Fluxo chain
 
-![pedido_fluxo_chain_pt](https://images.ctfassets.net/alneenqid6w5/1H891HnUzdCfoEVuO3Ry3Q/a6129ed22ec48b2506f108951ef6409d/pedido_fluxo_chain_pt.png)
+![pedido_fluxo_chain_pt](//images.ctfassets.net/alneenqid6w5/1H891HnUzdCfoEVuO3Ry3Q/a6129ed22ec48b2506f108951ef6409d/pedido_fluxo_chain_pt.png)
 
 O fluxo de pedidos visto pela loja da camada intermediária de uma venda em[ Multilevel Omnichannel Inventory](https://help.vtex.com/pt/tutorial/multilevel-omnichannel-inventory--7M1xyCZWUyCB7PcjNtOyw4) é semelhante ao fluxo de pedidos do marketplace, exceto pelo recebimento do pagamento de pedidos. No estágio de `Pagamento pendente`, ao invés do chain receber o pagamento diretamente do Gateway, o que ocorre é que o marketplace informa ao chain que recebeu a confirmação do pagamento. 
 
@@ -289,7 +289,7 @@ Observe que os status do fluxo completo do pedido (fluxo visto pelas lojas respo
     <td class="tg-zr06"><span style="font-weight:400">Autorizar despacho</span></td>
     <td class="tg-zr06"><span style="font-weight:400">authorize-fulfillment</span></td>
     <td class="tg-zr06"><span style="font-weight:400">Seller, fluxo completo</span></td>
-    <td class="tg-zr06"><span style="font-weight:400">Processo interno de liberação para manuseio. Aqui ocorre a</span> <a href="https://help.vtex.com/pt/tutorial/como-a-reserva-funciona--tutorials_92#reserva-confirmada"><span style="font-weight:400;color:#F71963;background-color:transparent">confirmação da reserva</span></a><span style="font-weight:400">.</span></td>
+    <td class="tg-zr06"><span style="font-weight:400">Processo interno de liberação para manuseio. Aqui ocorre a</span> <a href="https://help.vtex.com/pt/tutorial/como-a-reserva-funciona--tutorials_92#reserva-confirmada"><span style="font-weight:400;color:#F71963;background-color:transparent">confirmação da reserva</span></a><span style="font-weight:400">. Quando o marketplace não autoriza o seller a despachar o pedido em até 30 dias, o pedido é automaticamente cancelado pela plataforma.</span></td>
   </tr>
   <tr>
     <td class="tg-zr06"><span style="font-weight:400">Janela para cancelamento</span></td>

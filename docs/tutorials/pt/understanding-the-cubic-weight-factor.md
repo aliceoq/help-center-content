@@ -3,8 +3,8 @@ title: 'Calcular o fator cúbico de peso'
 id: tutorials_128
 status: PUBLISHED
 createdAt: 2017-04-27T22:17:52.970Z
-updatedAt: 2022-11-08T19:15:57.550Z
-publishedAt: 2022-11-08T19:15:57.550Z
+updatedAt: 2023-08-08T20:38:41.469Z
+publishedAt: 2023-08-08T20:38:41.469Z
 firstPublishedAt: 2017-04-27T23:00:44.419Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -34,6 +34,10 @@ O fator de cubagem é o coeficiente resultante da relação entre peso e volume 
 
 O cálculo do peso cubado é realizado efetuando a multiplicação do Comprimento pela Largura e pela Altura e, em seguida, a divisão pelo Fator de cubagem fornecido pela transportadora.
 
+<div class="alert alert-warning">
+Ao realizar o cálculo do peso cúbico, a plataforma VTEX não utiliza unidades de medida e os números gerados são absolutos. Ou seja, os números e medidas que você levar em consideração serão aqueles do resultado final. Vale ressaltar que a unidade de medida do seu cálculo deve ser igual àquela utilizada pela transportadora em questão.
+</div>
+
 Observe o exemplo a seguir:
 
 ![](//images.contentful.com/alneenqid6w5/3KZDUQlPBYEY8mSwqQgW6k/15cef41598f4fc1359f482cddbcca756/pesocubado.jpg)
@@ -47,17 +51,13 @@ Ao comparar o peso real com o peso cubado do pacote, a transportadora fará a co
 
 Porém, o cálculo acima é apenas ilustrativo. Na transportadora, o valor cadastrado como fator cúbico será multiplicado ao produto de `Comprimento x Largura x Altura`. Ou seja, o cálculo a ser feito será `Comprimento x Largura x Altura x Fator Cúbico`.
 
-Ou seja, caso o valor oferecido pela sua transportadora `6.000`, é necessário primeiro realizar o cálculo onde este valor dividirá 1.000: Exemplo: `1.000 / 6.000 = 0,167`.
+Ou seja, caso o valor oferecido pela sua transportadora `6.000`, é necessário primeiro realizar o cálculo onde este valor dividirá 1.000: Exemplo: `1000g/6000 cm³ = 0,167`.
 
-Ao realizar o cadastro da sua transportadora, esse é o valor que você deve preencher no campo __Fator Cúbico de Peso__.
+Ao realizar o cadastro da sua transportadora, esse é o valor que você deve preencher no campo **Fator de peso cúbico** na sua [política de envio](https://help.vtex.com/pt/tutorial/politica-de-envio--tutorials_140).
 
-![PesoCubado](//images.contentful.com/alneenqid6w5/ZzHF9fwwec6c6m2AiyYGS/37343a8bb4858cdf296f5a3c450567f3/PesoCubado.png)
+![cubic_weight_PT](//images.ctfassets.net/alneenqid6w5/44WaAckgByWYgyYGXtEoOj/dffa4cf86d504ec7325bb80b7b26704d/cubic_weight_PT.png)
 
 Portanto, o cálculo final seria:
 - __Dimensões do pacote:__ `50cm x 60cm x 15cm`
 - __Peso real do pacote:__ 9kg
 - __Peso cubado__: `50cm x 60cm x 15cm x 0,167 = 7.515kg`
-
-<div class="alert alert-info">
-  <p>Verifique com sua transportadora se a unidade de medidas está em gramas, que é a unidade utilizada na VTEX.</p>
-</div>

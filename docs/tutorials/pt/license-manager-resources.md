@@ -3,8 +3,8 @@ title: 'Recursos do License Manager'
 id: 3q6ztrC8YynQf6rdc6euk3
 status: PUBLISHED
 createdAt: 2022-02-14T17:53:22.572Z
-updatedAt: 2022-08-24T14:51:33.355Z
-publishedAt: 2022-08-24T14:51:33.355Z
+updatedAt: 2023-09-14T15:04:04.608Z
+publishedAt: 2023-09-14T15:04:04.608Z
 firstPublishedAt: 2022-02-14T19:56:27.935Z
 contentType: tutorial
 productTeam: Identity
@@ -17,7 +17,7 @@ subcategory: 1HSqkejwuYcQSMC400uY84
 
 A VTEX disponibiliza vários [perfis de acesso](https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc) pré-definidos para usuários administrativos. Isso permite que colaboradores da empresa exerçam suas funções acessando o mínimo necessário de recursos. No entanto, sabemos que cada ecommerce tem suas necessidades únicas e a flexibilidade é essencial para atender a problemas específicos de negócios. 
 
-Por isso, a plataforma VTEX oferece a possibilidade de criar perfis de acessos customizados, permitindo que você escolha precisamente quais recursos poderão ser acessados por um dado perfil customizado. Abaixo, você encontra links com a descrição dos recursos da VTEX disponíveis para cada produto.
+Por isso, a plataforma VTEX oferece a possibilidade de criar perfis de acessos customizados, permitindo que você escolha precisamente quais recursos poderão ser acessados por um dado perfil customizado. Abaixo, você encontra a descrição dos recursos da VTEX disponíveis para cada produto.
 
 <div class="alert alert-danger">
 O uso irrestrito de recursos aumenta o risco de ataques às lojas por vazamento de credenciais de login com acesso a recursos críticos.

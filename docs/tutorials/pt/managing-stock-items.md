@@ -3,8 +3,8 @@ title: 'Gerenciar inventário'
 id: tutorials_139
 status: PUBLISHED
 createdAt: 2017-04-27T22:17:21.085Z
-updatedAt: 2023-03-31T00:44:36.047Z
-publishedAt: 2023-03-31T00:44:36.047Z
+updatedAt: 2023-09-22T19:23:25.111Z
+publishedAt: 2023-09-22T19:23:25.111Z
 firstPublishedAt: 2017-04-27T23:00:44.889Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -47,13 +47,14 @@ Uma tabela ficará disponível com os SKUs e seus respectivos estoques. A tabela
     * **Produtos:** o nome do produto.
     * **Estoque**: em qual estoque da loja o SKU está.
     * **ID do SKU:** código identificador do SKU.
-    * **Última atualização**: número de unidades do SKU mais recente registrado na plataforma VTEX. <p>É possível clicar nos valores desse campo para conferir o **Registro de atualizações**, com informações sobre os usuários que atualizaram esse campo, as datas em que ocorreram as alterações, e as quantidades antes e depois das atualizações</p>
+    * **Última atualização**: número de unidades do SKU mais recente registrado na plataforma VTEX.<p><div class = "alert alert-info">Ao clicar em qualquer valor da coluna <b>Última atualização</b>, a janela <b>Registro de atualizações</b> ficará disponível com a tabela das alterações. Cada linha corresponde a um registro de atualização, e as colunas contêm o usuário que realizou a alteração, a data da atualização e a quantidade de itens antes e depois da atualização. Só é possível consultar até as últimas 50 movimentações de um SKU.</div></p>
     * **Reservados:** unidades de itens do SKU reservados. Os pedidos dessas reservas ainda não estão com o pagamento aprovado. 
     Ao clicar nos valores dessa coluna para conferir detalhes sobre os dados das reservas do SKU,  você será redirecionado para o gerenciamento de pedidos. Para saber mais sobre como consultar uma reserva, veja [Como acompanhar o status da reserva](https://help.vtex.com/pt/tutorial/how-does-reservation-work--tutorials_92#como-acompanhar-o-status-da-reserva)
     * **Enviados:** unidades despachadas do SKU. Os itens desta coluna são de pedidos com status `Pagamento aprovado`, `Preparando entrega` ou `Faturado`. <p>Ao clicar nos itens da coluna para conferir detalhes de SKUs enviados, você será redirecionado para o gerenciamento de pedidos.</p>
     * **Disponíveis:** unidades do SKU disponíveis para venda.
     * **Atualizar contagem:** campo para atualização manual da quantidade disponível de itens do SKU. Para saber mais sobre como atualizar a contagem, confira o artigo [Atualizar quantidade de SKUs em estoque](https://help.vtex.com/pt/tutorial/atualizar-quantidade-de-skus-em-estoque--IKMWjOjMcMqKusSGko8c0)
     * **Estoque infinito:** permite registrar unidades infinitas do SKU, fazendo com que ele esteja sempre disponível para o checkout da sua loja. Isso descarta a necessidade de atualização da contagem desse SKU.
+    * **Lead time (dias):** configuração opcional do tempo de envio a nível de SKU. Defina um tempo para o SKU de um estoque e ele será considerado no [cálculo](https://help.vtex.com/pt/tutorial/como-funciona-o-calculo-de-envio--tutorials_116) do tempo de envio do pedido. Por padrão, o [lead time](https://help.vtex.com/pt/tutorial/lead_time-shipping-time-at-sku-level--16yv5Mkj6bTyWR1hCN2f4B) vem definido como zero dias e sua contagem é feita em dias úteis. Você pode alterar a [contagem para dias corridos](https://help.vtex.com/pt/tutorial/lead_time-shipping-time-at-sku-level--16yv5Mkj6bTyWR1hCN2f4B#configurar-a-contagem-do-lead-time-em-dias-do-calendario-opcional) e, se desejar configurar horas, minutos e segundos, pode usar o endpoint [Update inventory by SKU and warehouse](https://developers.vtex.com/docs/api-reference/logistics-api#put-/api/logistics/pvt/inventory/skus/-skuId-/warehouses/-warehouseId-).
 
 <div class="alert alert-warning">
 Para garantir que os itens adicionados ao estoque fiquem disponíveis para venda na loja, o ID dos SKUs não deve conter o número zero à esquerda. O sistema não reconhece, por exemplo, IDs no formato <code>01, 02, 021,</code> pois é esperado o formato<code> 1, 2, 21</code>.

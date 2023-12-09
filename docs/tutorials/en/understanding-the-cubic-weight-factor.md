@@ -3,8 +3,8 @@ title: 'Calculating the Cubic Weight Factor'
 id: tutorials_128
 status: PUBLISHED
 createdAt: 2017-04-27T22:17:52.970Z
-updatedAt: 2022-11-08T19:15:57.550Z
-publishedAt: 2022-11-08T19:15:57.550Z
+updatedAt: 2023-08-08T20:38:41.469Z
+publishedAt: 2023-08-08T20:38:41.469Z
 firstPublishedAt: 2017-04-27T23:00:44.419Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -34,9 +34,13 @@ Is the resulting coefficient of the relationship between weight and volume that 
 
 The calculation of the cubed weight is performed by multiplying Length x Width x Height, and dividing the result by the cubic factor provided by the carrier.
 
+<div class="alert alert-warning">
+When calculating the Cubic weight factor, VTEX platform does not consider measurement units, and the numbers generated are absolute. Therefore, the measurement units you consider for the calculation will be those of the final result. Notice that the your measurement unit must be the same one used by the carrier.
+</div>
+
 Check out the following example:
 
-![](//images.contentful.com/alneenqid6w5/3KZDUQlPBYEY8mSwqQgW6k/15cef41598f4fc1359f482cddbcca756/pesocubado.jpg)
+![example_cubic_weight_en](//images.contentful.com/alneenqid6w5/3KZDUQlPBYEY8mSwqQgW6k/15cef41598f4fc1359f482cddbcca756/pesocubado.jpg)
 
 - __Package size:__ `50cm x 15cm x 60cm`
 - __Actual package weight:__ `9kg`
@@ -47,18 +51,14 @@ By comparing the real weight to the cubed weight of the package, the carrier wi
 
 However, the calculation above is merely illustrative. For the carrier, the value registered as cubic factor will be multiplied to the result of `Length x Width x Height`. Which means the calculation is `Length x Width x Height x Cubic Factor`.
 
-That is, if the value offered by your carrier is `6,000`, you must perform the division by 1000. Example: `1.000 / 6.000 = 0,167`.
+That is, if the value offered by your carrier is `6,000`, you must perform the division by 1000. Example: `1000g/6000 cm³ = 0,167`.
 
-When registering a carrier, this is the value you must fill out the __Cubic Weight Factor__ field with:
+This is the value you must fill out the **Cubic weight factor** field in your [shipping policy](https://help.vtex.com/es/tutorial/politica-de-envio--tutorials_140).
 
-![Cubic Weight](//images.contentful.com/alneenqid6w5/1hQDHg79Z8QaGCiIc0wekq/1d1eef7297b59f508ce508e0b926961f/Cubic_Weight.png)
+![cubic_weight_EN](//images.ctfassets.net/alneenqid6w5/44WaAckgByWYgyYGXtEoOj/dc63a437a83448eaafd90e0fb545879e/cubic_weight_EN.png)
 
 Therefore, the final calculation will be:
 
 - __Package size:__ `50cm x 60cm x 15cm`
 - __Actual package weight:__ `9kg`
 - __Cubed Weight:__ `50cm x 60cm x 15cm x 0,167= 7,515kg`
-
-<div class="alert alert-info">
-  <p>Check with your carrier if the unit of measure is in grams, which is the unit used by VTEX.</p>
-</div>

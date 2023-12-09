@@ -3,8 +3,8 @@ title: 'Limitar acesso à loja pela política comercial'
 id: tutorials_3063
 status: PUBLISHED
 createdAt: 2017-04-27T21:52:28.228Z
-updatedAt: 2023-03-28T23:21:55.016Z
-publishedAt: 2023-03-28T23:21:55.016Z
+updatedAt: 2023-08-02T16:15:46.981Z
+publishedAt: 2023-08-02T16:15:46.981Z
 firstPublishedAt: 2017-04-27T23:03:54.732Z
 contentType: tutorial
 productTeam: Master Data
@@ -48,7 +48,7 @@ Após a criação do cluster, é preciso criar a regra na política comercial pa
 3. No campo **Regra condicional**, preencha com o valor **{NomeDoCluster}=”true”**. O valor **{NomeDoCluster}** deve ser alterado pelo nome do campo na entidade de dados.
 4. Clique no botão **Salvar**.
 
-![Cluster PT](https://images.ctfassets.net/alneenqid6w5/TQ57DmzHe6C2cACiKucMa/a7e2e28267338b50749a901d3f9437a7/Cluster_PT.png)
+![Catálogo PT](//images.ctfassets.net/alneenqid6w5/7r2ANIP2U6JDt1B0dxGmF6/739b47fa293440f94bb635d0d90cfbc0/pol__ticas_comerciais_pt.png)
 
 Na configuração acima, apenas o clientes com o valor true (utilizado um campo boolean – em que os valores são verdadeiro ou falso) acessarão o site.
 

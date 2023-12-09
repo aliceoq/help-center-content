@@ -1,10 +1,10 @@
 ---
-title: 'Configuración en Via Marketplace'
+title: 'Configuración en Casas Bahia Marketplace'
 id: 2oxPVeYpVgA8IrhaDqKon6
 status: PUBLISHED
 createdAt: 2022-01-18T21:39:29.664Z
-updatedAt: 2023-02-08T14:50:54.438Z
-publishedAt: 2023-02-08T14:50:54.438Z
+updatedAt: 2023-11-30T21:45:19.514Z
+publishedAt: 2023-11-30T21:45:19.514Z
 firstPublishedAt: 2022-01-18T22:32:05.415Z
 contentType: trackArticle
 productTeam: Channels

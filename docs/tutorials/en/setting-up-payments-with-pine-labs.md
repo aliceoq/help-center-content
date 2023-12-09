@@ -3,8 +3,8 @@ title: 'Setting up payments with Pine Labs'
 id: 6cmZ0Qs9HUpN7AUBZQDmc0
 status: PUBLISHED
 createdAt: 2023-04-03T17:01:53.868Z
-updatedAt: 2023-04-14T12:48:59.843Z
-publishedAt: 2023-04-14T12:48:59.843Z
+updatedAt: 2023-10-18T15:10:30.225Z
+publishedAt: 2023-10-18T15:10:30.225Z
 firstPublishedAt: 2023-04-03T17:17:06.240Z
 contentType: tutorial
 productTeam: Financial
@@ -15,7 +15,7 @@ legacySlug: setting-up-payments-with-pine-labs
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Pine Labs payment provider. With this connector, your store can make sales through credit cards, bank invoice and promissories.
+At VTEX, it is possible to integrate with the Pine Labs payment provider. With this connector, your store can make sales through credit cards, bank invoice and Notes Payable.
 
 To configure Pine Labs affiliation, follow the steps below:
 

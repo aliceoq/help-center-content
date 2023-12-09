@@ -3,8 +3,8 @@ title: 'Writing an effective ticket to VTEX support'
 id: 6u4ehk6F0ksuDgYuCbFDRX
 status: PUBLISHED
 createdAt: 2023-03-23T22:00:24.560Z
-updatedAt: 2023-03-24T18:24:48.580Z
-publishedAt: 2023-03-24T18:24:48.580Z
+updatedAt: 2023-07-27T20:50:02.235Z
+publishedAt: 2023-07-27T20:50:02.235Z
 firstPublishedAt: 2023-03-23T22:57:50.828Z
 contentType: tutorial
 productTeam: Others
@@ -28,7 +28,28 @@ This article aims to guide clients and partners on opening tickets with key info
 
 ## General guidelines
 
-When writing a ticket, please follow these guidelines to provide all the necessary information:
+Before opening a ticket, you need to check if the issue is related to your store customization. 
+
+To do so, you need to perform two main actions depending on your store:
+
+**For CMS stores**
+
+1. Block files in the devtools of the page (`.js` and `.css`).
+
+![Dev tools](//images.ctfassets.net/alneenqid6w5/1BXRvp3Ogpx83gJnB5kFeG/290afadc99140b6f5c8d0a3cc645ef3b/devtolls.png)  
+
+2. Run the action that had an error in the cart or checkout.
+
+**For VTEX IO stores**
+
+1. Link the default VTEX IO theme to a development workspace.   
+2. In the workspace, replicate the process that causes the error on the website.  
+
+If the error persists, open a ticket to the VTEX team following the guidelines below. If the error does not occur after blocking the files or when using the default VTEX IO theme, it means that the error is related to the customization of the website. To solve it, please contact the team responsible for your store frontend. 
+
+### Completing a ticket
+
+To provide all the required details when completing a ticket, please follow the guidelines below:
 
 | Information | Guidelines |
 | ----------- | ----------- |

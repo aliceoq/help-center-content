@@ -3,8 +3,8 @@ title: 'Configurar pago con Ebanx'
 id: 4yKdQrt57AW7aElfHH4QKM
 status: PUBLISHED
 createdAt: 2023-03-22T14:27:42.440Z
-updatedAt: 2023-03-23T12:45:53.859Z
-publishedAt: 2023-03-23T12:45:53.859Z
+updatedAt: 2023-09-08T15:37:08.799Z
+publishedAt: 2023-09-08T15:37:08.799Z
 firstPublishedAt: 2023-03-22T17:04:49.283Z
 contentType: tutorial
 productTeam: Financial
@@ -22,7 +22,7 @@ Para configurar la afiliación Ebanx, siga los pasos a continuación:
 1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
 2. En la pestana __Afiliaciones de Gateway__, haga clic en el botón `+`.
 3. Haga clic en el conector __Ebanx__.
-4. Haga clic en __Autorizar__. Usted será redirigido al entorno de __Ebanx__.
+4. Haga clic en __Autorizar__. Usted será redirigido al entorno de Ebanx.
 5. En el entorno de Ebanx, ingrese el nombre de usuario y ça contraseña de su cuenta de Ebanx. Siga las instrucciones indicadas para completar la vinculación de la cuenta Ebanx con VTEX.
 6. Al regresar a __Admin VTEX__, haga clic en `Guardar`.
 

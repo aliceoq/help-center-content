@@ -3,8 +3,8 @@ title: 'Media - Overview'
 id: 31fhjHTt4TBoo50AmGQ9b2
 status: PUBLISHED
 createdAt: 2023-05-29T23:26:35.354Z
-updatedAt: 2023-05-31T12:29:38.226Z
-publishedAt: 2023-05-31T12:29:38.226Z
+updatedAt: 2023-06-26T17:14:09.147Z
+publishedAt: 2023-06-26T17:14:09.147Z
 firstPublishedAt: 2023-05-30T18:01:54.161Z
 contentType: tutorial
 productTeam: VTEX IO
@@ -16,9 +16,13 @@ subcategory: 27t6x0lngvjI3bnUg5AgEO
 ---
 
 Media is responsible for managing your store's media files, such as images and GIFs. With Media, you can upload and organize media files in the following formats: `PNG`, `JPG`, `GIF`, `SVG`, and `WEBP`.
-![Media Overview](https://images.ctfassets.net/alneenqid6w5/3HL6n5pBx5OpIyJMmPccuZ/4151c07cdf6675310b41607256633894/en-media-overview.png)
+![Media Overview](//images.ctfassets.net/alneenqid6w5/3HL6n5pBx5OpIyJMmPccuZ/4151c07cdf6675310b41607256633894/en-media-overview.png)
 
 In addition, Media is integrated with **Site Editor** and **Headless CMS**. This integration allows you to access and manage Media directly through VTEX CMS solutions.
+
+<div style="background-color:#FCF8F2; border-left: 2px solid #F0AD4E; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 15px; margin-bottom: 10px">
+  The file size limit for uploading to Media is <b>5 MB</b>.
+</div>
 
 In this guide, you will learn how to:
 
@@ -36,7 +40,7 @@ There are three ways to access Media:
 
 In the following image, you can see an overview of the Media interface and the actions available for managing your media files:
 
-![Media Features](https://images.ctfassets.net/alneenqid6w5/2teyzkUy2zP5vjMLPxlXgD/7466fed34ed8183fde0b9d61e68b9e1f/en-media-features.png)
+![Media Features](//images.ctfassets.net/alneenqid6w5/2teyzkUy2zP5vjMLPxlXgD/7466fed34ed8183fde0b9d61e68b9e1f/en-media-features.png)
 
 | Field | Description |
 | ---------- | ------------- |
@@ -54,7 +58,7 @@ See in the sections below the actions available for managing files in Media:
 2. Choose the image you want to upload and click `Open`.
 
 <div style="background-color:#FCF8F2; border-left: 2px solid #F0AD4E; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 15px; margin-bottom: 10px">
-Keep in mind that Media supports the following formats: <i>PNG</i>, <i>JPG</i>, <i>GIF</i>, <i>SVG</i>, and <i>WEBP</i>.
+Keep in mind that Media supports the following formats: <i>PNG</i>, <i>JPG</i>, <i>GIF</i>, <i>SVG</i>, and <i>WEBP</i>, with a file size limit of 5 MB.
 </div>
 
 3. After the image is loaded, a success message will be displayed. Now, you can perform other actions by clicking `More actions` (three vertical dots) on the image thumbnail and choosing one of the following actions:

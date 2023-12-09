@@ -3,8 +3,8 @@ title: 'Horário de funcionamento das transportadoras'
 id: 2oGpbInIgdxSWUi3TZjdCS
 status: PUBLISHED
 createdAt: 2019-02-06T16:21:24.412Z
-updatedAt: 2021-08-11T17:43:41.414Z
-publishedAt: 2021-08-11T17:43:41.414Z
+updatedAt: 2023-10-25T02:09:18.332Z
+publishedAt: 2023-10-25T02:09:18.332Z
 firstPublishedAt: 2019-02-06T18:25:37.545Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -17,7 +17,7 @@ subcategory: 7fTH6bP0C4IaM8qWi0kkQC
 
 Na plataforma VTEX, é possível determinar o horário de funcionamento das transportadoras da sua loja através da configuração de horários de coleta e períodos de envio nos quais você define a disponibilidade das entregas da sua loja.
 
-Para configurar o horário de funcionamento, vá em **Estoque & Entrega > Estratégia de envio** e crie uma nova [política de envio](https://help.vtex.com/pt/tutorial/politica-de-envio--tutorials_140) ou edite uma existente. 
+Para configurar o horário de funcionamento, vá em **Envio > Estratégia de envio** e crie uma nova [política de envio](https://help.vtex.com/pt/tutorial/politica-de-envio--tutorials_140) ou edite uma existente. 
 
 As configurações de horário de funcionamento influenciam o cálculo do tempo de entrega e estão ao final da página de detalhes da política de envio selecionada com as seguintes opções:
 

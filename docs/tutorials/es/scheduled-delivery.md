@@ -1,9 +1,9 @@
 ---
 title: 'Entrega programada'
 id: 22g3HAVCGLFiU7xugShOBi
-status: PUBLISHED
+status: CHANGED
 createdAt: 2021-04-19T13:26:44.564Z
-updatedAt: 2021-10-27T16:49:43.778Z
+updatedAt: 2023-11-16T15:58:37.198Z
 publishedAt: 2021-10-27T16:49:43.778Z
 firstPublishedAt: 2021-05-24T17:01:23.885Z
 contentType: tutorial

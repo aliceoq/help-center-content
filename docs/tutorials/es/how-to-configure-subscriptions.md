@@ -3,8 +3,8 @@ title: 'Cómo configurar Suscripciones en su tienda'
 id: 1FA9dfE7vJqxBna9Nft5Sj
 status: PUBLISHED
 createdAt: 2019-01-31T16:00:03.228Z
-updatedAt: 2023-04-11T00:33:27.310Z
-publishedAt: 2023-04-11T00:33:27.310Z
+updatedAt: 2023-10-18T20:07:15.211Z
+publishedAt: 2023-10-18T20:07:15.211Z
 firstPublishedAt: 2019-01-31T16:01:57.927Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -67,7 +67,7 @@ Actualmente, los siguientes medios de pago están habilitados para pedidos de su
   <p>Para colocar a disposición la opción de pago <strong>Tarjeta de crédito</strong>, contacte al adquirente de cu tienda y verifique si acepta transacciones de compras recurrentes de tarjetas con token (sin CVV). El sistema de <strong>Suscripciones</strong> utilizará los mismos datos de la tarjeta empleada en la primera compra para realizar las demás compras de suscripción, garantizando la seguridad de todo el proceso.</p>
 </div>
 
-Para habilitar este tipo de transacción en el conector, el gestor de la tienda deberá solicitar al adquirente la habilitación para transaccionar pagos recurrentes.<a href="https://help.vtex.com/es/tutorial/pci-gateway-visao-geral/"> Vea nuestro artículo sobre cómo configurar un gateway de pago en su tienda</a>.
+Para habilitar este tipo de transacción en el conector, el gestor de la tienda deberá solicitar al adquirente la habilitación para transaccionar pagos recurrentes. Acceda a nuestro artículo sobre [Registrar afiliaciones de gateway](https://help.vtex.com/es/tutorial/afiliaciones-de-gateway--tutorials_444).
 
 ## 3. Crear un plan de suscripción
 

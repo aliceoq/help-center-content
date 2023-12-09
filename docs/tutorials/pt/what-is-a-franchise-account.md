@@ -3,8 +3,8 @@ title: 'O que é conta franquia?'
 id: kWQC6RkFSCUFGgY5gSjdl
 status: PUBLISHED
 createdAt: 2021-10-13T20:38:07.014Z
-updatedAt: 2023-05-31T15:20:29.177Z
-publishedAt: 2023-05-31T15:20:29.177Z
+updatedAt: 2023-08-28T13:03:32.793Z
+publishedAt: 2023-08-28T13:03:32.793Z
 firstPublishedAt: 2021-10-13T20:57:01.457Z
 contentType: tutorial
 productTeam: Shopping
@@ -72,6 +72,11 @@ Para que a conta franquia utilize os preços configurados na conta principal, é
 #### Configurar preços próprios da conta franquia
 
 Para configurar preços próprios da conta franquia, você precisa desmarcar a opção **Herdar preços da conta-pai** nas Configurações do módulo de **Preços** da conta franquia, conforme detalhado [neste artigo](https://help.vtex.com/pt/tutorial/price-configuration--3hbBtCzNUBrj8GaWgCtSWN#configuracoes-gerais-de-precos). Além disso, é necessário configurar os preços desejados no [módulo de **Preços**](https://help.vtex.com/pt/tracks/precos-101--6f8pwCns3PJHqMvQSugNfP) ou pela [API de Pricing](https://developers.vtex.com/vtex-rest-api/reference/pricing-api-overview).
+
+Para garantir uma experiência de compra consistente, é importante [configurar a regionalização](https://help.vtex.com/pt/tutorial/configurar-a-regionalizacao-de-sellers--32t6wLpQCEnumoh8TjT5fw?&utm_source=autocomplete) quando existirem preços diferentes para cada conta franquia.
+Ao adotar a regionalização, é possível solicitar o CEP do cliente antes de iniciar a navegação, permitindo assim exibir os produtos e  preços correspondentes à conta franquia antes de prosseguir para o Checkout.
+Caso a regionalização não esteja em vigor, é possível que o consumidor visualize um determinado valor de produto ao navegar pela loja, mas ao chegar ao Checkout e inserir o CEP, pode-se constatar que a conta franquia responsável pelo atendimento do pedido é outra, resultando em um preço diferente.
+Essa situação ocorre porque, durante a navegação  na loja, o catálogo de menor preço é priorizado. No entanto, ao chegar ao Checkout, caso a conta franquia com o menor preço não tenha estoque disponível, será selecionado o catálogo de outro vendedor que possua o produto em estoque, resultando em uma atualização do preço para o valor praticado por esse vendedor.
 
 ### Pagamentos
 

@@ -3,8 +3,8 @@ title: 'Configurar pago con Khipu'
 id: RcHQjURWDXa0doL15DiUj
 status: PUBLISHED
 createdAt: 2023-03-24T19:34:06.675Z
-updatedAt: 2023-03-30T14:08:54.819Z
-publishedAt: 2023-03-30T14:08:54.819Z
+updatedAt: 2023-10-18T15:00:48.862Z
+publishedAt: 2023-10-18T15:00:48.862Z
 firstPublishedAt: 2023-03-30T14:08:54.819Z
 contentType: tutorial
 productTeam: Financial

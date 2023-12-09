@@ -3,8 +3,8 @@ title: 'Configurar logística para Mercado Libre'
 id: 4551ZlEQI8qmiSWieigoKy
 status: PUBLISHED
 createdAt: 2018-08-13T12:53:57.008Z
-updatedAt: 2023-03-28T13:36:16.191Z
-publishedAt: 2023-03-28T13:36:16.191Z
+updatedAt: 2023-09-20T18:54:45.324Z
+publishedAt: 2023-09-20T18:54:45.324Z
 firstPublishedAt: 2018-08-13T14:27:58.483Z
 contentType: trackArticle
 productTeam: Channels
@@ -67,6 +67,10 @@ Algunos tipos de logística tienen la obligación de enviar una factura o config
 - [Flex](#flex)
 - [Mercado Envíos Full](#mercado-envios-full)
 
+<div class="alert alert-info">
+Para segmentar qué tipo de envío utiliza la tienda, es necesario crear un <a href="https://help.vtex.com/pt/tutorial/cadastrar-especificacoes-ou-campos-de-produto--tutorials_106"><i>atributo de producto</i></a> con el nombre <code>meli_shipping_mode</code>, donde estará completado si es ME1 o ME2.
+</div>
+
 ### Drop Off
 
 <div class="alert alert-info">
@@ -121,7 +125,7 @@ Para configurar, realice los siguientes pasos:
 2. [Registra](https://help.vtex.com/es/tutorial/gerenciar-estoque) un stock.   
 3. Seleccione la pestaña **Almacenes** y copie el ID del stock que desea utilizar.  
 4. Accede a **Marketplace > Conexiones > Integraciones**, o escribe *Integraciones* en la barra de búsqueda en la parte superior de la página.  
-5. En la integración de Mercado Libre, haga clic en el ícono de engranaje <img class="shadow-4" src="https:https://images.ctfassets.net/alneenqid6w5/39oIVAfBAL5iIPqR5mrg2y/f1943060e88dd71804dcc7844a71c1cd/engrenagem.JPG" />  y seleccione la opción `Editar configuración`.  
+5. En la integración de Mercado Libre, haga clic en el ícono de engranaje <img class="shadow-4" src="https://images.ctfassets.net/alneenqid6w5/39oIVAfBAL5iIPqR5mrg2y/f1943060e88dd71804dcc7844a71c1cd/engrenagem.JPG" />  y seleccione la opción `Editar configuración`.  
 6. Ingrese el ID del stock seleccionado en el campo **Almacén Mercado Full**.  
 7. Para finalizar, haga clic en `Guardar Configuración`.  
 

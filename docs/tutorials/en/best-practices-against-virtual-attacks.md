@@ -3,8 +3,8 @@ title: 'Best practices against virtual attacks'
 id: 191rpbF7UgrKapVCi1PCDE
 status: PUBLISHED
 createdAt: 2022-04-06T19:04:13.387Z
-updatedAt: 2022-06-10T14:24:42.121Z
-publishedAt: 2022-06-10T14:24:42.121Z
+updatedAt: 2023-10-11T17:05:08.015Z
+publishedAt: 2023-10-11T17:05:08.015Z
 firstPublishedAt: 2022-04-06T19:23:22.326Z
 contentType: tutorial
 productTeam: Reliability
@@ -56,6 +56,7 @@ reCAPTCHA verification is enabled by default when store customers go through the
 If your store is still being attacked even with the mentioned resources enabled, we recommend disabling password login. This measure can be temporarily or permanently enabled, aiming to break the attack automation flow.
 
 To perform this configuration:
+
 1. Go to **Account settings** > **Authentication**.
 2. Disable the **password** field.
 

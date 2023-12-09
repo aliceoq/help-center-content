@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Kueski Pay'
 id: 3jDfBFi33tMC12Ifi8M6X7
 status: PUBLISHED
 createdAt: 2022-08-10T17:09:57.124Z
-updatedAt: 2022-08-10T17:13:39.881Z
-publishedAt: 2022-08-10T17:13:39.881Z
+updatedAt: 2023-10-18T12:03:46.931Z
+publishedAt: 2023-10-18T12:03:46.931Z
 firstPublishedAt: 2022-08-10T17:13:39.881Z
 contentType: tutorial
 productTeam: Financial

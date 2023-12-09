@@ -3,7 +3,7 @@ title: 'FAQ - Segurança 1'
 id: 7AmPOGXykmE9SYyYDzdAZ4
 status: DRAFT
 createdAt: 2022-05-26T00:09:53.997Z
-updatedAt: 2022-08-22T12:22:09.869Z
+updatedAt: 2023-08-01T22:28:02.023Z
 publishedAt: 
 firstPublishedAt: 2022-06-02T18:56:44.116Z
 contentType: tutorial
@@ -33,6 +33,7 @@ Confira outros tópicos na parte 2 deste FAQ. Insira abaixo seu nome de conta VT
 <iframe src="https://help.vtex.com/insertaccountname?id=1ayXEtqawI9yuxFXutiITh" title="Insira seu nome de conta e clique no botão." frameBorder="0" width="400" height="50"></iframe>
 
 ## Políticas e conformidade
+
 ### A VTEX possui uma política de segurança da informação? Se sim, com qual periodicidade ela é revisada? A política foi distribuída e comunicada para toda companhia?
 
 A VTEX possui uma política de Segurança da informação que foi transmitida para toda a companhia através dos nossos canais internos de comunicação. A política é revisada anualmente dentro do nosso processo de gestão de documentos. A nossa política de Segurança da Informação é orientada a norma ISO IEC 27001, frameworks com as melhores práticas de segurança e reconhecidos pelo mercado, leis de proteção de dados e outras obrigações aplicáveis ao contexto da VTEX. Nossos clientes podem ter acesso a nossa versão pública através do Portal de Administração da Loja.  
@@ -46,7 +47,7 @@ SOC 2 - Tipo 2: Um relatório cobrindo Segurança, Disponibilidade, Integridade,
 SOC 3 - Um relatório público de Segurança, Disponibilidade, Integridade, Confidencialidade e Controles de Privacidade;
 PCI DSS. - Uma validação de controles em torno dos dados do titular do cartão para reduzir a fraude de cartão de crédito.
 
-Todas essas certificações estão disponíveis na seção Compliance no [VTEX Trust Hub](https://vtex.com/us-en/trust/) 
+Todas essas certificações estão disponíveis na seção **Compliance** no [VTEX Trust Hub](https://vtex.com/us-en/trust/).
 
 ### A VTEX possui um programa de segurança da informação? Em caso afirmativo, quais as normas e diretrizes seguidas para manter o programa?
 
@@ -62,7 +63,7 @@ Nossas políticas e procedimentos corporativos de Segurança foram elaborados ba
 
 ### A plataforma VTEX é verificada continuamente através de auditorias externas? O que essas auditorias abordam e com que frequência ocorrem? 
 
-A VTEX é auditada periodicamente para a renovação das nossas certificações SOC 1, 2 e 3 e PCI-DSS. Essas auditorias de certificação acontecem anualmente e cobrem um escopo de Segurança amplo. A certificação PCI-DSS traz possibilita que temos um nível adequado e processos robustos para a proteção dos dados de cartão de pagamento dos shoppers e a certificação SOC (SOC 1,2 e 3) é uma garantia baseada em controles, cobrindo todos os cinco critérios de serviço de confiança para segurança, disponibilidade, integridade de processamento, confidencialidade e privacidade. Além disso a VTEX como uma empresa com capital tem como obrigação a adequação aos requistos da lei SOX (Sarbanes-Oxley), desta forma estamos implementando todos os controles necessários. 
+A VTEX é auditada periodicamente para a renovação das nossas certificações SOC 1, 2 e 3 e PCI-DSS. Essas auditorias de certificação acontecem anualmente e cobrem um escopo de Segurança amplo. A certificação PCI-DSS traz possibilita que temos um nível adequado e processos robustos para a proteção dos dados de cartão de pagamento dos shoppers e a certificação SOC (SOC 1,2 e 3) é uma garantia baseada em controles, cobrindo todos os cinco critérios de serviço de confiança para segurança, disponibilidade, integridade de processamento, confidencialidade e privacidade. Além disso a VTEX como uma empresa com capital tem como obrigação a adequação aos requisitos da lei SOX (Sarbanes-Oxley), desta forma estamos implementando todos os controles necessários. 
 
 ### Como é gerenciado o calendário de auditorias e certificações da VTEX?
 
@@ -75,6 +76,7 @@ A VTEX possui um time de managers, engenheiros e analistas especializados em Seg
 Além da equipe de Segurança da Informação, temos nas outras áreas da companhia diversos engenheiros focados e atuando nos processos de segurança.  
 
 ## Gestão de risco
+
 ### Como a VTEX gerencia os riscos de segurança cibernética na plataforma e infraestrutura interna? 
 
 A VTEX realiza análises regulares de ameaças e vulnerabilidades da plataforma, dos processos operacionais e do negócio. A identificação de riscos desencadeia o aprimoramento de nossos sistemas de monitoramento e notificação para lidar com sua eventual materialização, seja notificando as pessoas aptas a tratá-los, seja acionando ações automatizadas que possam mitigá-los ou eliminá-los. 
@@ -89,20 +91,22 @@ A VTEX possui um processo estabelecido de análise de risco de Segurança da Inf
 Avaliamos a maturidade e postura de segurança desses fornecedores com o objetivo de entender quais são os riscos e lacunas e direcionar essas questões para as devidas tomadas de decisões internas. Além disso todos os fornecedores passam pelo fluxo de avaliação de risco para a aderência as leis de proteção de dados e análise de risco do negócio, somente após todas as avaliações necessárias e com um nível de maturidade adequado seguimos com a contratação.  
 
 ## Acesso, identificação e autenticação
-### A VTEX possui uma politíca de Gestão de Acessos Lógicos? Descreva de modo geral como funciona seus processos relacionados a gestão de acesso.
 
-A VTEX controla e monitora constatemente os acessos aos nossos ambientes de produção. 
+### A VTEX possui uma política de Gestão de Acessos Lógicos? Descreva de modo geral como funciona seus processos relacionados a gestão de acesso.
+
+A VTEX controla e monitora constantemente os acessos aos nossos ambientes de produção. 
 Esta política está alinhada com a nossa prática do Princípio do Mínimo Privilégio e Segregação de Funções, onde o acesso é concedido com base em necessidade legítima, além disso, adotamos processos periódicos de revisão de acessos e perfis. 
+
 Sempre que ocorre um desligamento, nosso processo de revogação é acionado de forma tempestiva. Para o ambiente corporativo possuímos uma política de Gestão de acesso que foi elaborada de acordo com as melhores práticas de mercado como duplo fator de autenticação para acessar nossos servidores e uso de VPN.  
 
 ### A VTEX detém uma política de senha? Se sim, quais são os critérios considerados?
 
-Adotamos configurações seguras e política de senha robusta para o acessos aos nossos sistemas, tais como, quantidade mínima de caracteres e caracteres especiais, periodicidade para alteração das senhas, não utilização das últimas senhas, controle e inatividade de sessão, exemplo a seguir. 
-- Comprimento mínimo de dezesseis caracteres;
-- Devem ser formados a partir da combinação de caracteres alfabéticos, maiúsculos e minúsculos, numéricos e especiais (%, #, $, @, &, entre outros);
-- Não devem ser utilizados números ou letras repetidos, em sequência ou formando séries óbvias, como, por exemplo, “aaaabbbb“, “12345678”, “asdfghjk”;
-- A criptografia forte deve ser usada para tornar todas as credenciais de autenticação ilegíveis durante a transmissão e armazenamento em todos os componentes do sistema;
-- A opção de troca de senha no primeiro login deve estar habilitada;
+Adotamos configurações seguras e política de senha robusta para o acessos aos nossos sistemas, tais como quantidade mínima de caracteres e caracteres especiais, periodicidade para alteração das senhas, não utilização das últimas senhas, controle e inatividade de sessão. Confira exemplos a seguir: 
+- Comprimento mínimo de dezesseis caracteres.
+- Devem ser formados a partir da combinação de caracteres alfabéticos, maiúsculos e minúsculos, numéricos e especiais (%, #, $, @, &, entre outros).
+- Não devem ser utilizados números ou letras repetidos, em sequência ou formando séries óbvias, como, por exemplo, “aaaabbbb“, “12345678”, “asdfghjk”.
+- A criptografia forte deve ser usada para tornar todas as credenciais de autenticação ilegíveis durante a transmissão e armazenamento em todos os componentes do sistema.
+- A opção de troca de senha no primeiro login deve estar habilitada.
 - As senhas usadas anteriormente não devem ser reutilizadas. 
 
 ### No seu ambiente corporativo como é operacionalizado a concessão de acessos aos sistemas internos da VTEX? 
@@ -118,24 +122,27 @@ Sim, a VTEX fornece acesso aos nossos ambientes de produção (codificar, mescla
 Nativamente pelo email ou pelo número de celular. Utilizamos login por e-mail, autenticação 2 MFA, VPN e demais para que somente pessoas autorizadas tenham acesso ao seu trabalho. 
 
 ## Educação e conscientização sobre segurança
+
 ### A VTEX possui processos e procedimentos para a conscientização em segurança da informação? Descreve de modo geral como funciona esse processo atualmente.
 
 Nossos programas abrangentes incluem integração de novos funcionários e treinamento anual de segurança.
-Treinamos funcionários para identificar vetores de ataque usados ​​com frequência, como e-mails de phishing, e como denunciá-los. Isso se aplica a todos os funcionários e através de KPI`s medimos a eficácia dos dos programas de conscientização de segurança.
+Treinamos funcionários para identificar vetores de ataque usados com frequência, como e-mails de phishing, e como denunciá-los. Isso se aplica a todos os funcionários e através de KPIs medimos a eficácia dos dos programas de conscientização de segurança.
+
 Anualmente estabelecemos um calendário para o programa de conscientização, além disso, revisamos sempre os nossos conteúdos, considerando os cenários atuais e os vetores de ataque e vulnerabilidades. 
 
 ### Existem treinamentos técnicos para o time de Segurança? 
 
-A VTEX possui programas e treinamentos internos para aumentar os níveis de senioridade dos nossos engecnheiros, como por exemplo, mecanismos para desenvolvimento seguro, e outros treinamentos que abordam contexto técnico de segurança e privacidade. 
+A VTEX possui programas e treinamentos internos para aumentar os níveis de senioridade dos nossos engenheiros, como por exemplo, mecanismos para desenvolvimento seguro, e outros treinamentos que abordam contexto técnico de segurança e privacidade. 
 
 ### A VTEX adota um programa de conscientização focada na mitigação e proteção contra malware, os funcionários são instruídos sobre esse tema?
 
 A empresa possui programas internos para aumentar a conscientização sobre malware e os problemas decorrentes dele. Todos os funcionários da VTEX são informados regularmente por meio de comunicações internas e treinamento sobre os riscos associados ao malware, como o malware pode se instalar em um dispositivo e os sintomas mais conhecidos de uma máquina que foi infectada por malware. Dentro do treinamento mencionado, os usuários serão instruídos a realizar varreduras manuais com as ferramentas fornecidas pela empresa. Em caso de suspeita ou infecção por malware, é necessário o contato com a equipe responsável para solucionar os problemas relacionados a esta infecção. 
 Adicionalmente, a proteção contra malware é feita com monitoramento constante através das nossas tecnologias de segurança. 
 
-O malware em ambientes de produção é monitorado ativamente pelo software antimalware instalado nas instâncias. Caso um malware seja detectado, a instância afetada é encerrada para que os processos de escalonamento automático criem uma instância limpa do zero. 
+O malware em ambientes de produção é monitorado ativamente pelo software anti-malware instalado nas instâncias. Caso um malware seja detectado, a instância afetada é encerrada para que os processos de escalonamento automático criem uma instância limpa do zero. 
 
 ## Gestão de ativos
+
 ### Como a VTEX gerencia os ativos mais críticos da sua organização?
 
 Os ativos são gerenciados centralmente por meio de um sistema de gerenciamento de inventário que armazena e rastreia o proprietário, a localização, o status, a manutenção e as informações descritivas dos ativos de propriedade da AWS. Após a aquisição, os ativos são verificados e rastreados, e os ativos em manutenção são verificados e monitorados quanto à propriedade, status e resolução 
@@ -211,13 +218,13 @@ Temos um processo in-place para gerenciamento de acessos, o que inclui acesso ao
 ### Quais os recursos de segurança na autenticação e gerenciamento de identidade relevantes estão disponíveis na plataforma? Por exemplo, complexidade de senha, reutilização de senha, tempo limite de sessão, bloqueio de conta, redefinição de senha e multifator de autenticação. 
 
 As senhas sob VTEX ID têm os seguintes requisitos:
-Comprimento mínimo de 8 + Token MFA de 6 dígitos.
-Mínimo de 1 caractere maiúsculo
-Mínimo de 1 dígito
-Mínimo de 1 caractere especial
-Não é possível repetir as últimas 4 senhas usadas
+- Comprimento mínimo de 8 + Token MFA de 6 dígitos.
+- Mínimo de 1 caractere maiúsculo
+- Mínimo de 1 dígito
+- Mínimo de 1 caractere especial
+- Não é possível repetir as últimas 4 senhas usadas
 
-Os clientes que utilizam um Provedor de Identidade externo através da integração serão responsáveis ​​por definir a sua própria política de senha. Além disso expiração da senha a cada 90 dias está prevista na solução VTEX ID.
+Os clientes que utilizam um Provedor de Identidade externo através da integração serão responsáveis por definir a sua própria política de senha. Além disso expiração da senha a cada 90 dias está prevista na solução VTEX ID.
 
 As senhas na vitrine seguem as mesmas regras, exceto pelo requisito de MFA (Múltiplo Fator de Autenticação), que é opcional. Os clientes têm a capacidade de configurar a expiração de senha e garantir que as senhas antigas não sejam reutilizadas, tanto no ambiente administrativo quanto na loja. O tempo limite da sessão também pode ser configurada pelos clientes. 
 
@@ -225,7 +232,7 @@ Os bloqueios de conta acontecem quando são feitas várias tentativas com a senh
 
 ### Como a plataforma armazena e mantém a base de usuários? Como as credenciais dos usuários são armazenadas e protegidas?
 
-As senhas da plataforma VTEX usam uma combinação de hash e salt - atualmente suportamos algoritmos de hash SHA1 e PBKDF2 e usaremos um sal pré ou pós para uma camada adicional de segurança. Os e-mails dos usuários são armazenados e separados logicamente com base em uma determinada conta da loja, e não podem ser acessados, mesmo por funcionários da VTEX, de forma cruzada. Os bancos de dados que contêm os e-mails e hashes são totalmente criptografados com AES-256. 
+As senhas da plataforma VTEX usam uma combinação de hash e salt - atualmente suportamos algoritmos de hash SHA1 e PBKDF2 e usaremos um salt pré ou pós para uma camada adicional de segurança. Os e-mails dos usuários são armazenados e separados logicamente com base em uma determinada conta da loja, e não podem ser acessados, mesmo por funcionários da VTEX, de forma cruzada. Os bancos de dados que contêm os e-mails e hashes são totalmente criptografados com AES-256. 
 
 ### A plataforma da VTEX oferece logon único Single Sign-On (SSO)?
 
@@ -246,9 +253,9 @@ A VTEX mantém a segregação dos dados dos clientes por meios de controles lóg
 
 ### Como o acesso do usuário é administrado na plataforma incluindo mover, adicionar, alterar e excluir contas?
 
-Quando uma conta de ambiente é criada, um usuário mestre, escolhido pelo locatário, é atribuído. Esse usuário mestre é usado pelo próprio locatário para delegar direitos concedidos por meio de funções também criadas por eles. Saiba mais sobre [usuários mestres](https://help.vtex.com/tutorial/what-is-the-master-user--3oPr7YuIkeyqUGmEqIMSEy).
+Quando uma conta de ambiente é criada, um usuário titular, escolhido pelo locatário, é atribuído. Esse usuário titular é usado pelo próprio locatário para delegar direitos concedidos por meio de funções também criadas por eles. Saiba mais sobre [usuários titulares-](https://help.vtex.com/pt/tutorial/o-que-e-o-usuario-titular--3oPr7YuIkEYqUGmEqIMSEy).
 
-As contas de usuário podem ser gerenciadas diretamente do VTEX Admin. Os usuários administradores são atribuídos a uma função, que pode ter uma ou várias permissões atribuídas a ela, definidas pelo usuário mestre ou um usuário com permissões para delegar responsabilidades. À medida que as contas de usuário são alteradas ou excluídas, esses dados são imediatamente replicados em todos os nós que suportam os dados dessa conta. Após a exclusão, os dados são removidos de todos os nós, embora ainda residam em um respectivo backup durante esse backup (normalmente 7 dias). Saiba mais sobre [como o gerenciamento de usuários funciona](https://help.vtex.com/en/tutorial/managing-users--tutorials_512). 
+As contas de usuário podem ser gerenciadas diretamente do VTEX Admin. Os usuários administradores são atribuídos a uma função, que pode ter uma ou várias permissões atribuídas a ela, definidas pelo usuário titular ou um usuário com permissões para delegar responsabilidades. À medida que as contas de usuário são alteradas ou excluídas, esses dados são imediatamente replicados em todos os nós que suportam os dados dessa conta. Após a exclusão, os dados são removidos de todos os nós, embora ainda residam em um respectivo backup durante esse backup (normalmente 7 dias). Saiba mais sobre [como o gerenciamento de usuários funciona](https://help.vtex.com/pt/tutorial/managing-users--tutorials_512). 
 
 ### A plataforma possui funcionalidade para gerenciar, organizar e customizar as permissões de gerenciamento na loja? 
 
@@ -265,8 +272,7 @@ Sim, os bloqueios de conta acontecem quando são feitas várias tentativas errad
 
 ### A plataforma efetua log off da sessão por inatividade?
 
-A plataforma VTEX possui mecanismo de logout por inatividade, um cliente é desconectado no ambiente do checkout  automaticamente após 15 minutos de inatividade.
-Contudo no portal administrativo as configurações de inatividade podem ser habilitadas e configuradas pelo lojista.  
+A plataforma VTEX possui mecanismo de logout por inatividade. Um cliente é desconectado no ambiente do checkout  automaticamente após 15 minutos de inatividade. Contudo, no portal administrativo, as configurações de inatividade podem ser habilitadas e configuradas pelo lojista.  
 
 ### A plataforma é monitorada quanto a avaliação de performance? E quais as variáveis de definem a escalabilidade da plataforma?
 
@@ -274,7 +280,7 @@ A Plataforma da VTEX é uma solução SaaS (Software as a Service) e pode ser ac
 
 ### A plataforma restringe os acessos a IPs públicos da Internet?
 
-O acesso ao portal de administração da loja (Admin) pode ser bloqueado a IPs específicos, se desejado. O ecommerce da loja, por sua vez, sempre é aberta para o público em geral. 
+O acesso ao portal de administração da loja (Admin) pode ser bloqueado a IPs específicos, se desejado. O ecommerce da loja, por sua vez, sempre é aberto para o público em geral. 
 
 ### A solução trabalha com protocolo seguro (HTTPS)?
 
@@ -290,8 +296,9 @@ Por sermos uma plataforma SaaS (Software as a Service) com acesso por web browse
 
 ### A plataforma VTEX utiliza do conceito API First (Application Programming Interface)?
 
-A VTEX prioriza o desenvolvimento da API first, onde todos os dados transacionados dentro da plataforma podem ser manipulados através de APIS que seguem o padrão REST. Saiba mais sobre as [APIs VTEX](https://developers.vtex. com/vtex-developer-docs/reference/get-to-know-vtex-apis).
-A VTEX não apenas segue as melhores práticas, mas também têm muito bem separadas as camadas de back-end, APIs, front-end e componentes APP. Isso garante que cada parte responsável interaja somente com a camada que lhe compete, garantindo assim simplicidade e agilidade, tanto no desenvolvimento quanto na evolução. A documentação de apoio ao desenvolvedor e ao time de TI pode ser acessada no[Developers Portal](https://developers.vtex.com/). 
+A VTEX prioriza o desenvolvimento da API first, onde todos os dados transacionados dentro da plataforma podem ser manipulados através de APIS que seguem o padrão REST. Saiba mais sobre as [APIs VTEX](https://developers.vtex.com/docs/api-reference).
+
+A VTEX não apenas segue as melhores práticas, mas também tem muito bem separadas as camadas de back-end, APIs, front-end e componentes APP. Isso garante que cada parte responsável interaja somente com a camada que lhe compete, garantindo assim simplicidade e agilidade, tanto no desenvolvimento quanto na evolução. A documentação de apoio ao desenvolvedor e ao time de TI pode ser acessada no [Developer Portal](https://developers.vtex.com/). 
 
 ### A solução fornece detecções de anomalias, ou seja, possui a habilidade de detectar comportamentos incomuns e possíveis tráficos maliciosos, além de comportamento de contas de usuário? 
 
@@ -303,7 +310,7 @@ A disponibilidade da plataforma é constantemente monitorada por nosso sistema 
 
 Internamente, a VTEX usa várias ferramentas para monitorar todos os seus componentes, incluindo splunk, honeycomb, AWS Cloudwatch, grafana e outros. Para monitoramento externo disponibilizamos a página [VTEX status](https://status.vtex.com). 
 
-### Como a plataforma é monitorada quanto a avaliação de performance? Quais variaveis definem a escalabidade da solução?
+### Como a plataforma é monitorada quanto a avaliação de performance? Quais variaveis definem a escalabilidade da solução?
 
 Temos diversos indicadores de performance da plataforma que nos indicam que algo possa estar errado. alguns exemplos são: Medição da CPU e memória dos servidores, tempo de resposta de cada requisição, volume médio de venda. 
 
@@ -317,12 +324,12 @@ A VTEX não faz tracking de localização da origem das compras de forma nativa.
 
 ### A plataforma disponibiliza segregação de ambientes para testes, por exemplo, desenvolvimento ou homologação. E poderá ser utilizado para gerenciar a implementação das melhorias na solução?
 
-Para poder controlar o fluxo de atualizações de conteúdo, a VTEX oferece o conceito de workspaces. Um workspace é quase um ambiente "staging" do ambiente de produção. É possível criar quantos workspaces forem necessários para atender a esteira de deploys dos nossos clientes. 
-Além disso, é possível combinar esses ambientes e montar testes A/B nativamente na plataforma. Saiba mais sobre [workspaces](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-creating-a-development-workspace).
+Para poder controlar o fluxo de atualizações de conteúdo, a VTEX oferece o conceito de workspaces. Um workspace é quase um ambiente "staging" do ambiente de produção. É possível criar quantos workspaces forem necessários para atender a esteira de deploys dos nossos clientes. Além disso, é possível combinar esses ambientes e montar testes A/B nativamente na plataforma. Saiba mais sobre [workspaces](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-creating-a-development-workspace).
 
-Esse serviço só está disponível para os clientes que migraram para o VTEX IO, para a versão antiga nós temos a possibilidade de criar um novo ambiente de loja para testes. 
+Esse serviço só está disponível para os clientes que migraram para o VTEX IO, para o Portal CMS Legado existe a possibilidade de criar um novo ambiente de loja para testes. 
 
 ## Auditoria de logs
+
 ###  Qual é o conteúdo mínimo dos logs que são registrados pela Plataforma? 
 
 Todas as operações sensíveis que ocorrem na plataforma têm a geração de logs automática e não é possível desabilitar essa funcionalidade. A VTEX armazena todos os logs de erros da plataforma VTEX em um software SIEM (Security Information and Event Management), cujos dados são acessível pelo time VTEX com finalidade de análise e melhoria do produto. Além disso, a VTEX mantém monitores para determinados padrões nos logs da aplicação e da infraestrutura que indiquem potencial risco de segurança para o sistema, emitindo alertas ou até mesmo contramedidas automáticas quando eles são identificados. 
@@ -342,10 +349,10 @@ No entanto, nossos clientes podem solicitar logs para eventos específicos caso 
 
 ### No caso de um incidente ou violação de segurança para esta solução, qual é o melhor método ponto de contato para relatar e coletar informações sobre o incidente? 
 
-Os logs do sistema VTEX não são acessíveis diretamente aos locatários para garantir a privacidade e a segurança de todos os locatários. No caso de um incidente de segurança, todos os logs relevantes serão coletados e filtrados manualmente e, em seguida, compartilhados com os locatários afetados. Os logs também podem ser solicitados pelo locatário caso a caso.
-Caso o locatário deseje uma abordagem mais prática de segurança, ele poderá implementar o proxy reverso e, com a implementação, terá acesso direto aos logs de conexão ao seu ambiente.
+Os logs do sistema VTEX não são acessíveis diretamente aos locatários para garantir a privacidade e a segurança de todos os locatários. No caso de um incidente de segurança, todos os logs relevantes serão coletados e filtrados manualmente e, em seguida, compartilhados com os locatários afetados. Os logs também podem ser solicitados pelo locatário caso a caso. Caso o locatário deseje uma abordagem mais prática de segurança, ele poderá implementar o proxy reverso e, com a implementação, terá acesso direto aos logs de conexão ao seu ambiente.
 
 ## Desenvolvimento seguro
+
 ### Quais são as boas práticas de segurança para desenvolvimento que a companhia utiliza? 
 
 O ciclo de vida do software é suportado por processos altamente automatizados. Toda vez que um time de desenvolvimento considera que tem uma versão pronta de um componente pelo qual é responsável, essa versão é marcada com uma TAG no sistema de controle de versão (git) e isso dispara um processo automatizado de deployment, seja para o ambiente BETA, onde são testadas as próximas versões, seja para o ambiente STABLE, que é o ambiente de produção de fato. Além do teste em BETA, que é feito pelos times de QA mas também pode ser feito pelos próprios tenants, os testes automatizados são atualizados para adequarem-se a novas funcionalidades ou situações. Esses testes são utilizados para monitorar possíveis regressões no ambiente de produção por uma versão nova ou por eventuais problemas de infraestrutura. 
@@ -363,7 +370,8 @@ Sim, os princípios do OWASP são seguidos pelos desenvolvedores, e a revisão p
 VTEX usa Github como sistema de controle de origem. Os repositórios são privados. Adicionar e remover usuários da organização faz parte dos processos de contratação e demissão dos programadores. Apenas os desenvolvedores VTEX têm acesso aos repositórios de código. Portanto utilizamos o Git para fins de controle de código-fonte e informações sobre bibliotecas e pacotes de Software, também possuímos um scan estático de código. 
 
 ## Segurança de dados
-### Sua organização processa  informações de identificação pessoal (PII)?
+
+### A VTEX processa informações de identificação pessoal (PII)?
 
 Sim processamos dados PII. Atualmente, realizamos a criptografia de acordo com as exigências dos regulamentos de privacidade e conformidade relacionados a PII e dados de cartão de pagamento, reforçando nosso compromisso com o cumprimento do GDPR. 
 
@@ -377,11 +385,10 @@ A VTEX não transfere dados via servidores, portanto, todos os nossos dados são
 
 ### Quais são as capacidades da solução para prevenção de vazamento de dados?
 
-Investimos em medidas preventivas e métodos que aumentem a segurança da nossa plataforma e a insfraestrutura que suporta a plataforma. Além disso, constamente reforçamos o gerenciamento dos acessos aos sistemas, principalmente aos que possuem que possuem dados sensíveis, adotando sempre o mínimo de privilégio possível. Também, existem diretrizes gerais que devem ser seguidas ao operar em um ambienteregulamentado, como com dados de cartões de pagamentod (PCI-DSS) e aos aplicavéis as leis de proteção de dados e etc. 
+Investimos em medidas preventivas e métodos que aumentem a segurança da nossa plataforma e a infraestrutura que suporta a plataforma. Além disso, constantemente reforçamos o gerenciamento dos acessos aos sistemas, principalmente aos que possuem que possuem dados sensíveis, adotando sempre o mínimo de privilégio possível. Também, existem diretrizes gerais que devem ser seguidas ao operar em um ambiente regulamentado, como com dados de cartões de pagamentos (PCI-DSS) e aos aplicáveis as leis de proteção de dados, etc.
+
 Analisamos a forma como as informações são tratadas de um ambiente para outro, seja interno ou externo, sempre focando na prevenção que pessoas que não precisam saber de algumas informações, continuem não cientes sobre, diminuindo o perímetro de segurança. Outras atuações bastante presente na nossa tentativa de previnir vazamentos de dados são: Estamos sempre conscientizando os profissionais com as boas práticas sobre segurança da informação, com treinamentos e capacitação constantes; Estamos sempre tentando automatizar os controles de processos, ou seja, os computadores são muito melhores em manter a uniformidade do que as pessoas; Por fim, consideramos o processo contra vazamento de dados como um organismo vivo, sendo continuamente atualizado conforme forem surgindo novos riscos, demandas tecnológicas ou estratégicas da empresa. 
 
 ### Você pode garantir que os dados não migrem além de uma região geográfica definida?
 
-Atualmente, a maioria dos dados armazenados pela VTEX são baseados na AWS us-east-1. Isso significa que o cliente não pode definir a região geográfica, mas também significa que, a menos que autorizado pelo cliente, a VTEX não migrará os dados para fora dessa região. Vale ainda incluir que recentemente implementamos uma segunda região na Europa para residência de dados, não para todos os módulos, mas para os principais que trabalham com dados PII.
-
-Então através de uma configuração na loja nós saberemos em qual região os dados dessa loja devem residir. 
+Atualmente, a maioria dos dados armazenados pela VTEX são baseados na AWS us-east-1. Isso significa que o cliente não pode definir a região geográfica, mas também significa que, a menos que autorizado pelo cliente, a VTEX não migrará os dados para fora dessa região. Vale ainda incluir que recentemente implementamos uma segunda região na Europa para residência de dados, não para todos os módulos, mas para os principais que trabalham com dados PII. Então, através de uma configuração na loja nós saberemos em qual região os dados dessa loja devem residir.

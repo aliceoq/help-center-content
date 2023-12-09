@@ -3,8 +3,8 @@ title: 'Como transformar o site da minha loja em um PWA'
 id: 3i8VmYeToAUGKgo2kKK6I2
 status: PUBLISHED
 createdAt: 2018-03-19T18:20:25.794Z
-updatedAt: 2023-03-29T13:18:46.962Z
-publishedAt: 2023-03-29T13:18:46.962Z
+updatedAt: 2023-07-10T14:28:55.813Z
+publishedAt: 2023-07-10T14:28:55.813Z
 firstPublishedAt: 2018-03-20T14:54:55.189Z
 contentType: tutorial
 productTeam: Others
@@ -66,7 +66,7 @@ __Para criar o JSON, siga o passo a passo abaixo:__
 
 __Seu arquivo deve ser importado no index.html, assim:__
 
-`<link rel="manifest" href="/files/manifest.json">`
+`<link rel="manifest" href="/arquivos/manifest.json">`
 
 Depois disso, sua aplicação web poderá abrir um splash screen exatamente igual aos apps nativos.
 
@@ -83,7 +83,7 @@ __Para criar o script, siga o passo a passo abaixo:__
 6.  Programe a funcionalidade.
 7.  Para finalizar, clique em __Salvar__.
 
-Apesar de o arquivo se encontrar em `/files/service-worker.js`, ele recebe o header `Service-Worker-Allowed` com valor `/`, o que permite interceptar requests da raiz do site.
+Apesar de o arquivo se encontrar em `/arquivos/service-worker.js`, ele recebe o header `Service-Worker-Allowed` com valor `/`, o que permite interceptar requests da raiz do site.
 
 ### Terceiro passo
 A forma fácil de saber se você está no caminho certo na construção do seu PWA é usar alguma ferramenta de inspeção, como o Lighthouse do Google.

@@ -3,8 +3,8 @@ title: 'Configurar pago con Conekta'
 id: 7kiAD3SlnABF75xLSL3eSA
 status: PUBLISHED
 createdAt: 2022-08-11T12:41:42.110Z
-updatedAt: 2023-03-26T21:16:15.989Z
-publishedAt: 2023-03-26T21:16:15.989Z
+updatedAt: 2023-10-18T15:03:15.820Z
+publishedAt: 2023-10-18T15:03:15.820Z
 firstPublishedAt: 2022-08-11T12:54:43.579Z
 contentType: tutorial
 productTeam: Financial

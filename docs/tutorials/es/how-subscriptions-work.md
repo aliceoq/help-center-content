@@ -3,8 +3,8 @@ title: 'Cómo funciona Suscripciones '
 id: frequentlyAskedQuestions_4453
 status: PUBLISHED
 createdAt: 2019-01-24T20:46:00.886Z
-updatedAt: 2023-02-15T23:42:14.386Z
-publishedAt: 2023-02-15T23:42:14.386Z
+updatedAt: 2023-08-30T18:53:03.830Z
+publishedAt: 2023-08-30T18:53:03.830Z
 firstPublishedAt: 2019-01-24T22:14:56.290Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -21,7 +21,7 @@ Su cliente indica con qué frecuencia desea repetir la compra de un determinado 
 
 Una suscripción para VTEX consiste en una lista de SKUs vinculada a cierta configuración de compra. Todas las operaciones de gestión giran en torno a la entidad «Suscripción», que contiene toda la información necesaria para generar el pedido correspondiente. El diagrama a continuación presenta el concepto de suscripción:
 
-![img8 subscriptions ES](https://images.ctfassets.net/alneenqid6w5/1tNo9gQza7gWuDXZPRxQRO/0d226ff2f1bbcf31e803c7b9d297e35a/img8_subscriptions_ES_2.png)
+![img8 subscriptions ES](//images.ctfassets.net/alneenqid6w5/1tNo9gQza7gWuDXZPRxQRO/0d226ff2f1bbcf31e803c7b9d297e35a/img8_subscriptions_ES_2.png)
 
 La suscripción es una forma simple de ahorrarle tiempo a su cliente y traer un flujo programado de ventas adicional a su tienda. 
 
@@ -42,6 +42,10 @@ El cliente de su tienda tiene acceso a la creación de suscripciones en la pági
 Para ello, solo hay que entrar a la página **Mi cuenta** en el sitio web de su tienda, acceder a la sección **Suscripciones** y hacer clic en el botón **Nueva suscripción**. Una vez que se registren los métodos de pago y la dirección de entrega, solo hay que hacer clic en el botón **Suscribirse** para activar la suscripción de los productos seleccionados.
 
 ## Cómo el cliente de su tienda visualiza las Suscripciones
+
+<div class = "alert alert-info">
+En <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>, los clientes solo pueden acceder a los pedidos de los últimos dos años. Para obtener información sobre pedidos de años anteriores, los administradores de la tienda deben comunicarse con <a href="https://support.vtex.com/hc/pt-br/requests">nuestro Soporte</a>. El acceso a la información es temporal y dura 15 días.
+</div>
 
 Después de finalizar el pedido con Suscripción, su cliente visualiza en la página **Mi cuenta** la sección **Suscripciones**. En esta sección, el cliente también puede encontrar la lista de suscripciones realizadas con los detalles y el estado individual. Su cliente también recibirá por *email* una confirmación de la suscripción y del pedido generado.
 

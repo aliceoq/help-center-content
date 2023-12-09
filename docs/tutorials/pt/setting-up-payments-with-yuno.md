@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Yuno'
 id: h7PS0vDJJokqI9axZPNzE
 status: PUBLISHED
 createdAt: 2023-04-14T12:42:43.736Z
-updatedAt: 2023-04-14T13:21:45.782Z
-publishedAt: 2023-04-14T13:21:45.782Z
+updatedAt: 2023-10-18T15:13:37.991Z
+publishedAt: 2023-10-18T15:13:37.991Z
 firstPublishedAt: 2023-04-14T13:21:45.782Z
 contentType: tutorial
 productTeam: Financial

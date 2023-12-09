@@ -3,8 +3,8 @@ title: 'Multilevel Omnichannel Inventory'
 id: 7M1xyCZWUyCB7PcjNtOyw4
 status: PUBLISHED
 createdAt: 2020-11-30T19:44:58.255Z
-updatedAt: 2023-04-19T00:59:40.265Z
-publishedAt: 2023-04-19T00:59:40.265Z
+updatedAt: 2023-08-15T20:05:09.731Z
+publishedAt: 2023-08-15T20:05:09.731Z
 firstPublishedAt: 2020-12-08T19:12:43.325Z
 contentType: tutorial
 productTeam: Shopping
@@ -38,7 +38,7 @@ También es posible que este _seller_ principal venda sus productos en un _marke
 
 Cuando esto ocurre, tenemos una arquitectura de tres niveles entre el _marketplace_, el _seller_ principal y sus _sellers white label_, como se ilustra en la imagen de abajo.
 
-![Arquitetura Multilevel omichannel inventory](https://images.ctfassets.net/alneenqid6w5/7k6hYv3kWxBVZrPFkUbsCK/abf2341444442ee6ef770afdfd044a06/Screen_Shot_2022-09-30_at_18.57.26.png)
+![Arquitetura Multilevel omichannel inventory](//images.ctfassets.net/alneenqid6w5/7k6hYv3kWxBVZrPFkUbsCK/abf2341444442ee6ef770afdfd044a06/Screen_Shot_2022-09-30_at_18.57.26.png)
 
 Por defecto, los productos de las tiendas físicas, o _sellers white label_ (nivel 3 en la imagen), no están disponibles para ser vendidos por el _marketplace_ de nivel 1. Pero puedes hacer que estén disponibles con la funcionalidad _Multilevel omnichannel inventory._
 
@@ -71,7 +71,7 @@ Algunas de las funcionalidades que forman parte del modelo tradicional de _marke
 
 ### Marketplaces externos
 
-Esta funcionalidad puede configurarse en [marketplaces VTEX](https://help.vtex.com/es/tutorial/marketplace-strategies-at-vtex--tutorials_402#ser-un-marketplace-vtex), [conectores nativos](https://help.vtex.com/es/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-con-un-conector-nativo-vtex) y [partners certificados](https://help.vtex.com/es/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-con-un-conector-certificado-partner). Además,[Mercado Libre](https://help.vtex.com/es/tracks/configurar-integracao-do-mercado-livre--2YfvI3Jxe0CGIKoWIGQEIq) ya permite la integración del _stock_ de la tienda física.
+Esta funcionalidad puede configurarse en [marketplaces VTEX](https://help.vtex.com/es/tutorial/marketplace-strategies-at-vtex--tutorials_402#ser-un-marketplace-vtex), [conectores nativos](https://help.vtex.com/es/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-con-un-conector-nativo-vtex) y [partners certificados](https://help.vtex.com/es/tutorial/marketplace-strategies-at-vtex--tutorials_402#integrado-con-un-conector-certificado-partner).
 
 Aunque los _marketplaces_ soporten la funcionalidad, no está disponible automáticamente para ellos. Es necesario configurar y adaptar la integración para cada uno. Esto se aplica a los _marketplaces_ integrados por primera vez y a los que ya utilizaban la API de _fulfillment_, que está restringida a dos niveles. Obtén más información en [Cómo configurar](#como-configurar) y en nuestro artículo en el [Developer portal](https://developers.vtex.com/vtex-rest-api/docs/multilevel-omnichannel-inventory).
 

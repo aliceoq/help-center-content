@@ -3,8 +3,8 @@ title: 'How subscriptions work'
 id: frequentlyAskedQuestions_4453
 status: PUBLISHED
 createdAt: 2019-01-24T20:46:00.886Z
-updatedAt: 2023-02-15T23:42:14.386Z
-publishedAt: 2023-02-15T23:42:14.386Z
+updatedAt: 2023-08-30T18:53:03.830Z
+publishedAt: 2023-08-30T18:53:03.830Z
 firstPublishedAt: 2019-01-24T22:14:56.290Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -21,7 +21,7 @@ Your customers indicate how often they want to repeat the purchase of a specific
 
 For VTEX, a subscription consists of an SKU list that is linked to a specific purchase configuration. All management operations are based on the Subscription entity, which contains all the necessary information to generate a recurring order. The diagram below illustrates the subscription concept:
 
-![img8 subscriptions EN](https://images.ctfassets.net/alneenqid6w5/1tNo9gQza7gWuDXZPRxQRO/33a97511d0c48f954b9de33bcad8fa40/img8_subscriptions_EN.png)
+![img8 subscriptions EN](//images.ctfassets.net/alneenqid6w5/1tNo9gQza7gWuDXZPRxQRO/33a97511d0c48f954b9de33bcad8fa40/img8_subscriptions_EN.png)
 
 Subscription is a simple solution to save your customer's time and to add a scheduled sales flow to your store.
 
@@ -43,9 +43,13 @@ To do that, go to the **My Account** page on your store's website, access the **
 
 ## How your customers view and manage their subscriptions
 
+<div class = "alert alert-info">
+In <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>, customers can only access their orders from the last two years. For information about orders from previous years, merchants need to contact <a href="https://support.vtex.com/hc/pt-br/requests">our Support</a>. Access to previous order data is temporary and will be available for 15 days.
+</div>
+
 A list of all the customer’s subscriptions, containing their details and statuses, will be displayed in the **Subscriptions** section, on the **My Account** page. Your customer will also receive a confirmation of the subscription and the generated order by email.  
 
-You will communicate with your customers about their subscriptions through the **Message Center** module. Please read our article about **[Transactional emails for subscription orders](https://help.vtex.com/en/tutorial/e-mails-transacionais-para-pedidos-de-assinatura--2NYHqHMRqZ43Cn6s84ZCB5). 
+You will communicate with your customers about their subscriptions through the **Message Center** module. Please read our article about [Transactional emails for subscription orders](https://help.vtex.com/en/tutorial/e-mails-transacionais-para-pedidos-de-assinatura--2NYHqHMRqZ43Cn6s84ZCB5). 
 
 ### Subscription details
 

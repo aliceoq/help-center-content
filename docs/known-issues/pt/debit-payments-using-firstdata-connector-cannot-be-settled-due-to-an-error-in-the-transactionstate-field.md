@@ -3,8 +3,8 @@ title: 'Os pagamentos de débito usando o conector Firstdata não podem ser liqu
 id: 6imTj4PTpJGGFqyhSLTPu9
 status: PUBLISHED
 createdAt: 2022-03-03T21:59:55.119Z
-updatedAt: 2022-11-25T22:05:01.885Z
-publishedAt: 2022-11-25T22:05:01.885Z
+updatedAt: 2023-06-23T17:24:50.529Z
+publishedAt: 2023-06-23T17:24:50.529Z
 firstPublishedAt: 2022-03-03T21:59:55.506Z
 contentType: knownIssue
 productTeam: Payments
@@ -23,26 +23,25 @@ internalReference: 461095
 </div>
 
 
-Ao utilizar o conector Firstdata para processar pagamentos de débito, nosso código espera que o campo `TransactionState` seja "CAPTURADO". Entretanto, o provedor está enviando "CAPTURED", bem como "SETTLED", o que desencadeia um erro:
+Ao utilizar o conector Firstdata para processar pagamentos de débito, nosso código foi projetado para esperar que o campo TransactionState seja definido como "CAPTURED". No entanto, encontramos um problema em que o provedor está enviando os valores "CAPTURED" e "SETTLED", o que está causando um erro:
 
-Mensagem: Unknown Error on AutoSettleHá um erro no documento XML (1, 745).
-&
-Erro ao executar a operação de liquidação. Por favor, veja a exceção interna. Conector = Primeiros dados. Mensagem = A cadeia de entrada não estava em um formato correto.
 
-Não consegui encontrar na documentação dos primeiros dados qual é a correta, mas existem exemplos para ambos.
-
+    Mensagem de erro: Erro desconhecido no AutoSettle. Há um erro no documento XML (1, 745). & Erro ao executar a operação de liquidação. Consulte a exceção interna. Conector: Firstdata. Mensagem: A string de entrada não estava no formato correto.
 
 
 ## Simulação
 
 
-
-Às vezes, quando uma transação é cancelada usando este conector, é possível observar este comportamento.
+Não é possível simular, pois esse é um comportamento intermitente que depende da resposta do provedor de pagamento.
 
 
 
 ## Workaround
 
 
-Não há nenhuma solução disponível.
+N/A
+
+
+
+
 

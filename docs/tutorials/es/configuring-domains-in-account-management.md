@@ -3,8 +3,8 @@ title: 'Configuración del dominio de su tienda'
 id: tutorials_2450
 status: PUBLISHED
 createdAt: 2017-04-27T21:55:00.603Z
-updatedAt: 2023-05-31T22:31:46.690Z
-publishedAt: 2023-05-31T22:31:46.690Z
+updatedAt: 2023-07-04T12:17:10.104Z
+publishedAt: 2023-07-04T12:17:10.104Z
 firstPublishedAt: 2017-04-27T23:03:51.625Z
 contentType: tutorial
 productTeam: Identity
@@ -23,8 +23,8 @@ En caso de que su operación tenga más de una cuenta o subcuentas VTEX, no inte
 
 <div class="alert alert-warning">
 Si agregas más de un dominio como host de tu tienda, todos ellos mostrarán el mismo contenido. Sin embargo, recomendamos registrar solo un dominio y utilizar redirecciones para los demás. Obtenga más información sobre redirecciones:
-<ul><li><a href=”https://help.vtex.com/es/tutorial/redirecionamento-de-outros-enderecos--3Xi2AeLUx2QpJQu8DTX8KQ”>Redirección de otras direcciones</a></li>
-  <li><a href=”https://help.vtex.com/es/tutorial/configurando-acesso-sem-www--tutorials_4278”>Configurar acceso sin www</a></li></ul> 
+<ul><li><a href="https://help.vtex.com/es/tutorial/redirecionamento-de-outros-enderecos--3Xi2AeLUx2QpJQu8DTX8KQ">Redirección de otras direcciones</a></li>
+  <li><a href="https://help.vtex.com/es/tutorial/configurando-acesso-sem-www--tutorials_4278">Configurar acceso sin www</a></li></ul> 
 </div>
 
 ## Subdominio
@@ -44,9 +44,9 @@ Todo dominio registrado de esta forma debe contener un subdominio, que puede ser
 1. Haz clic en tu avatar de perfil, marcado con la inicial de tu email.
 2. Haz clic en el botón **Configuración de la cuenta**. 
 3. Seleccione **Cuenta**.
-4. Haz clic en la pestaña **Tiendas.**
+4. Haz clic en la pestaña **Tiendas**.
 5. Haz clic en el botón de acciones <i class="fas fa-ellipsis-v"></i> correspondiente a la tienda donde deseas registrar el dominio.
-6. Ingresa el dominio en el campo **Hosts.**
+6. Ingresa el dominio en el campo **Hosts**.
 7. Haz clic en el botón `Agregar`.
 8. Haz clic en el botón `Guardar`.
 
@@ -59,5 +59,6 @@ La plataforma VTEX está lista para cambios de domínio sin impactos negativos. 
 1. Crear nuevas entradas Host. Todavía el DNS del nuevo dominio no debe estar apuntado para VTEX.
 2. Fijar las configuraciones del nuevo Portal. Es paso es fundamental para que el Checkout funcione correctamente. Es necesario fijar si los “Sites” registrados están relacionados con algún Account Name creado en License Manager. Lea más acerca de las [configuraciones del Portal](/es/faq/configurar-template-en-el-smartcheckout/).
 3. Apuntar DNS del nuevo dominio para VTEX. Lea más acerca del [apuntamento de DNS](/es/tutorial/configurando-el-apuntamiento-del-dns-para-vtex/).
-4. Después de la propagación de DNS del nuevo host, elimine los antiguos y conserve solo los nuevos.
+4. Ponte en contacto con el [soporte de VTEX](https://help.vtex.com/es/support) y solicita el apuntamiento interno, proporcionando el nuevo dominio. Una vez abierto el ticket, el equipo de soporte tiene hasta tres días hábiles para analizar las configuraciones y realizar el apuntamiento.
+5. Después de confirmar el apuntamiento interno y la propagación de DNS del nuevo host, elimine los antiguos y conserve solo los nuevos.
 

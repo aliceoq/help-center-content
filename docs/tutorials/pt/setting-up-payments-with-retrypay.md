@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Retrypay'
 id: 3QGioVKVI1Qnk3JbbJlJVY
 status: PUBLISHED
 createdAt: 2023-03-30T19:35:06.661Z
-updatedAt: 2023-03-30T20:01:51.283Z
-publishedAt: 2023-03-30T20:01:51.283Z
+updatedAt: 2023-10-18T12:06:49.130Z
+publishedAt: 2023-10-18T12:06:49.130Z
 firstPublishedAt: 2023-03-30T20:01:51.283Z
 contentType: tutorial
 productTeam: Financial
@@ -29,7 +29,7 @@ Para configurar a afiliação Retrypay, siga os passos abaixo:
 
 ## Configurar condição de pagamento Promissória
 
-Caso deseje utilizar o Retrypay com promissória e ainda não tenha configurado a promissória como método de pagamento em outros conectores de sua loja, acesse [Configurar pagamentos com Promissória](https://help.vtex.com/pt/tutorial/configurar-pagamentos-com-promissoria--5pW7avTwtyQcMu4uiW8quQ).
+Caso deseje utilizar o Retrypay com promissória e ainda não tenha configurado a promissória como método de pagamento em outros conectores de sua loja, acesse [Configurar pagamentos com Promissória](https://help.vtex.com/pt/tutorial/configurar-pagamentos-com-promissoria).
 
 Depois, siga os passos abaixo:
 

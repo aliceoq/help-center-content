@@ -3,8 +3,8 @@ title: 'Configurar pago con SIBS'
 id: sNLPtJlAMnDpq40CCPKNo
 status: PUBLISHED
 createdAt: 2023-04-06T18:57:27.591Z
-updatedAt: 2023-04-06T19:07:28.327Z
-publishedAt: 2023-04-06T19:07:28.327Z
+updatedAt: 2023-10-18T16:57:05.576Z
+publishedAt: 2023-10-18T16:57:05.576Z
 firstPublishedAt: 2023-04-06T19:07:28.327Z
 contentType: tutorial
 productTeam: Financial

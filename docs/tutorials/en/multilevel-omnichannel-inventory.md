@@ -3,8 +3,8 @@ title: 'Multilevel Omnichannel Inventory'
 id: 7M1xyCZWUyCB7PcjNtOyw4
 status: PUBLISHED
 createdAt: 2020-11-30T19:44:58.255Z
-updatedAt: 2023-04-19T00:59:40.265Z
-publishedAt: 2023-04-19T00:59:40.265Z
+updatedAt: 2023-08-15T20:05:09.731Z
+publishedAt: 2023-08-15T20:05:09.731Z
 firstPublishedAt: 2020-12-08T19:12:43.325Z
 contentType: tutorial
 productTeam: Shopping
@@ -38,7 +38,7 @@ The main seller may also sell its products in a marketplace.
 
 In this case, there is a three-tier architecture between the marketplace, the main seller, and its white-label sellers, as shown in the image below.
 
-![Arquitetura Multilevel omichannel inventory](https://images.ctfassets.net/alneenqid6w5/7k6hYv3kWxBVZrPFkUbsCK/fd36e953d3a8f70d068bcd69991e998c/Screen_Shot_2022-09-30_at_18.57.26.png)
+![Arquitetura Multilevel omichannel inventory](//images.ctfassets.net/alneenqid6w5/7k6hYv3kWxBVZrPFkUbsCK/fd36e953d3a8f70d068bcd69991e998c/Screen_Shot_2022-09-30_at_18.57.26.png)
 
 By default, products from physical stores, or white-label sellers (level 3 in the image), are not available for selling in the marketplace (level 1 in the image). But you can make them available using the _Multilevel Omnichannel Inventory_ capability. 
 

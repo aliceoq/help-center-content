@@ -3,8 +3,8 @@ title: 'Configurando o domínio da sua loja'
 id: tutorials_2450
 status: PUBLISHED
 createdAt: 2017-04-27T21:55:00.603Z
-updatedAt: 2023-05-31T22:31:46.690Z
-publishedAt: 2023-05-31T22:31:46.690Z
+updatedAt: 2023-07-04T12:17:10.104Z
+publishedAt: 2023-07-04T12:17:10.104Z
 firstPublishedAt: 2017-04-27T23:03:51.625Z
 contentType: tutorial
 productTeam: Identity
@@ -23,8 +23,8 @@ Caso a sua operação possua mais de uma conta VTEX ou subcontas, não troque o 
 
 <div class="alert alert-warning">
 Se você adicionar mais de um domínio como host da sua loja, todos exibirão o mesmo conteúdo. No entanto, para atingir este objetivo recomendamos que cadastre apenas um domínio e use redirecionamentos para os outros. Saiba mais sobre redirecionamentos:
-<ul><li><a href=”https://help.vtex.com/pt/tutorial/redirecionamento-de-outros-enderecos--3Xi2AeLUx2QpJQu8DTX8KQ”>Redirecionamento de outros endereços</a></li>
-<li><a href=”https://help.vtex.com/pt/tutorial/configurando-acesso-sem-www--tutorials_4278”>Configurar acesso sem www</a></li></ul> 
+<ul><li><a href="https://help.vtex.com/pt/tutorial/redirecionamento-de-outros-enderecos--3Xi2AeLUx2QpJQu8DTX8KQ">Redirecionamento de outros endereços</a></li>
+<li><a href="https://help.vtex.com/pt/tutorial/configurando-acesso-sem-www--tutorials_4278">Configurar acesso sem www</a></li></ul> 
 </div>
 
 ## Subdomínio
@@ -59,5 +59,6 @@ A plataforma VTEX é preparada para suportar mudanças de domínios sem impactos
 1. Crie novas entradas host para a loja desejada. Nesse momento, o DNS do novo domínio ainda não deve estar apontado para a VTEX. 
 2. Confira configurações do novo Portal. Esse passo é fundamental para que o Checkout continue funcionando após a mudança. É necessário conferir se os Sites configurados estão relacionados a algum Account Name inexistente no License Manager. Leia mais sobre [configurações do portal](/pt/faq/configurar-template-no-smartcheckout/).
 3. Aponte DNS do novo domínio para a VTEX. Leia mais sobre [apontamento de DNS](/pt/tutorial/configurando-o-apontamento-de-dns-para-a-vtex/).
-4. Após a propagação de DNS do novo host, exclua os hosts antigos, mantendo apenas o novo.
+4.  Entre em contato com o [suporte VTEX](https://help.vtex.com/pt/support) e solicite apontamento interno, informando o novo domínio. Uma vez aberto o chamado, o time de suporte tem até três dias úteis para analisar as configurações e realizar o apontamento.
+5.  Após a confirmação de apontamento interno e propagação de DNS do novo host, exclua os hosts antigos, mantendo apenas o novo.
 

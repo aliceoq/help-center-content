@@ -3,8 +3,8 @@ title: 'Configuring ClearSale v3 antifraud'
 id: 2pPORygesIqQOa6cIG6agg
 status: PUBLISHED
 createdAt: 2017-10-30T14:10:20.822Z
-updatedAt: 2021-12-15T21:23:21.984Z
-publishedAt: 2021-12-15T21:23:21.984Z
+updatedAt: 2023-07-28T13:50:33.099Z
+publishedAt: 2023-07-28T13:50:33.099Z
 firstPublishedAt: 2017-10-30T14:26:53.089Z
 contentType: tutorial
 productTeam: Financial
@@ -31,6 +31,10 @@ The ClearSale documentation on <a href="https://api.clearsale.com.br/docs/finger
 
 <div class="alert alert-warning">
 If you want to set up the <strong>ClearSale T</strong> anti-fraud, just follow <a href="http://help.vtex.com/en/tutorial/how-to-configure-the-anti-fraud">these instructions</a>.
+</div>
+
+<div class="alert alert-warning">
+To implement the Fingerprint Headless device in mobile apps, use the <a href="https://www2.clear.sale/developers/mobile-sdk">Clearsale SDK</a>. It is necessary to send the <span class="bg-muted-4">deviceFingerprint</span> field with the device's <span class="bg-muted-4">sessionId</span> via <a href="https://www2.clear.sale/developers/mobile-sdk">API when creating the payment</a>.
 </div>
 
 ## Creating a Google Tag Manager tag

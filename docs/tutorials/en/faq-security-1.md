@@ -3,7 +3,7 @@ title: 'FAQ - Security 1'
 id: 7AmPOGXykmE9SYyYDzdAZ4
 status: DRAFT
 createdAt: 2022-05-26T00:09:53.997Z
-updatedAt: 2022-08-22T12:22:09.869Z
+updatedAt: 2023-08-01T22:28:02.023Z
 publishedAt: 
 firstPublishedAt: 2022-06-02T18:56:44.116Z
 contentType: tutorial
@@ -82,7 +82,7 @@ VTEX conducts regular threat and vulnerability analyses of the platform, operati
 
 ### Are information security policies and controls contractually applied to third-party providers?
 
-VTEX ensures that its outsourced providers respect and follow the same security policies offered by VTEX. Here is a [list of all of our third-party infrastructure providers](https://vtex.com/us-en/privacy-and-agreements/subprocessors/) 
+VTEX ensures that its outsourced providers respect and follow the same security policies offered by VTEX. Here is a [list of all of our third-party infrastructure providers](https://vtex.com/us-en/privacy-and-agreements/subprocessors/).
 
 ### Do you have a vendor risk management program?
 
@@ -160,18 +160,17 @@ VTEX has a DPO responsible for coordinating the privacy program.
 
 ### What kind of personal data does VTEX handle on behalf of its customers?
 
-VTEX handles personal information on behalf of its customers, such as name, postal address, telephone or mobile number, email address, address, and other information that the customer may deem necessary. See our Data Processing Addendum (ATD) for more information: https://vtex.com/us-en/data-processing-addendum/.  
+VTEX handles personal information on behalf of its customers, such as name, postal address, telephone or mobile number, email address, address, and other information that the customer may deem necessary. See our [Data Processing Addendum (ATD)](https://vtex.com/us-en/data-processing-addendum/) for more information.  
 
 ### How does VTEX comply with LGPD (the Brazilian legislation) and GDPR (the European legislation)?
 
-VTEX is fully committed to complying with data protection regulations. We are creating a space in which we can disclose the measures we have already taken to deal with this very important issue. You can read more about our commitment to controllers (you, our customer) and the principles of both LGPD and GDPR in "What is LGPD?" and "What is GDPR?" respectively in VTEX's Commitment section at https://vtex.com/us-en/trust/. Currently, the tools provided by VTEX, through our GUI and our APIs, enable our tenants to be GDPR compliant. This means that we also have methods to comply with requests from personal data subjects, and that our product follows the standards set by European legislation.
+VTEX is fully committed to complying with data protection regulations. We are creating a space in which we can disclose the measures we have already taken to deal with this very important issue. You can read more about our commitment to controllers (you, our customer) and the principles of both LGPD and GDPR in "What is LGPD?" and "What is GDPR?" respectively in VTEX's Commitment section at [VTEX Trust Hub](https://vtex.com/us-en/trust/). Currently, the tools provided by VTEX, through our GUI and our APIs, enable our tenants to be GDPR compliant. This means that we also have methods to comply with requests from personal data subjects, and that our product follows the standards set by European legislation.
 
-Our contracts, policies, and notifications are already compliant with LGPD and GDPR, as you can see in VTEX Trust Hub, available at
-https://vtex.com/us-en/trust/. We also invite you to view our Data Handling Processing Addendum to understand how we handle customer data at https://vtex.com/us-en/data-processing-addendum/. 
+Our contracts, policies, and notifications are already compliant with LGPD and GDPR, as you can see in [VTEX Trust Hub](https://vtex.com/us-en/trust/). We also invite you to view our [Data Handling Processing Addendum](https://vtex.com/us-en/data-processing-addendum/) to understand how we handle customer data. 
 
 ### What rights of the titleholders are guaranteed by the VTEX platform?
 
-In the majority of cases, VTEX acts as a data operator in relation to the shopper data handled by its customers. Thus, VTEX must fulfill the rights of data subjects only under direct orders from its customers, the data controllers. For more details, please see the Data Subject Rights clause of the VTEX DPA, available at: https://vtex.com/us-en/privacy-and-agreements/data-processing-addendum/. 
+In the majority of cases, VTEX acts as a data operator in relation to the shopper data handled by its customers. Thus, VTEX must fulfill the rights of data subjects only under direct orders from its customers, the data controllers. For more details, please see the Data Subject Rights clause of the [VTEX DPA](https://vtex.com/us-en/privacy-and-agreements/data-processing-addendum/). 
 
 ### Does VTEX have an information classification policy? 
 
@@ -202,19 +201,18 @@ The VTEX platform has an out-of-the-box identity solution, called VTEX ID. We al
 
 ### Please explain how data may come into contact with third parties or outsourced or subcontracted work, and how these interactions are protected and monitored.
 
-VTEX relies exclusively on third parties for infrastructure provisioning and, therefore, tenant data is never available to third parties. The complete list of VTEX partners and affiliates is available at https://vtex.com/us-en/privacy-and-agreements/subprocessors/
-
-If the tenant wishes to allow their own third-party partner to access their data, this can be done via our API integration and role-based access control system (which is managed by the tenant). 
+VTEX relies exclusively on third parties for infrastructure provisioning and, therefore, tenant data is never available to third parties. Check the [complete list of VTEX partners and affiliates](https://vtex.com/us-en/privacy-and-agreements/subprocessors/). If the tenant wishes to allow their own third-party partner to access their data, this can be done via our API integration and role-based access control system (which is managed by the tenant). 
 
 ## Platform security
+
 ### What relevant authentication and identity management security features are available on the platform, such as password complexity, password reuse, session timeout, account lockout, password reset, and multi-factor authentication. 
 
-Passwords in VTEX ID have the following requirements:
-Minimum length of 8 + 6 digit MFA token.
-Minimum of one uppercase character
-Minimum of one digit
-Minimum of one special character
-Customers cannot repeat the last four used passwords
+- Passwords in VTEX ID have the following requirements:
+- Minimum length of 8 + 6 digit MFA token.
+- Minimum of one uppercase character
+- Minimum of one digit
+- Minimum of one special character
+- Customers cannot repeat the last four used passwords
 
 Customers using an external identity provider through integration will be responsible for setting their own password policy. Furthermore password expiration every 90 days is provided for in the VTEX ID solution.
 
@@ -243,14 +241,14 @@ VTEX maintains the segregation of customer data through logical controls. All ou
 
 ### Provide details on how user access is managed on the platform, including moving, adding, changing, and deleting accounts.
 
-When an environment account is created, a master user, chosen by the tenant, is assigned. This master user is used by the tenant to delegate rights granted by means of roles also created by them. Learn more about [Master users](https://help.vtex.com/tutorial/what-is-the-master-user--3oPr7YuIkeyqUGmEqIMSEy) 
+When an environment account is created, a sponsor user, chosen by the tenant, is assigned. This sponsor user is used by the tenant to delegate rights granted by means of roles also created by them. Learn more about [Sponsor users](https://help.vtex.com/en/tutorial/what-is-the-sponsor-user--3oPr7YuIkEYqUGmEqIMSEy) .
 
-User accounts can be managed directly in the VTEX Admin. Admin users are assigned a role, which can have one or several permissions assigned to it, defined by the master user or a user with permissions to delegate responsibilities. When user accounts are modified or deleted, the data is immediately replicated across all nodes that support that account's data. After deletion, the data is removed from all nodes, although it continues to reside in the corresponding backup for its duration (usually 7 days). Learn more about [How user management works](https://help.vtex.com/en/tutorial/managing-users--tutorials_512 
+User accounts can be managed directly in the VTEX Admin. Admin users are assigned a role, which can have one or several permissions assigned to it, defined by the sponsor user or a user with permissions to delegate responsibilities. When user accounts are modified or deleted, the data is immediately replicated across all nodes that support that account's data. After deletion, the data is removed from all nodes, although it continues to reside in the corresponding backup for its duration (usually 7 days). Learn more about [How user management works](https://help.vtex.com/en/tutorial/managing-users--tutorials_512).
 
 ### Does the platform have features to manage, organize, and customize management permissions in the stores? 
 
 The VTEX Admin contains the License Manager module, which allows for user management. To organize the permissions of users who have access to the administrative environment of the VTEX store, the License Manager provides roles. 
-The roles define which features each user can view and/or modify within each module of the platform. You can use one of several policies (set of roles / permissions) or create custom policies according to the needs of each area. Using the License Manager API library, you can develop an integration that allows access, renewal, and revocation of users. Learn more about the [License Manager](https://help.vtex.com/pt/tutorial/visao-geral-do-modulo-license-manager/) 
+The roles define which features each user can view and/or modify within each module of the platform. You can use one of several policies (set of roles / permissions) or create custom policies according to the needs of each area. Using the License Manager API library, you can develop an integration that allows access, renewal, and revocation of users. Learn more about the [License Manager](https://help.vtex.com/en/tutorial/account-settings-overview--6USYxLuzNt4uAkvjdPF7I8) 
 
 ### Explain the security patch management process.
 
@@ -262,12 +260,11 @@ Yes, account lockouts occur when multiple wrong attempts are made with the wrong
 
 ### Does the platform log off sessions due to inactivity?
 
-The VTEX platform has an inactivity logout mechanism: a customer is logged out of the checkout environment automatically after 15 minutes of inactivity.
-However, retailers can enable and configure these settings in the administrative portal.
+The VTEX platform has an inactivity logout mechanism: a customer is logged out of the checkout environment automatically after 15 minutes of inactivity. However, retailers can enable and configure these settings in the administrative portal.
 
 ### Is the platform monitored for performance evaluation? Which variables define the scalability of the platform?
 
-The VTEX Platform is a SaaS (Software as a Service) solution and can be accessed using a standard web browser. VTEX is responsible for providing and periodicqally updating the solution with new features and fully monitoring its operation. In addition, there is a specialized team that ensures the potential scaling of the solution in seasonal or surge actions, and constant in-store performance monitoring based on proprietary heuristics.
+The VTEX Platform is a SaaS (Software as a Service) solution and can be accessed using a standard web browser. VTEX is responsible for providing and periodically updating the solution with new features and fully monitoring its operation. In addition, there is a specialized team that ensures the potential scaling of the solution in seasonal or surge actions, and constant in-store performance monitoring based on proprietary heuristics.
 
 ### Does the platform restrict access to public internet IPs?
 
@@ -287,10 +284,10 @@ As VTEX is a SaaS (Software as a Service) platform with web browser access, it d
 
 ### Does the VTEX platform use the API First (Application Programming Interface) concept?
 
-VTEX prioritizes API-first development, where all data transacted within the platform can be manipulated through APIs that follow the REST standard. Learn more about [VTEX APIs](https://developers.vtex. com/vtex-developer-docs/reference/get-to-know-vtex-apis).
-VTEX not only follows best practices, but also has very well separated layers of back-end, APIs, front-end, and APP components. This ensures that each responsible part interacts only with its own layer, thus guaranteeing simplicity and agility, both in development and in evolution. Support documentation for the developer and the IT team can be accessed at our [Developer Portal](https://developers.vtex.com/) 
+VTEX prioritizes API-first development, where all data transacted within the platform can be manipulated through APIs that follow the REST standard. Learn more about [VTEX APIs](https://developers.vtex.com/docs/api-reference).
+VTEX not only follows best practices, but also has very well separated layers of back-end, APIs, front-end, and APP components. This ensures that each responsible part interacts only with its own layer, thus guaranteeing simplicity and agility, both in development and in evolution. Support documentation for the developer and the IT team can be accessed at our [Developer Portal](https://developers.vtex.com/).
 
-### Does the solution provide anomaly detections, i.e. has the ability to detect unusual behavior and possible malicious traffic, in addition to user account behavior? 
+### Does the solution provide anomaly detection, i.e. has the ability to detect unusual behavior and possible malicious traffic, in addition to user account behavior? 
 
 The availability of the platform is constantly monitored by our monitoring system. Our set of monitoring controls covers the entire platform and is connected 100% of the time to the systems to identify the most diverse types of anomalies. Monitoring is a gradual and constant job, so our monitoring team is always working to include new rules and new alerts. Some of these alerts are sent to our internal teams, some are sent directly to the store managers, and some are only registered and do not need to trigger an alert. Here is an example: 
 - Failed login attempts are limited and logged, but no alerts are issued.
@@ -314,16 +311,18 @@ VTEX does not natively track the location of the origin of purchases. The inform
 
 ### Does the platform provide segregation of environments for testing, development, or homologation, for example? Can it be used to manage the implementation of improvements to the solution?
 
-To control the flow of content updates, VTEX offers the concept of workspaces. A workspace is almost a "staging" environment for the production environment. It is possible to create as many workspaces as needed to meet our customers' deploys. 
-In addition, environments can be combined and set up A/B tests can be created natively in the platform. Learn more about [Creating a development workspace](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-creating-a-development-workspace)
-This service is only available for customers who have migrated to VTEX IO. For the older version we have the possibility to create a new test store environment. 
+To control the flow of content updates, VTEX offers the concept of workspaces. A workspace is almost a "staging" environment for the production environment. It is possible to create as many workspaces as needed to meet our customers' deploys. In addition, environments can be combined and set up A/B tests can be created natively in the platform. Learn more about [Creating a development workspace](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-creating-a-development-workspace).
+
+This service is only available for customers who have migrated to VTEX IO. For Legacy CMS Portal stores, it is possible to create a new test store environment. 
 
 ### Are the system logs protected against alteration, falsification, or improper access?
 
-Our logs are collected and analyzed using a SIEM (Security Information and Event Management). Our applications have audit logs and collect relevant logs to be stored and correlated. These logs are maintained according to our standards and applicable laws. 
+Our logs are collected and analyzed using a SIEM (Security Information and Event Management). Our applications have audit logs and collect relevant logs to be stored and correlated. These logs are maintained according to our standards and applicable laws.
+
 Platform events and authentication (login failures, successes, and lockouts) are logged according to regulatory, security, and privacy regulations, and for our internal analysis. 
 
 ## Log auditing
+
 ###  What is the minimum content of the logs that are recorded by the platform? 
 
 All sensitive operations that take place on the platform have automatic logging and it is not possible to disable this feature. VTEX stores all error logs of the VTEX platform in SIEM (Security Information and Event Management) software, whose data is accessible by the VTEX team for analysis and product improvement purposes. In addition, VTEX monitors certain patterns in the application and infrastructure logs that indicate potential risk to system security, and alerts or even automatic countermeasures are issued when risk is identified. 
@@ -364,6 +363,7 @@ Yes, developers follow OWASP principles; and mandatory peer review ensures code 
 VTEX uses GitHub as source control system. The repositories are private. Adding and removing users from the organization is part of the hiring and firing processes of the programmers. Only VTEX developers have access to the code repositories. We use Git for source code control purposes and information about libraries and software packages. We also have static code scanning. 
 
 ## Data security
+
 ### Does the organization process personally identifiable information (PII)?
 
 Yes, we process PII data. We currently perform encryption according to the requirements of privacy and compliance regulations related to PII and payment card data, which reinforces our commitment to GDPR compliance. 
@@ -386,4 +386,3 @@ We analyze how information is handled from one environment to another, whether i
 Currently, most of the data stored by VTEX is based on AWS us-east-1. This means that the customer cannot set the geographic region, but it also means that unless authorized by the customer, VTEX will not migrate the data outside of that region. It is also worth mentioning that we have recently implemented a second region in Europe to hosst data, not for all modules, but for the main ones that work with PII data.
 
 Through a configuration in the store, we will know in which region the store data should be hosted.
-
