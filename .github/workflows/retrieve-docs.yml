@@ -17,17 +17,19 @@ jobs:
 
       - name: Install dependencies
         run: yarn
+
+      - name: Set up git
+        run: |
+          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
+          git config --global user.name "${GH_USERNAME}"
+        env:
+          GH_USERNAME: ${{ github.actor }}
       
       - name: Retrieve documentation from Contentful
         run: |
           node index.js
         env:
           CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
-
-      - name: Set up git
-        run: |
-          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
-          git config --global user.name "${GH_USERNAME}"
 
       - name: Stage changes
         run: |
