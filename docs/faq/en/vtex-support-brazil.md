@@ -3,8 +3,8 @@ title: 'VTEX Support - Brazil'
 id: 5q861sTw1n7H2BENOu7ls9
 status: PUBLISHED
 createdAt: 2021-03-02T00:59:46.352Z
-updatedAt: 2022-12-23T15:47:00.476Z
-publishedAt: 2022-12-23T15:47:00.476Z
+updatedAt: 2024-02-22T21:19:45.264Z
+publishedAt: 2024-02-22T21:19:45.264Z
 firstPublishedAt: 2021-03-02T01:09:50.358Z
 contentType: frequentlyAskedQuestion
 productTeam: Others

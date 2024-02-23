@@ -3,8 +3,8 @@ title: 'Configurar el gateway PayMee'
 id: 3fsilRdrBS6GOAy622soWy
 status: PUBLISHED
 createdAt: 2018-02-28T21:29:08.666Z
-updatedAt: 2019-12-31T15:20:50.800Z
-publishedAt: 2019-12-31T15:20:50.800Z
+updatedAt: 2024-01-23T21:11:05.087Z
+publishedAt: 2024-01-23T21:11:05.087Z
 firstPublishedAt: 2018-03-01T21:53:29.140Z
 contentType: tutorial
 productTeam: Financial
@@ -15,18 +15,15 @@ legacySlug: configurar-el-gateway-paymee
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX, usted puede configurar el gateway de pagos PayMee. Con este conector, su tienda puede recibir pagos por transferencia bancaria o dinero.
+En VTEX, usted puede configurar el gateway de pagos PayMee. Con esta integración, su tienda puede recibir pagos por transferencia bancaria o dinero.
 
-Para realizar la configuración, siga los pasos abajo:
+Para configurar PayMee, siga estos pasos:
 
-## Configurar la afiliación de gateway PayMee
-
-1. Acceda al módulo __Pagos__.
-2. Haga clic en __Configuración__.
-3. En la pestaña __Afiliaciones__, haga clic en el botón __+__.
-4. Haga clic en el conector __PayMee__.
-5. Rellene los campos de __Application Key__ y __Application Token__ con los datos proporcionados por PayMee.
-6. Haga clic en __Guardar__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __PayMee__ en la barra de búsqueda y haga clic en el nombre del proveedor.
+4. Rellene los campos de __Application Key__ y __Application Token__ con los datos proporcionados por PayMee.
+5. Haga clic en `Guardar`.
 
 ## Configurar la condición de pago PayMee
 

@@ -3,8 +3,8 @@ title: 'Setting up payments with Braintree-DCC'
 id: 3Is3N2MmTldXPa2FtiV8xy
 status: PUBLISHED
 createdAt: 2022-08-11T12:01:04.231Z
-updatedAt: 2023-03-26T21:23:30.544Z
-publishedAt: 2023-03-26T21:23:30.544Z
+updatedAt: 2024-01-23T18:20:50.864Z
+publishedAt: 2024-01-23T18:20:50.864Z
 firstPublishedAt: 2022-08-11T12:27:01.656Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: setting-up-payments-with-braintree-dcc
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Braintree-DCC payment provider. With this connector, your store can make sales through a credit and debit cards.
+At VTEX, it is possible to integrate with the Braintree-DCC payment provider. With this provider, your store can make sales through a credit and debit cards.
 
-To configure Braintree-DCC affiliation, follow the steps below:
+To configure Braintree-DCC, follow the steps below:
 
-1. In the VTEX Admin, go to **Store Settings** > **Payment** > **Settings**, or type **Settings** in the search bar at the top of the page.
-2. In the __Gateway affiliations__ tab, click on the `+` button.
-3. Click on the __Braintree-DCC__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __Braintree-DCC__ in the search bar and click on the name of the provider.
 4. Fill in the fields below your Braintree-DCC account information:
    - __Application Key__
    - __Application Token__

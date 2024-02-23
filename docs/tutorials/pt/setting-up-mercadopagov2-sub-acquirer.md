@@ -3,8 +3,8 @@ title: 'Configurar o subadquirente MercadoPagoV2'
 id: 1y6k8lCSzJYfPs2yObNFo4
 status: PUBLISHED
 createdAt: 2021-11-30T18:49:42.837Z
-updatedAt: 2023-03-22T18:35:39.911Z
-publishedAt: 2023-03-22T18:35:39.911Z
+updatedAt: 2024-01-23T18:57:28.536Z
+publishedAt: 2024-01-23T18:57:28.536Z
 firstPublishedAt: 2021-11-30T19:32:27.420Z
 contentType: tutorial
 productTeam: Financial
@@ -23,9 +23,9 @@ No gateway da VTEX, você pode configurar o [subadquirente](https://help.vtex.co
 
 ## Configurar afiliação de gateway MercadoPagoV2
 
-1. No Admin VTEX, acesse **Configurações da loja** > **Pagamentos** > **Configurações**, ou digite **Configurações** na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no __botão “+”__.
-3. Clique no conector __MercadoPagoV2__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __MercadoPagoV2__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos de cadastro __Application Key__ e __Application Token__ com os dados fornecidos pelo Mercado Pago.
 5. Em __Prazo de vencimento do boleto__, escolha a quantidade de dias (contados a partir da geração do boleto) que seu cliente terá para fazer o pagamento.
 6. Informe o nome da sua empresa no campo __Nome da loja__. Lembre-se de que essa é a informação que será descrita no campo Beneficiário do boleto ou na fatura do cartão do cliente.

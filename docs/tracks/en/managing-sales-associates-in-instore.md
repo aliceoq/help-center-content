@@ -3,8 +3,8 @@ title: 'Managing sales associates in VTEX Sales App'
 id: 5pqtuvi97FFZiGf7MlSe8q
 status: PUBLISHED
 createdAt: 2023-04-17T21:01:21.431Z
-updatedAt: 2023-08-25T13:25:58.874Z
-publishedAt: 2023-08-25T13:25:58.874Z
+updatedAt: 2024-01-05T19:59:15.811Z
+publishedAt: 2024-01-05T19:59:15.811Z
 firstPublishedAt: 2023-04-25T20:13:04.431Z
 contentType: trackArticle
 productTeam: Shopping
@@ -50,7 +50,7 @@ After being added, the sales associate will receive a confirmation email and be 
 
 * **Sales associate name:** sales associate name. Mandatory field.
 * **Sales associate code:** the code that identifies the sales associate. It must be the same used in the physical store system.
-* **Email:** sales associate's inStore access email. Mandatory field.
+* **Email:** sales associate's Sales App access email. Mandatory field.
 * **Allow access to other sales associates' performances:** Checkbox that allows you to view other sales associates' sales performance (when checked) or only access information about your own sales performance (when unchecked).
 
 #### Physical store
@@ -58,7 +58,7 @@ After being added, the sales associate will receive a confirmation email and be 
 * **Store:** the [franchise account](https://help.vtex.com/en/tutorial/what-is-a-franchise-account--kWQC6RkFSCUFGgY5gSjdl) in which the sales associate will be registered. Mandatory field.
 
 <div class ="alert alert-info">
-<p>Changes can take up to 15 minutes to be processed and applied to inStore.</p> 
+<p>Changes can take up to 15 minutes to be processed and applied to Sales App.</p> 
 </div>
 
 ## Searching for a sales associate
@@ -73,8 +73,8 @@ Click the `Store` filter to filter sales associates by the name of a specific ph
 
 You may need to change a sales associate's store to a new one, so you need to edit their information. You can edit a sales associate by following the steps below:
 
-1. In the row of the sales associate you want to edit, click `<i class="fas fa-ellipsis-v"></i>`.
-2. Click `<i class="fas fa-pencil-alt"></i>` `Edit`.
+1. In the row of the sales associate you want to edit, click <i class="fas fa-ellipsis-v"></i>.
+2. Click <i class="fas fa-pencil-alt"></i> `Edit`.
 3. Change the information you want.
 4. Click `Save`.
 
@@ -82,8 +82,8 @@ You may need to change a sales associate's store to a new one, so you need to ed
 
 You can inactivate a sales associate by following the steps below:
 
-1. In the row of the sales associate you want to edit, click `<i class="fas fa-ellipsis-v"></i>`.
-2. Click `<i class="fa-solid fa-box-archive"></i>` `Inactivate`.
+1. In the row of the sales associate you want to edit, click <i class="fas fa-ellipsis-v"></i>.
+2. Click <i class="fa-solid fa-box-archive"></i> `Inactivate`.
 3. Click `Inactivate` again.
 
 Once the sales associate is inactivated, they will no longer have access to the VTEX Sales App nor be able to log in. To permanently delete a sales associate, please contact our [support](https://support.vtex.com/hc/en-us/requests).

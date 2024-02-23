@@ -3,8 +3,8 @@ title: 'Boas práticas de SPF (Sender Policy Framework)'
 id: 42t0lkl2VyC6Yewc4wA6wI
 status: PUBLISHED
 createdAt: 2017-08-09T16:58:00.716Z
-updatedAt: 2023-08-15T17:15:09.621Z
-publishedAt: 2023-08-15T17:15:09.621Z
+updatedAt: 2024-02-22T18:11:49.023Z
+publishedAt: 2024-02-22T18:11:49.023Z
 firstPublishedAt: 2017-08-10T00:04:19.239Z
 contentType: tutorial
 productTeam: Reliability
@@ -25,13 +25,13 @@ Para mais detalhes da sintaxe, recomendamos a documentação [Sender Policy Fram
 
 No gerenciador de DNS, o SPF será uma entrada TXT na raíz do domínio (ex: site.com), com o seguinte formato:
 
-`site.com. IN TXT “v=spf1 a mx ip4:192.0.2.32/27 include:provedor.com -all”`
+`site.com. IN TXT “v=spf1 a mx ip4:192.0.2.32/27 include:provedor.com ~all”`
 
 Podemos dividir a política acima nas seguintes seções:
 
 - `v=spf1`: prefixo obrigatório.
 - `a mx ip4:192.0.2.32/27 include:provedor.com`: remetentes permitidos.
-- `-all`: condição de inclusão ou exclusão de remetentes fora dos declarados anteriormente.
+- `~all`: condição de inclusão ou exclusão de remetentes fora dos declarados anteriormente.
 
 Dentro do elemento de remetentes permitidos, as regras acima significam que um servidor pode enviar mensagens em nome do domínio em questão (site.com) quando:
 

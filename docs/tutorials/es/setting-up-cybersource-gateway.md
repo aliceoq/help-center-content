@@ -3,8 +3,8 @@ title: 'Configurar gateway CyberSource'
 id: 6nhvUTrLxeacsoYG6GkGM
 status: PUBLISHED
 createdAt: 2018-04-30T17:34:57.517Z
-updatedAt: 2023-03-29T00:33:54.554Z
-publishedAt: 2023-03-29T00:33:54.554Z
+updatedAt: 2024-01-23T18:17:29.893Z
+publishedAt: 2024-01-23T18:17:29.893Z
 firstPublishedAt: 2018-04-30T20:20:44.704Z
 contentType: tutorial
 productTeam: Financial
@@ -19,10 +19,9 @@ CyberSource es un [gateway](/es/tutorial/que-es-un-gateway-de-pagos) que ofrece 
 
 Para configurar el __gateway__ de CyberSource, siga los pasos abajo:
 
-## Configurar la afiliación de gateway CyberSource
-1. En el Admin VTEX, accede a **Configuración de la tienda** > **Pago** > **Configuración**, o escribe **Configuración** en la barra de búsqueda en la parte superior de la página.
-2. En la pestaña __Afiliaciones__, haga clic en el botón __+__.
-3. Haga clic en el conector __CyberSource__ que se encuentra en la sección _OTROS_.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __CyberSource__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro con los datos proporcionados por CyberSource (_Identificacion de la tienda en Cybersource/ Id del comercio en CyberSource_, _Nombre de usuario / Nombre del Usuario utilizado en el painel de Cybersource_ y _Contraseña / contraseña utilizada en el painel de Cybersource_).
 5. En el campo __Nombre de su empresa__, informe la razón social de su tienda.
 6. En __CNPJ de su Empresa__, informe el número del CNPJ de su tienda.

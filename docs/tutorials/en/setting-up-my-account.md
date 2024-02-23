@@ -3,8 +3,8 @@ title: 'Setting up My Account'
 id: 23Ayv5D6b86UBnYfoXqZL1
 status: PUBLISHED
 createdAt: 2019-02-19T21:35:31.855Z
-updatedAt: 2023-08-30T18:59:29.461Z
-publishedAt: 2023-08-30T18:59:29.461Z
+updatedAt: 2023-12-21T14:12:18.587Z
+publishedAt: 2023-12-21T14:12:18.587Z
 firstPublishedAt: 2019-02-19T21:37:25.249Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -16,7 +16,7 @@ subcategory: 1RWR7qSyaREbD5RfgCjdYG
 ---
 
 <div class = "alert alert-info">
-In <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>, customers can only access their orders from the last two years. For information about orders from previous years, merchants need to contact <a href="https://support.vtex.com/hc/pt-br/requests">our Support</a>. Access to previous order data is temporary and will be available for 15 days.
+In <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>, customers can only access their orders from the last two years.
 </div>
 
 The new [My Account](https://help.vtex.com/en/tutorial/how-does-my-account-work--2BQ3GiqhqGJTXsWVuio3Xh) is already installed in all VTEX accounts pertaining to a <strong>test environment</strong>, allowing adjustments on the new page to be implemented without impacting user experience.

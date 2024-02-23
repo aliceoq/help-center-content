@@ -3,8 +3,8 @@ title: 'Cómo instalar un Service Worker'
 id: 2H057iW0mQGguKAciwAuMe
 status: PUBLISHED
 createdAt: 2018-03-13T14:53:11.260Z
-updatedAt: 2023-07-13T20:09:41.755Z
-publishedAt: 2023-07-13T20:09:41.755Z
+updatedAt: 2024-01-19T12:54:32.525Z
+publishedAt: 2024-01-19T12:54:32.525Z
 firstPublishedAt: 2018-03-13T17:48:34.728Z
 contentType: tutorial
 productTeam: Financial
@@ -12,7 +12,7 @@ author: 2AhArvGNSPKwUAd8GOz0iU
 slug: como-instalar-un-service-worker
 locale: es
 legacySlug: como-instalar-un-service-worker
-subcategory: 
+subcategory: 7ogirQ8NClawO2X6xdgCKc
 ---
 
 Service Worker es un script que su navegador ejecuta en segundo plano, independiente de la Web, permitiendo recursos como sincronización periódica, notificaciones push e incluso ejecución en modo off-line.
@@ -28,7 +28,7 @@ Para crear el script, siga el paso a paso abajo:
 7. Programa la funcionalidad.
 8. Clic en `Guardar`.
 
-A pesar de que el archivo se encuentra en `/arquivos/service-worker.js`, recibe el header `Service-Worker-Allowed` con valor `/`, lo que permite interceptar requests desde la raíz del sitio.
+A pesar de que el archivo se encuentra en `/archivos/service-worker.js`, recibe el header `Service-Worker-Allowed` con valor `/`, lo que permite interceptar requests desde la raíz del sitio.
 
 Para más información, consulte el [Web Fundamentals](https://developers.google.com/web/fundamentals/primers/service-workers/) de Google Developers.
 

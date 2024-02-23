@@ -3,8 +3,8 @@ title: 'Gestionar Proyectos'
 id: 42IpDFqTVTESH8DCypJMPM
 status: PUBLISHED
 createdAt: 2023-11-01T13:45:57.091Z
-updatedAt: 2023-11-16T14:44:11.820Z
-publishedAt: 2023-11-16T14:44:11.820Z
+updatedAt: 2024-02-16T01:20:33.698Z
+publishedAt: 2024-02-16T01:20:33.698Z
 firstPublishedAt: 2023-11-01T19:38:50.237Z
 contentType: tutorial
 productTeam: VTEX IO
@@ -24,7 +24,7 @@ Cada proyecto cuenta con sus propios ajustes, contenido y marca, pudiendo person
 En esta guía aprenderás a gestionar cada proyecto de frontend de tu tienda.
 
 ## Antes de empezar
-Asegúrate de tener acceso a VTEX Headless CMS. Ponte en contacto con los administradores de la cuenta para comprobar si tu rol de usuario tiene permiso para gestionar contenido en VTEX Headless CMS en el Admin VTEX. Para saber más, consulta el artículo [Roles] (https://help.vtex.com/es/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc).
+Para gestionar el Headless CMS, asegúrese de que los [recursos](https://help.vtex.com/es/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3) `See CMS menu on the top-bar`, `Settings*`, and `CMS GraphQL API` estén asociados con su [rol de usuario](https://help.vtex.com/es/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc). De lo contrario, [cree un rol de usuario](https://help.vtex.com/es/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc#creando-un-rol) y agregue estos recursos o añádalos a un rol de usuario existente.
 
 ## Visión general
 Para acceder a **Proyectos**, en el Admin VTEX ve a **Storefront > Headless CMS**.

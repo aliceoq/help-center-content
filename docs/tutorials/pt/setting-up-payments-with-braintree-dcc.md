@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Braintree-DCC'
 id: 3Is3N2MmTldXPa2FtiV8xy
 status: PUBLISHED
 createdAt: 2022-08-11T12:01:04.231Z
-updatedAt: 2023-03-26T21:23:30.544Z
-publishedAt: 2023-03-26T21:23:30.544Z
+updatedAt: 2024-01-23T18:20:50.864Z
+publishedAt: 2024-01-23T18:20:50.864Z
 firstPublishedAt: 2022-08-11T12:27:01.656Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pagamento-com-braintree-dcc
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamentos Braintree-DCC. Com este conector, sua loja pode realizar vendas por meio de cartões de crédito e débito.
+Na VTEX, é possível realizar a integração com o provedor de pagamentos Braintree-DCC. Por meio deste provedor, sua loja pode realizar vendas por meio de cartões de crédito e débito.
 
-Para configurar a afiliação Braintree-DCC, siga os passos abaixo:
+Para configurar Braintree-DCC, siga os passos abaixo:
 
-1. No Admin VTEX, acesse **Configurações da loja** > **Pagamentos** > **Configurações**, ou digite **Configurações** na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão `+`.
-3. Clique no conector __Braintree-DCC__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __Braintree-DCC__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos abaixo de as informações da sua conta Braintree-DCC:
    - __Application Key__
    - __Application Token__

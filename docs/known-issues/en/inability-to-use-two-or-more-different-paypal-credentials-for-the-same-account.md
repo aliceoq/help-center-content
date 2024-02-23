@@ -3,8 +3,8 @@ title: 'Inability to use two or more different PayPal credentials for the same a
 id: 3cVh2SbvToH8yGOOYcWgDB
 status: PUBLISHED
 createdAt: 2022-03-03T18:39:24.442Z
-updatedAt: 2023-06-23T18:24:03.788Z
-publishedAt: 2023-06-23T18:24:03.788Z
+updatedAt: 2024-02-16T20:25:01.876Z
+publishedAt: 2024-02-16T20:25:01.876Z
 firstPublishedAt: 2022-03-03T18:39:25.004Z
 contentType: knownIssue
 productTeam: Payments
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Payments
 slug: inability-to-use-two-or-more-different-paypal-credentials-for-the-same-account
 locale: en
-kiStatus: Backlog
+kiStatus: No Fix
 internalReference: 459704
 ---
 

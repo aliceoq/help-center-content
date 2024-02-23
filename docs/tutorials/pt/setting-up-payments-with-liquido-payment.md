@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Liquido Payment'
 id: 1GKtFlkdwLqabKAyK6pa3J
 status: PUBLISHED
 createdAt: 2023-09-08T20:08:53.120Z
-updatedAt: 2023-09-11T13:50:50.875Z
-publishedAt: 2023-09-11T13:50:50.875Z
+updatedAt: 2024-01-23T18:36:25.367Z
+publishedAt: 2024-01-23T18:36:25.367Z
 firstPublishedAt: 2023-09-08T20:28:25.462Z
 contentType: tutorial
 productTeam: Financial
@@ -15,15 +15,15 @@ legacySlug: configurar-pagamento-com-liquido-payment
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamento Liquido Payment. Por meio deste conector, sua loja pode realizar vendas por meio de cartões de crédito e PIX.
+Na VTEX, é possível realizar a integração com o provedor de pagamento Liquido Payment. Por meio deste provedor, sua loja pode realizar vendas por meio de cartões de crédito e PIX.
 
-Para configurar a afiliação Liquido Payment, siga os passos abaixo:
+Para configurar Liquido Payment, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja__ > __Pagamentos__ > __Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão __+__.
-3. Clique em __LiquidoPayment__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __LiquidoPayment__ na barra de busca e clique sobre o nome do provedor.
 4. Nos campos __Application Key__, __Application Token__ e __Client ID__ insira as informações que foram fornecidas pela Liquido Payment.
-5. Clique em __Salvar__.
+5. Clique em `Salvar`.
 
 Para configurar os métodos de pagamento a serem processados pela Liquido Payment, acesse [Condições de Pagamento](https://help.vtex.com/pt/tutorial/condicoes-de-pagamento). 
 

@@ -3,8 +3,8 @@ title: 'Gestionar vendedores en VTEX Sales App'
 id: 5pqtuvi97FFZiGf7MlSe8q
 status: PUBLISHED
 createdAt: 2023-04-17T21:01:21.431Z
-updatedAt: 2023-08-25T13:25:58.874Z
-publishedAt: 2023-08-25T13:25:58.874Z
+updatedAt: 2024-01-05T19:59:15.811Z
+publishedAt: 2024-01-05T19:59:15.811Z
 firstPublishedAt: 2023-04-25T20:13:04.431Z
 contentType: trackArticle
 productTeam: Shopping
@@ -73,8 +73,8 @@ Haz clic en el filtro `Tienda` para filtrar los vendedores por el nombre de una 
 
 Si es necesario actualizar la tienda de un vendedor, debes editarla en el registro del vendedor. Puedes editar un vendedor siguiendo los pasos a continuación:
 
-1. En la fila del vendedor que deseas editar, haz clic en `<i class="fas fa-ellipsis-v"></i>`.
-2. Haz clic en `<i class="fas fa-pencil-alt"></i>` `Editar`.
+1. En la fila del vendedor que deseas editar, haz clic en <i class="fas fa-ellipsis-v"></i>.
+2. Haz clic en <i class="fas fa-pencil-alt"></i> `Editar`.
 3. Cambia la información que desees.
 4. Haz clic en `Guardar` para finalizar.
 
@@ -82,8 +82,8 @@ Si es necesario actualizar la tienda de un vendedor, debes editarla en el regist
 
 Puedes inactivar un vendedor siguiendo los pasos a continuación:
 
-1. En la fila del vendedor que deseas editar, haz clic en `<i class="fas fa-ellipsis-v"></i>`.
-2. Haz clic en `<i class="fa-solid fa-box-archive"></i>` `Inactivar`.
+1. En la fila del vendedor que deseas editar, haz clic en <i class="fas fa-ellipsis-v"></i>.
+2. Haz clic en <i class="fa-solid fa-box-archive"></i> `Inactivar`.
 3. Haz clic en `Inactivar` para confirmar y finalizar.
 
 Una vez inactivado, el vendedor perderá el acceso a la aplicación VTEX Sales App y no podrá iniciar sesión. Para eliminar definitivamente a un vendedor, contacta con nuestro [soporte](https://support.vtex.com/hc/es-419/requests).

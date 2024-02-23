@@ -3,8 +3,8 @@ title: 'Configurar pago con easypay'
 id: 3xJQqjMIn0ARDI1HcwK88J
 status: PUBLISHED
 createdAt: 2023-09-18T16:48:21.184Z
-updatedAt: 2023-09-28T11:11:06.834Z
-publishedAt: 2023-09-28T11:11:06.834Z
+updatedAt: 2024-01-23T18:08:17.530Z
+publishedAt: 2024-01-23T18:08:17.530Z
 firstPublishedAt: 2023-09-18T18:53:57.235Z
 contentType: tutorial
 productTeam: Financial
@@ -15,9 +15,9 @@ legacySlug: configurar-pago-con-easypay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX, puedes realizar la integración con el proveedor de servicios de pago easypay. A través de este conector, tu tienda puede vender utilizando easypay, MB Way y Multibanco.
+En VTEX, puedes realizar la integración con el proveedor de servicios de pago easypay. A través de este proveedor, tu tienda puede vender utilizando easypay, MB Way y Multibanco.
 
-Para utilizar la afiliación easypay, debes:
+Para utilizar easypay, debes:
 
 - [Instalar la aplicación easypay](#instalar-la-aplicacion-easypay)
 - [Configurar la aplicación easypay](#configurar-la-aplicacion-easypay)
@@ -189,9 +189,9 @@ Para configurar el webhook de easypay, sigue los pasos que se indican a continua
 
 Para configurar la afiliación easypay, sigue los pasos a continuación:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Configuración__, o ingresa __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestaña __Afiliaciones de Gateway__, haz clic en el botón `+`.
-3. Haz clic en el conector __easypay__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __easypay__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellena los campos __Application Key__ y __Application Token__ con los datos de tu cuenta easypay.
 5. En __Captura automática de pago__, selecciona la opción __Utiliza el comportamiento recomendado por el procesador de pagos__.
 6. En __¿Activar split y enviar receptores?__, selecciona la opción __Sí__.

@@ -3,8 +3,8 @@ title: 'Setting up payments with easypay'
 id: 3xJQqjMIn0ARDI1HcwK88J
 status: PUBLISHED
 createdAt: 2023-09-18T16:48:21.184Z
-updatedAt: 2023-09-28T11:11:06.834Z
-publishedAt: 2023-09-28T11:11:06.834Z
+updatedAt: 2024-01-23T18:08:17.530Z
+publishedAt: 2024-01-23T18:08:17.530Z
 firstPublishedAt: 2023-09-18T18:53:57.235Z
 contentType: tutorial
 productTeam: Financial
@@ -15,9 +15,9 @@ legacySlug: setting-up-payments-with-easypay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-On VTEX, you can integrate with the easypay payment provider. Your store can sell using easypay, MBWay, and MultiBanco through this connector.
+On VTEX, you can integrate with the easypay payment provider. Your store can sell using easypay, MBWay, and MultiBanco through this provider.
 
-To use the easypay affiliation, you need to:
+To use easypay, you need to:
 
 - [Install the easypay app](#install-the-easypay-app)
 - [Configure the easypay app](#configure-the-easypay-app)
@@ -189,9 +189,9 @@ To configure the easypay webhook, follow the steps below:
 
 To configure the easypay affiliation, follow the steps below:
 
-1. In the VTEX Admin, go to __Store Settings > Payment > Settings__, or type __Settings__ in the search bar at the top of the page.
-2. In the __Gateway Affiliations__ tab, click the `+` button.
-3. Click the __easypay__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __easypay__ in the search bar and click on the name of the provider.
 4. Complete the __Application Key__ and __Application Token__ fields with your easypay account information.
 5. In __Payment Settlement__, select the __Use Payment Behavior Recommended by Payment Processor__ option.
 6. In __Enable payout split and sending payment recipients?__, select __Yes__.

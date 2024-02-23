@@ -1,9 +1,9 @@
 ---
 title: 'VTEX Admin: Start Here'
 id: 531cHtUCUi3puRXNDmKziw
-status: PUBLISHED
+status: CHANGED
 createdAt: 2019-02-04T15:41:26.380Z
-updatedAt: 2023-11-08T14:15:16.929Z
+updatedAt: 2024-01-31T23:13:35.591Z
 publishedAt: 2023-11-08T14:15:16.929Z
 firstPublishedAt: 2019-02-04T15:51:04.667Z
 contentType: tutorial
@@ -12,7 +12,7 @@ author: 0QBQws7rk0t5Mnu8fgfUv
 slug: vtex-admin-start-here
 locale: en
 legacySlug: find-here-all-the-answers-you-need
-subcategory: 
+subcategory: 1VvCpaa8NCA6a0MK6W6oWg
 ---
 
 VTEX Admin allows merchants to manage their entire digital commerce experience in one place, in a simple and smart way. This is where they track orders, add products, set up fulfillment, and all the other aspects of a unified commerce operation.

@@ -3,8 +3,8 @@ title: 'Configurar pago con MSC Payment'
 id: 6hPTXSe57DSCuo7i2r3cjV
 status: PUBLISHED
 createdAt: 2023-09-11T14:04:54.926Z
-updatedAt: 2023-09-11T14:17:31.484Z
-publishedAt: 2023-09-11T14:17:31.484Z
+updatedAt: 2024-01-25T17:06:19.483Z
+publishedAt: 2024-01-25T17:06:19.483Z
 firstPublishedAt: 2023-09-11T14:17:31.484Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pago-con-msc-payment
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX es posible la integración con el proveedor de pagos MSC Payment. Con este conector, su tienda puede realizar ventas a través de diferentes de MSC Payment.
+En VTEX es posible la integración con el proveedor de pagos MSC Payment. Con este proveedor, su tienda puede realizar ventas a través de diferentes de MSC Payment.
 
-Para configurar la afiliación MSC Payment, siga los pasos a continuación:
+Para configurar MSC Payment, siga los pasos a continuación:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda__ > __Pago__ > __Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestaña __Afiliaciones__, haga clic en el botón __+__.
-3. Haga clic en el conector __MSC-Payment__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __MSC-Payment__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro __Application Key__, __Application Token__ y __tasaCambio__ con los datos proporcionados por el MSC Payment.
 5. En el campo __Captura automática de pago__, seleccione una de las siguientes opciones:
 <br>

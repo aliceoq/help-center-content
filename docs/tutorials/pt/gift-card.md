@@ -1,10 +1,10 @@
 ---
 title: 'Configurar Vale-presente'
 id: tutorials_995
-status: PUBLISHED
+status: CHANGED
 createdAt: 2017-04-27T21:57:54.816Z
-updatedAt: 2023-07-27T17:14:06.984Z
-publishedAt: 2023-07-27T17:14:06.984Z
+updatedAt: 2024-01-19T19:16:50.349Z
+publishedAt: 2024-01-12T12:46:20.978Z
 firstPublishedAt: 2017-04-27T23:03:42.674Z
 contentType: tutorial
 productTeam: Financial
@@ -33,7 +33,7 @@ Para criar um novo vale-presente, confira o passo a passo:
   <li>Clique no botão azul <b>Criar vale</b>.</li>  
   <br>
 <div class = "alert alert-info">
-  <p>Na página de preenchimento, o campo <b>Vale-presente</b> corresponde ao ID do vale. Este é gerado automaticamente pelo sistema da VTEX e será exibido no SmartCheckout (para vales que não são associados a um CPF ou CNPJ exclusivo).</p>
+  <p>Na tela de criação do vale, o campo <b>Vale-presente</b> é automaticamente preenchido pelo sistema VTEX com o código ID do novo vale. Esse é o código a ser inserido pelo cliente na tela do checkout para aplicar o vale-presente no carrinho e reduzir o valor de pagamento do pedido.</p>
 </div>
 <br>
   <li>Preencha os demais campos apresentados conforme as orientações abaixo:</li>

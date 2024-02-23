@@ -3,8 +3,8 @@ title: 'Configurar Livelo regla de Divergencia de precios'
 id: 4kocvdsHiLcLLcX6eQIVmD
 status: PUBLISHED
 createdAt: 2023-08-10T22:45:01.497Z
-updatedAt: 2023-08-11T02:18:04.549Z
-publishedAt: 2023-08-11T02:18:04.549Z
+updatedAt: 2024-02-19T19:09:00.244Z
+publishedAt: 2024-02-19T19:09:00.244Z
 firstPublishedAt: 2023-08-11T01:56:55.359Z
 contentType: trackArticle
 productTeam: Channels

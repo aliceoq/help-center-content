@@ -1,10 +1,10 @@
 ---
 title: 'Inventory Reserved Items Error'
 id: 37cO3T4D0exvOMhStKYds9
-status: CHANGED
+status: PUBLISHED
 createdAt: 2022-05-18T15:13:46.087Z
-updatedAt: 2022-06-27T12:33:44.492Z
-publishedAt: 2022-06-20T12:39:37.793Z
+updatedAt: 2024-01-02T13:35:56.240Z
+publishedAt: 2024-01-02T13:35:56.240Z
 firstPublishedAt: 2022-05-18T15:13:46.568Z
 contentType: knownIssue
 productTeam: Logistics
@@ -23,6 +23,7 @@ Checking the items of reserved status on Inventory Management there is an error 
 It is not possible to see the orders clicking on the number of reserved itens, shows the message error "There was an error loading reservations. Please try again."
 
 
+##
 
 ## Simulation
 
@@ -30,6 +31,7 @@ It is not possible to see the orders clicking on the number of reserved itens, s
 The simulation is not possible.
 
 
+##
 
 ## Workaround
 

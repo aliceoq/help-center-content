@@ -3,8 +3,8 @@ title: 'Setting up payments with MSC Payment'
 id: 6hPTXSe57DSCuo7i2r3cjV
 status: PUBLISHED
 createdAt: 2023-09-11T14:04:54.926Z
-updatedAt: 2023-09-11T14:17:31.484Z
-publishedAt: 2023-09-11T14:17:31.484Z
+updatedAt: 2024-01-25T17:06:19.483Z
+publishedAt: 2024-01-25T17:06:19.483Z
 firstPublishedAt: 2023-09-11T14:17:31.484Z
 contentType: tutorial
 productTeam: Financial
@@ -15,9 +15,9 @@ legacySlug: setting-up-payments-with-msc-payment
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the MSC Payment payment provider. With this connector, your store can make sales through the MSC Payment.
+At VTEX, it is possible to integrate with the MSC Payment payment provider. With this provider, your store can make sales through the MSC Payment.
 
-To configure MSC Payment affiliation, follow the steps below:
+To configure MSC Payment, follow the steps below:
 
 1. In the VTEX Admin, go to __Store Settings__ > __Payment__ > __Settings__, or type __Settings__ in the search bar at the top of the page.
 2. In the __Gateway affiliations__ tab, click on the __"+"__ button.
@@ -48,4 +48,4 @@ To configure MSC Payment affiliation, follow the steps below:
 6. If you want, you can also [configure special payment conditions](https://help.vtex.com/en/tutorial/condiciones-especiales--tutorials_456?&utm_source=autocomplete#).
 7. Click on __Save__.
 
-After following the indicated steps, MSC Payment connector may take up to 10 minutes to appear at your store's checkout as a payment option.
+After following the indicated steps, MSC Payment may take up to 10 minutes to appear at your store's checkout as a payment option.

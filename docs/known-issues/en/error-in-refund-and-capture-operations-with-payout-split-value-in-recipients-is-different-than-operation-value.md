@@ -3,8 +3,8 @@ title: 'Error in refund and capture operations with Payout Split - "Value in rec
 id: 3Wo9ltN7Ju0ZqVLAQZcd7m
 status: PUBLISHED
 createdAt: 2023-08-23T13:57:20.424Z
-updatedAt: 2023-08-23T13:57:21.389Z
-publishedAt: 2023-08-23T13:57:21.389Z
+updatedAt: 2024-02-02T20:52:54.054Z
+publishedAt: 2024-02-02T20:52:54.054Z
 firstPublishedAt: 2023-08-23T13:57:21.389Z
 contentType: knownIssue
 productTeam: Payments
@@ -40,4 +40,7 @@ Cannot simulate
 
 
 There is no workaround
+
+
+
 

@@ -3,8 +3,8 @@ title: 'Configurar gateway e-Sitef'
 id: 6UEi0QAlU6BXz5RgWj34Ac
 status: PUBLISHED
 createdAt: 2021-12-06T14:51:20.250Z
-updatedAt: 2023-03-23T15:04:33.914Z
-publishedAt: 2023-03-23T15:04:33.914Z
+updatedAt: 2024-01-23T18:02:42.936Z
+publishedAt: 2024-01-23T18:02:42.936Z
 firstPublishedAt: 2021-12-06T17:37:55.667Z
 contentType: tutorial
 productTeam: Financial
@@ -15,14 +15,15 @@ legacySlug: configurar-gateway-e-sitef
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX, puede utilizar el gateway e-Sitef para recibir pagos mediante tarjetas de crédito, débito y PIX. Para configurar este gateway, siga los pasos a continuación:
+En VTEX, puede utilizar el gateway e-Sitef para recibir pagos mediante tarjetas de crédito, débito y PIX. 
 
-## Configurar la afiliación de gateway e-SiTef
-1. En el Admin VTEX, accede a **Configuración de la tienda** > **Pago** > **Configuración**, o escribe **Configuración** en la barra de búsqueda en la parte superior de la página.
-4. En la pestaña __Afiliaciones__, haga clic en el botón __+__.
-5. Haga clic en el conector __ESITEF__.
-6. Rellene los campos de registro __Application Key__ y __Application Token__ con los datos proporcionados por el e-SiTef.
-7. En el campo __Captura automática de pago__, seleccione una de las siguientes opciones:
+Para configurar este gateway, siga los pasos a continuación:
+
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __ESITEF__ en la barra de búsqueda y haga clic en el nombre del proveedor.
+4. Rellene los campos de registro __Application Key__ y __Application Token__ con los datos proporcionados por el e-SiTef.
+5. En el campo __Captura automática de pago__, seleccione una de las siguientes opciones:
 <br>
 <ul>
 <br>
@@ -32,14 +33,15 @@ En VTEX, puede utilizar el gateway e-Sitef para recibir pagos mediante tarjetas 
    		<li><b>Programado: Establece Cuándo Se Realizará La Captura Automática</b>: al seleccionar esta opción, se mostrará el campo <b>Periodo de tiempo programado en horas para la captura automática</b>, que deberá rellenarse con el periodo en el que se realizará la captura automática. Este periodo debe respetar los límites permitidos por el proveedor de pagos.</li>        
    		<li><b>Desactivado: No Capturado Automáticamente</b>: la captura se realiza solo cuando se factura el pedido. Si se opta por este comportamiento de captura, es importante estar atento al tiempo de facturación, ya que puede exceder el tiempo de captura acordado con el proveedor de pagos y provocar la cancelación de la transacción.</li>
 </ul>
-8. En el campo __Captura antecipada (em horas)__, elija cuánto tiempo desea que se realice la captura (después de que se apruebe la transacción). También puede desactivar la función.
-9. En __Alterar tempo máximo para captura automática (em dias)__, complete el período máximo de días en los que debe tener lugar la captura automática.
-10. En __Soft Descriptor__, puede ingresar una string personalizada (caracteres) que se imprimirá en la factura del cliente.
-11. En __Habilitar Pré-autorização__, seleccione si desea que las compras realizadas con tarjeta de crédito tengan el monto reservado (captura preautorizada después de la aprobación de la transacción).
-12. En el campo __Captura antecipada após anti-fraude (em horas)__, elija durante cuánto tiempo desea que se lleve a cabo la captura (después del análisis contra el fraude). También puede desactivar la función.
-13. Haga clic en __Salvar__.
+6. En el campo __Captura antecipada (em horas)__, elija cuánto tiempo desea que se realice la captura (después de que se apruebe la transacción). También puede desactivar la función.
+7. En __Alterar tempo máximo para captura automática (em dias)__, complete el período máximo de días en los que debe tener lugar la captura automática.
+8. En __Soft Descriptor__, puede ingresar una string personalizada (caracteres) que se imprimirá en la factura del cliente.
+9. En __Habilitar Pré-autorização__, seleccione si desea que las compras realizadas con tarjeta de crédito tengan el monto reservado (captura preautorizada después de la aprobación de la transacción).
+10. En el campo __Captura antecipada após anti-fraude (em horas)__, elija durante cuánto tiempo desea que se lleve a cabo la captura (después del análisis contra el fraude). También puede desactivar la función.
+11. Haga clic en `Guardar`.
 
 ## Configurar condición de pago
+
 Después de seguir los pasos indicados, e-SiTef estará configurado en su tienda. Así, cuando vaya a registrar una condición de pago, va a estar disponible en el campo __Procesar con la afiliación__ (desde que el medio de pago sea compatible con e-SiTef).
 
 Para saber cómo definir condiciones de pago, acceda a [Configurar condiciones de pago](/es/tutorial/condicoes-de-pagamento).

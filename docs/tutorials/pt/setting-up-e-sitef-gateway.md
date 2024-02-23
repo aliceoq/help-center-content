@@ -3,8 +3,8 @@ title: 'Configurar gateway e-SiTef'
 id: 6UEi0QAlU6BXz5RgWj34Ac
 status: PUBLISHED
 createdAt: 2021-12-06T14:51:20.250Z
-updatedAt: 2023-03-23T15:04:33.914Z
-publishedAt: 2023-03-23T15:04:33.914Z
+updatedAt: 2024-01-23T18:02:42.936Z
+publishedAt: 2024-01-23T18:02:42.936Z
 firstPublishedAt: 2021-12-06T17:37:55.667Z
 contentType: tutorial
 productTeam: Financial
@@ -15,14 +15,15 @@ legacySlug: configurar-gateway-e-sitef
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, você pode utilizar o gateway e-Sitef para receber pagamentos por meio de cartões de crédito, débito e PIX. Para configurar este gateway, siga os passos abaixo:
+Na VTEX, você pode utilizar o gateway e-Sitef para receber pagamentos por meio de cartões de crédito, débito e PIX. 
 
-## Configurar afiliação de gateway e-SiTef
-1. No Admin VTEX, acesse **Configurações da loja** > **Pagamentos** > **Configurações**, ou digite **Configurações** na barra de busca no topo da página.
-4. Na aba __Afiliações de Gateways__, clique no botão __+__.
-5. Clique em __ESITEF__.
-6. Nos campos __Application Key__ e __Application Token__, insira as informações que foram fornecidas pela e-SiTef.
-7. No campo __Captura automática de pagamento__, selecione uma das seguintes opções:
+Para configurar este gateway, siga os passos abaixo:
+
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __ESITEF__ na barra de busca e clique sobre o nome do provedor.
+4. Nos campos __Application Key__ e __Application Token__, insira as informações que foram fornecidas pela e-SiTef.
+5. No campo __Captura automática de pagamento__, selecione uma das seguintes opções:
 <br>
 <ul>
 <br>
@@ -37,9 +38,10 @@ Na VTEX, você pode utilizar o gateway e-Sitef para receber pagamentos por meio 
 8. Em __Soft Descriptor__, você pode inserir uma string personalizada (caracteres) que serão impressos na fatura do cliente.
 9. Em __Habilitar Pré-autorização__, selecione se você deseja que as compras feitas com cartão de crédito tenham o valor reservado (pré-autorizada a captura após a aprovação da transação).
 10. No campo __Captura antecipada após anti-fraude (em horas)__, escolha em quanto tempo você deseja que a captura seja realizada (depois da análise do antifraude). Você também pode desativar a função.
-11. Clique em __Salvar__.
+11. Clique em `Salvar`.
 
 ## Configurar condição de pagamento
+
 Depois de seguir os passos indicados, a Sitef com pre-auth vai estar configurada na sua loja. Assim, quando você for cadastrar uma condição de pagamento, ela vai estar disponível no campo __Processar com a afiliação__ (desde que o meio de pagamento seja compatível com a Sitef com pre-auth). 
 
 Para saber como definir condições de pagamento, acesse [este artigo do Help](/pt/tutorial/condicoes-de-pagamento).

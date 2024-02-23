@@ -3,8 +3,8 @@ title: 'Audit'
 id: 5RXf9WJ5YLFBcS8q8KcxTA
 status: PUBLISHED
 createdAt: 2021-10-21T16:51:06.108Z
-updatedAt: 2023-09-26T18:08:40.050Z
-publishedAt: 2023-09-26T18:08:40.050Z
+updatedAt: 2024-02-07T13:14:18.856Z
+publishedAt: 2024-02-07T13:14:18.856Z
 firstPublishedAt: 2021-10-21T21:55:42.939Z
 contentType: tutorial
 productTeam: Others
@@ -22,7 +22,7 @@ Para acceder a la página de Audit en el Admin VTEX, ve a **Apps > Apps instalad
 * [Consultar eventos en Audit](#consultar-eventos-en-audit)
 * [Verificar las últimas consultas realizadas en Audit](#verificar-las-ultimas-consultas-realizadas-en-audit)
 
-![audit-es](//images.ctfassets.net/alneenqid6w5/2ViFawOaYsqfImcEd6TbXx/b3c670892441083fd85245c67549af64/audit-es__1_.png)
+![audit-ui-es (1)=](//images.ctfassets.net/alneenqid6w5/5IFUH95vspIgJVYg9CrWMW/7c0a482122fe0605d75492f02b44f20d/audit-ui-es__1_.png)
 
 ## Consultar eventos en Audit
 
@@ -68,11 +68,12 @@ La sección **Resultados** lista cada evento encontrado en la consulta y muestra
 
 | Columna | Descripción |
 |---|---|
-| Copiar evento | Botón para copiar la información del evento que se muestra en la tabla al portapapeles. |
-| Hora del evento | Fecha y hora en que ocurrió el evento. |
-| Acción | Acción realizada en la aplicación seleccionada para la consulta. Consulta las posibles acciones en la [lista de eventos disponibles en Audit](https://help.vtex.com/es/tutorial/eventos-disponibles-en-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
-| Detalles del evento | Información adicional sobre el evento. Consulta los detalles de cada evento en la [lista de eventos disponibles en Audit](https://help.vtex.com/es/tutorial/eventos-disponibles-en-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
-| Autor | Email, ID o token del usuario que realizó el evento. |
+| __Copiar evento__ | Botón para copiar la información del evento que se muestra en la tabla al portapapeles. |
+| __Hora del evento__ | Fecha y hora en que ocurrió el evento. |
+| __Acción__ | Acción realizada en la aplicación seleccionada para la consulta. Consulta las posibles acciones en la [lista de eventos disponibles en Audit](https://help.vtex.com/es/tutorial/eventos-disponibles-en-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
+| __Detalles del evento__ | Información adicional sobre el evento. Consulta los detalles de cada evento en la [lista de eventos disponibles en Audit](https://help.vtex.com/es/tutorial/eventos-disponibles-en-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
+| __Autor__ | Email, ID o token del usuario que realizó el evento. |
+| __Más detalles__ | Botón que abre un modal con más información sobre el evento, cuando corresponda. Los detalles mostrados pueden incluir: <ul><li class="t-body mb5 lh-copy"><strong>Nombre de la entidad:</strong> ID de la entidad modificada.</li><li class="t-body mb5 lh-copy"><strong>Entidad antes de la acción:</strong> información de la entidad antes del evento, en formato <a href="http://www.json.org/" class="t-body mv5 lh-copy c-link active-c-link hover-c-link visited-c-link hover-c-link break-word" rel="noopener noreferrer" target="_blank">JSON</a>.</li><li class="t-body mb5 lh-copy"><strong>Entidad después de la acción:</strong> información de la entidad después del evento, en formato <a href="http://www.json.org/" class="t-body mv5 lh-copy c-link active-c-link hover-c-link visited-c-link hover-c-link break-word" rel="noopener noreferrer" target="_blank">JSON</a>.</li></ul>La exhibición completa de la información previamente mencionada puede variar dependiendo del evento. Por ejemplo, un evento para eliminar información mostrará únicamente la entidad antes de la acción. Sin embargo, un evento que implica agregar información solo mostrará la entidad después de la acción. <br /><br /> Algunos eventos no proporcionan ninguna información adicional. En estos casos, el modal aparece vacío. |
 
 ### Ejemplos de consultas
 

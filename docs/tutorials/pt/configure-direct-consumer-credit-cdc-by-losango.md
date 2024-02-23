@@ -3,8 +3,8 @@ title: 'Configurar crédito direto ao consumidor (CDC) da Losango'
 id: 4vfoIULHTs8S9t3WDyldCE
 status: PUBLISHED
 createdAt: 2020-11-23T20:29:21.353Z
-updatedAt: 2023-03-30T15:42:27.683Z
-publishedAt: 2023-03-30T15:42:27.683Z
+updatedAt: 2024-01-23T18:47:11.153Z
+publishedAt: 2024-01-23T18:47:11.153Z
 firstPublishedAt: 2020-11-23T21:04:18.389Z
 contentType: tutorial
 productTeam: Financial
@@ -60,12 +60,9 @@ Com isso, a opção de pagamento __Losango em até 24x__ aparecerá corretamente
 
 Com os dados configurados na base de dados digital da Losango, siga as instruções abaixo:
 
-1. No Admin VTEX, acesse **Configurações da loja** > **Pagamentos** > **Configurações**, ou digite **Configurações** na barra de busca no topo da página. 
-2. Acesse a aba **Afiliações de Gateways** e clique no ícone <img src="https://images.ctfassets.net/alneenqid6w5/3VXFXGXxCMc9cRMehCiuth/6ae901b40c89d05d4c252feb8df14f5a/CDC-Losango-5.png" style="width: 23px;" /> e escolha o conector __Losango-CDC__.
-
-    ![CDC-Losango-6](https://images.ctfassets.net/alneenqid6w5/790PjCjRzKrtrEIrr3kYWl/85e1b1132be72cc4766e18d869e2040b/CDC-Losango-6.png)
-
-3. Escolha o __Nome da afiliação__ e selecione o modo desejado (Teste / Produção).
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __Losango-CDC__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos __Application Key__ e __Application Token__ com os dados fornecidos pela Losango. Não se esqueça de __Salvar__ ao concluir o preenchimento.
 
 ![CDC-Losango-7](https://images.ctfassets.net/alneenqid6w5/50xjhDq3CwFR522i1k5sZS/982931d897d8739dc3950dda408c5e2a/CDC-Losango-7.png)

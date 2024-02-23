@@ -3,8 +3,8 @@ title: 'Configurar pago con ShopFácil'
 id: 4v3z3CLrgZ2bByMx7uoMeG
 status: PUBLISHED
 createdAt: 2023-07-14T16:49:07.504Z
-updatedAt: 2023-07-14T17:10:10.167Z
-publishedAt: 2023-07-14T17:10:10.167Z
+updatedAt: 2024-01-23T21:31:46.325Z
+publishedAt: 2024-01-23T21:31:46.325Z
 firstPublishedAt: 2023-07-14T16:57:55.320Z
 contentType: tutorial
 productTeam: Financial

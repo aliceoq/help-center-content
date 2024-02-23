@@ -3,8 +3,8 @@ title: 'Split de Pagamento'
 id: 6k5JidhYRUxileNolY2VLx
 status: PUBLISHED
 createdAt: 2021-04-06T20:03:53.443Z
-updatedAt: 2023-11-17T21:01:51.135Z
-publishedAt: 2023-11-17T21:01:51.135Z
+updatedAt: 2024-02-08T12:39:19.013Z
+publishedAt: 2024-02-08T12:39:19.013Z
 firstPublishedAt: 2021-04-07T18:57:19.713Z
 contentType: tutorial
 productTeam: Financial
@@ -61,15 +61,17 @@ Nosso gateway calcula e distribui os pagamentos para cada beneficiário quando o
 É importante considerar que a nossa solução de split de recebíveis tem algumas limitações:
 
 - __Meios de pagamento combinados:__ não está disponível quando um dos meios escolhidos não é compatível com split. Exemplo: vale-compra + cartão de crédito (vale-compra não é compatível com split).  Devido a uma limitação do checkout, atualmente só é possível dividir o pagamento quando os meios combinados são dois cartões de crédito.
-- __Alteração do pedido:__ não funciona com alterações de valores ou itens após o pedido ter sido realizado. Dessa forma, também não é possível cancelar parcialmente um pedido com split.
+- __Alteração do pedido:__ não funciona com alterações de valores ou itens após o pedido ter sido realizado. O pedido que contenha split pode ser reembolsado parcialmente, mas não cancelado.
 - __Assinaturas VTEX:__ não é compatível com pedidos de marketplace.
 - __ID do seller:__ o CNPJ é a chave primária para fazer o split, portanto os beneficiários (marketplaces ou sellers) precisam ser pessoas jurídicas.
 - __Mesmo CNPJ:__ como o CNPJ é a chave primária para fazer o split, não é possível que dois ou mais beneficiários/participantes da venda com o mesmo CNPJ sejam considerados "entidades" distintas.
 - __Partes envolvidas:__ não é possível dividir o pagamento com beneficiários que não estejam vendendo produtos no carrinho. Por exemplo: pagar o frete diretamente para a transportadora.
 - __Tarifas nominais:__ não permite tarifas nominais. Atualmente, só é possível aplicar comissões percentuais sobre produtos e/ou fretes.
 - __Atribuição de transações ao provedor:__ atualmente só é possível atribuir uma afiliação preferencial no gateway para processar o split usando condições comerciais para os SKUs que são vendidos pelo seller. No entanto, há limitações:
-        - Se o seller e o marketplace tiverem o mesmo SKU, o carrinho sempre escolherá o meio de pagamento com split.
-        - A lista de SKUs precisa ser constantemente atualizada.
+    - Se o seller e o marketplace tiverem o mesmo SKU, o carrinho sempre escolherá o meio de pagamento com split.
+    - A lista de SKUs precisa ser constantemente atualizada.
+
+- __Juros da transação:__ não é possível selecionar quem receberá a informação dos juros (marketplace ou seller). Todas as transações em que o cliente efetuou pagamento de juros são enviadas automaticamente para o marketplace.
 
 ## Split de transação
 

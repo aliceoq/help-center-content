@@ -3,8 +3,8 @@ title: 'Conﬁgurar regra de Divergência de valores Livelo'
 id: 4kocvdsHiLcLLcX6eQIVmD
 status: PUBLISHED
 createdAt: 2023-08-10T22:45:01.497Z
-updatedAt: 2023-08-11T02:18:04.549Z
-publishedAt: 2023-08-11T02:18:04.549Z
+updatedAt: 2024-02-19T19:09:00.244Z
+publishedAt: 2024-02-19T19:09:00.244Z
 firstPublishedAt: 2023-08-11T01:56:55.359Z
 contentType: trackArticle
 productTeam: Channels
@@ -27,3 +27,7 @@ necessário enviar o campo `isCreatedAsync` na API <a href="https://developers.v
 </div>  
 
 É recomendável que a conﬁguração da regra de Divergência de valores seja feita antes de você seguir para a próxima etapa da conﬁguração da integração com a Livelo. Descumprir esta recomendação não impede que a integração seja concluída, mas pedidos com divergência de preço ﬁcarão retidos até a criação da regra de Divergência de valores e o envio do campo `isCreatedAsync` na API [Place fulfillment order](https://developers.vtex.com/docs/api-reference/marketplace-protocol-external-marketplace-orders#post-/api/fulfillment/pvt/orders). Será possível acompanhá-los no Admin VTEX, em **Marketplace > Conexões > Pedidos,** ou digite **Pedidos** na barra de busca.  
+
+<div class="alert alert-warning">
+Incrementos de preço superiores a 20% do valor atual do produto só serão atualizados no sistema se realizados de forma gradual.
+</div>  

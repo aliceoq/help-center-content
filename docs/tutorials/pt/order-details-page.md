@@ -3,8 +3,8 @@ title: 'Página de detalhes do pedido'
 id: 2Y75n54Cc9VizrlG1N6ZNl
 status: PUBLISHED
 createdAt: 2020-12-28T15:51:29.428Z
-updatedAt: 2023-11-08T14:46:13.062Z
-publishedAt: 2023-11-08T14:46:13.062Z
+updatedAt: 2023-12-21T14:06:02.509Z
+publishedAt: 2023-12-21T14:06:02.509Z
 firstPublishedAt: 2020-12-28T19:33:51.059Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -16,7 +16,7 @@ subcategory: 3VNOhxDrvYxJThhuJClrYZ
 ---
 
 <div class = "alert alert-info">
-É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>. Para consultar pedidos criados há mais de dois anos, entre em contato com <a href="https://support.vtex.com/hc/pt-br/requests">nosso Suporte</s>. Você vai obter acesso à informação durante 15 dias.
+É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>.
 </div>
 
 A página de **Detalhes do Pedido** permite visualizar todas as informações de um pedido e gerenciá-lo em um único lugar. Para visualizá-la, no Admin VTEX, acesse **Pedidos > [Todos os Pedidos](https://help.vtex.com/pt/tutorial/lista-de-pedidos-interface--2QTduKHAJMFIZ3BAsi6Pi)**, e clique no pedido desejado.

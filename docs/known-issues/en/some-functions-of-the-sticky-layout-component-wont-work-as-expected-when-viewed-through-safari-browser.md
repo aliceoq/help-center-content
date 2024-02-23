@@ -3,8 +3,8 @@ title: "Some functions of the sticky layout component won't work as expected whe
 id: 6qXYzloLLowKzEqIUX1IB0
 status: PUBLISHED
 createdAt: 2023-11-08T13:34:35.513Z
-updatedAt: 2023-11-08T13:34:36.172Z
-publishedAt: 2023-11-08T13:34:36.172Z
+updatedAt: 2024-02-16T20:55:46.662Z
+publishedAt: 2024-02-16T20:55:46.662Z
 firstPublishedAt: 2023-11-08T13:34:36.172Z
 contentType: knownIssue
 productTeam: Store Framework

@@ -3,8 +3,8 @@ title: 'How does VTEX support work?'
 id: 3kACEfni4m8Yxa1vnf2ebe
 status: PUBLISHED
 createdAt: 2019-03-10T19:06:12.818Z
-updatedAt: 2023-12-01T18:52:06.733Z
-publishedAt: 2023-12-01T18:52:06.733Z
+updatedAt: 2024-01-08T19:15:40.782Z
+publishedAt: 2024-01-08T19:15:40.782Z
 firstPublishedAt: 2019-03-10T19:08:36.723Z
 contentType: frequentlyAskedQuestion
 productTeam: Others
@@ -35,7 +35,7 @@ To better serve global customers in different countries, our Customer Excellence
 - Asia-Pacific (APAC)
 - [Brazil](/pt/faq/suporte-vtex-brasil--5q861sTw1n7H2BENOu7ls9)
 - [United States (USA)](/en/faq/vtex-support-united-states--Bm45YFp68QRe1Z5r2oa07)
-- Europe, Middle East and Africa (EMEA)
+- [Europe, Middle East and Africa (EMEA)](https://help.vtex.com/en/faq/vtex-support-emea--5ePu2qkCfmE0IEKDFKg53F?&utm_source=autocomplete)
 - Latin America (LATAM, ex. Brasil)
 
 ### Satisfaction Survey
@@ -48,9 +48,7 @@ To access it, go to **Account settings** and click on **Satisfaction survey**.
 
 ### Real-time Monitoring
 
-We value transparency regarding the integrity of our systems. Thus, whenever there is a critical problem that can affect store sales or the functioning of the platform, we will establish a proactive communication with clients and partners through the following three channels:  
-
-- The [Healthcheck](http://healthcheck.vtex.com/) dashboard shows modules responsible for monitoring each VTEX service in real time. We display a functioning indicator for each module and the time it was last updated, warning when a resource is unavailable or not functioning properly. 
+We value transparency regarding the integrity of our systems. Thus, whenever there is a critical problem that can affect store sales or the functioning of the platform, we will establish a proactive communication with clients and partners through the following channels:  
 
 - The [Status](https://status.vtex.com/) page displays a timeline with the recent system incidents history. Detailed information on each incident is available, such as what happened, which modules were affected, the sequence of actions taken towards solving the problem, and in the end, a summary of the issue. 
 

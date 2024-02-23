@@ -3,8 +3,8 @@ title: 'Configurar pagamento com ShopFácil'
 id: 4v3z3CLrgZ2bByMx7uoMeG
 status: PUBLISHED
 createdAt: 2023-07-14T16:49:07.504Z
-updatedAt: 2023-07-14T17:10:10.167Z
-publishedAt: 2023-07-14T17:10:10.167Z
+updatedAt: 2024-01-23T21:31:46.325Z
+publishedAt: 2024-01-23T21:31:46.325Z
 firstPublishedAt: 2023-07-14T16:57:55.320Z
 contentType: tutorial
 productTeam: Financial
@@ -17,11 +17,11 @@ subcategory: 3tDGibM2tqMyqIyukqmmMw
 
 Na VTEX, sua loja pode realizar a integração com o gateway ShopFácil e receber por meio de Pix.
 
-Para configurar a afiliação do ShopFácil, siga os passos abaixo:
+Para configurar ShopFácil, siga os passos abaixo:
 
-1. No Admin VTEX, acesse **Configurações da loja** > **Pagamentos** > **Configurações**, ou digite **Configurações** na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão `+`.
-3. Clique no conector __ShopfacilPayment__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __ShopfacilPayment__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos __Application Key__ e __Application Token__ com as informações da sua conta ShopFácil.
 5. Caso seja exibida uma mensagem de alerta indicando a necessidade de instalação do app, clique no botão `Instalar app` e siga as instruções de instalação.
 6. Clique em `Salvar`.

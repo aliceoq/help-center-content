@@ -3,8 +3,8 @@ title: 'Order details page'
 id: 2Y75n54Cc9VizrlG1N6ZNl
 status: PUBLISHED
 createdAt: 2020-12-28T15:51:29.428Z
-updatedAt: 2023-11-08T14:46:13.062Z
-publishedAt: 2023-11-08T14:46:13.062Z
+updatedAt: 2023-12-21T14:06:02.509Z
+publishedAt: 2023-12-21T14:06:02.509Z
 firstPublishedAt: 2020-12-28T19:33:51.059Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -16,7 +16,7 @@ subcategory: 3VNOhxDrvYxJThhuJClrYZ
 ---
 
 <div class = "alert alert-info">
-You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>. To access order data from previous years, please contact <a href="https://support.vtex.com/hc/pt-br/requests">our Support</a>. Your access to orders placed before the last two years is temporary and will be available for 15 days.
+You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>.
 </div>
 
 The order details page allows you to view all the information of an order and manage it in a single place. To access it, in the VTEX Admin, go to **Orders > [All orders](https://help.vtex.com/en/tutorial/lista-de-pedidos-beta--2QTduKHAJMFIZ3BAsi6Pi)**, and click the desired order.

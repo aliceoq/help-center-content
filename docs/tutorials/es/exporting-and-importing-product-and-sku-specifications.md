@@ -3,8 +3,8 @@ title: 'Exportar y importar especificaciones de producto y SKU'
 id: tutorials_274
 status: PUBLISHED
 createdAt: 2017-04-27T22:10:43.787Z
-updatedAt: 2023-08-29T19:13:18.389Z
-publishedAt: 2023-08-29T19:13:18.389Z
+updatedAt: 2024-02-21T20:34:56.013Z
+publishedAt: 2024-02-21T20:34:56.013Z
 firstPublishedAt: 2017-04-27T23:03:12.428Z
 contentType: tutorial
 productTeam: Marketing & Merchandising

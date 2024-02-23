@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Woovi'
 id: a61xxlOLJTQRrPx2MrVfs
 status: PUBLISHED
 createdAt: 2023-09-08T17:29:33.321Z
-updatedAt: 2023-09-08T17:49:01.961Z
-publishedAt: 2023-09-08T17:49:01.961Z
+updatedAt: 2024-01-23T21:54:32.467Z
+publishedAt: 2024-01-23T21:54:32.467Z
 firstPublishedAt: 2023-09-08T17:49:01.961Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pagamento-com-woovi
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamento Woovi. Por meio deste conector, sua loja pode realizar vendas por meio do Woovi e Woovi Parcelado.
+Na VTEX, é possível realizar a integração com o provedor de pagamento Woovi. Por meio deste provedor, sua loja pode realizar vendas por meio do Woovi e Woovi Parcelado.
 
-Para configurar a afiliação Woovi, siga os passos abaixo:
+Para configurar Woovi, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão `+`.
-3. Clique no conector __WooviConnector__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __WooviConnector__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos __Application Key__, __Application Token__ e __App ID__ com as informações da sua conta Woovi.
 5. Em __Method__, selecione __Pix__ ou __Woovi Parcelado__.
 6. Caso seja exibida uma mensagem de alerta indicando a necessidade de instalação do app, clique no botão `Instalar app` e siga as instruções de instalação.

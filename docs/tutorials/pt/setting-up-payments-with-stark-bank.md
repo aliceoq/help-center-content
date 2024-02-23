@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Stark Bank'
 id: 19pwHHVuEGN743WOGXcbUM
 status: PUBLISHED
 createdAt: 2023-09-08T15:29:02.297Z
-updatedAt: 2023-09-08T15:45:11.373Z
-publishedAt: 2023-09-08T15:45:11.373Z
+updatedAt: 2024-01-23T21:44:38.751Z
+publishedAt: 2024-01-23T21:44:38.751Z
 firstPublishedAt: 2023-09-08T15:45:11.373Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pagamento-com-stark-bank
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamento Stark Bank. Por meio deste conector, sua loja pode realizar vendas por meio de boleto bancário e PIX.
+Na VTEX, é possível realizar a integração com o provedor de pagamento Stark Bank. Por meio deste provedor, sua loja pode realizar vendas por meio de boleto bancário e PIX.
 
-Para configurar a afiliação Stark Bank, siga os passos abaixo:
+Para configurar Stark Bank, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão `+`.
-3. Clique no conector __StarkBank__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __StarkBank__ na barra de busca e clique sobre o nome do provedor.
 4. Caso seja exibida uma mensagem de alerta indicando a necessidade de instalação do app, clique no botão __Instalar app__ e siga as instruções de instalação.
 5. Clique em __Autorizar__. Você será redirecionado para o ambiente do Stark Bank.
 6. No ambiente do Stark Bank, insira os seus dados de login e senha da conta Stark Bank. Siga as instruções indicadas para concluir a vinculação da conta Stark Bank com a VTEX.

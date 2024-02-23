@@ -3,8 +3,8 @@ title: 'Impossibilidade de usar duas ou mais credenciais diferentes do PayPal pa
 id: 3cVh2SbvToH8yGOOYcWgDB
 status: PUBLISHED
 createdAt: 2022-03-03T18:39:24.442Z
-updatedAt: 2023-06-23T18:24:03.788Z
-publishedAt: 2023-06-23T18:24:03.788Z
+updatedAt: 2024-02-16T20:25:01.876Z
+publishedAt: 2024-02-16T20:25:01.876Z
 firstPublishedAt: 2022-03-03T18:39:25.004Z
 contentType: knownIssue
 productTeam: Payments
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Payments
 slug: impossibilidade-de-usar-duas-ou-mais-credenciais-diferentes-do-paypal-para-a-mesma-conta
 locale: pt
-kiStatus: Backlog
+kiStatus: No Fix
 internalReference: 459704
 ---
 

@@ -3,8 +3,8 @@ title: 'Audit'
 id: 5RXf9WJ5YLFBcS8q8KcxTA
 status: PUBLISHED
 createdAt: 2021-10-21T16:51:06.108Z
-updatedAt: 2023-09-26T18:08:40.050Z
-publishedAt: 2023-09-26T18:08:40.050Z
+updatedAt: 2024-02-07T13:14:18.856Z
+publishedAt: 2024-02-07T13:14:18.856Z
 firstPublishedAt: 2021-10-21T21:55:42.939Z
 contentType: tutorial
 productTeam: Others
@@ -15,7 +15,6 @@ legacySlug: como-encontrar-eventos-no-audit
 subcategory: 2TNXiKzLZOPxjMTyGiEeJu
 ---
 
-
 Para aumentar a transparência e a confiança entre os usuários administrativos da sua loja, a VTEX registra diversas operações, seus autores e os horários em que elas ocorreram no **Audit**, um módulo utilizado para pesquisar e investigar este histórico com o auxílio de filtros.
 
 Para acessar a página do Audit no Admin VTEX, acesse **Apps > Apps instalados > Audit**, ou digite **Audit** na barra de busca. Nessa página, é possível realizar as seguintes ações:
@@ -23,7 +22,7 @@ Para acessar a página do Audit no Admin VTEX, acesse **Apps > Apps instalados >
 * [Buscar eventos no Audit](#buscar-eventos-no-audit)
 * [Verificar últimas buscas realizadas no Audit](#verificar-ultimas-buscas-realizadas-no-audit)
 
-![audit-pt](//images.ctfassets.net/alneenqid6w5/2ViFawOaYsqfImcEd6TbXx/11a8a9deef31e640cc1862e7ae6b7515/audit-pt.png)
+![audit-ui-pt 1](//images.ctfassets.net/alneenqid6w5/5IFUH95vspIgJVYg9CrWMW/42032a1aa1700f58ffaf92b1e00ecfd2/audit-ui-pt_1.png)
 
 ## Buscar eventos no Audit
 
@@ -67,11 +66,12 @@ A seção **Resultados** lista cada evento encontrado na busca e exibe as inform
 
 | Coluna | Descrição |
 |---|---|
-| Copiar | Botão para copiar as informações do evento exibidas na tabela para a área de transferência. |
-| Hora do evento | Data e horário em que o evento ocorreu. |
-| Ação | Ação realizada na aplicação selecionada para a busca. Confira as ações possíveis na [lista de eventos disponíveis no Audit](https://help.vtex.com/pt/tutorial/eventos-disponiveis-no-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
-| Detalhe do evento | Informações complementares sobre o evento. Confira os detalhes exibidos para cada evento na [lista de eventos disponíveis no Audit](https://help.vtex.com/pt/tutorial/eventos-disponiveis-no-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
-| Autor | Email, ID ou token do usuário que realizou o evento. |
+| __Copiar__ | Botão para copiar as informações do evento exibidas na tabela para a área de transferência. |
+| __Hora do evento__ | Data e horário em que o evento ocorreu. |
+| __Ação__ | Ação realizada na aplicação selecionada para a busca. Confira as ações possíveis na [lista de eventos disponíveis no Audit](https://help.vtex.com/pt/tutorial/eventos-disponiveis-no-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
+| __Detalhe do evento__ | Informações complementares sobre o evento. Confira os detalhes exibidos para cada evento na [lista de eventos disponíveis no Audit](https://help.vtex.com/pt/tutorial/eventos-disponiveis-no-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
+| __Autor__ | Email, ID ou token do usuário que realizou o evento. |
+| __Mais detalhes__ | Botão que abre um modal com mais informações sobre o evento, quando aplicável. Os detalhes exibidos podem incluir: <ul><li class="t-body mb5 lh-copy"><strong>Nome da entidade:</strong> ID da entidade modificada.</li><li class="t-body mb5 lh-copy"><strong>Entidade antes da ação:</strong> dados da entidade antes do evento, em formato <a href="http://www.json.org/" class="t-body mv5 lh-copy c-link active-c-link hover-c-link visited-c-link hover-c-link break-word" rel="noopener noreferrer" target="_blank">JSON</a>.</li><li class="t-body mb5 lh-copy"><strong>Entidade após a ação:</strong> dados da entidade após o evento, em formato <a href="http://www.json.org/" class="t-body mv5 lh-copy c-link active-c-link hover-c-link visited-c-link hover-c-link break-word" rel="noopener noreferrer" target="_blank">JSON</a>.</li></ul>A depender do evento, nem todas as informações citadas acima são exibidas. Por exemplo, um evento de exclusão de uma informação mostra apenas a entidade antes da ação. Por outro lado, um evento de criação de uma informação apresenta apenas a entidade após a ação. <br /><br /> Alguns eventos não apresentam nenhuma informação complementar. Nesses casos, o modal aparece vazio. |
 
 ### Exemplos de buscas
 

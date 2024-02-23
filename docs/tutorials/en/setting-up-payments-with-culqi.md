@@ -3,8 +3,8 @@ title: 'Setting up payments with Culqi'
 id: 6LUOpYBpg48XSL8X0Le6e3
 status: PUBLISHED
 createdAt: 2023-11-16T13:31:38.132Z
-updatedAt: 2023-11-16T15:07:44.487Z
-publishedAt: 2023-11-16T15:07:44.487Z
+updatedAt: 2024-01-25T19:01:02.616Z
+publishedAt: 2024-01-25T19:01:02.616Z
 firstPublishedAt: 2023-11-16T14:54:41.647Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: setting-up-payments-with-culqi
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Culqi payment provider. With this connector, your store can make sales through the Culqi.
+At VTEX, it is possible to integrate with the Culqi payment provider. With this provider, your store can make sales through the Culqi.
 
-To configure Culqi affiliation, follow the steps below:
+To configure Culqi, follow the steps below:
 
-1. In the VTEX Admin, go to __Store Settings__ > __Payment__ > __Settings__, or type __Settings__ in the search bar at the top of the page.
-2. In the __Gateway affiliations__ tab, click on the `+` button.
-3. Click on the __Culqi__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __Culqi__ in the search bar and click on the name of the provider.
 4. Fill in the __Application Key__, __Application Token__ and __Public Key__ fields with the data provided by Culqi.
 5. In the __Payment settlement__ field, select one of the following option:
 <br>
@@ -42,7 +42,7 @@ To configure Culqi affiliation, follow the steps below:
 12. In __Tiempo de expiración de pago__, select the period (in days) for payments to expire.
 13. In the __URL de logo__, __Tema elegido__, __RSA Id__, __Llave pública RSA__, __Usuario Webhook__ and __Password Webhook__ fields, enter the information provided by Culqi.
 14. In __Ativar divisão e enviar recebedores?__, select whether split payments will be available for the marketplace and sellers.
-15. Click on the `Save` button.
+15. Click `Save`.
 
 ## Setting up the payment condition
 
@@ -53,6 +53,6 @@ To configure Culqi affiliation, follow the steps below:
 5. Activate the condition in the __Status__ field.
 6. If you want to use an anti-fraud system, select the option __Use anti-fraud__.
 7. If you want, you can also [configure special payment conditions](https://help.vtex.com/en/tutorial/condiciones-especiales--tutorials_456?&utm_source=autocomplete#).
-8. Click on `Save`.
+8. Click `Save`.
 
-After following the indicated steps, Culqi connector may take up to 10 minutes to appear at your store's checkout as a payment option.
+After following the indicated steps, Culqi may take up to 10 minutes to appear at your store's checkout as a payment option.

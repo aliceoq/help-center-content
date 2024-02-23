@@ -3,8 +3,8 @@ title: 'Configurando a integração'
 id: HgIbZEzbPr8FQid5MXURQ
 status: PUBLISHED
 createdAt: 2023-08-10T22:33:03.150Z
-updatedAt: 2023-08-11T02:18:04.515Z
-publishedAt: 2023-08-11T02:18:04.515Z
+updatedAt: 2024-02-19T19:02:28.716Z
+publishedAt: 2024-02-19T19:02:28.716Z
 firstPublishedAt: 2023-08-11T01:56:55.389Z
 contentType: trackArticle
 productTeam: Channels
@@ -16,12 +16,12 @@ trackSlugPT: integracao-livelo
 
 ## Credenciais Livelo  
 
-O primeiro passo para integrar sua loja VTEX à Livelo é ter as credenciais **Client Id** e **Secret**, ambas são utilizadas para validar sua integração com o Marketplace.
+O primeiro passo para integrar sua loja VTEX à Livelo é ter as credenciais **AppKey** e **AppToken**, ambas são utilizadas para validar sua integração com o Marketplace.
 
 Para obter as suas credenciais, entre em contato através do email do [time de Growth](mailto:joao.daniel@vtex.com.br).
 
 ## Conﬁgurações na plataforma VTEX  
-Durante o processo de conﬁguração na plataforma VTEX, tenha sempre em mãos as credenciais fornecidas pela Livelo. O **Client Id** e o **Secret**, são imprescindíveis para a integração.
+Durante o processo de conﬁguração na plataforma VTEX, tenha sempre em mãos as credenciais fornecidas pela Livelo. O [*AppKey* e *AppToken*](https://developers.vtex.com/docs/guides/authentication), são imprescindíveis para a integração.
 
 ### Deﬁnição da política comercial na Livelo
 

@@ -3,8 +3,8 @@ title: 'Gerenciando content types do tipo Singleton'
 id: VBibMN1BqV2OFmavUFCdo
 status: PUBLISHED
 createdAt: 2023-04-05T17:55:26.748Z
-updatedAt: 2023-07-10T20:41:14.829Z
-publishedAt: 2023-07-10T20:41:14.829Z
+updatedAt: 2024-01-04T20:59:25.019Z
+publishedAt: 2024-01-04T20:59:25.019Z
 firstPublishedAt: 2023-04-06T19:11:57.614Z
 contentType: tutorial
 productTeam: VTEX IO
@@ -38,8 +38,9 @@ Para editar ou excluir um conteúdo, verifique as seções a seguir.
 
 ## Editando o Singleton
 1. Access the **Admin > Storefront > Headless CMS**.
-2. Selecione o Singleton criado, por exemplo **Home**.
-3. Na página **Home**, edite como desejar adicionando novas seções.
+2. Clique no projeto onde está o Singleton criado.
+3. Selecione o Singleton criado, por exemplo **Home**.
+4. Na página **Home**, edite como desejar adicionando novas seções.
 
 ## Deletando o Singleton
 1. Na página do Singleton, selecione `mais`(menu kebab) e clique `Excluir`.

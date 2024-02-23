@@ -3,8 +3,8 @@ title: 'Configurar gateway WebPay2P'
 id: 34Bn1nOoVO6iesWAgSEQQA
 status: PUBLISHED
 createdAt: 2018-04-02T19:30:48.720Z
-updatedAt: 2021-07-07T17:45:55.414Z
-publishedAt: 2021-07-07T17:45:55.414Z
+updatedAt: 2024-01-24T20:40:22.243Z
+publishedAt: 2024-01-24T20:40:22.243Z
 firstPublishedAt: 2018-04-02T19:46:03.221Z
 contentType: tutorial
 productTeam: Financial
@@ -19,10 +19,10 @@ subcategory: 3tDGibM2tqMyqIyukqmmMw
 
 Para configurar el WebPay como gateway, siga estos pasos:
 
-1. Acceda al __Admin__ VTEX.
-2. Haga clic en __Pagos > Configuración__.
-3. En la pestaña de __Afiliaciones__, haga clic en el botón __+__.
-4. Haga clic en el conector __WebPay2P__ y rellene los campos solicitados con la siguiente información:
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __WebPay2P__ en la barra de búsqueda y haga clic en el nombre del proveedor.
+4. Rellene los campos solicitados con la siguiente información:
 
     - __Código Comercio T. Crédito__: El código de su tienda para el uso de tarjetas de crédito.
     - __Periodo de Gracia__: Rellene este campo solo si va a ofrecer pagos en efectivo.

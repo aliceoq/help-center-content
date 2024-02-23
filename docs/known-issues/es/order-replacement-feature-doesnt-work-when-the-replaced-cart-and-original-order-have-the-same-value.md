@@ -3,8 +3,8 @@ title: 'La función de sustitución de pedidos no funciona cuando el carro susti
 id: 7eHiC34Pgsr1XcfIVHl7Sc
 status: PUBLISHED
 createdAt: 2023-07-21T14:49:31.057Z
-updatedAt: 2023-08-03T18:10:17.919Z
-publishedAt: 2023-08-03T18:10:17.919Z
+updatedAt: 2023-12-18T20:17:32.757Z
+publishedAt: 2023-12-18T20:17:32.757Z
 firstPublishedAt: 2023-07-21T14:49:31.682Z
 contentType: knownIssue
 productTeam: Checkout
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Checkout
 slug: la-funcion-de-sustitucion-de-pedidos-no-funciona-cuando-el-carro-sustituido-y-el-pedido-original-tienen-el-mismo-valor
 locale: es
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 866622
 ---
 

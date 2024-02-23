@@ -3,8 +3,8 @@ title: 'La creación de grupos de vendedores no añade los vendedores selecciona
 id: 5J14RCg9E4LzBcvJQyOAYy
 status: PUBLISHED
 createdAt: 2023-10-27T17:33:45.625Z
-updatedAt: 2023-10-27T17:33:46.214Z
-publishedAt: 2023-10-27T17:33:46.214Z
+updatedAt: 2024-01-26T16:54:12.089Z
+publishedAt: 2024-01-26T16:54:12.089Z
 firstPublishedAt: 2023-10-27T17:33:46.214Z
 contentType: knownIssue
 productTeam: Marketplace
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Marketplace
 slug: la-creacion-de-grupos-de-vendedores-no-anade-los-vendedores-seleccionados
 locale: es
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 926969
 ---
 
@@ -46,7 +46,7 @@ Sin embargo, al añadir un nombre de grupo y vendedores en esta interfaz, sólo 
 ## Workaround
 
 
-Añade los vendedores al grupo manualmente más tarde en su "Detalles del vendedor" UI
+Añada los vendedores al grupo manualmente más tarde en su "Detalles del vendedor" UI
 
 
 

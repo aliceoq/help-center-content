@@ -3,8 +3,8 @@ title: 'Troubleshooting errors in subscription orders'
 id: uLL8AYBGdtAmbbdL5gRCf
 status: PUBLISHED
 createdAt: 2020-02-05T14:32:49.763Z
-updatedAt: 2023-08-30T19:12:46.986Z
-publishedAt: 2023-08-30T19:12:46.986Z
+updatedAt: 2023-12-21T14:07:42.772Z
+publishedAt: 2023-12-21T14:07:42.772Z
 firstPublishedAt: 2020-02-11T15:00:00.666Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -16,7 +16,7 @@ subcategory: 1rA9wuuskW3PpjvMrhatAM
 ---
 
 <div class = "alert alert-info">
-You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>. To access order data from previous years, please contact <a href="https://support.vtex.com/hc/pt-br/requests">our Support</a>. Your access to orders placed before the last two years is temporary and will be available for 15 days.
+You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>.
 </div>
 
 You can identify and manage errors in subscription orders in the Admin, in **Subscriptions** > **Dashboards** > **Subscription Orders**.

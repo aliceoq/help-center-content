@@ -3,8 +3,8 @@ title: 'Marketplace strategies at VTEX'
 id: tutorials_402
 status: PUBLISHED
 createdAt: 2017-04-27T22:06:47.209Z
-updatedAt: 2023-08-24T20:03:18.118Z
-publishedAt: 2023-08-24T20:03:18.118Z
+updatedAt: 2024-01-22T15:10:34.937Z
+publishedAt: 2024-01-22T15:10:34.937Z
 firstPublishedAt: 2017-04-27T23:03:23.819Z
 contentType: tutorial
 productTeam: Channels
@@ -17,7 +17,7 @@ subcategory: 4uqMnZjwBO04uWgCom8QiA
 
 A marketplace is a virtual platform through which different sellers offer their products. In addition to owning products, sellers are also responsible for delivering them to customers.
 
-<img src="https://drive.google.com/uc?export=download&id=1qT3lLaKflfnWyHknf7IgjNbRNCki9FuQ"/>
+![Marketplace strategies](//images.ctfassets.net/alneenqid6w5/4tARnj2ViHYTBPPgiD9pWs/103ccbf1525c4bf65e049dd85aef5186/VTEX_Marketplace_650x400.png)
 
 [VTEX promotes digital collaboration](https://vtex.com/us-en/ecommerce-marketplace/) in different scenarios. For example, in addition to selling your products on other marketplaces, you can also act as a marketplace and sell products from other sellers on your website.
 
@@ -38,7 +38,7 @@ Orders placed through marketplaces are subject to the same <a href="https://help
 
 You select the product assortment to send to a marketplace when choosing your [trade policy](https://help.vtex.com/en/tutorial/como-funciona-uma-politica-comercial--6Xef8PZiFm40kg2STrMkMV). To [request additional trade policies](https://help.vtex.com/en/tutorial/contratacao-de-politica-comercial-adicional--61vuFOw4yGh6nwSmkLJL1X), contact our Growth Operations team through *[Support](https://help.vtex.com/en/support)* by selecting **Commercial** and `Create a trade policy`.
 
-Requesting additional trade policies to integrate with certified connectors, certified connectors, or other VTEX stores is free of charge.
+Requesting additional trade policies to integrate with certified connectors or other VTEX stores is free of charge.
 
 Here are the scenarios we will address next:
 

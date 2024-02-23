@@ -3,8 +3,8 @@ title: 'Visão Geral Pedidos'
 id: tutorials_201
 status: PUBLISHED
 createdAt: 2017-04-27T22:13:42.525Z
-updatedAt: 2023-11-08T14:59:02.078Z
-publishedAt: 2023-11-08T14:59:02.078Z
+updatedAt: 2023-12-21T14:01:20.828Z
+publishedAt: 2023-12-21T14:01:20.828Z
 firstPublishedAt: 2017-04-27T23:03:03.051Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -37,7 +37,7 @@ Além de pesquisar pedidos em **Pedidos > Todos os pedidos**, você pode buscar 
 - Documento do cliente 
 
 <div class = "alert alert-info">
-É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>. Para consultar pedidos criados há mais de dois anos, entre em contato com <a href="https://support.vtex.com/hc/pt-br/requests">nosso Suporte</s>. Você vai obter acesso à informação durante 15 dias.
+É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>.
 </div>
 
 ## Assinaturas

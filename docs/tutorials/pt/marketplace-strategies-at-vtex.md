@@ -3,8 +3,8 @@ title: 'Estratégias de marketplace na VTEX'
 id: tutorials_402
 status: PUBLISHED
 createdAt: 2017-04-27T22:06:47.209Z
-updatedAt: 2023-08-24T20:03:18.118Z
-publishedAt: 2023-08-24T20:03:18.118Z
+updatedAt: 2024-01-22T15:10:34.937Z
+publishedAt: 2024-01-22T15:10:34.937Z
 firstPublishedAt: 2017-04-27T23:03:23.819Z
 contentType: tutorial
 productTeam: Channels
@@ -17,7 +17,7 @@ subcategory: 4uqMnZjwBO04uWgCom8QiA
 
 Um marketplace é uma plataforma virtual por meio da qual diferentes vendedores anunciam seus produtos. Esses vendedores são chamados de sellers, que além de serem os donos dos produtos, são também os responsáveis pela entrega do produto ao comprador.
 
-<img src="https://drive.google.com/uc?export=download&id=1qT3lLaKflfnWyHknf7IgjNbRNCki9FuQ"/>
+![Estratégias de marketplace](//images.ctfassets.net/alneenqid6w5/4tARnj2ViHYTBPPgiD9pWs/afd1733c791e909226686d6cebede48f/VTEX_Marketplace_650x400.png)
 
 [A VTEX promove a colaboração digital](https://vtex.com/br-pt/marketplace/) em diferentes cenários. Você pode não apenas vender seus produtos em outros marketplaces, mas também vender produtos de outros sellers no seu ambiente, tornando-se um marketplace.
 

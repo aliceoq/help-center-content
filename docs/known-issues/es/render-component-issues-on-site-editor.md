@@ -3,8 +3,8 @@ title: 'Problemas con los componentes de renderizado en el editor de sitios'
 id: 66gcFw8LwnL6WsvuXPRzFn
 status: PUBLISHED
 createdAt: 2022-04-19T19:41:08.520Z
-updatedAt: 2023-03-10T14:17:10.739Z
-publishedAt: 2023-03-10T14:17:10.739Z
+updatedAt: 2024-01-30T19:32:05.011Z
+publishedAt: 2024-01-30T19:32:05.011Z
 firstPublishedAt: 2022-04-19T19:41:09.223Z
 contentType: knownIssue
 productTeam: CMS
@@ -23,7 +23,10 @@ internalReference: 415674
 </div>
 
 
-Este comportamiento ocurre de forma intermitente, a veces los componentes no se renderizan y a veces se renderizan dos veces en función de los clics en la página.
+Debido a la cantidad de información en la página, el editor del sitio puede tener problemas al renderizar bloques. Este comportamiento ocurre de forma intermitente, a veces los componentes no se renderizan y otras veces se renderizan dos veces. Puede ocurrir que no aparezca ningún bloque en el editor del sitio:
+ ![](https://vtexhelp.zendesk.com/attachments/token/miNCNkBPcmbXcVHmb9f5HWxIS/?name=image.png)
+
+O puede ocurrir que aparezcan menos bloques.
 
 
 ##
@@ -31,7 +34,7 @@ Este comportamiento ocurre de forma intermitente, a veces los componentes no se 
 ## Simulación
 
 
-Pruebe a editar el Editor de Sitios, a veces no se renderiza y a veces algunos bloques se renderizan dos veces.
+Prueba a editar el Editor de Sitios, a veces no se renderizará y a veces algunos bloques se renderizarán dos veces.
 
 
 
@@ -39,4 +42,6 @@ Pruebe a editar el Editor de Sitios, a veces no se renderiza y a veces algunos b
 
 
 No se conoce ninguna solución.
+
+
 

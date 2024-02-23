@@ -3,8 +3,8 @@ title: 'Como funciona o frete quando a entrega é feita pelo marketplace (FOB)'
 id: EY1l6tYW3IUquwwwcQqwQ
 status: PUBLISHED
 createdAt: 2017-08-28T23:17:57.225Z
-updatedAt: 2023-11-27T17:47:41.047Z
-publishedAt: 2023-11-27T17:47:41.047Z
+updatedAt: 2024-02-05T15:48:24.006Z
+publishedAt: 2024-02-05T15:48:24.006Z
 firstPublishedAt: 2017-08-29T20:09:40.790Z
 contentType: tutorial
 productTeam: Channels
@@ -54,4 +54,4 @@ O pedido é enviado em um contrato com os Correios do próprio marketplace. Nest
 
 ![Etiqueta de entrega pelos Correios (BR) - Marketplace](//images.ctfassets.net/alneenqid6w5/3Xc7eqzjetqNwScoZxkWOK/e49eff1715dd0b3018bb58a6521f5c0c/Screen_Shot_2020-03-25_at_11.43.27.png)
 
-Caso queria aproveitar a etiqueta dentro do ERP, ela também está disponível na [API de Pedidos](https://developers.vtex.com/reference/orders#getorder), no array `trackingHints` que faz parte do objeto `shippingData`.
+Caso queria aproveitar a etiqueta dentro do ERP, ela também está disponível em [Marketplace Protocol API](https://developers.vtex.com/docs/api-reference/marketplace-protocol-external-marketplace-orders#post-/api/order-integration/orders), saiba mais em [New Order Integration](https://developers.vtex.com/docs/guides/external-marketplace-integration-collect-orders#scenario-12-order-with-tracking-hints).

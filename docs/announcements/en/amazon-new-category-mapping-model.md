@@ -1,10 +1,10 @@
 ---
 title: 'Amazon: New category mapping model'
 id: 584nPLYkI8tnOGz1s4X5LE
-status: DRAFT
+status: PUBLISHED
 createdAt: 2023-11-27T23:08:37.697Z
-updatedAt: 2023-11-27T23:25:20.596Z
-publishedAt: 
+updatedAt: 2023-12-18T15:49:17.763Z
+publishedAt: 2023-12-18T15:49:17.763Z
 contentType: updates
 productTeam: Channels
 author: 2p7evLfTcDrhc5qtrzbLWD
@@ -32,5 +32,5 @@ Here are some of the advantages of mapping categories and attributes using the V
 
 ## What needs to be done?
 
-The feature will be available to all [VTEX accounts that act as sellers](https://help.vtex.com/en/tutorial/estrategias-de-marketplace-na-vtex--tutorials_402#sendo-seller-vtex) from **November 29, 2023.** To use it, you need to have your VTEX account [integrated](https://help.vtex.com/en/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5sYA9MlRo92jJIxKF1MTXb) with Amazon and send the products by following the [Mapping and sending product categories to Amazon](https://help.vtex.com/en/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5xklf2wSdeztQh4iy5kJvD) tutorial.
+The feature will be available to all [VTEX accounts that act as sellers](https://help.vtex.com/en/tutorial/estrategias-de-marketplace-na-vtex--tutorials_402#sendo-seller-vtex) from **December 18, 2023.** To use it, you need to have your VTEX account [integrated](https://help.vtex.com/en/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5sYA9MlRo92jJIxKF1MTXb) with Amazon and send the products by following the [Mapping and sending product categories to Amazon](https://help.vtex.com/en/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5xklf2wSdeztQh4iy5kJvD) tutorial.
 

@@ -3,8 +3,8 @@ title: 'Audit'
 id: 5RXf9WJ5YLFBcS8q8KcxTA
 status: PUBLISHED
 createdAt: 2021-10-21T16:51:06.108Z
-updatedAt: 2023-09-26T18:08:40.050Z
-publishedAt: 2023-09-26T18:08:40.050Z
+updatedAt: 2024-02-07T13:14:18.856Z
+publishedAt: 2024-02-07T13:14:18.856Z
 firstPublishedAt: 2021-10-21T21:55:42.939Z
 contentType: tutorial
 productTeam: Others
@@ -22,7 +22,7 @@ To access the Audit page in the VTEX Admin, go to **Apps > Installed Apps > Audi
 * [Query events in Audit](#querying-events-in-audit)
 * [View the last queries in Audit](#viewing-the-last-queries-in-audit)
 
-![audit-en](//images.ctfassets.net/alneenqid6w5/2ViFawOaYsqfImcEd6TbXx/3ebe4e972da554b1c39c0e720d9ef49c/audit-en.png)
+![audit-ui-en (1)](//images.ctfassets.net/alneenqid6w5/5IFUH95vspIgJVYg9CrWMW/9e040c47cb3220175bf368155f438813/audit-ui-en__1_.png)
 
 ## Querying events in Audit
 
@@ -66,11 +66,12 @@ The **Results** section lists all events found in the query and displays informa
 
 | Column | Description |
 |---|---|
-| Copy | Button to copy the event information displayed in the table to the clipboard. |
-| Event Time | Date and time of the event. |
-| Action | Action performed in the selected application for the query. Check the possible actions in the [list of events available in Audit](https://help.vtex.com/en/tutorial/events-available-in-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
-| Event Details | Additional information about the event. Check the details displayed for each event in the [list of events available in Audit](https://help.vtex.com/en/tutorial/events-available-in-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
-| Author | Email, ID, or token of the user who performed the event. |
+| __Copy__ | Button to copy the event information displayed in the table to the clipboard. |
+| __Event Time__ | Date and time of the event. |
+| __Action__ | Action performed in the selected application for the query. Check the possible actions in the [list of events available in Audit](https://help.vtex.com/en/tutorial/events-available-in-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
+| __Event Details__ | Additional information about the event. Check the details displayed for each event in the [list of events available in Audit](https://help.vtex.com/en/tutorial/events-available-in-audit--6r1Mzcu5NmkmmDLJlz9CCZ). |
+| __Author__ | Email, ID, or token of the user who performed the event. |
+| __More Details__ | Button that opens a modal with more information about the event, when applicable. The details displayed may include: <ul><li class="t-body mb5 lh-copy"><strong>Entity name:</strong> The ID of the entity that was changed.</li><li class="t-body mb5 lh-copy"><strong>Entity before action:</strong> dInformation about the entity before the event, in <a href="http://www.json.org/" class="t-body mv5 lh-copy c-link active-c-link hover-c-link visited-c-link hover-c-link break-word" rel="noopener noreferrer" target="_blank">JSON</a> format.</li><li class="t-body mb5 lh-copy"><strong>Entity after action:</strong> Information about the entity after the event, in <a href="http://www.json.org/" class="t-body mv5 lh-copy c-link active-c-link hover-c-link visited-c-link hover-c-link break-word" rel="noopener noreferrer" target="_blank">JSON</a> format.</li></ul>Depending on the event, not all the information above is displayed. For example, an event that deleted information only displays the entity before the action. In contrast, an event that added information only displays the entity after the action. <br /><br /> Some events have no additional information. In such cases, the modal is left blank. |
 
 ### Query examples
 

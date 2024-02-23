@@ -3,8 +3,8 @@ title: 'Configurar pago con Powerpay'
 id: 4v3ohBfSTxIyi06aqvlrPp
 status: PUBLISHED
 createdAt: 2023-09-08T18:31:43.851Z
-updatedAt: 2023-09-08T19:52:57.907Z
-publishedAt: 2023-09-08T19:52:57.907Z
+updatedAt: 2024-01-23T21:22:03.339Z
+publishedAt: 2024-01-23T21:22:03.339Z
 firstPublishedAt: 2023-09-08T19:50:37.486Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pago-con-powerpay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX es posible la integración con el proveedor de pagos Powerpay. Con este conector, su tienda puede realizar ventas a través de diferentes de Powerpay.
+En VTEX es posible la integración con el proveedor de pagos Powerpay. Con este proveedor, su tienda puede realizar ventas a través de diferentes de Powerpay.
 
-Para configurar la afiliación Powerpay, siga los pasos a continuación:
+Para configurar Powerpay, siga los pasos a continuación:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda__ > __Pago__ > __Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestaña __Afiliaciones__, haga clic en el botón __+__.
-3. Haga clic en el conector __Powerpay__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __Powerpay__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro __Application Key__, __Application Token__, __secretKey__ y __merchant_id__ con los datos proporcionados por el Powerpay.
 5. En el campo __Captura automática de pago__, seleccione una de las siguientes opciones:
 <br>

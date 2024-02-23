@@ -1,9 +1,9 @@
 ---
 title: 'Authentication'
 id: 21CkKHLKP1o41lUpGhuRUs
-status: PUBLISHED
+status: CHANGED
 createdAt: 2021-10-25T19:06:37.982Z
-updatedAt: 2023-10-26T14:49:32.469Z
+updatedAt: 2024-02-16T18:42:36.362Z
 publishedAt: 2023-10-26T14:49:32.469Z
 firstPublishedAt: 2021-11-08T18:39:50.432Z
 contentType: tutorial
@@ -30,9 +30,9 @@ You need to configure which authentication method will be available in each cont
 | Login method | Description | Webstore | Admin |
 |---|---|---|---|
 | Access code | A random numeric code is sent to the user's email, and they use this code to log in. | Can be enabled | Always enabled |
-| Password | The user creates a password and logs in using the email and password provided. | Can be enabled | Always enabled |
-| Facebook | The user logs in using their Facebook account. | Can be enabled | Not available |
-| Google | The user logs in using their Google account. | Can be enabled | Can be enabled |
+| Password | The user creates a password and logs in using their email and password. Merchants can choose to [enforce password expiration](#enforcing-password-expiration) after a specific period for Admin users. | Can be enabled | Always enabled. Password expiration can be enabled. |
+| Facebook | The user logs in using their Facebook account. Check out the [Configuring login with Facebook and Google](https://help.vtex.com/en/tutorial/configurar-login-com-facebook-e-google--tutorials_513) guide for more information. | Can be enabled | Not available |
+| Google | The user logs in using their Google account. Check out the [Configuring login with Facebook and Google](https://help.vtex.com/en/tutorial/configurar-login-com-facebook-e-google--tutorials_513) guide for more information. | Can be enabled | Can be enabled |
 | Integration with other ID providers | The user logs in using their account from other external ID providers through an integration. Read the [Login (SSO)](https://developers.vtex.com/docs/guides/login-integration-guide) developer guide to learn more. | Can be enabled using the OAuth protocol.  Read the [Webstore (OAuth 2.0)](https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2) developer guide to learn more. | Can be enabled using the SAML protocol. Read the [Admin (SAML 2.0)](https://developers.vtex.com/docs/guides/login-integration-guide-admin-saml2) developer guide to learn more. |
 
 <div class="alert alert-info">
@@ -59,6 +59,20 @@ Follow the steps below to enable the desired login methods:
     To configure the login methods in the Admin for administrative users, click the **Admin** tab.
 
     See the table in the [Login](#login) section to learn about the available login methods and access the documentation explaining how to configure them.
+
+### Enforcing password expiration for Admin users
+
+If the password login option is enabled, you can set Admin user passwords to expire after a specified number of days. To do this, follow the instructions below:
+
+1. In the top bar of the VTEX Admin, click your profile avatar, indicated by the initial letter of your email address.
+2. Click **Account settings > Authentication**.
+3. Click the **Admin** tab.
+4. In the **Password** row, click` Edit`. 
+5. Check the **Enforce password expiration** option.
+6. Select a period after which user passwords will become invalid. You can choose **15**, **30**, or **90** days.
+7. Click `Save`.
+
+Once the expiration period is reached, Admin users will be required to reset their password when attempting to log in.
 
 ## Developing integrations
 

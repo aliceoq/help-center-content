@@ -3,8 +3,8 @@ title: 'Todos los pedidos'
 id: 2QTduKHAJMFIZ3BAsi6Pi
 status: PUBLISHED
 createdAt: 2022-04-04T21:50:53.330Z
-updatedAt: 2023-11-08T14:39:18.261Z
-publishedAt: 2023-11-08T14:39:18.261Z
+updatedAt: 2023-12-21T14:05:13.862Z
+publishedAt: 2023-12-21T14:05:13.862Z
 firstPublishedAt: 2022-04-04T22:39:11.450Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -16,7 +16,7 @@ subcategory: 3VNOhxDrvYxJThhuJClrYZ
 ---
 
 <div class = "alert alert-info">
-Solo puedes acceder a la información de los pedidos creados en los últimos años. Este periodo también se aplica a los pedidos de los clientes a través de <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>. Para consultar datos de pedidos de años anteriores, ponte en contacto con <a href="https://support.vtex.com/hc/pt-br/requests">nuestro Soporte</a>. El acceso a los pedidos de hace más de dos años es temporal y dura 15 días.
+Solo puedes acceder a la información de los pedidos creados en los últimos años. Este periodo también se aplica a los pedidos de los clientes a través de <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>.
 </div>
 
 La página **Todos los pedidos** permite a los administradores de la tienda hacer seguimiento de los pedidos de su tienda y extraer información para la gestión inteligente de su negocio. Para acceder a la página, en el menú del Admin VTEX, haz clic en **Pedidos > Todos los pedidos**. En esta página puedes: 

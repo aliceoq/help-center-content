@@ -1,16 +1,16 @@
 ---
-title: 'Inventory Reserved Items Error'
+title: 'Erro de itens reservados de estoque'
 id: 37cO3T4D0exvOMhStKYds9
-status: CHANGED
+status: PUBLISHED
 createdAt: 2022-05-18T15:13:46.087Z
-updatedAt: 2022-06-27T12:33:44.492Z
-publishedAt: 2022-06-20T12:39:37.793Z
+updatedAt: 2024-01-02T13:35:56.240Z
+publishedAt: 2024-01-02T13:35:56.240Z
 firstPublishedAt: 2022-05-18T15:13:46.568Z
 contentType: knownIssue
 productTeam: Logistics
 author: 2mXZkbi0oi061KicTExNjo
 tag: Logistics
-slug: inventory-reserved-items-error
+slug: erro-de-itens-reservados-de-estoque
 locale: pt
 kiStatus: Backlog
 internalReference: 347924
@@ -18,19 +18,23 @@ internalReference: 347924
 
 ## Sumário
 
-<div class="alert alert-warning">
-  <p>Este conteúdo só está disponível em Inglês.</p>
+<div class="alert alert-info">
+  <p>Este problema conhecido foi traduzido automaticamente do inglês.</p>
 </div>
+
+
+Ao verificar os itens com status reservado no Inventory Management, há um erro ao mostrar os pedidos relacionados.
+Não é possível ver os pedidos; ao clicar no número de itens reservados, é exibida a mensagem de erro "There was an error loading reservations. Por favor, tente novamente."
 
 ## Simulação
 
-<div class="alert alert-warning">
-  <p>Este conteúdo só está disponível em Inglês.</p>
-</div>
+
+A simulação não é possível.
+
+
 
 ## Workaround
 
-<div class="alert alert-warning">
-  <p>Este conteúdo só está disponível em Inglês.</p>
-</div>
+
+Não há nenhuma solução alternativa disponível.
 

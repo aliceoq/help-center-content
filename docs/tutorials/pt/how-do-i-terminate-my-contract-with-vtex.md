@@ -3,8 +3,8 @@ title: 'Como faço para rescindir meu contrato com a VTEX?'
 id: HhPeg8EOismMSImoWwaI8
 status: PUBLISHED
 createdAt: 2019-01-24T20:45:36.822Z
-updatedAt: 2023-08-31T21:21:52.575Z
-publishedAt: 2023-08-31T21:21:52.575Z
+updatedAt: 2024-01-18T16:03:47.790Z
+publishedAt: 2024-01-18T16:03:47.790Z
 firstPublishedAt: 2019-01-24T22:00:07.201Z
 contentType: tutorial
 productTeam: Financial
@@ -15,7 +15,7 @@ legacySlug: como-faco-para-rescindir-meu-contrato-com-a-vtex
 subcategory: 6SJnrkKDjGwSqKkMuQMOmm
 ---
 
-Para efetuar o cancelamento do seu contrato e deixar de utilizar a plataforma VTEX, é necessário que você abra um [ticket](https://support.vtex.com/hc/pt-br/requests) comunicando sua decisão ao Financeiro.
+Para efetuar o cancelamento do seu contrato e deixar de utilizar a plataforma VTEX, é necessário que você abra um [ticket](https://help.vtex.com/pt/support ) comunicando sua decisão ao Financeiro.
 
 ## Certifique-se de que seu chamado contenha as seguintes informações:
 

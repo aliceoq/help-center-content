@@ -3,8 +3,8 @@ title: 'Cómo funciona Mi Cuenta'
 id: 2BQ3GiqhqGJTXsWVuio3Xh
 status: PUBLISHED
 createdAt: 2019-04-11T21:14:26.117Z
-updatedAt: 2023-08-30T19:05:28.835Z
-publishedAt: 2023-08-30T19:05:28.835Z
+updatedAt: 2023-12-21T14:09:42.863Z
+publishedAt: 2023-12-21T14:09:42.863Z
 firstPublishedAt: 2019-05-21T19:48:15.019Z
 contentType: tutorial
 productTeam: Identity
@@ -78,7 +78,7 @@ El botón `Añadir dirección` permite incluir direcciones diferentes a las que 
 ## Pedidos
 
 <div class = "alert alert-info">
-En <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>, los clientes solo pueden acceder a los pedidos de los últimos dos años. Para obtener información sobre pedidos de años anteriores, los administradores de la tienda deben comunicarse con <a href="https://support.vtex.com/hc/pt-br/requests">nuestro Soporte</a>. El acceso a la información es temporal y dura 15 días.
+En <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>, los clientes solo pueden acceder a los pedidos de los últimos dos años.
 </div>
 
 Esta pestaña proporciona una lista completa de los pedidos realizados por un cliente en su tienda. La lista se ordena por fecha de creación y muestra detalles como la fecha del pedido, el valor total de la compra, el ID del pedido, el _status_ y los ítems comprados.

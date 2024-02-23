@@ -3,8 +3,8 @@ title: 'Filtrar pedidos em Todos os pedidos'
 id: tutorials_192
 status: PUBLISHED
 createdAt: 2017-04-27T22:15:05.494Z
-updatedAt: 2023-11-08T14:49:06.103Z
-publishedAt: 2023-11-08T14:49:06.103Z
+updatedAt: 2023-12-21T14:06:54.896Z
+publishedAt: 2023-12-21T14:06:54.896Z
 firstPublishedAt: 2017-04-27T23:00:47.449Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -16,7 +16,7 @@ subcategory: 2t00bBkcAwIkgSCGKsMOwY
 ---
 
 <div class = "alert alert-info">
-É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>. Para consultar pedidos criados há mais de dois anos, entre em contato com <a href="https://support.vtex.com/hc/pt-br/requests">nosso Suporte</s>. Você vai obter acesso à informação durante 15 dias.
+É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>.
 </div>
 
 No módulo **Pedidos**, a página **Todos os pedidos** permite a você acessar os pedidos da sua loja e pesquisar usando a barra de busca e filtros, como na imagem abaixo:

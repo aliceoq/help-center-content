@@ -1,10 +1,10 @@
 ---
 title: 'WhatsApp Integration'
 id: 33sM0SVrwffWhAhAgiGrZb
-status: PUBLISHED
+status: DRAFT
 createdAt: 2022-08-23T15:11:28.551Z
-updatedAt: 2023-04-25T20:26:48.598Z
-publishedAt: 2023-04-25T20:26:48.598Z
+updatedAt: 2024-01-05T17:14:09.083Z
+publishedAt: 
 firstPublishedAt: 2022-08-23T17:47:05.529Z
 contentType: trackArticle
 productTeam: Shopping

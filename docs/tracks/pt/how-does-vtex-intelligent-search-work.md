@@ -3,8 +3,8 @@ title: 'Como o VTEX Intelligent Search funciona?'
 id: 23mytRDsEduqLO0Lo7yufy
 status: PUBLISHED
 createdAt: 2020-03-05T14:57:22.014Z
-updatedAt: 2023-07-11T19:10:43.325Z
-publishedAt: 2023-07-11T19:10:43.325Z
+updatedAt: 2024-02-07T13:18:52.194Z
+publishedAt: 2024-02-07T13:18:52.194Z
 firstPublishedAt: 2020-03-05T19:54:00.932Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -100,9 +100,11 @@ O VTEX Intelligent Search limita o resultado de busca a 50 páginas. Esse limite
 
 É possível buscar pelo ID de um ou mais itens na barra de busca ou adicionando parâmetros de busca (*query*) na URL da loja.
 
-### Barra de busca
+### Match parcial
 
-Digite apenas os primeiros dígitos exatos do ID na barra de busca. Por exemplo, se o ID for `0123-456-789` e a busca for `123`, o produto não aparecerá.
+Ao digitar somente os primeiros dígitos exatos do ID do produto (`ProductID`), código de referência do produto (`ProductRefID`), ID do SKU (`SKUID`), código de referência do SKU (`SKURefID`) ou EAN na barra de busca, o Intelligent Search fará o match parcial com produtos e SKUs ativos na loja, incluindo-os nos resultados da busca.
+
+Por exemplo, se o ID do produto for `123456789` e a busca for `123`, esse produto aparecerá entre os resultados. Porém, se a busca for `234`, sem algum dos primeiros dígitos do ID, esse produto não aparecerá.
 
 ### URL
 

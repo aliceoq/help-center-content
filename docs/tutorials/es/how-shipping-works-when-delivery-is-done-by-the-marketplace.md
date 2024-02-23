@@ -3,8 +3,8 @@ title: ' Cómo funciona el flete cuando la entrega es hecha por el marketplace (
 id: EY1l6tYW3IUquwwwcQqwQ
 status: PUBLISHED
 createdAt: 2017-08-28T23:17:57.225Z
-updatedAt: 2023-11-27T17:47:41.047Z
-publishedAt: 2023-11-27T17:47:41.047Z
+updatedAt: 2024-02-05T15:48:24.006Z
+publishedAt: 2024-02-05T15:48:24.006Z
 firstPublishedAt: 2017-08-29T20:09:40.790Z
 contentType: tutorial
 productTeam: Channels
@@ -54,4 +54,4 @@ Es posible acceder a la etiqueta directamente por el OMS, debajo de los ítems d
 
 ![Etiqueta de entrega por Correios (BR) - Marketplace](//images.ctfassets.net/alneenqid6w5/3Xc7eqzjetqNwScoZxkWOK/f715c425b47359c8d8735cde8aac8377/Screen_Shot_2020-03-25_at_11.44.05.png)
 
-En el caso de que se quiera aprovechar la etiqueta dentro del ERP, esta también está disponible en la [API de Pedidos](https://developers.vtex.com/reference/orders#getorder), en el array `trackingHints` que se encuentra en el objecto `shippingData`.
+En el caso de que se quiera aprovechar la etiqueta dentro del ERP, esta también está disponible en la [Marketplace Protocol API](https://developers.vtex.com/docs/api-reference/marketplace-protocol-external-marketplace-orders#post-/api/order-integration/orders), sepa más en [New Order Integration](https://developers.vtex.com/docs/guides/external-marketplace-integration-collect-orders#scenario-12-order-with-tracking-hints).

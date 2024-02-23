@@ -3,8 +3,8 @@ title: 'Configurar boleto registrado Bradesco'
 id: bbnXBjvKOkWYiOosmASiA
 status: PUBLISHED
 createdAt: 2018-03-20T22:08:43.187Z
-updatedAt: 2023-06-27T15:34:15.224Z
-publishedAt: 2023-06-27T15:34:15.224Z
+updatedAt: 2024-02-16T11:52:03.349Z
+publishedAt: 2024-02-16T11:52:03.349Z
 firstPublishedAt: 2018-03-21T17:27:23.026Z
 contentType: tutorial
 productTeam: Financial
@@ -14,6 +14,8 @@ locale: pt
 legacySlug: configurar-boleto-registrado-bradesco
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
+
+<div class="alert alert-danger">Essa integração de pagamento não pode ser mais configurada na plataforma devido ao <a href="https://help.vtex.com/pt/announcements/conectores-legados-de-pagamentos-serao-descontinuados-em-2024--4R5YIjUu1IWkiOHzXtQU14">processo de remoção de provedores legados</a> e o artigo será removido em breve do Help Center. Verifique com o seu provedor maiores informações sobre o desenvolvimento da nova integração de pagamento e os passos necessários para a migração das configurações em sua loja.</div>
 
 Para configurar o boleto registrado do Bradesco, é necessário utilizar o conector do __Bradesco Registrado__ e configurar a condição de pagamento de boleto bancário. Desta forma, os boletos emitidos serão registrados pelo Bradesco.
 
@@ -25,9 +27,9 @@ Para realizar a configuração, siga os passos abaixo:
 
 ## Configurar afiliação de gateway Bradesco Registrado
 
-1. No Admin VTEX, acesse **Configurações da loja** > **Pagamentos** > **Configurações**, ou digite **Configurações** na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateway__, clique no botão `+`.
-3. Clique no conector __Bradesco Registrado__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __Bradesco Registrado__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos de cadastro com os dados fornecidos pelo Bradesco (Campos __Merchant ID__, __Login (email)__ e __Chave de Segurança__).
 5. Em __Beneficiário__, preencha com a razão social da empresa beneficiária.
 6. Em __Carteira__, verifique com o Bradesco se você é um *cliente antigo (25)* ou um *cliente novo (26)*.

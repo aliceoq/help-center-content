@@ -3,8 +3,8 @@ title: 'O=OrderByPriceASC (or OrderByPriceDESC) could bring the wrong order'
 id: 2XCplZQutilKeD2bNnjYDx
 status: PUBLISHED
 createdAt: 2022-05-20T15:48:15.215Z
-updatedAt: 2023-10-19T12:52:38.615Z
-publishedAt: 2023-10-19T12:52:38.615Z
+updatedAt: 2024-01-11T22:09:50.045Z
+publishedAt: 2024-01-11T22:09:50.045Z
 firstPublishedAt: 2022-05-20T15:48:16.089Z
 contentType: knownIssue
 productTeam: Portal
@@ -19,7 +19,9 @@ internalReference: 582861
 ## Summary
 
 
-O=OrderByPriceASC (or OrderByPriceDESC) can use wrong policy to order prices.
+O=OrderByPriceASC (or OrderByPriceDESC) can use the wrong policy to order prices
+
+Additionally, the prices of non-comprehensive sellers are not taken into account in the sorting. As a result, regionalized stores on the Portal are unable to use the orderByPrice parameter.
 
 
 ##

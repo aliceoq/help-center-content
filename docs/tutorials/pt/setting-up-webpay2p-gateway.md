@@ -3,8 +3,8 @@ title: 'Configurar o gateway WebPay2P'
 id: 34Bn1nOoVO6iesWAgSEQQA
 status: PUBLISHED
 createdAt: 2018-04-02T19:30:48.720Z
-updatedAt: 2021-07-07T17:45:55.414Z
-publishedAt: 2021-07-07T17:45:55.414Z
+updatedAt: 2024-01-24T20:40:22.243Z
+publishedAt: 2024-01-24T20:40:22.243Z
 firstPublishedAt: 2018-04-02T19:46:03.221Z
 contentType: tutorial
 productTeam: Financial

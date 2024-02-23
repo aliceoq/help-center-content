@@ -3,8 +3,8 @@ title: 'Configurar pagos con AdyenV3'
 id: 7xAz67E2Eg63LWCQNjVdwv
 status: PUBLISHED
 createdAt: 2023-05-08T20:00:38.610Z
-updatedAt: 2023-05-31T19:42:52.614Z
-publishedAt: 2023-05-31T19:42:52.614Z
+updatedAt: 2024-02-08T16:33:58.642Z
+publishedAt: 2024-02-08T16:33:58.642Z
 firstPublishedAt: 2023-05-11T20:32:21.638Z
 contentType: tutorial
 productTeam: Financial
@@ -121,5 +121,15 @@ Si tienes varias tiendas, es necesario configurar el webhook para cada una de el
 Para configurar los medios de pago que procesará AdyenV3, accede a [Condiciones de pago](https://help.vtex.com/es/tutorial/condiciones-de-pago--tutorials_455). Si deseas realizar ventas a través de Sales App, ve a [Configurar pagos con AdyenV3 en Sales App](https://help.vtex.com/es/tutorial/configurar-pagos-con-adyenv3-en-vtex-sales-app--24yO6KloBn6DN6CbprHtgt).
 
 Para establecer condiciones especiales en los medios de pago, ve a [Configurar condiciones especiales de pago](https://help.vtex.com/es/tutorial/condicoes-especiais--tutorials_456).
+
+## Configura la tarjeta de crédito
+
+Si desea procesar pagos con tarjeta de crédito en su tienda utilizando AdyenV3, además de realizar las configuraciones anteriores descritas en este artículo, debe abrir un ticket en [Soporte VTEX](https://help.vtex.com/es/support), con la siguiente solicitud "Provider review - Add Endpoint SecureProxy - AdyenV3".  
+
+En el ticket también deberás enviar la URL que será autorizada por Adyen para realizar la transacción con tarjeta de crédito en tu tienda. El formato de la URL debe ser `https://{live URL prefix}-checkout-live.adyenpayments.com`, donde la información "{live URL prefix}" debe ser la misma que la ingresada por usted en las configuraciones de Adyen en el VTEX Admin .  
+
+<div class="alert alert-warning">
+La dirección URL completa debe escribirse únicamente en letras minúsculas, incluso si el "Live URL prefix" configurado en el VTEX Admin tiene algunas letras mayúsculas.
+</div>  
 
 Tras seguir los pasos indicados, el conector AdyenV3 puede tardar hasta 10 minutos en aparecer en el checkout de tu tienda como opción de pago.

@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Culqi'
 id: 6LUOpYBpg48XSL8X0Le6e3
 status: PUBLISHED
 createdAt: 2023-11-16T13:31:38.132Z
-updatedAt: 2023-11-16T15:07:44.487Z
-publishedAt: 2023-11-16T15:07:44.487Z
+updatedAt: 2024-01-25T19:01:02.616Z
+publishedAt: 2024-01-25T19:01:02.616Z
 firstPublishedAt: 2023-11-16T14:54:41.647Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pagamento-com-culqi
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamento Culqi. Por meio deste conector, sua loja pode realizar vendas por meio do Culqi.
+Na VTEX, é possível realizar a integração com o provedor de pagamento Culqi. Por meio deste provedor, sua loja pode realizar vendas por meio do Culqi.
 
-Para configurar a afiliação Culqi, siga os passos abaixo:
+Para configurar Culqi, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja__ > __Pagamentos__ > __Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão `+`.
-3. Clique em __Culqi__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __Culqi__ na barra de busca e clique sobre o nome do provedor.
 4. Nos campos __Application Key__, __Application Token__ e __Public Key__, insira as informações que foram fornecidas pela Culqi.
 5. No campo __Captura automática de pagamento__, selecione uma das seguintes opções:
 <br>
@@ -55,4 +55,4 @@ Para configurar a afiliação Culqi, siga os passos abaixo:
 7. Se desejar, você também pode [configurar condições especiais de pagamento](https://help.vtex.com/pt/tutorial/condiciones-especiales--tutorials_456?&utm_source=autocomplete#).
 8. Clique em `Salvar`.
 
-Depois de seguir os passos indicados, o conector Culqi pode demorar até 10 minutos para aparecer no checkout da sua loja como uma opção de pagamento. 
+Depois de seguir os passos indicados, Culqi pode demorar até 10 minutos para aparecer no checkout da sua loja como uma opção de pagamento. 

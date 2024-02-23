@@ -3,8 +3,8 @@ title: 'Anúncios do VTEX Sales App'
 id: 3UtOFwbwD4muz3p72RBPmC
 status: PUBLISHED
 createdAt: 2023-05-25T17:16:06.902Z
-updatedAt: 2023-10-20T13:56:09.280Z
-publishedAt: 2023-10-20T13:56:09.280Z
+updatedAt: 2024-01-11T16:27:18.374Z
+publishedAt: 2024-01-11T16:27:18.374Z
 firstPublishedAt: 2023-05-26T22:11:51.769Z
 contentType: tutorial
 productTeam: Shopping
@@ -91,7 +91,7 @@ A publicação da vitrine entrará na fila de indexação e estará publicada em
 5. No objeto `window.INSTORE_CONFIG`, adicione a flag `enableExplore: true,`.
 ![window.INSTORE_CONFIG](//images.ctfassets.net/alneenqid6w5/6kpTp7g4zRuIsyYGdo5Bio/08b22d0623a7e72a032872e838c114f6/image.png)
 6. Clique em <i class="fas fa-save"></i> `Salvar`. 
-7. Opcionalmente, você pode determinar que a página inicial do vendedor seja a página de anúncios. Para isso, adicione a flag `initialPage : advertisements,` no objeto `window.INSTORE_CONFIG`.
+7. Opcionalmente, você pode determinar que a página inicial do vendedor seja a página de anúncios. Para isso, adicione a flag `initialPage : 'advertisements',` no objeto `window.INSTORE_CONFIG`.
 
 ![initialPage : advertisements](//images.ctfassets.net/alneenqid6w5/1zS4dgPnw7Q0ZP2w0thQdt/eaac77cd87a26f72436209229c733fa4/image.png)
 

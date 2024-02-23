@@ -3,8 +3,8 @@ title: 'Como gerenciar Assinaturas'
 id: 6Jk50FPbv6iuz1OsFypv8x
 status: PUBLISHED
 createdAt: 2020-02-05T14:18:54.781Z
-updatedAt: 2023-08-30T19:10:34.898Z
-publishedAt: 2023-08-30T19:10:34.898Z
+updatedAt: 2023-12-21T14:08:39.725Z
+publishedAt: 2023-12-21T14:08:39.725Z
 firstPublishedAt: 2020-02-11T14:56:17.333Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -40,7 +40,7 @@ A seção **Assinaturas Únicas** permite:
 ### Pedidos de Assinatura
 
 <div class = "alert alert-info">
-É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>. Para consultar pedidos criados há mais de dois anos, entre em contato com <a href="https://support.vtex.com/hc/pt-br/requests">nosso Suporte</s>. Você vai obter acesso à informação durante 15 dias.
+É possível acessar informações somente de pedidos criados nos últimos dois anos, sendo o mesmo período válido para clientes acessarem pedidos pelo <a href="https://help.vtex.com/pt/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>.
 </div>
 
 A seção **Pedidos de Assinatura** permite:

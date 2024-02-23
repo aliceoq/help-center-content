@@ -3,8 +3,8 @@ title: 'O recurso de substituição de pedidos não funciona quando o carrinho s
 id: 7eHiC34Pgsr1XcfIVHl7Sc
 status: PUBLISHED
 createdAt: 2023-07-21T14:49:31.057Z
-updatedAt: 2023-08-03T18:10:17.919Z
-publishedAt: 2023-08-03T18:10:17.919Z
+updatedAt: 2023-12-18T20:17:32.757Z
+publishedAt: 2023-12-18T20:17:32.757Z
 firstPublishedAt: 2023-07-21T14:49:31.682Z
 contentType: knownIssue
 productTeam: Checkout
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Checkout
 slug: o-recurso-de-substituicao-de-pedidos-nao-funciona-quando-o-carrinho-substituido-e-o-pedido-original-tem-o-mesmo-valor
 locale: pt
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 866622
 ---
 

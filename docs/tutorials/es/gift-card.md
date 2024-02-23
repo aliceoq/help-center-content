@@ -1,10 +1,10 @@
 ---
 title: 'Configurar Tarjeta de regalo'
 id: tutorials_995
-status: PUBLISHED
+status: CHANGED
 createdAt: 2017-04-27T21:57:54.816Z
-updatedAt: 2023-07-27T17:14:06.984Z
-publishedAt: 2023-07-27T17:14:06.984Z
+updatedAt: 2024-01-19T19:16:50.349Z
+publishedAt: 2024-01-12T12:46:20.978Z
 firstPublishedAt: 2017-04-27T23:03:42.674Z
 contentType: tutorial
 productTeam: Financial
@@ -33,7 +33,7 @@ Para crear un nuevo vale de compra, siga los pasos a continuación:
   <li>Haga clic en el botón azul <b>Nuevo vale</b>.</li>
   <br>   
 <div class = "alert alert-info">
-  <p>En la página de finalización, el campo <b>Vale</b> es el ID del vale. Esto es generado automáticamente por el sistema VTEX y se mostrará en el SmartCheckout para vales que no estén asociados con un CPF o CNPJ exclusivo.</p>
+  <p>En la pantalla de creación del vale, el campo <b>Vale</b> es llenado automáticamente por el sistema VTEX con el código ID del nuevo vale. Este es el código que debe ingresar el cliente en la pantalla de checkout para aplicar el vale al carrito y reducir el valor de pago del pedido.</p>
 </div>
 <br>
   <li>Complete los campos presentados de acuerdo con las orientaciones que se indican a continuación:</li>

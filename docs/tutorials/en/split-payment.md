@@ -3,8 +3,8 @@ title: 'Split Payment'
 id: 6k5JidhYRUxileNolY2VLx
 status: PUBLISHED
 createdAt: 2021-04-06T20:03:53.443Z
-updatedAt: 2023-11-17T21:01:51.135Z
-publishedAt: 2023-11-17T21:01:51.135Z
+updatedAt: 2024-02-08T12:39:19.013Z
+publishedAt: 2024-02-08T12:39:19.013Z
 firstPublishedAt: 2021-04-07T18:57:19.713Z
 contentType: tutorial
 productTeam: Financial
@@ -59,15 +59,17 @@ As you can see, our Gateway calculates and distributes payouts for each recipien
 Our __Payout Split__ solution has some limitations that are important to consider:
 
 - __Combined Payment Methods__: it does not support when one of them does not support Split. Example: gift card + credit card (gift card does not support Split).  Currently, it is only possible to have the split payment when the combined methods are two credit cards due to a checkout limitation.
-- __Change Order__: it does not work with changes in values or items after the order is placed. That also means that it isn't possible to partially cancel an order with split.
+- __Change Order__: it does not work with changes in values or items after the order is placed. Orders containing splits can be partially refunded, but not cancelled.
 - __VTEX Subscriptions__: it does not support marketplace orders.
 - __Sellers ID__: CNPJ is the primary  key to make the split, so the recipients (marketplaces or sellers) need to be legal entities.
 - __Same CNPJ__: since the CNPJ is the primary key to make the Split, it is not possible for two or more recipients/sales participants with the same CNPJ to be seen as different "entities".
 - __Parties Involved__: it does not allow to Split the payment with recipients who are not selling products in the cart. For example: to split the freight directly to the carrier.
 - __Nominal Fees__: it does not allow nominal fees. Currently, it is only possible to apply percentage commissions on products and/or freight.
 - __Assigning transactions to the provider__: today it is only possible to assign a preferred affiliation at the gateway to process Split using commercial conditions for the SKUs that are sold by the Seller. However, there are limitations:
-        - If the seller and the marketplace have the same SKU, the cart will always go to the Split payment method.
-        - The list of SKUs has to be constantly updated.
+    - If the seller and the marketplace have the same SKU, the cart will always go to the Split payment method.
+    - The list of SKUs has to be constantly updated.
+
+- __Transaction interest__: it is not possible to select who will receive the interest information (marketplace or seller). All transactions in which the customer made interest payments are automatically sent to the marketplace.
 
 ## Transaction Split
 

@@ -3,8 +3,8 @@ title: 'Como funciona a assinatura'
 id: frequentlyAskedQuestions_4453
 status: PUBLISHED
 createdAt: 2019-01-24T20:46:00.886Z
-updatedAt: 2023-08-30T18:53:03.830Z
-publishedAt: 2023-08-30T18:53:03.830Z
+updatedAt: 2023-12-21T14:13:17.283Z
+publishedAt: 2023-12-21T14:13:17.283Z
 firstPublishedAt: 2019-01-24T22:14:56.290Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -46,7 +46,7 @@ Para isso, basta entrar na página **Minha Conta** no site da sua loja, acessar 
 ## Como o cliente da sua loja visualiza suas Assinaturas
 
 <div class = "alert alert-info">
-Em <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>, os clientes conseguem acessar somente os seus pedidos criados nos últimos dois anos. Para informações de pedidos mais antigos, o lojista deve entrar em contato com <a href="https://support.vtex.com/hc/pt-br/requests">nosso Suporte</a>. O acesso à informação é temporário, com duração de 15 dias.
+Em <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Minha Conta</a>, os clientes conseguem acessar somente os seus pedidos criados nos últimos dois anos.
 </div>
 
 Após a finalização do pedido com Assinatura, o seu cliente visualiza na página **Minha Conta** a seção **Assinaturas**. Nessa seção, ele também pode encontrar a lista de assinaturas realizadas com os detalhes e estado individual. Seu cliente também receberá por e-mail uma confirmação da Assinatura e do pedido gerado.

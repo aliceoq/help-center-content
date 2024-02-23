@@ -3,8 +3,8 @@ title: 'Configurar pago con Deuna'
 id: 5Y4BfCdbQWraZAyoSm0Zzr
 status: PUBLISHED
 createdAt: 2023-04-06T18:37:58.919Z
-updatedAt: 2023-08-24T18:52:48.422Z
-publishedAt: 2023-08-24T18:52:48.422Z
+updatedAt: 2024-01-23T18:11:08.945Z
+publishedAt: 2024-01-23T18:11:08.945Z
 firstPublishedAt: 2023-04-06T18:42:52.173Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pago-con-deuna
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX es posible la integración con el proveedor de pagos Deuna. Con este conector, tu tienda puede realizar ventas a través de Deuna.
+En VTEX es posible la integración con el proveedor de pagos Deuna. Con este proveedor, tu tienda puede realizar ventas a través de Deuna.
 
-Para configurar la afiliación Deuna, siga los pasos a continuación:
+Para configurar Deuna, siga los pasos a continuación:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestana __Afiliaciones de Gateway__, haga clic en el botón `+`.
-3. Haga clic en el conector __DEUNA__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __DEUNA__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro __Application Key__ y __Application Token__ con los datos proporcionados por Deuna. 
 5. En __Captura automática de pago__, seleccione una de las opciones disponibles:
 

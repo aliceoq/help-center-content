@@ -3,8 +3,8 @@ title: 'O=OrderByPriceASC (o OrderByPriceDESC) podría dar lugar a un pedido err
 id: 2XCplZQutilKeD2bNnjYDx
 status: PUBLISHED
 createdAt: 2022-05-20T15:48:15.215Z
-updatedAt: 2023-10-19T12:52:38.615Z
-publishedAt: 2023-10-19T12:52:38.615Z
+updatedAt: 2024-01-11T22:09:50.045Z
+publishedAt: 2024-01-11T22:09:50.045Z
 firstPublishedAt: 2022-05-20T15:48:16.089Z
 contentType: knownIssue
 productTeam: Portal
@@ -23,7 +23,9 @@ internalReference: 582861
 </div>
 
 
-O=OrderByPriceASC (o OrderByPriceDESC) puede utilizar una política errónea para ordenar los precios.
+O=OrderByPriceASC (o OrderByPriceDESC) puede utilizar una política incorrecta para ordenar los precios
+
+Además, los precios de los vendedores no regionalizados no se tienen en cuenta en la ordenación. En consecuencia, las tiendas regionalizadas del Portal no pueden utilizar el parámetro OrderByPrice.
 
 
 ##

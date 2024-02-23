@@ -3,8 +3,8 @@ title: 'Cómo Gestionar Suscripciones '
 id: 6Jk50FPbv6iuz1OsFypv8x
 status: PUBLISHED
 createdAt: 2020-02-05T14:18:54.781Z
-updatedAt: 2023-08-30T19:10:34.898Z
-publishedAt: 2023-08-30T19:10:34.898Z
+updatedAt: 2023-12-21T14:08:39.725Z
+publishedAt: 2023-12-21T14:08:39.725Z
 firstPublishedAt: 2020-02-11T14:56:17.333Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -40,7 +40,7 @@ La sección de **Suscripciones Únicas** permite:
 ### Pedidos de Suscripción
 
 <div class = "alert alert-info">
-Solo puedes acceder a la información de los pedidos creados en los últimos años. Este periodo también se aplica a los pedidos de los clientes a través de <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>. Para consultar datos de pedidos de años anteriores, ponte en contacto con <a href="https://support.vtex.com/hc/pt-br/requests">nuestro Soporte</a>. El acceso a los pedidos de hace más de dos años es temporal y dura 15 días.
+Solo puedes acceder a la información de los pedidos creados en los últimos años. Este periodo también se aplica a los pedidos de los clientes a través de <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>.
 </div>
 
 La sección **Pedidos de Suscripción** permite: 

@@ -3,8 +3,8 @@ title: 'The MercadoPagoV1 and V2 Integration does not work with save card functi
 id: 2V8kdA60OTl7VQoUUNgBci
 status: PUBLISHED
 createdAt: 2022-05-03T15:45:09.856Z
-updatedAt: 2023-08-23T14:49:25.228Z
-publishedAt: 2023-08-23T14:49:25.228Z
+updatedAt: 2024-01-09T13:23:20.203Z
+publishedAt: 2024-01-09T13:23:20.203Z
 firstPublishedAt: 2022-05-03T15:45:10.554Z
 contentType: knownIssue
 productTeam: Payments
@@ -12,16 +12,16 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Payments
 slug: the-mercadopagov1-and-v2-integration-does-not-work-with-save-card-functionality
 locale: en
-kiStatus: No Fix
+kiStatus: Backlog
 internalReference: 283727
 ---
 
 ## Summary
 
 
-The MercadoPagoV1 and MercadoPagoV2 integration does not work with save card functionality in the My account section.
+The integration of MercadoPagoV1 and MercadoPagoV2 does not function properly with the save card functionality in the "My Account" section for countries that do not permit transactions with decimals.
 
-This error occurs because My Cards wait for a synchronous answer from credit card acquirers and MercadoPagoV1 doesn't return an immediate response.
+This issue arises because the "My Cards" feature generates a new transaction with a value of $1.5. However, some countries do not allow transactions with such decimal amounts, resulting in the rejection of any attempts to approve these transactions.
 
 
 ##

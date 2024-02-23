@@ -3,8 +3,8 @@ title: 'Configurar pago con Culqi'
 id: 6LUOpYBpg48XSL8X0Le6e3
 status: PUBLISHED
 createdAt: 2023-11-16T13:31:38.132Z
-updatedAt: 2023-11-16T15:07:44.487Z
-publishedAt: 2023-11-16T15:07:44.487Z
+updatedAt: 2024-01-25T19:01:02.616Z
+publishedAt: 2024-01-25T19:01:02.616Z
 firstPublishedAt: 2023-11-16T14:54:41.647Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pago-con-culqi
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX es posible la integración con el proveedor de pagos Culqi. Con este conector, su tienda puede realizar ventas a través de diferentes de Culqi.
+En VTEX es posible la integración con el proveedor de pagos Culqi. Con este proveedor, su tienda puede realizar ventas a través de diferentes de Culqi.
 
-Para configurar la afiliación Culqi, siga los pasos a continuación:
+Para configurar Culqi, siga los pasos a continuación:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda__ > __Pago__ > __Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestaña __Afiliaciones__, haga clic en el botón `+`.
-3. Haga clic en el conector __Culqi__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __Culqi__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro __Application Key__, __Application Token__ y __Public key__ con los datos proporcionados por el Culqi.
 5. En el campo __Captura automática de pago__, seleccione una de las siguientes opciones:
 <br>

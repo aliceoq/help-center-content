@@ -3,8 +3,8 @@ title: 'Gerenciar vendedores no VTEX Sales App'
 id: 5pqtuvi97FFZiGf7MlSe8q
 status: PUBLISHED
 createdAt: 2023-04-17T21:01:21.431Z
-updatedAt: 2023-08-25T13:25:58.874Z
-publishedAt: 2023-08-25T13:25:58.874Z
+updatedAt: 2024-01-05T19:59:15.811Z
+publishedAt: 2024-01-05T19:59:15.811Z
 firstPublishedAt: 2023-04-25T20:13:04.431Z
 contentType: trackArticle
 productTeam: Shopping
@@ -58,7 +58,7 @@ Após o cadastro, o vendedor irá receber um email de confirmação do cadastram
 * **Loja:** [conta franquia](https://help.vtex.com/pt/tutorial/o-que-e-conta-franquia--kWQC6RkFSCUFGgY5gSjdl) em que o vendedor será cadastrado. Campo obrigatório.
 
 <div class ="alert alert-info">
-<p>As alterações podem levar até 15 minutos para serem processadas e aplicadas no inStore.</p> 
+<p>As alterações podem levar até 15 minutos para serem processadas e aplicadas no Sales App.</p> 
 </div>
 
 ## Buscar vendedor

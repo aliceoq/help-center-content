@@ -3,8 +3,8 @@ title: 'Configurar pago con Inswitch'
 id: XxY7tbpg4GMrexGQfto6Q
 status: PUBLISHED
 createdAt: 2023-07-14T17:56:24.581Z
-updatedAt: 2023-11-16T14:35:50.344Z
-publishedAt: 2023-11-16T14:35:50.344Z
+updatedAt: 2024-01-24T17:44:57.275Z
+publishedAt: 2024-01-24T17:44:57.275Z
 firstPublishedAt: 2023-07-14T18:11:24.293Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pago-con-inswitch
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX es posible la integración con el proveedor de pagos Inswitch. Con este conector, su tienda puede realizar ventas a través de diferentes de Inswitch.
+En VTEX es posible la integración con el proveedor de pagos Inswitch. Con este proveedor, su tienda puede realizar ventas a través de diferentes de Inswitch.
 
-Para configurar la afiliación Inswitch, siga los pasos a continuación:
+Para configurar Inswitch, siga los pasos a continuación:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda__ > __Pago__ > __Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestaña __Afiliaciones__, haga clic en el botón `+`.
-3. Haga clic en el conector __Inswitch__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __Inswitch__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro __Application Key__ y __Application Token__ con los datos proporcionados por el Inswitch.
 5. En el campo __Captura automática de pago__, seleccione una de las siguientes opciones:
 <br>
