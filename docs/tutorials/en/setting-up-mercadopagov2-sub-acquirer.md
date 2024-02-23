@@ -3,8 +3,8 @@ title: 'Setting up MercadoPagoV2 sub-acquirer'
 id: 1y6k8lCSzJYfPs2yObNFo4
 status: PUBLISHED
 createdAt: 2021-11-30T18:49:42.837Z
-updatedAt: 2023-03-22T18:35:39.911Z
-publishedAt: 2023-03-22T18:35:39.911Z
+updatedAt: 2024-01-23T18:57:28.536Z
+publishedAt: 2024-01-23T18:57:28.536Z
 firstPublishedAt: 2021-11-30T19:32:27.420Z
 contentType: tutorial
 productTeam: Financial
@@ -23,9 +23,9 @@ With the VTEX gateway, you can configure the MercadoPagoV2 [sub-acquirer](https:
 
 ## Setting up MercadoPagoV2 gateway affiliation
 
-1. In the VTEX Admin, go to **Store Settings** > **Payment** > **Settings**, or type **Settings** in the search bar at the top of the page.
-2. In the __Gateway affiliations__ tab, click on the __"+" button__.
-3. Click on the __MercadoPagoV2__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __MercadoPagoV2__ in the search bar and click on the name of the provider.
 4. Fill in the __Application Key__ and __Application Token__ fields with the data provided by Mercado Pago.
 5. In the __Prazo de vencimento do boleto__ (“Boleto expiration date”), choose the number of days (counted from the creation of the boleto) that your customer will have to make the payment.
 6. Fill in the name of your store in the __Nome da loja__ (“Store name”). Remember that this is the information that will be described in the Beneficiário field of the boleto or on the customer’s card bill.

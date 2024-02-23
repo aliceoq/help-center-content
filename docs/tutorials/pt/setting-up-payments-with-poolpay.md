@@ -3,8 +3,8 @@ title: 'Configurar pagamento com PoolPay'
 id: 5N3llK2tpVPKdfJvOIJmQ0
 status: PUBLISHED
 createdAt: 2023-09-11T14:36:06.412Z
-updatedAt: 2023-09-11T14:58:37.086Z
-publishedAt: 2023-09-11T14:58:37.086Z
+updatedAt: 2024-01-25T17:26:19.086Z
+publishedAt: 2024-01-25T17:26:19.086Z
 firstPublishedAt: 2023-09-11T14:58:37.086Z
 contentType: tutorial
 productTeam: Financial
@@ -15,16 +15,16 @@ legacySlug: configurar-pagamento-com-poolpay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamento PoolPay. Por meio deste conector, sua loja pode realizar vendas por meio de cartões de crédito, PIX, ITP (Iniciador de transação de pagamento) e BNPL (Buy Now Pay Later).
+Na VTEX, é possível realizar a integração com o provedor de pagamento PoolPay. Por meio deste provedor, sua loja pode realizar vendas por meio de cartões de crédito, PIX, ITP (Iniciador de transação de pagamento) e BNPL (Buy Now Pay Later).
 
-Para configurar a afiliação PoolPay, siga os passos abaixo:
+Para configurar PoolPay, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja__ > __Pagamentos__ > __Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão __+__.
-3. Clique em __PoolPay__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __PoolPay__ na barra de busca e clique sobre o nome do provedor.
 4. Nos campos __Application Key__ e __Application Token__, insira as informações que foram fornecidas pela PoolPay.
 5. Em __Ativar divisão e enviar recebedores?__, selecione se o split de pagamentos estará disponível para o marketplace e os sellers.
-6. Clique em __Salvar__.
+6. Clique em `Salvar`.
 
 Para configurar os métodos de pagamento a serem processados pela PoolPay, acesse [Condições de Pagamento](https://help.vtex.com/pt/tutorial/condicoes-de-pagamento). 
 

@@ -3,8 +3,8 @@ title: 'Setting up payments with Fpay'
 id: 6BaLIO2R7tOh6E1MmNoDXj
 status: PUBLISHED
 createdAt: 2022-10-18T19:13:32.326Z
-updatedAt: 2023-10-18T15:01:26.169Z
-publishedAt: 2023-10-18T15:01:26.169Z
+updatedAt: 2024-01-24T17:26:52.492Z
+publishedAt: 2024-01-24T17:26:52.492Z
 firstPublishedAt: 2022-10-18T19:42:03.523Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: setting-up-payments-with-fpay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Fpay payment provider. With this connector, your store can make sales through the Notes Payable.
+At VTEX, it is possible to integrate with the Fpay payment provider. With this provider, your store can make sales through the Notes Payable.
 
-To set up Fpay affiliation, follow the steps below:
+To set up Fpay, follow the steps below:
 
-1. In the VTEX Admin, go to **Store Settings** > **Payment** > **Settings**, or type **Settings** in the search bar at the top of the page.
-2. In the __Gateway affiliations__ tab, click on the `+` button.
-3. Click on the __Fpay__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __Fpay__ in the search bar and click on the name of the provider.
 4. Fill in the __Application Key__ and __Application Token__ fields with data provided by Fpay.
 5. Click on `Save`.
 

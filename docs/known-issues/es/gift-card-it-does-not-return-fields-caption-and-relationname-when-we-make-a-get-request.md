@@ -3,8 +3,8 @@ title: 'Tarjeta regalo - No devuelve los campos "caption" y "relationName" cuand
 id: 2nh2Cc3Hc2Zm0b1INtwDep
 status: PUBLISHED
 createdAt: 2023-06-23T19:33:35.774Z
-updatedAt: 2023-06-23T19:33:36.777Z
-publishedAt: 2023-06-23T19:33:36.777Z
+updatedAt: 2024-02-16T20:25:03.806Z
+publishedAt: 2024-02-16T20:25:03.806Z
 firstPublishedAt: 2023-06-23T19:33:36.777Z
 contentType: knownIssue
 productTeam: Payments
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Payments
 slug: tarjeta-regalo-no-devuelve-los-campos-caption-y-relationname-cuando-hacemos-una-peticion-get
 locale: es
-kiStatus: Backlog
+kiStatus: No Fix
 internalReference: 428725
 ---
 

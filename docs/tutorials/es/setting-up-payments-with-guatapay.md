@@ -3,8 +3,8 @@ title: 'Configurar pago con Guatapay'
 id: 57ilA6k1VKZjy0dgwSs7pu
 status: PUBLISHED
 createdAt: 2023-09-18T15:35:35.188Z
-updatedAt: 2023-09-18T16:33:40.921Z
-publishedAt: 2023-09-18T16:33:40.921Z
+updatedAt: 2024-01-25T17:04:24.009Z
+publishedAt: 2024-01-25T17:04:24.009Z
 firstPublishedAt: 2023-09-18T16:33:40.921Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pago-con-guatapay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX es posible la integración con el proveedor de pagos Guatapay. Con este conector, su tienda puede realizar ventas a través de Guatapay.
+En VTEX es posible la integración con el proveedor de pagos Guatapay. Con este proveedor, su tienda puede realizar ventas a través de Guatapay.
 
-Para configurar la afiliación Guatapay, siga los pasos a continuación:
+Para configurar Guatapay, siga los pasos a continuación:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestana __Afiliaciones de Gateway__, haga clic en el botón `+`.
-3. Haga clic en el conector __Guatapay__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __Guatapay__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro __Application Key__, __Application Token__, __Client ID - Guatapay__ y __Client Secret - Guatapay__ con los datos proporcionados por su cuenta Guatapay.
 5. Si aparece un mensaje de alerta que indica la necesidad de instalar la aplicación, haga clic en el botón `Instalar aplicación` y siga las instrucciones de instalación.
 6. Haga clic en `Guardar`.

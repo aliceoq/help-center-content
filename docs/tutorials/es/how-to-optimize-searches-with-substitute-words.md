@@ -3,8 +3,8 @@ title: 'Optimizar las búsquedas con palabras sustitutas'
 id: 32FqSsl5VuQyiIMEc02Uwu
 status: PUBLISHED
 createdAt: 2019-01-24T20:45:49.707Z
-updatedAt: 2021-09-14T19:00:59.249Z
-publishedAt: 2021-09-14T19:00:59.249Z
+updatedAt: 2024-01-10T13:30:55.078Z
+publishedAt: 2024-01-10T13:30:55.078Z
 firstPublishedAt: 2019-01-24T22:00:22.364Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -16,7 +16,7 @@ subcategory: pwxWmUu7T222QyuGogs68
 ---
 
 <div class = "alert alert-warning">
-  <strong>Atención</strong>: VTEX presenta dos opciones de búsqueda - La búsqueda VTEX y VTEX Intelligent Search. Este artículo se refiere a la búsqueda VTEX. Para saber más sobre la aplicación VTEX Intelligent Search, consulte <a href = "https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb">nuestra guía</a>.
+No recomendamos el uso de <a href="https://help.vtex.com/es/tutorial/otimizar-as-buscas-com-palavras-substitutas--32FqSsl5VuQyiIMEc02Uwu">Palabras sustitutas</a> cuando se utilice Intelligent search. Para asociar palabras con productos es preferible emplear <a href="https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/1pxAWPEglBey1UFdvcetZ">Sinónimos</a>, ya que permiten gestionar los términos por producto de una forma más escalable. Para más información, ponte en contacto con <a href="https://support.vtex.com/hc/es/requests">nuestro equipo de soporte</a>.
 </div>
 
 ## Cómo funciona el buscador

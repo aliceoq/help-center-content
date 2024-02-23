@@ -1,9 +1,9 @@
 ---
 title: 'Autenticación'
 id: 21CkKHLKP1o41lUpGhuRUs
-status: PUBLISHED
+status: CHANGED
 createdAt: 2021-10-25T19:06:37.982Z
-updatedAt: 2023-10-26T14:49:32.469Z
+updatedAt: 2024-02-16T18:42:36.362Z
 publishedAt: 2023-10-26T14:49:32.469Z
 firstPublishedAt: 2021-11-08T18:39:50.432Z
 contentType: tutorial
@@ -30,9 +30,9 @@ Es necesario configurar el método de autenticación que se ofrecerá en cada co
 | Opciones de inicio de sesión | Descripción | Tienda virtual | Admin |
 |---|---|---|---|
 | Código de acceso | Se envía al email del usuario un código numérico aleatorio; el usuario debe informar dicho código para iniciar sesión. | Se puede activar | Siempre activa |
-| Contraseña | El usuario puede registrar una contraseña e iniciar sesión utilizando el email y la contraseña registrados. | Se puede activar | Siempre activa |
-| Facebook | El usuario inicia sesión utilizando su cuenta de Facebook. | Se puede activar | No disponible |
-| Google | El usuario inicia sesión utilizando su cuenta de Google. | Se puede activar | Se puede activar |
+| Contraseña | El usuario puede registrar una contraseña e iniciar sesión utilizando el email y la contraseña registrados. El retailer puede activar la opción [Vencimiento de la contraseña](#vencimiento-de-la-contrasena) después de un período específico para usuarios del Admin. | Se puede activar | Siempre activa |
+| Facebook | El usuario inicia sesión utilizando su cuenta de Facebook. Consulta la guía [Configurar inicio de sesión con Facebook y Google](https://help.vtex.com/es/tutorial/configurar-login-com-facebook-e-google--tutorials_513) para más detalles. | Se puede activar | No disponible |
+| Google | El usuario inicia sesión utilizando su cuenta de Google. Consulta la guía [Configurar inicio de sesión con Facebook y Google](https://help.vtex.com/es/tutorial/configurar-login-com-facebook-e-google--tutorials_513) para más detalles. | Se puede activar | Se puede activar |
 | Integración con otros proveedores de identidad | El usuario puede iniciar sesión utilizando su cuenta de otros proveedores de identidad externos a partir de una integración. Consulta la guía para desarrolladores [Login (SSO)](https://developers.vtex.com/docs/guides/login-integration-guide) para obtener más detalles. | Se puede activar utilizando el protocolo OAuth.  Consulta la guía para desarrolladores [Webstore (OAuth 2.0)](https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2) para obtener más detalles. | Se puede activar utilizando o protocolo SAML. Consulta la guía para desarrolladores [Admin (SAML 2.0)](https://developers.vtex.com/docs/guides/login-integration-guide-admin-saml2) para obtener más detalles. |
 
 <div class="alert alert-info">
@@ -59,6 +59,20 @@ Sigue estos pasos para activar las opciones de inicio de sesión que desees:
     Para configurar métodos de inicio de sesión en el Admin para usuarios administrativos, haz clic en la pestaña **Admin**.
 
     Consulta la tabla en la sección [Inicio de sesión](#inicio-de-sesion) para conocer los métodos de inicio de sesión disponibles y acceder a la documentación que explica cómo configurarlos.
+
+### Vencimiento de la contraseña de usuarios del Admin
+
+Si la opción de inicio de sesión con contraseña está activada, puedes establecer la expiración de las contraseñas de usuario del Admin después de un número específico de días. Para llevar a cabo esta acción, sigue las instrucciones a continuación:
+
+1. En la barra superior del Admin VTEX haz clic en el avatar de tu perfil, marcado con la inicial de tu email.
+2. Haz clic en **Configuración de la cuenta > Autenticación**.
+3. Ve a la pestaña **Admin**.
+4. En la fila **Contraseña**, haz clic en `Editar`.
+5. Marca la opción** Vencimiento de la contraseña**.
+6. Selecciona el periodo después del cual la contraseña de los usuarios perderá su validez. Puedes elegir entre **15**, **30** o **90** días.
+7. Haz clic en `Guardar`.
+
+Tras el periodo especificado, al intentar iniciar sesión, el usuario del Admin deberá restablecer su contraseña.
 
 ## Desarrollo de integraciones
 

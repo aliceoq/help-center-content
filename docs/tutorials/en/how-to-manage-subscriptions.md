@@ -3,8 +3,8 @@ title: 'How to manage Subscriptions'
 id: 6Jk50FPbv6iuz1OsFypv8x
 status: PUBLISHED
 createdAt: 2020-02-05T14:18:54.781Z
-updatedAt: 2023-08-30T19:10:34.898Z
-publishedAt: 2023-08-30T19:10:34.898Z
+updatedAt: 2023-12-21T14:08:39.725Z
+publishedAt: 2023-12-21T14:08:39.725Z
 firstPublishedAt: 2020-02-11T14:56:17.333Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -40,7 +40,7 @@ The **Unique Subscriptions** section allows you to:
 ### Subscription Orders
 
 <div class = "alert alert-info">
-You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>. To access order data from previous years, please contact <a href="https://support.vtex.com/hc/pt-br/requests">our Support</a>. Your access to orders placed before the last two years is temporary and will be available for 15 days.
+You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>.
 </div>
 
 The **Subscription Orders** section allows you to:

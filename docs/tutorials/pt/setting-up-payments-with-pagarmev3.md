@@ -3,8 +3,8 @@ title: 'Configurar pagamento com PagarMeV3'
 id: 5PMavdamrVijwIrHas9ndE
 status: PUBLISHED
 createdAt: 2022-06-22T17:05:12.930Z
-updatedAt: 2023-03-26T21:02:02.940Z
-publishedAt: 2023-03-26T21:02:02.940Z
+updatedAt: 2024-01-23T19:22:18.328Z
+publishedAt: 2024-01-23T19:22:18.328Z
 firstPublishedAt: 2022-06-22T17:51:37.670Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pagamento-com-pagarmev3
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamentos PagarMeV3. Com este conector, sua loja pode realizar vendas por meio de cartões de crédito e débito, boletos e PIX.
+Na VTEX, é possível realizar a integração com o provedor de pagamentos PagarMeV3. Por meio deste provedor, sua loja pode realizar vendas por meio de cartões de crédito e débito, boletos e PIX.
 
-Para configurar a afiliação PagarMeV3, siga os passos abaixo:
+Para configurar PagarMeV3, siga os passos abaixo:
 
-1. No Admin VTEX, acesse **Configurações da loja** > **Pagamentos** > **Configurações**, ou digite **Configurações** na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão `+`.
-3. Clique no conector __PagarMeV3__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __PagarMeV3__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos __Application Key__ e __Application Token__ com as informações da sua conta PagarMeV3.
 5. Em __Ativar split e enviar recebedores?__, selecione se o split de pagamentos estará disponível para o marketplace e os sellers.
 6. Clique em `Salvar`.

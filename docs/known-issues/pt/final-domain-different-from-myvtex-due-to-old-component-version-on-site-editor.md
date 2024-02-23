@@ -3,8 +3,8 @@ title: 'O domínio final é diferente do myvtex devido à versão antiga do comp
 id: 7bf2mMbpcxUd6Q32DYP6vz
 status: PUBLISHED
 createdAt: 2023-12-05T18:07:50.089Z
-updatedAt: 2023-12-05T18:07:50.675Z
-publishedAt: 2023-12-05T18:07:50.675Z
+updatedAt: 2024-01-26T17:52:03.169Z
+publishedAt: 2024-01-26T17:52:03.169Z
 firstPublishedAt: 2023-12-05T18:07:50.675Z
 contentType: knownIssue
 productTeam: CMS

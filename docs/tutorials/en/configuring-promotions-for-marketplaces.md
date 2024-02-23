@@ -3,8 +3,8 @@ title: 'Configuring promotions for marketplaces'
 id: tutorials_406
 status: PUBLISHED
 createdAt: 2017-04-27T22:06:28.854Z
-updatedAt: 2023-09-22T18:06:18.113Z
-publishedAt: 2023-09-22T18:06:18.113Z
+updatedAt: 2024-01-18T17:21:44.418Z
+publishedAt: 2024-01-18T17:21:44.418Z
 firstPublishedAt: 2017-04-27T23:03:23.902Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -137,5 +137,5 @@ If necessary, you can segment promotions for specific marketplaces. You can obta
 4. Click on `Save`.
 
 <div class = "alert alert-warning">
-  <p> Please remember to <a href = "https://help.vtex.com/pt/tutorial/entendendo-a-manutencao-da-base-de-dados--34P9LGs7BCIQK6acQom802">reindex all products included in the promotion</a> after you’ve created it. This will ensure that the prices of your products are up to date.</p>
+  <p> Please remember to <a href = "https://help.vtex.com/pt/tutorial/entendendo-a-manutencao-da-base-de-dados--34P9LGs7BCIQK6acQom802">reindex all products included in the promotion</a> after you’ve created it and at the beginning and end of the promotions. This will ensure that the prices of your products are up to date.</p>
 </div>

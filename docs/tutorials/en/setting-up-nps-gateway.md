@@ -3,8 +3,8 @@ title: 'Setting up Ingenico ePayments (NPS) gateway'
 id: 4DtjieyNQIQeI2O2kymEgq
 status: PUBLISHED
 createdAt: 2018-04-18T13:22:00.721Z
-updatedAt: 2023-03-29T01:15:32.462Z
-publishedAt: 2023-03-29T01:15:32.462Z
+updatedAt: 2024-02-16T12:22:49.808Z
+publishedAt: 2024-02-16T12:22:49.808Z
 firstPublishedAt: 2018-04-18T15:09:45.694Z
 contentType: tutorial
 productTeam: Financial
@@ -14,6 +14,8 @@ locale: en
 legacySlug: setting-up-nps-gateway
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
+
+<div class="alert alert-danger">This payment integration can no longer be configured on the platform due to the <a href="https://help.vtex.com/en/announcements/legacy-payment-connectors-will-be-discontinued-in-2024--4R5YIjUu1IWkiOHzXtQU14">legacy provider removal process</a> and the article will soon be removed from the Help Center. Check with your provider for more information about developing the new payment integration and the steps required for migrating settings in your store.</div>
 
 Ingenico ePayments (NPS) is a [gateway](/en/tutorial/what-is-a-payment-gateway) with a strong presence in Latin America which allows your store to accept various payment conditions.
 

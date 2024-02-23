@@ -3,8 +3,8 @@ title: 'Configurar pagamento com easypay'
 id: 3xJQqjMIn0ARDI1HcwK88J
 status: PUBLISHED
 createdAt: 2023-09-18T16:48:21.184Z
-updatedAt: 2023-09-28T11:11:06.834Z
-publishedAt: 2023-09-28T11:11:06.834Z
+updatedAt: 2024-01-23T18:08:17.530Z
+publishedAt: 2024-01-23T18:08:17.530Z
 firstPublishedAt: 2023-09-18T18:53:57.235Z
 contentType: tutorial
 productTeam: Financial
@@ -15,9 +15,9 @@ legacySlug: configurar-pagamento-com-easypay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, você pode integrar com o provedor de pagamento easypay. Por meio deste conector, sua loja pode efetuar vendas utilizando a easypay, MBWay e MultiBanco.
+Na VTEX, você pode integrar com o provedor de pagamento easypay. Por meio deste provedor, sua loja pode efetuar vendas utilizando a easypay, MBWay e MultiBanco.
 
-Para utilizar a afiliação easypay, é necessário:
+Para utilizar easypay, é necessário:
 
 - [Instalar o app easypay](#instalar-o-app-easypay)
 - [Configurar o app easypay](#configurar-o-app-easypay)
@@ -189,9 +189,9 @@ Para configurar o webhook da easypay, sig os passos abaixo:
 
 Para configurar a afiliação easypay, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba Afiliações de Gateways, clique no botão `+`.
-3. Clique no conector __easypay__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __easypay__ na barra de busca e clique sobre o nome do provedor.
 4. Preencha os campos __Application Key__ e __Application Token__ com as informações da sua conta easypay.
 5. Em __Captura Automática de Pagamento__, selecione a opção __Use O Comportamento Recomendado Pelo Processador de Pagamentos__.
 6. Em __Ativar divisão e enviar recebedores?__, selecione a opção __Sim__.

@@ -3,8 +3,8 @@ title: 'Reglas de merchandising'
 id: 5tBSYXb9EIdePa0MWTnFd0
 status: PUBLISHED
 createdAt: 2020-03-05T18:53:37.305Z
-updatedAt: 2023-06-29T19:36:09.359Z
-publishedAt: 2023-06-29T19:36:09.359Z
+updatedAt: 2024-01-29T17:07:18.414Z
+publishedAt: 2024-01-29T17:07:18.414Z
 firstPublishedAt: 2020-03-05T19:58:55.021Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -22,8 +22,6 @@ Puedes determinar reglas de merchandising para:
 
 *	**Marcas:** puedes configurar qué productos de una marca tienen mayor relevancia que los demás. Cuando el cliente busque «smartphone», por ejemplo, los productos de la marca aparecerán en el inicio de la lista y los productos de otras marcas aparecerán debajo de ellos.
 * **Productos:** otra posibilidad es promocionar un producto específico. Por ejemplo, puedes definir que cuando el cliente busque «camiseta para correr», el producto «Camiseta Running» sea el primer resultado presentado en la lista.
-
-## Lista de Reglas de Merchandising
 
 En el Admin VTEX, la página **Storefront** > **Intelligent Search** > **Reglas de merchandising** permite realizar las siguientes acciones:
 
@@ -51,9 +49,11 @@ Para configurar una regla de merchandising, haga clic en `+ Agregar`. Más infor
 
 ### Tipos de edición
 
-Al crear o editar Reglas de merchandising, puedes elegir entre dos tipos de edición disponibles: el [Editor manual](https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2FpbarYzsnbg7aZZn3TGF8) y el [Editor visual (Beta)](https://help.vtex.com/es/tutorial/crear-regla-de-merchandising-editor-visual-beta--6xteumx9MsDt0uEppbChu3). A continuación, te mostramos cuáles son las funcionalidades disponibles en cada una de estas opciones para que puedas decidir cuál es la más adecuada para usar en tu caso en particular:
+Existen dos tipos de editor para Reglas de merchandising: el [Editor manual](https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2FpbarYzsnbg7aZZn3TGF8) y el [Editor visual](https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2ejly01m1w28RsZlCKowEr).
 
-| Funcionalidad | Descripción | Editor manual | Editor visual (Beta) |
+A continuación, te mostramos cuáles son las funcionalidades en cada una de estas opciones:
+
+| Funcionalidad | Descripción | Editor manual | Editor visual |
 |---|---|---|---|---|
 | Reglas de activación  | Define las condiciones para la activación de la regla de merchandising. | Sí | Sí |
 | Reglas de personalización | Controla los resultados de la búsqueda a partir de condiciones específicas. | Sí | No |

@@ -1,10 +1,10 @@
 ---
 title: 'Novas regras para acionar o Suporte VTEX'
 id: 18xfVJM9tbzpyqAUzIsBC1
-status: CHANGED
+status: PUBLISHED
 createdAt: 2023-12-01T17:11:24.955Z
-updatedAt: 2023-12-08T18:31:42.051Z
-publishedAt: 2023-12-04T11:36:19.496Z
+updatedAt: 2023-12-13T14:03:46.024Z
+publishedAt: 2023-12-13T14:03:46.024Z
 contentType: updates
 productTeam: Billing
 author: 5l3eEiSz8MpcppCxcnijGz

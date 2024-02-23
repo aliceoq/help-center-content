@@ -3,8 +3,8 @@ title: 'Sugerencias de sinónimos de Intelligent Search (Beta)'
 id: 18A9JTCPrMsHWpFntNoKEr
 status: PUBLISHED
 createdAt: 2023-06-01T20:18:10.087Z
-updatedAt: 2023-06-01T20:44:40.993Z
-publishedAt: 2023-06-01T20:44:40.993Z
+updatedAt: 2024-01-18T22:11:46.309Z
+publishedAt: 2024-01-18T22:11:46.309Z
 firstPublishedAt: 2023-06-01T20:33:35.148Z
 contentType: tutorial
 productTeam: Others
@@ -14,6 +14,7 @@ locale: es
 legacySlug: sugerencias-de-sinonimos-de-intelligent-search-beta
 subcategory: 23WdCYqmn2V2Z7SDlc14DF
 ---
+
 
 <div class="alert alert-info">
   <p>Esta funcionalidad se encuentra en fase beta cerrada, lo que significa que por el momento solo tienen acceso a ella algunos clientes seleccionados. Si estás interesado en implementarla en el futuro, ponte en contacto con <a href="https://help.vtex.com/es/support">nuestro Soporte</a>.</p>
@@ -30,19 +31,24 @@ Para hacerlo, VTEX Intelligent Search contabiliza cuántas veces los clientes, d
 
 Puedes revisar las sugerencias generadas y elegir una de estas tres acciones: rechazar, editar o aprobar. Consulta el paso a paso en la siguiente sección.
 
-![syn-sug-es](//images.ctfassets.net/alneenqid6w5/3bDrkDw6O6d8mHvvBKwWGm/92ab32c06dcfa505720a0813be380cdb/syn-sug-es.png)
-
 ## Revisar sugerencias
 
 Sigue las instrucciones para visualizar las sugerencias de sinónimos y definir si deseas rechazarlas, editarlas o aprobarlas:
 
 1. En el Admin VTEX, accede a **Storefront**, o escribe **Storefront** en la barra de búsqueda de la parte superior de la página.
 2. En **Intelligent Search**, haz clic en **Sinónimos**.
-    Si hay sugerencias para revisar, aparecerá un modal indicando el número de sugerencias generadas.
-3. Haz clic en `Revisar` para continuar. Verás un modal con la primera sugerencia de sinónimo. Cada sugerencia indica el término buscado y el término que se agregará como sinónimo, y también el número de veces que los clientes de tu tienda reescribieron el término original por el segundo término en los últimos 30 días.
-4. Para revisar la sugerencia, elige una de las siguientes opciones:
+3. Cuando acceda a la página **Sinónimos**, existen dos escenarios posibles:
+
+    * Si hay sugerencias que aún no se han visualizado, aparecerá un modal indicando el número de sugerencias generadas. En este caso, haz clic en `Revisar`.
+    * Si hay sugerencias ya visualizadas pero aún no revisadas, aparecerá un aviso en la parte superior de la página indicando el número de sugerencias generadas. En este caso, haz clic en `Iniciar revisión`.
+
+   Verás un modal con la primera sugerencia de sinónimo. Cada sugerencia indica el término buscado y el término que se agregará como sinónimo, y también el número de veces que los clientes de tu tienda reescribieron el término original por el segundo término en los últimos 30 días.
+
+   ![syn-sug-es-2](//images.ctfassets.net/alneenqid6w5/6cHj0ZfxftInJFwJNWdJET/693988f1dc8db91e391055f1585fc1b8/162shots_so.png)
+
+4. Para revisar cada sugerencia, elige una de las siguientes opciones:
     * <i class="fas fa-times-circle"></i> **Rechazar**: descarta la sugerencia propuesta.
-    * <i class="fas fa-pencil"></i> **Editar**: modifica los campos de la configuración de sinónimos sugeridos. Después de editar, debes hacer clic en <i class="fas fa-check-circle"></i> para guardar los cambios. Para más información sobre los campos disponibles, consulta [Configurar sinónimos](https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3ExbC3QKNF4zH7Gs8jD1cL).
+    * <i class="fas fa-pencil-alt"></i> **Editar**: modifica los campos de la configuración de sinónimos sugeridos. Después de editar, debes hacer clic en <i class="fas fa-check-circle"></i> para guardar los cambios. Para más información sobre los campos disponibles, consulta [Configurar sinónimos](https://help.vtex.com/es/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3ExbC3QKNF4zH7Gs8jD1cL).
     * <i class="fas fa-check-circle"></i> **Aprobar**: aplica y guarda la sugerencia propuesta.
 5. Después de revisar todas las sugerencias, cierra el modal para acceder a la lista de sinónimos configurada en tu tienda.
 

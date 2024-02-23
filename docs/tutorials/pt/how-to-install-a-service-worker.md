@@ -3,8 +3,8 @@ title: 'Como instalar um Service Worker'
 id: 2H057iW0mQGguKAciwAuMe
 status: PUBLISHED
 createdAt: 2018-03-13T14:53:11.260Z
-updatedAt: 2023-07-13T20:09:41.755Z
-publishedAt: 2023-07-13T20:09:41.755Z
+updatedAt: 2024-01-19T12:54:32.525Z
+publishedAt: 2024-01-19T12:54:32.525Z
 firstPublishedAt: 2018-03-13T17:48:34.728Z
 contentType: tutorial
 productTeam: Financial
@@ -12,7 +12,7 @@ author: 2AhArvGNSPKwUAd8GOz0iU
 slug: como-instalar-um-service-worker
 locale: pt
 legacySlug: como-instalar-um-service-worker
-subcategory: 
+subcategory: 7ogirQ8NClawO2X6xdgCKc
 ---
 
 

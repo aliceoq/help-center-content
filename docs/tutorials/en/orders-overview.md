@@ -3,8 +3,8 @@ title: 'Orders Overview'
 id: tutorials_201
 status: PUBLISHED
 createdAt: 2017-04-27T22:13:42.525Z
-updatedAt: 2023-11-08T14:59:02.078Z
-publishedAt: 2023-11-08T14:59:02.078Z
+updatedAt: 2023-12-21T14:01:20.828Z
+publishedAt: 2023-12-21T14:01:20.828Z
 firstPublishedAt: 2017-04-27T23:03:03.051Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -38,7 +38,7 @@ Besides searching for orders in **Orders > All Orders**, you can search for orde
 - Customer document
 
 <div class = "alert alert-info">
-You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>. To access order data from previous years, please contact <a href="https://support.vtex.com/hc/pt-br/requests">our Support</a>. Your access to orders placed before the last two years is temporary and will be available for 15 days.
+You can only access information from orders created in the last two years, and that same period is valid for customers through <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>.
 </div>
 
 ## Subscriptions

@@ -3,8 +3,8 @@ title: 'Configurar promoção para marketplace'
 id: tutorials_406
 status: PUBLISHED
 createdAt: 2017-04-27T22:06:28.854Z
-updatedAt: 2023-09-22T18:06:18.113Z
-publishedAt: 2023-09-22T18:06:18.113Z
+updatedAt: 2024-01-18T17:21:44.418Z
+publishedAt: 2024-01-18T17:21:44.418Z
 firstPublishedAt: 2017-04-27T23:03:23.902Z
 contentType: tutorial
 productTeam: Marketing & Merchandising
@@ -136,5 +136,5 @@ Se necessário, é possível segmentar promoções para marketplaces específico
 4. Clique em `Salvar`.
 
 <div class = "alert alert-warning">
-  <p>Uma vez que você crie a promoção, lembre-se de <a href = "https://help.vtex.com/pt/tutorial/entendendo-a-manutencao-da-base-de-dados--34P9LGs7BCIQK6acQom802">reindexar os produtos afetados</a>. Dessa forma, os seus produtos terão os preços atualizados.</p>
+  <p>Uma vez que você crie a promoção, lembre-se de <a href = "https://help.vtex.com/pt/tutorial/entendendo-a-manutencao-da-base-de-dados--34P9LGs7BCIQK6acQom802">reindexar os produtos afetados</a> no inicio e fim das promoções. Dessa forma, os seus produtos terão os preços atualizados.</p>
 </div>

@@ -3,8 +3,8 @@ title: 'Merchandising rules'
 id: 5tBSYXb9EIdePa0MWTnFd0
 status: PUBLISHED
 createdAt: 2020-03-05T18:53:37.305Z
-updatedAt: 2023-06-29T19:36:09.359Z
-publishedAt: 2023-06-29T19:36:09.359Z
+updatedAt: 2024-01-29T17:07:18.414Z
+publishedAt: 2024-01-29T17:07:18.414Z
 firstPublishedAt: 2020-03-05T19:58:55.021Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -23,8 +23,6 @@ You can set merchandising rules for:
 * **Brands:** You can set which brand products are more relevant than others. When the customer searches for "smartphone," for example, the products of this brand will appear at the beginning of the list, and the other brands' products below them.
 * **Products:** Another option is promoting a specific product. For example: set that when searching for "running t-shirt," the product "Running T-shirt" is the first result displayed in the list.
 
-## Merchandising rules listing page
-
 On VTEX Admin, the page **Storefront** > **Intelligent Search** > **Merchandising Rules** allows you to do the following actions: 
 
 * [Create](#creating-merchandising-rules)
@@ -36,7 +34,7 @@ On VTEX Admin, the page **Storefront** > **Intelligent Search** > **Merchandisin
 
 The page displays the following information: 
 
-| Column     | Description          |
+| Column | Description |
 | - | - |
 | __Name__ | Name that identifies the merchandising rule, defined in the "[Creating merchandising rules](#creating-merchandising-rules)" section. |
 | __Start date__ | Date that sets the date the merchandising rule becomes available. |
@@ -51,9 +49,11 @@ To add a new merchandising rule, click `+ New`. Learn more about all the informa
 
 ### Types of editing
 
-When creating or editing Merchandising rules, you can choose between two types of editing: the [Manual Editor](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2FpbarYzsnbg7aZZn3TGF8) and the [Visual Editor (Beta)](https://help.vtex.com/en/tutorial/creating-merchandising-rules-visual-editor-beta--6xteumx9MsDt0uEppbChu3). Below are the features available to decide which one works best for you:
+There are two types of editor to create or modify Merchandising rules: the [Manual Editor](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2FpbarYzsnbg7aZZn3TGF8) and the [Visual Editor](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2ejly01m1w28RsZlCKowEr).
 
-| Feature | Description | Manual Editor | Visual Editor (Beta) |
+Below are the features of each editor:
+
+| Feature | Description | Manual Editor | Visual Editor |
 |---|---|---|---|
 | Trigger rules | Set conditions for the merchandising rule to be triggered. | Yes | Yes |
 | Customization Rules | Control search results using specific conditions. | Yes | No |

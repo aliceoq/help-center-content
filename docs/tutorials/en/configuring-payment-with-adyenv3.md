@@ -3,8 +3,8 @@ title: 'Configuring payment with AdyenV3'
 id: 7xAz67E2Eg63LWCQNjVdwv
 status: PUBLISHED
 createdAt: 2023-05-08T20:00:38.610Z
-updatedAt: 2023-05-31T19:42:52.614Z
-publishedAt: 2023-05-31T19:42:52.614Z
+updatedAt: 2024-02-08T16:33:58.642Z
+publishedAt: 2024-02-08T16:33:58.642Z
 firstPublishedAt: 2023-05-11T20:32:21.638Z
 contentType: tutorial
 productTeam: Financial
@@ -121,5 +121,15 @@ If you have several stores, you need to configure a webhook for each of them.
 To configure the payment methods to be processed by AdyenV3, see [Configuring payment conditions](https://help.vtex.com/en/tutorial/how-to-configure-payment-conditions--tutorials_455). If you want to use the Sales App for completing purchases, see [Configuring payments with AdyenV3 on Sales App](https://help.vtex.com/en/tutorial/configuring-payment-with-adyenv3-in-instore--24yO6KloBn6DN6CbprHtgt).
 
 To define special conditions for payment methods, see [Configuring special payment conditions](https://help.vtex.com/en/tutorial/special-conditions--tutorials_456).
+
+## Configuring credit card  
+
+If you wish to process credit card payments in your store using AdyenV3, in addition to performing the previous configurations described in this article, you must open a ticket at [VTEX support](https://help.vtex.com/en/support), with the following request "Provider review - Add Endpoint SecureProxy - AdyenV3".
+
+In the ticket you must also send the URL that will be authorized by Adyen to carry out the credit card transaction in your store. The URL format must be `https://{live URL prefix}-checkout-live.adyenpayments.com`, where the information "{live URL prefix}" must be the same as that entered by you in the Adyen settings in the VTEX Admin.  
+
+<div class="alert alert-warning">
+The full URL address must be written in lowercase letters only, even if the "Live URL prefix" configured in the VTEX Admin has some capital letters.
+</div>    
 
 After completing these steps, it can take up to 10 minutes for the AdyenV3 connector to appear as a payment option in your store's checkout.

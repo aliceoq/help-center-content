@@ -3,8 +3,8 @@ title: 'Realizando o go-live da sua loja'
 id: 1iP90RcJvlrfQhnlxM54wo
 status: PUBLISHED
 createdAt: 2022-12-09T19:12:28.218Z
-updatedAt: 2023-09-27T19:36:12.413Z
-publishedAt: 2023-09-27T19:36:12.413Z
+updatedAt: 2024-01-31T13:30:12.446Z
+publishedAt: 2024-01-31T13:30:12.446Z
 firstPublishedAt: 2022-12-09T22:09:43.345Z
 contentType: trackArticle
 productTeam: Reliability
@@ -28,7 +28,7 @@ Note que uma loja em produção é diferente de uma conta em produção. De modo
 
 Antes de realizar o go-live da sua loja, é essencial garantir que você tenha realizado todas as configurações necessárias para o bom funcionamento da sua loja.
 
-Copie esta [Checklist de configuração de loja](//assets.ctfassets.net/alneenqid6w5/3yv1ofQRJ5xeX7J5EGglGy/dbe5b9175ab01586916c6155ac5681fa/Checklist_de_configura____o_de_loja.xlsx) e verifique, para cada item, se realizou as configurações de acordo com o funcionamento desejado da loja.
+Copie esta [Checklist de configuração de loja](//assets.ctfassets.net/alneenqid6w5/3yv1ofQRJ5xeX7J5EGglGy/f504033fb6e8bf38b639547c5fd8790a/Checklist_de_configura__o_de_loja.xlsx) e verifique, para cada item, se realizou as configurações de acordo com o funcionamento desejado da loja.
 
 <div class="alert alert-warning">
 A checklist indicada acima lista funcionalidades e configurações básicas para o funcionamento de uma loja VTEX. Cabe à sua equipe definir quais funcionalidades implementar na sua loja e como deverão ser configuradas de maneira a produzir a experiência de loja desejada. Isso significa que a lista pode não contemplar todas as funcionalidades usadas pela sua loja. Ainda assim, é importante verificar todos os aspectos do funcionamento da sua loja, mesmo que não estejam na lista sugerida.

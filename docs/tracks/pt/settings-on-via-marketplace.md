@@ -3,8 +3,8 @@ title: 'Configurações na Casas Bahia Marketplace'
 id: 2oxPVeYpVgA8IrhaDqKon6
 status: PUBLISHED
 createdAt: 2022-01-18T21:39:29.664Z
-updatedAt: 2023-11-30T21:45:19.514Z
-publishedAt: 2023-11-30T21:45:19.514Z
+updatedAt: 2024-01-22T15:59:29.253Z
+publishedAt: 2024-01-22T15:59:29.253Z
 firstPublishedAt: 2022-01-18T22:32:05.415Z
 contentType: trackArticle
 productTeam: Channels
@@ -33,9 +33,9 @@ A chave de acesso será utilizada na etapa de [Cadastro do conector da Casas Bah
 
 Existem três fluxos diferentes para configurar sua conta na Casas Bahia Marketplace. Veja abaixo em qual deles você se encaixa e faça download da documentação da Casas Bahia Marketplace:
 
-- [Onboarding](https://drive.google.com/uc?export=download&id=1g6Swi8HoSkIRyZGeab4AYoQh4GMxC1wy): a solicitação do token da Casas Bahia Marketplace é feita no Onboarding para lojistas que estão integrando pela primeira vez.
-- [Chamado para lojistas não integrados](https://drive.google.com/uc?export=download&id=1Ty_KwFH5k0QI5pAyzt_bBdy7OfjMODY5): para lojistas que estavam cadastrados anteriormente na Casas Bahia Marketplace e não integraram suas lojas. A solicitação do token é feita por uma abertura de chamado no [Portal do lojista da Casas Bahia Marketplace](https://pas.viavarejo.com.br/login?returnUrl=%2F).
-- [Chamado para lojistas integrados](https://drive.google.com/uc?export=download&id=1KK0z5CFlA1pPH0QoFq2trrZWcVbkjqQC): o lojista deverá se enquadrar em uma das circunstâncias abaixo:
+- [Onboarding](https://marketplace.via.com.br/): a solicitação do token da Casas Bahia Marketplace é feita no Onboarding para lojistas que estão integrando pela primeira vez.
+- [Chamado para lojistas não integrados](https://suportemarketplace.viavarejo.com.br/pt-BR/lojista/artigo/?kbid=KA-01835): para lojistas que estavam cadastrados anteriormente na Casas Bahia Marketplace e não integraram suas lojas. A solicitação do token é feita por uma abertura de chamado no [Portal do lojista da Casas Bahia Marketplace](https://pas.viavarejo.com.br/login?returnUrl=%2F).
+- [Chamado para lojistas integrados](https://suportemarketplace.viavarejo.com.br/pt-BR/lojista/artigo/?kbid=KA-01974): o lojista deverá se enquadrar em uma das circunstâncias abaixo:
    * Utilizava uma outra integração antes de utilizar a integração da VTEX.
    * Quando o lojista deseja modificar de integrador para integração própria.
 

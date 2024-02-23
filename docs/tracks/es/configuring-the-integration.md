@@ -3,8 +3,8 @@ title: 'Configuración de la integración'
 id: HgIbZEzbPr8FQid5MXURQ
 status: PUBLISHED
 createdAt: 2023-08-10T22:33:03.150Z
-updatedAt: 2023-08-11T02:18:04.515Z
-publishedAt: 2023-08-11T02:18:04.515Z
+updatedAt: 2024-02-19T19:02:28.716Z
+publishedAt: 2024-02-19T19:02:28.716Z
 firstPublishedAt: 2023-08-11T01:56:55.389Z
 contentType: trackArticle
 productTeam: Channels

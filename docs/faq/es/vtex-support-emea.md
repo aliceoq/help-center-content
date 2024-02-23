@@ -3,8 +3,8 @@ title: 'Soporte VTEX - EMEA'
 id: 5ePu2qkCfmE0IEKDFKg53F
 status: PUBLISHED
 createdAt: 2023-11-09T16:29:55.255Z
-updatedAt: 2023-11-09T16:51:03.796Z
-publishedAt: 2023-11-09T16:51:03.796Z
+updatedAt: 2023-12-12T13:00:27.887Z
+publishedAt: 2023-12-12T13:00:27.887Z
 firstPublishedAt: 2023-11-09T16:51:03.796Z
 contentType: frequentlyAskedQuestion
 productTeam: Billing

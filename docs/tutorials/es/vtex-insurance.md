@@ -1,10 +1,10 @@
 ---
 title: 'VTEX Insurance'
 id: 2aF3SDIj5t2qGe3bWKCjLD
-status: PUBLISHED
+status: DRAFT
 createdAt: 2023-05-23T20:15:25.639Z
-updatedAt: 2023-06-29T12:36:35.225Z
-publishedAt: 2023-06-29T12:36:35.225Z
+updatedAt: 2024-01-11T20:01:57.317Z
+publishedAt: 
 firstPublishedAt: 2023-05-26T17:46:59.436Z
 contentType: tutorial
 productTeam: B2B

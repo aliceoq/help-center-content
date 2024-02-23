@@ -3,8 +3,8 @@ title: 'Configurar pagamento com K8Bank'
 id: 1ewZll1fwjClvp5Wl1uES1
 status: PUBLISHED
 createdAt: 2023-09-18T13:14:17.375Z
-updatedAt: 2023-09-18T13:48:29.694Z
-publishedAt: 2023-09-18T13:48:29.694Z
+updatedAt: 2024-01-23T17:56:32.780Z
+publishedAt: 2024-01-23T17:56:32.780Z
 firstPublishedAt: 2023-09-18T13:48:29.694Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pagamento-com-k8bank
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamento K8Bank. Por meio deste conector, sua loja pode realizar vendas por meio de cartões de crédito, débito, private labels, cobranded, boletos bancário e PIX.
+Na VTEX, é possível realizar a integração com o provedor de pagamento K8Bank. Por meio deste provedor, sua loja pode realizar vendas por meio de cartões de crédito, débito, private labels, cobranded, boletos bancário e PIX.
 
-Para configurar a afiliação K8Bank, siga os passos abaixo:
+Para configurar o K8Bank, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja__ > __Pagamentos__ > __Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão __+__.
-3. Clique em __K8Bank__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __K8Bank__ na barra de busca e clique sobre o nome do provedor.
 4. Nos campos __Application Key__, __Application Token__, __cnpj__ e __CobrancasClientId__ insira as informações que foram fornecidas pelo K8Bank.
 5. No campo __Captura automática de pagamento__, selecione uma das seguintes opções:
 <br>

@@ -3,8 +3,8 @@ title: 'Intelligent Search synonym suggestions (Beta)'
 id: 18A9JTCPrMsHWpFntNoKEr
 status: PUBLISHED
 createdAt: 2023-06-01T20:18:10.087Z
-updatedAt: 2023-06-01T20:44:40.993Z
-publishedAt: 2023-06-01T20:44:40.993Z
+updatedAt: 2024-01-18T22:11:46.309Z
+publishedAt: 2024-01-18T22:11:46.309Z
 firstPublishedAt: 2023-06-01T20:33:35.148Z
 contentType: tutorial
 productTeam: Others
@@ -22,15 +22,14 @@ subcategory: 23WdCYqmn2V2Z7SDlc14DF
 
 The [Synonyms](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/1pxAWPEglBey1UFdvcetZV) feature of [VTEX Intelligent Search](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3qgT47zY08biLP3d5os3DG) allows you to add words, or similar sentences, as synonyms for customer search terms, increasing the chance of successful searches.
 
-The **Synonyms** page in the VTEX Admin now provides intelligent suggestions of terms for approval and manual configuration of synonyms. The platform leverages artificial intelligence to suggest synonyms based on customer search behavior in your store.
+The **Synonyms** page in the VTEX Admin provides intelligent suggestions of terms for approval and manual configuration of synonyms. The platform leverages artificial intelligence to suggest synonyms based on customer search behavior in your store.
 
 VTEX Intelligent Search achieves this by counting how many times in the last 30 days  customers have searched for a term that returned few or no search results and replaced the original term with an alternative one.
 
 > _Example:_ Suppose five customers typed `facial soap` in their search but later changed it to `face soap`. The system records this behavior, and the most rewritten terms will be displayed as suggested synonyms.
 
 You can review the suggestions and choose one of three actions: decline, edit, or approve. See the steps in the next section.
-
-![syn-sug-en](//images.ctfassets.net/alneenqid6w5/3bDrkDw6O6d8mHvvBKwWGm/7bb4dc43cc0ef0c5cf439d57f1ef7d1b/syn-sug-en.png)
+[syn-sug-en](//images.ctfassets.net/alneenqid6w5/3bDrkDw6O6d8mHvvBKwWGm/7bb4dc43cc0ef0c5cf439d57f1ef7d1b/syn-sug-en.png)
 
 ## Reviewing suggestions
 
@@ -38,11 +37,18 @@ Follow these instructions to view the synonym suggestions and choose whether to 
 
 1. In the VTEX Admin, go to **Storefront**, or type **Storefront** in the search bar at the top of the page.
 2. In **Intelligent Search**, click **Synonyms**.
-    If there are suggestions for you to review, a modal will pop up, indicating the number of generated suggestions.
-3. Click `Review` to continue. A modal will display the first synonym suggestion. Each suggestion shows the searched term, the proposed synonym, and the number of times customers have used the second term to replace the original term in the last 30 days.
-4. To review the suggestion, choose one of the following actions:
+3. When you access the **Synonyms** page, there are two possible scenarios:
+
+    * If there are suggestions that have not yet been viewed, a modal will appear indicating the number of suggestions generated. In this case, click on `Review`.
+    * If there are suggestions already viewed but not yet reviewed, you will see a warning at the top of the page indicating the number of suggestions generated. In this case, click on `Start Review`.
+
+   A modal will display the first synonym suggestion. Each suggestion shows the searched term, the proposed synonym, and the number of times customers have used the second term to replace the original term in the last 30 days.
+
+   ![syn-sug-en-2](//images.ctfassets.net/alneenqid6w5/6cHj0ZfxftInJFwJNWdJET/8febf680b4aac238c94f07c31401f9b6/925shots_so.png)
+
+4. To review each suggestion, choose one of the following actions:
     * <i class="fas fa-times-circle"></i> **Decline**: Rejects the proposed suggestion.
-    * <i class="fas fa-pencil"></i> **Edit**: Changes the suggested synonym configuration fields. After editing, you need to click <i class="fas fa-check-circle"></i> to save. To learn more about the available fields, read the[ Configuring Synonyms](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3ExbC3QKNF4zH7Gs8jD1cL) article.
+    * <i class="fas fa-pencil-alt"></i> **Edit**: Changes the suggested synonym configuration fields. After editing, you need to click <i class="fas fa-check-circle"></i> to save. To learn more about the available fields, read the[ Configuring Synonyms](https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3ExbC3QKNF4zH7Gs8jD1cL) article.
     * <i class="fas fa-check-circle"></i> **Approve**: Applies and saves the proposed suggestion.
 5. After reviewing all suggestions, close the modal to access the list of synonyms configured in your store.
 

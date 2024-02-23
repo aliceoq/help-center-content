@@ -3,8 +3,8 @@ title: 'Google Pay'
 id: 61JMBvM5Vanqj6RaJsP8CT
 status: PUBLISHED
 createdAt: 2023-06-27T21:28:37.755Z
-updatedAt: 2023-07-14T14:05:48.929Z
-publishedAt: 2023-07-14T14:05:48.929Z
+updatedAt: 2023-12-18T21:07:47.217Z
+publishedAt: 2023-12-18T21:07:47.217Z
 firstPublishedAt: 2023-06-27T21:46:39.537Z
 contentType: trackArticle
 productTeam: Shopping
@@ -14,7 +14,7 @@ trackId: 6X8YyZBoVJpz5R8oXciTyu
 trackSlugPT: carteira-digital-e-wallet
 ---
 
-O Google Pay™ é um serviço de pagamentos digitais que possibilita ao usuário não compartilhar os dados reais do seu cartão com a loja, trazendo mais segurança e acelerando a etapa de checkout. Com Google Pay o usuário pode realizar pagamentos por meio de cartões de crédito ou de débito, sem a necessidade de preencher qualquer dado manualmente, e o Google Pay também está disponível em diversos apps, sites e na Carteira do Google
+O Google Pay™ é um serviço de pagamentos digitais que possibilita ao usuário não compartilhar os dados reais do seu cartão com a loja, trazendo mais segurança e acelerando a etapa de checkout. Com Google Pay o usuário pode realizar pagamentos por meio de cartões de crédito ou de débito, sem a necessidade de preencher qualquer dado manualmente, e o Google Pay também está disponível em diversos apps, sites e na Carteira do Google.
 
 Os termos de serviço da API do Google Pay se aplicam sempre que o serviço Google Pay for oferecido por um lojista. Para ler os termos, acesse [Google Pay API Terms of Service](https://payments.developers.google.com/terms/sellertos).
 
@@ -50,6 +50,10 @@ Feito isso, o Google Pay estará disponível no checkout da sua loja VTEX como n
   <p>Nas lojas que têm o fluxo de autenticação <a href="https://help.vtex.com/pt/tutorial/o-que-e-3d-secure--1eWPdop8mECuaEomQgkAIa">3DS</a> configurado e suportado pelo adquirente, o pagamento com o Google Pay seguirá o fluxo nativo de cartão, sendo submetido também ao 3DS. Para mais informações sobre como configurar o fluxo de autenticação, consulte <a href="https://help.vtex.com/pt/tutorial/configurar-fluxo-de-autenticacao-3ds-2--58XMn5LOA6fwrSkoDoAsg2">Configurar fluxo de autenticação 3DS 2</a>.</p>
 </div>
 
+<div class="alert alert-info">
+<p>Você também pode configurar o Google Pay para ser processado com a Adyen ou Stripe. Para isso, acesse a tela <b>Condições de Pagamento</b> no Admin, clique em <b>Google Pay</b> e selecione a opção desejada.</p>
+</div>
+
 ## Consultar transações finalizadas com o Google Pay
 
 Para consultar e verificar transações que foram finalizadas com o Google Pay no pagamento, siga os passos descritos no artigo [Ver detalhes da transação](https://help.vtex.com/pt/tracks/pagamentos--6GAS7ZzGAm7AGoEAwDbwJG/3Nt40DMEWkvhlpaL5PlBy). Na barra de busca da página de transações, digite **Google Pay** para filtrar as transações realizadas com este tipo de pagamento.
@@ -59,6 +63,10 @@ Para consultar e verificar transações que foram finalizadas com o Google Pay n
 Após acessar a transação desejada, clique em `+ Informações` para verificar a informação **Google Pay** descrita no campo `paymentOrigin`.
 
 ![Google Pay Transaction_2](//images.ctfassets.net/alneenqid6w5/6nLdqOG38LEUbmSKth5FRP/904607c6df63c9168c35435b9bb5068e/Google_Pay_Transaction2_PT.png)
+
+<div class="alert alert-warning">
+  <p>Também é possível identificar transações realizadas com o Google Pay por meio da página <b>Todos os pedidos</b> no Admin. Você precisa somente selecionar o período desejado de busca, <a href="https://help.vtex.com/pt/tracks/pedidos--2xkTisx4SXOWXQel8Jg8sa/6rVCf9KLn1jgTaxS0xuByu">exportar os pedidos</a> em um relatório no formato .csv e localizar a informação Google Pay no campo "payment origin".</p>
+</div>
 
 ## Adicionar informação do Google Pay no template de compra
 

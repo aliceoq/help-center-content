@@ -3,8 +3,8 @@ title: 'Ads from VTEX Sales App'
 id: 3UtOFwbwD4muz3p72RBPmC
 status: PUBLISHED
 createdAt: 2023-05-25T17:16:06.902Z
-updatedAt: 2023-10-20T13:56:09.280Z
-publishedAt: 2023-10-20T13:56:09.280Z
+updatedAt: 2024-01-11T16:27:18.374Z
+publishedAt: 2024-01-11T16:27:18.374Z
 firstPublishedAt: 2023-05-26T22:11:51.769Z
 contentType: tutorial
 productTeam: Shopping
@@ -90,7 +90,7 @@ Access the technical settings of the VTEX Sales App at:
 5. In the `window.INSTORE_CONFIG` object, add the flag `enableExplore: true,`.
 ![window.INSTORE_CONFIG](//images.ctfassets.net/alneenqid6w5/6kpTp7g4zRuIsyYGdo5Bio/e2984ba814f55a81a0b4263ff9d1a694/image.png)
 6. Click on <i class="fas fa-save"></i> `Save`.
-7. Optionally, you can set the ad page as the seller's homepage. To do this, add the flag `initialPage: advertisements,` to the `window.INSTORE_CONFIG` object.
+7. Optionally, you can set the ad page as the seller's homepage. To do this, add the flag `initialPage: 'advertisements',` to the `window.INSTORE_CONFIG` object.
 ![initialPage : advertisements](//images.ctfassets.net/alneenqid6w5/1zS4dgPnw7Q0ZP2w0thQdt/57c885204ca51226610e97e88f2e85e4/image.png)
 
 ## Access ads in the VTEX Sales App

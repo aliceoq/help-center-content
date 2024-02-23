@@ -3,8 +3,8 @@ title: 'A interface do usuário do checkout vai para Pagamento com um endereço 
 id: NmN6oNKp1isyxssTE5jPR
 status: PUBLISHED
 createdAt: 2023-11-27T17:40:11.335Z
-updatedAt: 2023-11-27T17:40:12.008Z
-publishedAt: 2023-11-27T17:40:12.008Z
+updatedAt: 2023-12-12T15:46:39.789Z
+publishedAt: 2023-12-12T15:46:39.789Z
 firstPublishedAt: 2023-11-27T17:40:12.008Z
 contentType: knownIssue
 productTeam: Checkout
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Checkout
 slug: a-interface-do-usuario-do-checkout-vai-para-pagamento-com-um-endereco-de-fatura-incompleto-para-compradores-com-perfil-completo
 locale: pt
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 937615
 ---
 

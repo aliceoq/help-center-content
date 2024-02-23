@@ -3,8 +3,8 @@ title: 'reCAPTCHA no Checkout'
 id: 18Te3oDd7f4qcjKu9jhNzP
 status: PUBLISHED
 createdAt: 2021-08-03T12:53:12.155Z
-updatedAt: 2023-08-25T23:49:22.951Z
-publishedAt: 2023-08-25T23:49:22.951Z
+updatedAt: 2023-12-11T22:07:06.233Z
+publishedAt: 2023-12-11T22:07:06.233Z
 firstPublishedAt: 2021-08-03T13:51:19.441Z
 contentType: tutorial
 productTeam: Others
@@ -26,7 +26,7 @@ Antes da ativação, é importante atentar-se à:
 
 * **Adequação da interface:** ao ativar a funcionalidade é necessário adequar a interface (web  e mobile) que cria pedidos na conta da sua loja (caso esse passo não seja realizado, a criação dos pedidos será prejudicada). Saiba mais sobre como adequar a interface com o[ guia de reCAPTCHA para integrações.](https://developers.vtex.com/vtex-rest-api/docs/recaptcha)
 * **Consequência para a conta**: a habilitação da funcionalidade implica o seu uso em toda conta, incluindo o uso em todas as lojas e subcontas.
-* **Realização de testes:** para realizar testes da funcionalidade é necessário uma um [ambiente Beta](https://help.vtex.com/pt/tutorial/acessar-o-ambiente-beta-pelo-dominio-myvtex-com--3BHM289568gcSwk2O80Asu),e utilizar do [Checkout V6](https://help.vtex.com/pt/tutorial/ativar-o-checkout-v6--7qVqv3ptRvpVVplrvg8ruH). 
+* **Realização de testes:** para realizar testes da funcionalidade sem impacto na loja em produção use o [ambiente Beta](https://help.vtex.com/pt/tutorial/acessar-o-ambiente-beta-pelo-dominio-myvtex-com--3BHM289568gcSwk2O80Asu) com [Checkout V6](https://help.vtex.com/pt/tutorial/ativar-o-checkout-v6--7qVqv3ptRvpVVplrvg8ruH). 
 
 ## Regra de aplicação
 

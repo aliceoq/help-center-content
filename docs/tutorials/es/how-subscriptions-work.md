@@ -3,8 +3,8 @@ title: 'Cómo funciona Suscripciones '
 id: frequentlyAskedQuestions_4453
 status: PUBLISHED
 createdAt: 2019-01-24T20:46:00.886Z
-updatedAt: 2023-08-30T18:53:03.830Z
-publishedAt: 2023-08-30T18:53:03.830Z
+updatedAt: 2023-12-21T14:13:17.283Z
+publishedAt: 2023-12-21T14:13:17.283Z
 firstPublishedAt: 2019-01-24T22:14:56.290Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -44,7 +44,7 @@ Para ello, solo hay que entrar a la página **Mi cuenta** en el sitio web de su 
 ## Cómo el cliente de su tienda visualiza las Suscripciones
 
 <div class = "alert alert-info">
-En <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>, los clientes solo pueden acceder a los pedidos de los últimos dos años. Para obtener información sobre pedidos de años anteriores, los administradores de la tienda deben comunicarse con <a href="https://support.vtex.com/hc/pt-br/requests">nuestro Soporte</a>. El acceso a la información es temporal y dura 15 días.
+En <a href="https://help.vtex.com/es/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">Mi Cuenta</a>, los clientes solo pueden acceder a los pedidos de los últimos dos años.
 </div>
 
 Después de finalizar el pedido con Suscripción, su cliente visualiza en la página **Mi cuenta** la sección **Suscripciones**. En esta sección, el cliente también puede encontrar la lista de suscripciones realizadas con los detalles y el estado individual. Su cliente también recibirá por *email* una confirmación de la suscripción y del pedido generado.

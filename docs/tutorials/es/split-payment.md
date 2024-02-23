@@ -3,8 +3,8 @@ title: 'Split de pagos'
 id: 6k5JidhYRUxileNolY2VLx
 status: PUBLISHED
 createdAt: 2021-04-06T20:03:53.443Z
-updatedAt: 2023-11-17T21:01:51.135Z
-publishedAt: 2023-11-17T21:01:51.135Z
+updatedAt: 2024-02-08T12:39:19.013Z
+publishedAt: 2024-02-08T12:39:19.013Z
 firstPublishedAt: 2021-04-07T18:57:19.713Z
 contentType: tutorial
 productTeam: Financial
@@ -59,7 +59,7 @@ Como puede ver, nuestro *gateway* calcula y distribuye los cobros de cada parte 
 Nuestra solución de split de cobros tiene algunas limitaciones que se deben tener en cuenta:
 
 - __Medios de pago combinados:__ no es compatible cuando uno de los dos no admite split. Ejemplo: tarjeta de regalo + tarjeta de crédito (la tarjeta de regalo no es compatible con split).  Actualmente, solo se puede utilizar el split de pagos cuando los medios combinados son dos tarjetas de crédito debido a una limitación de checkout.
-- __Cambios al pedido:__ no funciona cuando se cambian los valores o los ítems después de que se completa el pedido. Esto también significa que no se puede cancelar parcialmente un pedido que tiene split.
+- __Cambios al pedido:__ no funciona cuando se cambian los valores o los ítems después de que se completa el pedido. Los pedidos que contengan split se pueden reembolsar parcialmente, pero no cancelar.
 - __Suscripciones VTEX:__ no admite pedidos de marketplace.
 - __ID de seller:__ el nro. de registro de persona jurídica es la clave principal para realizar el split, por lo que las dos partes (marketplaces y sellers) deben ser entidades jurídicas.
 - __Mismo nro. de registro de persona jurídica:__ ya que el nro. de registro de persona jurídica es la clave principal para realizar el split, no es posible reconocer a dos o más beneficiarios/participantes de la venta que tengan el mismo número de registro como «entidades» distintas. 
@@ -67,8 +67,10 @@ Nuestra solución de split de cobros tiene algunas limitaciones que se deben ten
 - __Partes involucradas:__ no se permite dividir el pago con beneficiarios que no vendan alguno de los productos que estén en el carrito. Por ejemplo: dividir el flete directamente con la transportadora.
 - __Cuotas nominales:__ no permite cuotas nominales. Actualmente, solo es posible aplicar comisiones porcentuales en productos y/o fletes.
 - __Asignar transacciones al proveedor:__ actualmente, solo es posible asignar una afiliación preferida en el gateway para procesar el split utilizando condiciones comerciales para los SKU que el seller vende. Sin embargo, hay algunas limitaciones:
-        - Si el seller y el marketplace tienen el mismo SKU, el carrito siempre se procesará con el método de split de pagos.
-        - La lista de SKU debe actualizarse constantemente.
+    - Si el seller y el marketplace tienen el mismo SKU, el carrito siempre se procesará con el método de split de pagos.
+    - La lista de SKU debe actualizarse constantemente.
+
+- __Interés de la transacción:__ no es posible seleccionar quién recibirá la información de intereses (marketplace o seller). Todas las transacciones en las que el cliente realizó pagos de intereses se envían automáticamente al marketplace.
 
 ## Split de transacción
 

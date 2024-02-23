@@ -3,8 +3,8 @@ title: 'Cómo realizar el go live de tu tienda'
 id: 1iP90RcJvlrfQhnlxM54wo
 status: PUBLISHED
 createdAt: 2022-12-09T19:12:28.218Z
-updatedAt: 2023-09-27T19:36:12.413Z
-publishedAt: 2023-09-27T19:36:12.413Z
+updatedAt: 2024-01-31T13:30:12.446Z
+publishedAt: 2024-01-31T13:30:12.446Z
 firstPublishedAt: 2022-12-09T22:09:43.345Z
 contentType: trackArticle
 productTeam: Reliability
@@ -27,7 +27,7 @@ Ten en cuenta que una tienda en producción es diferente de una cuenta en produc
 ## Antes de comenzar
 Antes de realizar el go live de tu tienda, es importante garantizar que hayas completado todas las configuraciones necesarias para el buen funcionamiento de la tienda.
 
-Copia esta [Lista de verificación de tienda](//assets.ctfassets.net/alneenqid6w5/3yv1ofQRJ5xeX7J5EGglGy/c12e77226bfd0168252e98877b0459d4/Lista_de_verificaci__n_de_tienda.xlsx) y comprueba, para cada ítem, si realizaste la configuración de acuerdo con el funcionamiento deseado de la tienda.
+Copia esta [Lista de verificación de tienda](//assets.ctfassets.net/alneenqid6w5/3yv1ofQRJ5xeX7J5EGglGy/33146399ce82de243b5b84e2cdcdbc42/Lista_de_verificaci_n_de_tienda.xlsx) y comprueba, para cada ítem, si realizaste la configuración de acuerdo con el funcionamiento deseado de la tienda.
 
 <div class="alert alert-warning">
 La lista de verificación que se presenta aquí muestra las funcionalidades y configuraciones básicas para el funcionamiento de una tienda VTEX. Tu equipo debe definir qué funcionalidades implementará en la tienda y cómo se deben configurar para crear la experiencia de tienda deseada. Esto significa que la lista no necesariamente incluye todas las funcionalidades que tu tienda utiliza. Sin embargo, es importante verificar todos los aspectos del funcionamiento de tu tienda aunque no estén en la lista sugerida.

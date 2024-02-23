@@ -3,7 +3,7 @@ title: 'Teste (1)'
 id: 2Oq3MriB8hJ5YmFq3QIlPD
 status: DRAFT
 createdAt: 2021-04-14T14:58:44.451Z
-updatedAt: 2023-11-27T23:47:43.098Z
+updatedAt: 2024-02-23T13:58:09.805Z
 publishedAt: 
 firstPublishedAt: 2021-04-14T15:01:28.601Z
 contentType: trackArticle
@@ -14,55 +14,82 @@ trackId: 5Yx5IrNa7Y48c6aSC8wu2Y
 trackSlugPT: configurar-integracao-com-o-magazine-luiza
 ---
 
-<div class="alert alert-info">
-<p>Essa funcionalidade está em fase beta, o que significa que estamos trabalhando para aprimorá-la. Em caso de dúvidas, entre em contato com <a href= "https://support.vtex.com/hc/pt-br/requests">nosso Suporte</a>.</p>
+IMAGEM 1
+
+![announcement_complete_guide_PT](//images.ctfassets.net/alneenqid6w5/359WPOFfC5pE91DpoECZJe/4ec1ed1efbb3b2bc052974136a8759ce/announcement_complete_guide_PT.png)
+
+TESTE 1
+
+<div><img src="//images.ctfassets.net/alneenqid6w5/359WPOFfC5pE91DpoECZJe/4ec1ed1efbb3b2bc052974136a8759ce/announcement_complete_guide_PT.png" alt="announcement_complete_guide_PT"></div>
+
+O Guia de onboarding é um conjunto de trilhas de documentação que incluem o planejamento de arquitetura da loja, as configurações para o go-live, os produtos para evoluir o negócio e as orientações sobre o nosso suporte. O guia apresenta configurações e recursos da plataforma contextualizados na jornada de operação da loja VTEX. 
+
+___________________________________
+
+<div><img src="//images.ctfassets.net/alneenqid6w5/9EWzZSk1xeHS2c6JffC9X/3d61005e5466b4c3502c56d74624f132/image5.png" width="500" alt="My Image" align="left"></div><br>
+
+O Guia de onboarding é um conjunto de trilhas de documentação que incluem o planejamento de arquitetura da loja, as configurações para o go-live, os produtos para evoluir o negócio e as orientações sobre o nosso suporte. O guia apresenta configurações e recursos da plataforma contextualizados na jornada de operação da loja VTEX. 
+
+____________________________________
+
+IMAGEM 2
+
+![announcement_headings_track_1_PT](//images.ctfassets.net/alneenqid6w5/1N4nX2r9WxhdSCqr8zOEla/dc8a923eb652753491a1501284d17e00/announcement_headings_track_1_PT.png)
+
+TESTE
+
+<div><img src="//images.ctfassets.net/alneenqid6w5/1N4nX2r9WxhdSCqr8zOEla/dc8a923eb652753491a1501284d17e00/announcement_headings_track_1_PT.png" width="300" alt="Trilha da loja VTEX" align="left"</div>
+
+<br><br>
+
+O Guia de onboarding é um conjunto de trilhas de documentação que incluem o planejamento de arquitetura da loja, as configurações para o go-live, os produtos para evoluir o negócio e as orientações sobre o nosso suporte. O guia apresenta configurações e recursos da plataforma contextualizados na jornada de operação da loja VTEX. 
+
+__________________________________________________
+
+IMAGEM 3
+
+![announcement_headings_track_2_PT](//images.ctfassets.net/alneenqid6w5/6yRmvP19rt7z1mNE7vdWQz/4f45499ead8fd1b91442d51e9e3c50a6/announcement_headings_track_2_PT.png)
+
+TESTE IMAGEM 3
+
+<div style="width: 300px; margin: 0 10px 10px 0;">
+  <img src="//images.ctfassets.net/alneenqid6w5/6yRmvP19rt7z1mNE7vdWQz/4f45499ead8fd1b91442d51e9e3c50a6/announcement_headings_track_2_PT.png" width="300" alt="Trilha da loja VTEX" align="left">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p style="margin-top: 20px;">O Guia de onboarding é um conjunto de trilhas de documentação que incluem o planejamento de arquitetura da loja, as configurações para o go-live, os produtos para evoluir o negócio e as orientações sobre o nosso suporte. O guia apresenta configurações e recursos da plataforma contextualizados na jornada de operação da loja VTEX.</p>
+
+<div style="display: flex; justify-content: flex-start; align-items: top;">
+  <img src="//images.ctfassets.net/alneenqid6w5/6yRmvP19rt7z1mNE7vdWQz/4f45499ead8fd1b91442d51e9e3c50a6/announcement_headings_track_2_PT.png" width="300" alt="Trilha da loja VTEX" style="margin-right: 10px;">
+  <p style="margin-top: 0;">O Guia de onboarding é um conjunto de trilhas de documentação que incluem o planejamento de arquitetura da loja, as configurações para o go-live, os produtos para evoluir o negócio e as orientações sobre o nosso suporte. O guia apresenta configurações e recursos da plataforma contextualizados na jornada de operação da loja VTEX.</p>
 </div>
 
-A funcionalidade **Alterar pedido (beta)** permite que você mude um pedido de diversas maneiras, seja a mudança motivada pela vontade do cliente, pela indisponibilidade de produtos ou outros motivos. Os principais tipos de alteração de pedidos são: 
+__________________________________________________
 
-* **Adicionar:** uma quantidade de itens ou novos produtos.
-* **Remover:** uma quantidade parcial ou total de itens.
-* **Alterar peso:** os itens podem passar a ter um peso maior ou menor.
-* **Substituir itens:** trocar itens por outros, incluindo itens precificados por peso.
-* **Alterar preço:** mudar valor total do pedido.
+IMAGEM 4
 
-Para ver o passo a passo completo de como realizar cada ação, veja a documentação [Como alterar pedidos (Beta)](link). O artigo atual aborda outros aspectos da **Alterar pedido (Beta)** e está organizado da seguinte forma:
+![announcement_headings_track_3_PT](//images.ctfassets.net/alneenqid6w5/6N7adQ7RxTfTyuIrCDqstZ/ee6aea639c26136d7f9ff6b9e560c9cb/announcement_headings_track_3_PT.png)
 
-* [Alterações pelo Admin VTEX e API](#alteracoes-pelo-admin-vtex-e-api)
-* [Características gerais](#caracteristicas-gerais)
-* [Mudanças de preço](#mudanças-de-preco)
+IMAGEM 5
 
-## Alterações pelo Admin VTEX e API
+![announcement_under_table_image_PT](//images.ctfassets.net/alneenqid6w5/4CgTVLjK3cazg4dDyVlB8m/92967dbc04e132e4901ba7080d76f2e5/announcement_under_table_image_PT.png)
 
-Existem duas vias pelas quais um pedido pode ser alterado, veja os detalhes na tabela a seguir:
+IMAGEM 3
 
-| **Como alterar** | **Descrição** | **Status que admite alteração** |
-|:---:|:--- |:--- |
-| Via Admin VTEX | <p>A alteração é feita pela <a href="https://help.vtex.com/pt/tutorial/pagina-de-detalhes-do-pedido--2Y75n54Cc9VizrlG1N6ZNl">página de detalhes do pedido</a>, que pode ser acessada em <b>Pedidos > Todos os pedidos</b>, selecionando o pedido desejado.</p><p>Também é possível acessar o pedido usando a barra de busca no topo do Admin VTEX. Para isso, clique sobre a barra, selecione a opção <b>Pedidos</b> e utilize algum dos seguintes critérios:</p><p><ul><li>ID do pedido</li><li>Nome do cliente</li><li>Email do cliente</li><li>Documento do cliente</li></ul></p><p><b>Artigo no Help Center:</b> <a href="https://help.vtex.com/pt/tutorial/--531cHtUCUi3puRXNDmKziw">Como alterar pedidos (Beta)</a></p> | <p><ul><li><code>preparando entrega</code></li></ul></p> |
-| Via API | Altera pelos endpoints:<p><ul><li><a href="https://developers.vtex.com/docs/api-reference/orders-api#patch-/api/order-system/orders/-changeOrderId-/changes">Create order change</a></li><li><a href="https://developers.vtex.com/docs/api-reference/orders-api#post-/api/order-system/orders/-changeOrderId-/changes/preview">Preview order change</a></li><li><a href="https://developers.vtex.com/docs/api-reference/orders-api#get-/api/order-system/orders/-changeOrderId-/changes/-changeRequestId-">Get order change detail</a></li><li><a href="https://developers.vtex.com/docs/api-reference/orders-api#get-/api/order-system/orders/-changeOrderId-/changes">Get order change history</a></li><li><a href="https://developers.vtex.com/docs/api-reference/orders-api#post-/api/order-system/orders/-changeOrderId-/changes/-changeRequestId-/retry">Retry order change</a></li><li><a href="https://developers.vtex.com/docs/api-reference/orders-api#post-/api/order-system/orders/-changeOrderId-/changes/-changeRequestId-/cancel">Cancel order change</a></li></ul></p>| <p><ul><li><code>ready-for-handling</code></li><li><code>handling</code></li><li><code>waiting-for-fulfillment</code></li><li><code>ready for invoicing</code></li></ul></p> |
+<div><img src="//images.ctfassets.net/alneenqid6w5/9EWzZSk1xeHS2c6JffC9X/3d61005e5466b4c3502c56d74624f132/image5.png" width="1000" alt="My Image" align="center">
 
-O histórico de alterações do pedido fica registrado na sua [página de detalhes](https://help.vtex.com/pt/tutorial/pagina-de-detalhes-do-pedido--2Y75n54Cc9VizrlG1N6ZNl), na seção **Histórico de itens alterados**. Para consultar essa informação por API, utilize o endpoint [Get order change history](https://developers.vtex.com/docs/api-reference/orders-api#get-/api/order-system/orders/-changeOrderId-/changes).
+----
 
-## Características gerais
+TESTE JULIA
 
-A **Alterar pedidos (beta)** possui características específicas, como apresentado na tabela a seguir:
+<div>
+    <img src="//images.ctfassets.net/alneenqid6w5/1N4nX2r9WxhdSCqr8zOEla/dc8a923eb652753491a1501284d17e00/announcement_headings_track_1_PT.png" width="300" alt="Trilha da loja VTEX">
+</div>
 
-| **Aspecto** | **Descrição** |
-| :---: | :--- |
-| Número de alterações do pedido | Não existe um limite para quantas vezes um pedido pode ser alterado. |
-| Pedidos incompletos | Não é possível alterar <a href="https://help.vtex.com/pt/tutorial/entendendo-os-pedidos-incompletos--tutorials_294">pedidos incompletos</a>, aqueles que não têm todas as informações necessárias para serem processados pela plataforma VTEX. |
-| Contas franquia | É possível alterar pedidos nos quais o seller é um conta franquia. |
-| Marketplace VTEX, certificado, parceiro e externo | <p>A alteração de pedidos se comporta de forma diferente nos vários cenários de marketplace na VTEX:</p><p><ul><li>É possível alterar pedidos de lojas que atuam tanto como seller VTEX quanto como <a href="https://help.vtex.com/pt/tutorial/estrategias-de-marketplace-na-vtex--tutorials_402#ser-um-marketplace-vtex">marketplace VTEX</a>.</li><li>É possível alterar pedidos de <a href="https://help.vtex.com/pt/tutorial/multilevel-omnichannel-inventory--7M1xyCZWUyCB7PcjNtOyw4">Multilevel Omnichannel Inventory (MOI)</a> quando são realizados em <a href="https://developers.vtex.com/docs/guides/change-orders-multilevel-omnichannel-inventory-external-marketplaces">marketplaces externos</a>.</li><li>Não é possível alterar pedidos realizados em <a href="https://help.vtex.com/pt/tutorial/estrategias-de-marketplace-na-vtex--tutorials_402#integrado-a-marketplaces-certificados">marketplaces certificados</a> e <a href="https://help.vtex.com/pt/tutorial/estrategias-de-marketplace-na-vtex--tutorials_402#integrado-a-marketplaces-parceiros">marketplaces parceiros</a>.</li></ul></p> |
-| Reserva | A <a href="https://help.vtex.com/pt/tutorial/how-does-reservation-work--tutorials_92">reserva</a> de itens em cenários de alteração de pedidos é automática. |
-| Atualização de inventário | Ao alterar um pedido, o <a href="https://help.vtex.com/pt/tutorial/inventory-management--tutorials_139">inventário</a> da loja não é atualizado automaticamente, isso precisa ser feito ela loja no Admin VTEX em <b>Catálogo > Estoque > Gerenciamento de inventário</b>, ou via API, usando o endpoint <a href="https://developers.vtex.com/docs/api-reference/logistics-api#put-/api/logistics/pvt/inventory/skus/-skuId-/warehouses/-warehouseId-">Update inventory by SKU and warehouse</a>. |
-| Permissão no Licence Manager | <p>Para um usuário ser capaz de alterar pedidos, o seu <a href="https://help.vtex.com/pt/tutorial/roles--7HKK5Uau2H6wxE1rH5oRbc">perfil de acesso</a> precisa estar associado a pelo menos um dos seguintes <a href="https://help.vtex.com/pt/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3">recursos do Licence Manager</a>:</p><p><ul><li><code>Orders Full Access</code></li><li><code>Change order</code></li></ul></p> |
-
-## Mudanças de preço
-
-Quando a alteração de itens do pedido aumenta ou diminui o valor original da compra, a comunicação do módulo **Pedidos** é feita de forma automática com **Pagamentos** e acontece da seguinte forma:
-
-* **Preço menor após alteração:** uma notificação é enviada ao [gateway](https://help.vtex.com/pt/tracks/payments--6GAS7ZzGAm7AGoEAwDbwJG/kdPbEIWf8Xq8tESQvViMB#gateway) de pagamento para estornar o valor que deve ser devolvido ao cliente.
-* **Preço maior após alteração:** uma notificação é enviada ao gateway de pagamento para solicitar que o cliente pague o valor adicional.
-
-Veja na tabela abaixo mais informações sobre pagamento e fatura na alteração de pedidos:
+O Guia de onboarding é um conjunto de trilhas de documentação que incluem o planejamento de arquitetura da loja, as configurações para o go-live, os produtos para evoluir o negócio e as orientações sobre o nosso suporte. O guia apresenta configurações e recursos da plataforma contextualizados na jornada de operação da loja VTEX.
 

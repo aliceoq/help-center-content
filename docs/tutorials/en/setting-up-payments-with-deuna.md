@@ -3,8 +3,8 @@ title: 'Setting up payments with Deuna'
 id: 5Y4BfCdbQWraZAyoSm0Zzr
 status: PUBLISHED
 createdAt: 2023-04-06T18:37:58.919Z
-updatedAt: 2023-08-24T18:52:48.422Z
-publishedAt: 2023-08-24T18:52:48.422Z
+updatedAt: 2024-01-23T18:11:08.945Z
+publishedAt: 2024-01-23T18:11:08.945Z
 firstPublishedAt: 2023-04-06T18:42:52.173Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: setting-up-payments-with-deuna
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Deuna payment provider. With this connector, your store can make sales through Deuna.
+At VTEX, it is possible to integrate with the Deuna payment provider. With this provider, your store can make sales through Deuna.
 
-To configure DeunaNow affiliation, follow the steps below:
+To configure Deuna, follow the steps below:
 
-1. In the VTEX Admin, go to __Store Settings > Payments > Settings__, or type __Settings__ in the search bar at the top of the page.
-2. In the __Gateway affiliations__ tab, click on the `+` button.
-3. Click on the __DEUNA__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __DEUNA__ in the search bar and click on the name of the provider.
 4. Fill in the __Application Key__ and __Application Token__ fields with data provided by Deuna.
 5. In the __Payment settlement__ field, select one of the available options:
 

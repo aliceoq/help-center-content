@@ -3,8 +3,8 @@ title: 'Using reCAPTCHA at Checkout'
 id: 18Te3oDd7f4qcjKu9jhNzP
 status: PUBLISHED
 createdAt: 2021-08-03T12:53:12.155Z
-updatedAt: 2023-08-25T23:49:22.951Z
-publishedAt: 2023-08-25T23:49:22.951Z
+updatedAt: 2023-12-11T22:07:06.233Z
+publishedAt: 2023-12-11T22:07:06.233Z
 firstPublishedAt: 2021-08-03T13:51:19.441Z
 contentType: tutorial
 productTeam: Others
@@ -26,7 +26,7 @@ Before enabling it, please pay attention to:
 
 * **Interface adaptation:** when enabling the feature, you must adapt your store’s order creation interface (desktop and mobile). Otherwise, order creation will be affected. Learn more about how to adapt the interface in [reCAPTCHA's integration guide.](https://developers.vtex.com/vtex-rest-api/docs/recaptcha)
 * **Consequences for the account:** enabling the feature implies that it will be used in the entire account, including all stores and sub-accounts.
-* **Performing tests:** you must have a [Beta environment](https://help.vtex.com/en/tutorial/acessar-o-ambiente-beta-pelo-dominio-myvtex-com--3BHM289568gcSwk2O80Asu) and use [Checkout V6](https://help.vtex.com/en/tutorial/ativar-o-checkout-v6--7qVqv3ptRvpVVplrvg8ruH) to test the feature.
+* **Performing tests:** you must use the [Beta environment](https://help.vtex.com/en/tutorial/acessar-o-ambiente-beta-pelo-dominio-myvtex-com--3BHM289568gcSwk2O80Asu) with [Checkout V6](https://help.vtex.com/en/tutorial/ativar-o-checkout-v6--7qVqv3ptRvpVVplrvg8ruH) to test the feature without impacting your store in production.
 
 ## Application rule
 

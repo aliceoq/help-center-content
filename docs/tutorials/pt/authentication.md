@@ -1,9 +1,9 @@
 ---
 title: 'Autenticação'
 id: 21CkKHLKP1o41lUpGhuRUs
-status: PUBLISHED
+status: CHANGED
 createdAt: 2021-10-25T19:06:37.982Z
-updatedAt: 2023-10-26T14:49:32.469Z
+updatedAt: 2024-02-16T18:42:36.362Z
 publishedAt: 2023-10-26T14:49:32.469Z
 firstPublishedAt: 2021-11-08T18:39:50.432Z
 contentType: tutorial
@@ -30,9 +30,10 @@ Na VTEX, a autenticação por login ocorre em dois contextos: na loja virtual, q
 | Forma de login | Descrição | Loja virtual | Admin |
 |---|---|---|---|
 | Código de acesso | Um código numérico aleatório é enviado para o email do usuário, que informa o código para realizar o login. | Pode ser habilitada | Sempre habilitada |
-| Senha | O usuário pode registrar uma senha e efetuar o login usando o email e a senha cadastrados. | Pode ser habilitada | Sempre habilitada |
-| Facebook | O usuário faz login usando sua conta do Facebook. | Pode ser habilitada | Indisponível |
-| Google | O usuário faz login usando sua conta do Google. | Pode ser habilitada | Pode ser habilitada |
+| Senha | O usuário pode registrar uma senha e efetuar o login usando o email e a senha cadastrados. Lojistas podem optar por [aplicar a expiração de senha](#aplicar-expiracao-de-senha) após um período específico para usuários do Admin.
+ | Pode ser habilitada | Sempre habilitada. A expiração de senha pode ser habilitada. |
+| Facebook | O usuário faz login usando sua conta do Facebook. Confira o guia [Configurar login com Facebook e Google](https://help.vtex.com/pt/tutorial/configurar-login-com-facebook-e-google--tutorials_513) para mais detalhes. | Pode ser habilitada | Indisponível |
+| Google | O usuário faz login usando sua conta do Google. Confira o guia [Configurar login com Facebook e Google](https://help.vtex.com/pt/tutorial/configurar-login-com-facebook-e-google--tutorials_513) para mais detalhes. | Pode ser habilitada | Pode ser habilitada |
 | Integração com outros provedores de identidades | O usuário pode fazer login usando sua conta de outros provedores de identidades externos, a partir de uma integração. Confira o guia para desenvolvedores [Login (SSO)](https://developers.vtex.com/docs/guides/login-integration-guide) para mais detalhes. | Pode ser habilitada, utilizando o protocolo OAuth.  Confira o guia para desenvolvedores [Webstore (OAuth 2.0)](https://developers.vtex.com/docs/guides/login-integration-guide-webstore-oauth2) para mais detalhes. | Pode ser habilitada, utilizando o protocolo SAML. Confira o guia para desenvolvedores [Admin (SAML 2.0)](https://developers.vtex.com/docs/guides/login-integration-guide-admin-saml2) para mais detalhes. |
 
 <div class="alert alert-info">
@@ -59,6 +60,20 @@ Confira o passo a passo a seguir para habilitar os métodos de login desejados:
     Para configurar formas de login no Admin para usuários administrativos, clique na aba **Admin**.
 
     Consulte a tabela na seção [Login](#login) para entender os métodos de login disponíveis e acessar a documentação que explica como configurá-los.
+
+### Aplicar expiração de senha para usuários do Admin
+
+Se a opção de login com senha estiver habilitada, é possível determinar que senhas de usuários do Admin devem expirar após uma quantidade determinada de dias. Para isso, siga as instruções abaixo:
+
+1. Na barra superior do Admin VTEX, clique no avatar do seu perfil, marcado pela inicial do seu email.
+2. Clique em **Configurações da conta > Autenticação**.
+3. Clique na aba **Admin**.
+4. Na linha **Senha**, clique em `Editar`.
+5. Marque a opção **Aplicar expiração de senha**.
+6. Selecione um período após o qual a senha dos usuários administrativos se tornará inválida. É possível escolher **15**, **30** ou **90 dias**.
+7. Clique em `Salvar`.
+
+Após o período definido, ao realizar uma tentativa de login, o usuário precisará redefinir a senha.
 
 ## Desenvolvimento de integrações
 

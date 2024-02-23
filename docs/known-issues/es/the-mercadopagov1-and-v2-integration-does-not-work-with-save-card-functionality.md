@@ -3,8 +3,8 @@ title: 'La integración de MercadoPagoV1 y V2 no funciona con la función de gua
 id: 2V8kdA60OTl7VQoUUNgBci
 status: PUBLISHED
 createdAt: 2022-05-03T15:45:09.856Z
-updatedAt: 2023-08-23T14:49:25.228Z
-publishedAt: 2023-08-23T14:49:25.228Z
+updatedAt: 2024-01-09T13:23:20.203Z
+publishedAt: 2024-01-09T13:23:20.203Z
 firstPublishedAt: 2022-05-03T15:45:10.554Z
 contentType: knownIssue
 productTeam: Payments
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Payments
 slug: la-integracion-de-mercadopagov1-y-v2-no-funciona-con-la-funcion-de-guardar-tarjeta
 locale: es
-kiStatus: No Fix
+kiStatus: Backlog
 internalReference: 283727
 ---
 
@@ -23,12 +23,11 @@ internalReference: 283727
 </div>
 
 
-La integración de MercadoPagoV1 y MercadoPagoV2 no funciona con la funcionalidad de guardar tarjeta en la sección Mi cuenta.
+La integración de MercadoPagoV1 y MercadoPagoV2 no funciona correctamente con la funcionalidad de guardar tarjeta en la sección "Mi Cuenta" para países que no permiten transacciones con decimales.
 
-Este error se produce porque Mis tarjetas esperan una respuesta sincrónica de las entidades adquirentes de tarjetas de crédito y MercadoPagoV1 no devuelve una respuesta inmediata.
+Este problema surge porque la función "Mis tarjetas" genera una nueva transacción con un valor de 1,5 $. Sin embargo, algunos países no permiten transacciones con tales importes decimales, lo que provoca el rechazo de cualquier intento de aprobar estas transacciones.
 
 
-##
 
 ## Simulación
 

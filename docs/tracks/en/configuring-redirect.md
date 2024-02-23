@@ -3,8 +3,8 @@ title: 'Configuring Redirects'
 id: 4Gd2wLQFbCwTsh8RUDwSoL
 status: PUBLISHED
 createdAt: 2019-11-22T23:40:25.940Z
-updatedAt: 2023-03-30T19:34:08.021Z
-publishedAt: 2023-03-30T19:34:08.021Z
+updatedAt: 2024-01-30T22:02:28.248Z
+publishedAt: 2024-01-30T22:02:28.248Z
 firstPublishedAt: 2019-11-25T17:36:44.905Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -34,6 +34,7 @@ This section provides the following general information:
 
 - **Name:** name of the rule set for the redirect you created.
 - **Redirect URL**: URL to which the client will be forwarded. You must enter the full URL. Example: `https://www.store.com/_secure/account/#/orders` instead of `_secure/account/#/orders`.
+- **Locales:** Languages to which the redirect will apply. The field is only available for stores using [Multilanguage settings (Beta)](https://help.vtex.com/en/tutorial/vtex-intelligent-search-configuracoes-multi-idioma-beta--2WahlTESLXIJ9XBdQMdTYO).
 
 ### Trigger rules
 

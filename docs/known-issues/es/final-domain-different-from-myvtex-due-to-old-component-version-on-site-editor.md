@@ -3,8 +3,8 @@ title: 'Dominio final diferente de myvtex debido a la versión antigua del compo
 id: 7bf2mMbpcxUd6Q32DYP6vz
 status: PUBLISHED
 createdAt: 2023-12-05T18:07:50.089Z
-updatedAt: 2023-12-05T18:07:50.675Z
-publishedAt: 2023-12-05T18:07:50.675Z
+updatedAt: 2024-01-26T17:52:03.169Z
+publishedAt: 2024-01-26T17:52:03.169Z
 firstPublishedAt: 2023-12-05T18:07:50.675Z
 contentType: knownIssue
 productTeam: CMS
@@ -40,7 +40,7 @@ A veces puedes hacer cambios en el Editor de Sitios y esos cambios se reflejan e
 ## Workaround
 
 
-N/A
+Elimine la versión antigua, esto hará que el dominio final utilice la versión correcta del componente
 
 
 

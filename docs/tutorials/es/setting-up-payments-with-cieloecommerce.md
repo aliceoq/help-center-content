@@ -3,8 +3,8 @@ title: 'Configurar pago con CieloEcommerce'
 id: 6zuELBqEo0QzApbU4l7L4
 status: PUBLISHED
 createdAt: 2023-09-18T14:07:22.540Z
-updatedAt: 2023-09-18T15:29:57.321Z
-publishedAt: 2023-09-18T15:29:57.321Z
+updatedAt: 2024-01-23T18:19:25.965Z
+publishedAt: 2024-01-23T18:19:25.965Z
 firstPublishedAt: 2023-09-18T15:29:57.321Z
 contentType: tutorial
 productTeam: Financial
@@ -15,11 +15,11 @@ legacySlug: configurar-pago-con-cieloecommerce
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-En VTEX es posible la integración con el CieloEcommerce. Con este conector, su tienda puede rrealizar ventas a través de tarjetas de credito, debito, private y cobranded labels, boletos, PIX, entre otros. Para configurar CieloEcommerce, siga los siguientes pasos:
+En VTEX es posible la integración con el CieloEcommerce. Con esta integración, su tienda puede rrealizar ventas a través de tarjetas de credito, debito, private y cobranded labels, boletos, PIX, entre otros. Para configurar CieloEcommerce, siga los siguientes pasos:
 
-1. En el Admin VTEX, accede a __Configuración de la tienda__ > __Pago__ > __Configuración__, o escribe __Configuración__ en la barra de búsqueda en la parte superior de la página.
-2. En la pestana __Afiliaciones de Gateway__, haga clic en el botón __+__.
-3. Haga clic en el conector __CieloEcommerce__.
+1. En el Admin VTEX, accede a __Configuración de la tienda > Pago > Proveedores__, o escribe __Proveedores__ en la barra de búsqueda en la parte superior de la página.
+2. En la pantalla de proveedores, haga clic en el botón `Nuevo proveedor`.
+3. Escriba el nombre __CieloEcommerce__ en la barra de búsqueda y haga clic en el nombre del proveedor.
 4. Rellene los campos de registro __Application Key__ y __Application Token__ con los datos proporcionados por CieloEcommerce.
 5. En __Integration__, seleccione si el conector se utilizará como __Adquirencia__ o __Gateway__.
 6. En __Provider__, seleccione el adquiriente que se utilizará con el conector CieloEcommerce.

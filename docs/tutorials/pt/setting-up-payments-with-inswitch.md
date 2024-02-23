@@ -3,8 +3,8 @@ title: 'Configurar pagamento com Inswitch'
 id: XxY7tbpg4GMrexGQfto6Q
 status: PUBLISHED
 createdAt: 2023-07-14T17:56:24.581Z
-updatedAt: 2023-11-16T14:35:50.344Z
-publishedAt: 2023-11-16T14:35:50.344Z
+updatedAt: 2024-01-24T17:44:57.275Z
+publishedAt: 2024-01-24T17:44:57.275Z
 firstPublishedAt: 2023-07-14T18:11:24.293Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: configurar-pagamento-com-inswitch
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-Na VTEX, é possível realizar a integração com o provedor de pagamento Inswitch. Por meio deste conector, sua loja pode realizar vendas por meio do Inswitch.
+Na VTEX, é possível realizar a integração com o provedor de pagamento Inswitch. Por meio deste provedor, sua loja pode realizar vendas por meio do Inswitch.
 
-Para configurar a afiliação Inswitch, siga os passos abaixo:
+Para configurar Inswitch, siga os passos abaixo:
 
-1. No Admin VTEX, acesse __Configurações da loja__ > __Pagamentos__ > __Configurações__, ou digite __Configurações__ na barra de busca no topo da página.
-2. Na aba __Afiliações de Gateways__, clique no botão `+`.
-3. Clique em __Inswitch__.
+1. No Admin VTEX, acesse __Configurações da loja > Pagamentos > Provedores__, ou digite __Provedores__ na barra de busca no topo da página.
+2. Na tela de provedores, clique no botão `Novo provedor`.
+3. Digite o nome __Inswitch__ na barra de busca e clique sobre o nome do provedor.
 4. Nos campos __Application Key__ e __Application Token__, insira as informações que foram fornecidas pela Inswitch.
 5. No campo __Captura automática de pagamento__, selecione uma das seguintes opções:
 <br>
@@ -46,4 +46,4 @@ Para configurar a afiliação Inswitch, siga os passos abaixo:
 7. Se desejar, você também pode [configurar condições especiais de pagamento](https://help.vtex.com/pt/tutorial/condiciones-especiales--tutorials_456?&utm_source=autocomplete#).
 8. Clique em `Salvar`.
 
-Depois de seguir os passos indicados, o conector Inswitch pode demorar até 10 minutos para aparecer no checkout da sua loja como uma opção de pagamento. 
+Depois de seguir os passos indicados, Inswitch pode demorar até 10 minutos para aparecer no checkout da sua loja como uma opção de pagamento. 

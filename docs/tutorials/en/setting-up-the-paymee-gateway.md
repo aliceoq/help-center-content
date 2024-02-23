@@ -3,8 +3,8 @@ title: 'Setting up the PayMee gateway'
 id: 3fsilRdrBS6GOAy622soWy
 status: PUBLISHED
 createdAt: 2018-02-28T21:29:08.666Z
-updatedAt: 2019-12-31T15:20:50.800Z
-publishedAt: 2019-12-31T15:20:50.800Z
+updatedAt: 2024-01-23T21:11:05.087Z
+publishedAt: 2024-01-23T21:11:05.087Z
 firstPublishedAt: 2018-03-01T21:53:29.140Z
 contentType: tutorial
 productTeam: Financial
@@ -15,18 +15,15 @@ legacySlug: setting-up-the-paymee-gateway
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-In VTEX, you can set up the PayMee payment gateway. With this connector, your store can receive payments through bank transfer or cash.
+In VTEX, you can set up the PayMee payment gateway. With this integration, your store can receive payments through bank transfer or cash.
 
-To set it up, follow the steps below:
+To configure PayMee, follow the steps below:
 
-## Setting up PayMee gateway affiliation
-
-1. Enter the __Payments__ module.
-2. Click __Settings__.
-3. On the __Gateway Affiliations__ tab, click the __+__ button.
-4. Click the __PayMee__ connector.
-5. Fill in the __Application Key__ and __Application Token__ fields with the data provided by PayMee.
-6. Click __Save__.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __PayMee__ in the search bar and click on the name of the provider.
+4. Fill in the __Application Key__ and __Application Token__ fields with the data provided by PayMee.
+5. Click `Save`.
 
 ## Settting up PayMee payment condition
 

@@ -3,8 +3,8 @@ title: 'Inconsistent price when the SKU has unit multiplier different than 1'
 id: NVtFiuWgptqa2gBEVmpOC
 status: PUBLISHED
 createdAt: 2022-09-05T13:05:50.789Z
-updatedAt: 2023-11-01T18:19:10.179Z
-publishedAt: 2023-11-01T18:19:10.179Z
+updatedAt: 2024-02-02T16:50:00.987Z
+publishedAt: 2024-02-02T16:50:00.987Z
 firstPublishedAt: 2022-09-05T13:05:51.613Z
 contentType: knownIssue
 productTeam: Store Framework

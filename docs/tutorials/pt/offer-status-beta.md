@@ -1,9 +1,9 @@
 ---
 title: 'Status de anúncios (BETA)'
 id: 2OE87wU26F7lApl99OdwvJ
-status: PUBLISHED
+status: CHANGED
 createdAt: 2023-09-29T19:16:05.771Z
-updatedAt: 2023-10-21T00:34:24.058Z
+updatedAt: 2024-01-31T19:48:28.499Z
 publishedAt: 2023-10-21T00:34:24.058Z
 firstPublishedAt: 2023-09-29T20:07:16.003Z
 contentType: tutorial
@@ -15,13 +15,15 @@ legacySlug: status-de-anuncios-beta
 subcategory: 2zVauFUkYn8vgS0y0MfWeK
 ---
 
-O módulo **Status de anúncios** permite aos sellers acompanhar o envio e a sincronização de anúncios de integrações com canais de venda. Na VTEX, um anúncio é um SKU ativo de um seller que teve seu preço e estoque configurados e foi enviado para um canal de venda.  
+ O módulo **Status de anúncios** permite aos sellers acompanhar o envio e a sincronização de anúncios de integrações com canais de venda. Na VTEX, um anúncio é um SKU ativo de um seller que teve seu preço e estoque configurados e foi enviado para um canal de venda.  
 
 O **Status de anúncios** permite acompanhar anúncios enviados somente a marketplaces VTEX. Para encontrar o módulo no Admin VTEX, acesse **Marketplace > Conexões > Status de anúncios,** ou digite **Status de anúncios** na barra de busca. Feito isso, a seguinte página aparecerá:  
 
-![Fluxo offer status](//images.ctfassets.net/alneenqid6w5/mC78m1ROUDWruOE5V5XEk/bfc7e29ba2f46edfb6c795f5329ce349/Aspose.Words.978c189a-0715-46de-a85d-4a215e29140f.002.png)  
+![Apresentação Offer Status](//images.ctfassets.net/alneenqid6w5/5xsOfb9yELGwATNWgsaO9g/ebe3fcd70b9783cc453f43820f1cfad6/-Reduzido-_PT-OfferStatus-GIF.gif)
 
 A página **Status de anúncios** é composta por três abas, a [**aba Publicados**](#aba-publicados), a [**aba Problemas**](#aba-problemas) e a [**aba Aguardando conclusão**](#aba-aguardando-conclusao), todas apresentam uma listagem de seus anúncios conforme o status que ele se encontra. Em cada anúncio é possível acessar e conferir seus detalhes, que mostram o status, o estoque, preço, data de atualização e motivos de rejeição no marketplace.  
+
+![Fluxo offer status](//images.ctfassets.net/alneenqid6w5/mC78m1ROUDWruOE5V5XEk/bfc7e29ba2f46edfb6c795f5329ce349/Aspose.Words.978c189a-0715-46de-a85d-4a215e29140f.002.png)  
 
 ## Aba Publicados
 
@@ -29,11 +31,12 @@ Na aba **Publicados**, o seller pode acompanhar os anúncios enviados que já fo
 
 - [Buscar e filtrar anúncios](#buscar-e-filtrar-anuncios)
 - [Visualizar informações dos anúncios](#visualizar-informacoes-dos-anuncios)
-- [Editar informações de anúncios](#editar-informacoes-de-anuncios)
+- [Editar informações de anúncios](#editar-informacoes-de-anuncios)  
+- [Exportar lista de anúncios publicados](#exportar-lista-de-anuncios-publicados)
 
 ### Buscar e filtrar anúncios
 
-No topo direito da página, existe uma barra de busca com o ícone lupa <i class="fas fa-search"></i>. Na barra, você pode buscar um anúncio por _nome do anúncio._
+No topo direito da página, existe uma barra de busca com o ícone lupa <i class="fas fa-search"></i>. Na barra, você pode buscar um anúncio por **ID do SKU** e **nome do anúncio.**
 
 Além disso, é possível filtrar o resultado da busca pelos seguintes critérios:
 
@@ -101,6 +104,14 @@ Você será redirecionado à página correspondente para realizar as alteraçõe
 
 ![Ações offer status](//images.ctfassets.net/alneenqid6w5/3SzA8sqcAKJx2L4GrdLcQ2/7dc3f62846ca6a28768fe9bc6faddc9d/Aspose.Words.978c189a-0715-46de-a85d-4a215e29140f.006.jpeg)
 
+### Exportar lista de anúncios publicados
+
+Para exportar a lista de anúncios publicados em formato XLSX, clique sobre o  ícone seta para baixo <i class="fas fa-download"></i>, localizado no topo da interface. O arquivo será enviado para o email do usuário logado, sendo que o tempo da exportação dependerá do volume de anúncios da listagem exportada e questões de processamento da plataforma VTEX.
+
+<div class="alert alert-info">
+O conteúdo exportado é referente ao total de anúncios da listagem no momento da exportação. Se algum filtro estiver ativo, somente os anúncios selecionados serão exportados.
+</div>
+
 ## Aba Problemas
 
 Na aba **Problemas**, o seller pode acompanhar os anúncios enviados que foram reprovados pelo marketplace. Nesta aba, também é possível realizar as seguintes ações:  
@@ -108,10 +119,11 @@ Na aba **Problemas**, o seller pode acompanhar os anúncios enviados que foram r
 - [Buscar e filtrar anúncios](#buscar-e-filtrar-anuncios)
 - [Visualizar detalhes do problema](#visualizar-detalhes-do-problema)
 - [Editar informações de anúncios](#editar-informacoes-de-anuncios)
+- [Exportar anúncios com problemas](#exportar-anuncios-com-problemas)
 
 ### Buscar e filtrar anúncios com problemas
 
-No topo direito da página, existe uma barra de busca com o ícone lupa <i class="fas fa-search"></i>, na qual você pode buscar um anúncio por nome do anúncio.
+No topo direito da página, existe uma barra de busca com o ícone lupa <i class="fas fa-search"></i>, na qual você pode buscar um anúncio por nome do anúncio e ID do SKU.
 
 Além disso, é possível filtrar o resultado da busca pelos seguintes critérios:
 
@@ -164,16 +176,25 @@ Para atualizar qualquer informação de um anúncio com problemas, o seller deve
 
 Você será redirecionado à página correspondente para realizar as alterações necessárias.
 
+### Exportar lista de anúncios com problemas 
+
+Para exportar a lista de anúncios com problemas em formato XLSX, clique sobre o  ícone seta para baixo <i class="fas fa-download"></i>, localizado no topo da interface. O arquivo será enviado para o email do usuário logado, sendo que o tempo da exportação dependerá do volume de anúncios da listagem exportada e questões de processamento da plataforma VTEX. 
+
+<div class="alert alert-info">
+  O conteúdo exportado é referente ao total de anúncios da listagem no momento da exportação. Se algum filtro estiver ativo, somente os anúncios selecionados serão exportados.
+  </div>
+
 ## Aba Aguardando Conclusão
 
 Na aba **Aguardando conclusão**, o seller pode acompanhar os anúncios que estão aguardando análise do marketplace. Nesta aba, também é possível realizar as seguintes ações:  
 
 - [Buscar e filtrar anúncios em análise](#buscar-e-filtrar-anuncios-em-analise)  
-- [Editar informações de anúncios](#editar-informacoes-de-anuncios)  
+- [Editar informações de anúncios](#editar-informacoes-de-anuncios)
+- [Exportar lista de anúncios aguardando conclusão](#exportar-lista-de-anuncios-aguardando-conclusao)  
 
 ### Buscar e filtrar anúncios em análise
 
-Na parte superior direita da página, existe uma barra de busca com o ícone lupa <i class="fas fa-search"></i>. Na barra, você pode buscar um anúncio por nome do anúncio.  
+Na parte superior direita da página, existe uma barra de busca com o ícone lupa <i class="fas fa-search"></i>. Na barra, você pode buscar um anúncio por nome do anúncio e ID do SKU.  
 
 Além disso, é possível filtrar o resultado da busca pelos seguintes critérios:  
 
@@ -207,8 +228,12 @@ Para atualizar qualquer informação de um anúncio em análise, o seller dever�
 - **Editar inventário**  
 - **Editar conteúdo**  
 
-Você será redirecionado à página correspondente para realizar as alterações necessárias.  
+Você será redirecionado à página correspondente para realizar as alterações necessárias. 
+
+### Exportar lista de anúncios aguardando conclusão
+
+Para exportar a lista de anúncios aguardando conclusão em formato XLSX, clique sobre o ícone seta para baixo <i class="fas fa-download"></i>, localizado no topo da interface. O arquivo será enviado para o email do usuário logado, sendo que o tempo da exportação dependerá do volume de anúncios da listagem exportada e questões de processamento da plataforma VTEX.
 
 <div class="alert alert-info">
-Você que se interessou por essa funcionalidade e que quer fazer parte do grupo de testes, entre em contato com o time de <a href="https://help.vtex.com/support?/cultureInfo=en-us">suporte VTEX</a> informando o interesse que em breve nosso time retornará com as instruções para você.
+O conteúdo exportado é referente ao total de anúncios da listagem no momento da exportação. Se algum filtro estiver ativo, somente os anúncios selecionados serão exportados.
 </div>

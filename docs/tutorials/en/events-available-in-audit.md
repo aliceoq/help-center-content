@@ -3,8 +3,8 @@ title: 'Events available in Audit'
 id: 6r1Mzcu5NmkmmDLJlz9CCZ
 status: PUBLISHED
 createdAt: 2022-06-22T16:05:16.214Z
-updatedAt: 2023-12-08T14:47:29.878Z
-publishedAt: 2023-12-08T14:47:29.878Z
+updatedAt: 2024-01-18T20:46:19.490Z
+publishedAt: 2024-01-18T20:46:19.490Z
 firstPublishedAt: 2022-06-22T16:28:52.801Z
 contentType: tutorial
 productTeam: Master Data
@@ -18,13 +18,15 @@ subcategory: 2TNXiKzLZOPxjMTyGiEeJu
 Below, you will find a list of the potential events available in [Audit](https://help.vtex.com/pt/tutorial/searching-for-events-on-audit--5RXf9WJ5YLFBcS8q8KcxTA#) for each app.
 
 * [OMS](#oms)
+* [Orders](#orders)
 * [Inventory & Shipping](#inventory-shipping)
 * [Catalog (Admin)](#catalog-admin)
+* [Catalog (API)](#catalog-api)
 * [Prices](#prices)
 * [Promotions](#promotions)
+* [Wallets](#wallets)
 * [Checkout](#checkout)
 * [Portal CMS](#portal-cms)
-* [Portal](#portal)
 * [License Manager](#license-manager)
 * [VTEX ID](#vtex-id)
 * [Headless CMS](#headless-cms)
@@ -34,7 +36,7 @@ In case you encounter an event in Audit which has not been included in this list
 </div>
 
 <div class="alert alert-warning">
-In the Audit filter options, you can find the <code>Profile System</code> option and the applications mentioned below. As this option refers to features in closed beta, most accounts will not have events associated with them.
+<p>In the Audit filter options, you can find <strong>Shipping Options</strong>, <strong>Profile System</strong>, and <strong>Billing</strong> options besides the applications listed in this guide. Since these options refer to internal resources or features in closed beta, most accounts will not have events associated with them.</p>
 </div>
 
 ## OMS
@@ -59,15 +61,23 @@ In the Audit filter options, you can find the <code>Profile System</code> option
   <tr class="bb b--muted-3">
    <td class="t-body pa5" style="min-width: 15rem;">Change Status
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Changes order status.
+   <td class="t-body pa5" style="min-width: 15rem;">Change in order status.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Order ID.
    </td>
   </tr>
   <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Shipping Notification
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Shipping notification of a certain order.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Order ID.
+    </td>
+   </tr>
+  <tr class="bb b--muted-3">
    <td class="t-body pa5" style="min-width: 15rem;">Payment Notification
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Sends payment notification of certain orders.
+   <td class="t-body pa5" style="min-width: 15rem;">Payment notification of a certain order.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Order ID.
    </td>
@@ -75,7 +85,7 @@ In the Audit filter options, you can find the <code>Profile System</code> option
   <tr class="bb b--muted-3">
    <td class="t-body pa5" style="min-width: 15rem;">Save Configuration
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Changes price module settings.
+   <td class="t-body pa5" style="min-width: 15rem;">Change in price module settings.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Short description of the change.
    </td>
@@ -83,7 +93,52 @@ In the Audit filter options, you can find the <code>Profile System</code> option
   <tr class="bb b--muted-3">
    <td class="t-body pa5" style="min-width: 15rem;">Resend Last Email
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Resends the last email related to the order in the Message Center.
+   <td class="t-body pa5" style="min-width: 15rem;">Resending the last email related to the order in the Message Center.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
+   </td>
+  </tr>
+</table>
+
+## Orders
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Change State
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Change in order status.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Order Cancellation
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Cancellation of an order.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Order ID.
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Start Handling
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Action that signals to VTEX that the store has started handling a given order. This triggers the continuation of the flow of this order.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Order ID.
+    </td>
+   </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Notify Payment
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Payment notification for a given order.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Order ID.
    </td>
@@ -260,6 +315,16 @@ In the Audit filter options, you can find the <code>Profile System</code> option
   </tr>
 </table>
 
+## Catalog (API)
+
+| Action | Description | Event details |
+|---|---|---|
+| SKU Seller Binding Removal | SKU Binding Removal. | SKU ID in seller and seller ID. |
+| Seller Update | Seller update. | Seller ID. |
+| Seller Creation | Seller creation. | Seller ID. |
+| SKU Seller Binding Activation | SKU binding activation. | SKU ID in seller and seller ID. |
+| SKU Seller Binding Inactivation | SKU binding inactivation. | SKU ID in seller and seller ID. |
+
 ## Prices
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
@@ -343,6 +408,14 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    <td class="t-body pa5" style="min-width: 15rem;">Identification of the changed price.
    </td>
   </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Change Rnb Config
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Change in price settings for new accounts.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Name of the account that made the change.
+    </td>
+   </tr>
 </table>
 
 ## Promotions
@@ -355,6 +428,22 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    </td>
    <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Archive Coupon
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Archived a coupon.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Coupon code.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Unarchive Coupon
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Unarchived a coupon.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Coupon code.
+    </td>
   </tr>
   <tr class="bb b--muted-3">
    <td class="t-body pa5" style="min-width: 15rem;">Change Rate Configuration
@@ -388,6 +477,35 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    <td class="t-body pa5" style="min-width: 15rem;">Promotion or fee configuration ID.
    </td>
   </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Archived Calculator
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Archived promotion or fee.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Promotion or fee configuration ID.
+    </td>
+  </tr>
+</table>
+
+## Wallets
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">TOGGLE_WALLET
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Activate or deactivate a digital wallet.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">toggle-wallet-action
+    </td>
+  </tr>
 </table>
 
 ## Checkout
@@ -402,7 +520,7 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Configured OrderForm
+   <td class="t-body pa5" style="min-width: 15rem;">SaveOrderFormConfiguration
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Change in OrderForm settings, which is in charge of running the store checkout.
    </td>
@@ -444,59 +562,6 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    <td class="t-body pa5" style="min-width: 15rem;">File removal.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">File name and ID changed.
-   </td>
-  </tr>
-</table>
-
-## Portal
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Configuration Updated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Change in portal settings.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">“*”
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Saved
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Change in portal file.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">File name changed.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Site Created
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Website creation.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Name of the created website.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Template Updated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Changes in portal template.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Template name changed.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Page Updated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Page changes.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Page name.
    </td>
   </tr>
 </table>
@@ -659,6 +724,27 @@ In the Audit filter options, you can find the <code>Profile System</code> option
    <td class="t-body pa5" style="min-width: 15rem;">Identity provider configuration change. For example: Creating a customized OAuth integration and changing information in an existing OAuth configuration.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Identity provider.
+   </td>
+  </tr>
+</table>
+
+## Master Data
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>ACtion</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">DeleteDocument
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Deleted document.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Document ID.
    </td>
   </tr>
 </table>

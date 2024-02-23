@@ -3,8 +3,8 @@ title: 'Setting up payments with Fintoc'
 id: 3TIz2oxbNtzhypWiypqrOZ
 status: PUBLISHED
 createdAt: 2023-07-14T17:06:16.055Z
-updatedAt: 2023-07-14T17:49:20.115Z
-publishedAt: 2023-07-14T17:49:20.115Z
+updatedAt: 2024-01-24T17:39:34.960Z
+publishedAt: 2024-01-24T17:39:34.960Z
 firstPublishedAt: 2023-07-14T17:49:20.115Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: setting-up-payments-with-fintoc
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Fintoc. With this connector, your store can make sales through the Fintoc.
+At VTEX, it is possible to integrate with the Fintoc. With this provider, your store can make sales through the Fintoc.
 
-To configure Fintoc affiliation, follow the steps below:
+To configure Fintoc, follow the steps below:
 
-1. In the VTEX Admin, go to __Store Settings > Payments > Settings__, or type __Settings__ in the search bar at the top of the page.
-2. In the __Gateway affiliations__ tab, click on the `+` button.
-3. Click on the __Fintoc__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __Fintoc__ in the search bar and click on the name of the provider.
 4. Fill in the __Application Key__, __Application Token__ y __Secret Key__ fields with data provided by your account Fintoc.
 5. If an alert message appears indicating the need to install the app, click on the `Install app` button and follow the installation instructions.
 6. Click on `Save`.

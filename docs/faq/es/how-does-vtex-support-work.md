@@ -3,8 +3,8 @@ title: '¿Cómo funciona el soporte de VTEX?'
 id: 3kACEfni4m8Yxa1vnf2ebe
 status: PUBLISHED
 createdAt: 2019-03-10T19:06:12.818Z
-updatedAt: 2023-12-01T18:52:06.733Z
-publishedAt: 2023-12-01T18:52:06.733Z
+updatedAt: 2024-01-08T19:15:40.782Z
+publishedAt: 2024-01-08T19:15:40.782Z
 firstPublishedAt: 2019-03-10T19:08:36.723Z
 contentType: frequentlyAskedQuestion
 productTeam: Others
@@ -42,15 +42,13 @@ Para servir mejor a los clientes globales en diferentes países, nuestro equipo 
 - Asia-Pacífico (APAC)
 - [Brasil](/pt/faq/suporte-vtex-brasil--5q861sTw1n7H2BENOu7ls9)
 - [Estados Unidos (EE. UU.)](/en/faq/vtex-support-united-states--Bm45YFp68QRe1Z5r2oa07)
-- Europa, Oriente Medio y África (EMEA)
+- [Europa, Oriente Medio y África (EMEA)](https://help.vtex.com/es/faq/vtex-soporte-emea--5ePu2qkCfmE0IEKDFKg53F?&utm_source=autocomplete)
 
 ## Servicios disponibles para todos los planes
 
 ### Monitoreo en tiempo real  
 
-Dirigimos nuestros esfuerzos a la transparencia relacionada con la integridad de nuestros sistemas. Por eso, siempre que se presente un problema crítico que afecte las ventas de las tiendas o el funcionamiento de la plataforma, nos comunicaremos de manera proactiva con los clientes y partners por medio de tres canales:
-
-- El panel [Healthcheck](http://healthcheck.vtex.com/) muestra los módulos responsables por el monitoreo de cada servicio de VTEX en tiempo real. Exhibimos un indicador del funcionamiento de cada módulo y el horario de la última actualización, emitiendo alertas cuando algún recurso no esté disponible o su funcionamiento esté degradado. 
+Dirigimos nuestros esfuerzos a la transparencia relacionada con la integridad de nuestros sistemas. Por eso, siempre que se presente un problema crítico que afecte las ventas de las tiendas o el funcionamiento de la plataforma, nos comunicaremos de manera proactiva con los clientes y partners por medio de los canales siguientes:
 
 - La página de [Status](https://status.vtex.com/) exhibe una línea de tiempo con el historial reciente de incidentes del sistema. En ese historial, detallamos la información de cada incidente: lo que sucedió, los módulos que fueron afectados, la secuencia de acciones hasta su resolución y un resumen final de lo que ocurrió. 
 

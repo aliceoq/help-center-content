@@ -3,8 +3,8 @@ title: 'Erro de planilha grande de importação/exportação no New Collections 
 id: 6xbBVR2Z7CCpIC0iCAKHgN
 status: PUBLISHED
 createdAt: 2023-02-16T19:04:08.298Z
-updatedAt: 2023-10-10T13:49:47.046Z
-publishedAt: 2023-10-10T13:49:47.046Z
+updatedAt: 2023-12-12T21:08:23.871Z
+publishedAt: 2023-12-12T21:08:23.871Z
 firstPublishedAt: 2023-02-16T19:04:08.784Z
 contentType: knownIssue
 productTeam: Catalog
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Catalog
 slug: erro-de-planilha-grande-de-importacaoexportacao-no-new-collections-admin
 locale: pt
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 362017
 ---
 

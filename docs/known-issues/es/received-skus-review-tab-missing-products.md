@@ -3,8 +3,8 @@ title: 'Recibidos Skus "Revisión" ficha productos que faltan'
 id: 2UM0JQUZVq5o7NHCjmrg8N
 status: PUBLISHED
 createdAt: 2023-11-23T16:30:51.874Z
-updatedAt: 2023-11-23T16:30:52.647Z
-publishedAt: 2023-11-23T16:30:52.647Z
+updatedAt: 2024-02-01T12:54:26.917Z
+publishedAt: 2024-02-01T12:54:26.917Z
 firstPublishedAt: 2023-11-23T16:30:52.647Z
 contentType: knownIssue
 productTeam: Marketplace
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Marketplace
 slug: recibidos-skus-revision-ficha-productos-que-faltan
 locale: es
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 939877
 ---
 

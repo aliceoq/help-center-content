@@ -3,8 +3,8 @@ title: 'Eventos disponíveis no Audit'
 id: 6r1Mzcu5NmkmmDLJlz9CCZ
 status: PUBLISHED
 createdAt: 2022-06-22T16:05:16.214Z
-updatedAt: 2023-12-08T14:47:29.878Z
-publishedAt: 2023-12-08T14:47:29.878Z
+updatedAt: 2024-01-18T20:46:19.490Z
+publishedAt: 2024-01-18T20:46:19.490Z
 firstPublishedAt: 2022-06-22T16:28:52.801Z
 contentType: tutorial
 productTeam: Master Data
@@ -15,16 +15,18 @@ legacySlug: eventos-disponiveis-no-audit
 subcategory: 2TNXiKzLZOPxjMTyGiEeJu
 ---
 
-Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://help.vtex.com/pt/tutorial/searching-for-events-on-audit--5RXf9WJ5YLFBcS8q8KcxTA#) por aplicação.
+Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://help.vtex.com/pt/tutorial/searching-for-events-on-audit--5RXf9WJ5YLFBcS8q8KcxTA) por aplicação.
 
 * [OMS](#oms)
+* [Pedidos](#pedidos)
 * [Estoque e entrega](#estoque-e-entrega)
 * [Catálogo (Admin)](#catalogo-admin)
+* [Catálogo (API)](#catalogo-api)
 * [Preços](#precos)
 * [Promoções](#promocoes)
+* [Carteiras](#carteiras)
 * [Checkout](#checkout)
 * [Portal CMS](#portal-cms)
-* [Portal](#portal)
 * [License Manager](#license-manager)
 * [VTEX ID](#vtex-id)
 * [Headless CMS](#headless-cms)
@@ -33,57 +35,111 @@ Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://
   Caso você visualize no Audit algum evento que não esteja listado aqui, por favor nos informe usando a <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmnotPvPjw-SjiE7lt2Nt3RQgNUe10ixXZmuO2v9enOJReoQ/viewform">página de feedback de documentação</a>.
   </div>
 
-  <div class="alert alert-warning">
-    <p>Nas opções de filtros do Audit, você pode encontrar a opção <code>Profile System</code> além das aplicações citadas abaixo. Esta opção se refere a funcionalidades em fase de closed beta, portanto, a maior parte das contas não terão eventos associados.</p>
-  </div>
+<div class="alert alert-warning">
+  <p>Nas opções de filtros do Audit, você pode encontrar <strong>Opções de envio</strong>, <strong>Profile System</strong> e <strong>Billing</strong> além das aplicações citadas abaixo. Essas opções se referem a recursos internos ou funcionalidades em fase beta fechada, portanto, a maior parte das contas não terão eventos associados.</p>
+</div>
 
 ## OMS
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Ação</strong>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Ação</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Descrição do evento</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalhes do evento</strong>
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Start Handling
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Ação que sinaliza para a VTEX que a loja iniciou o manuseio de um
+      dado pedido. Isso desencadeia a continuidade do fluxo deste pedido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Change Status
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Mudança de status de um pedido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Shipping Notification
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Notificação de envio para um dado pedido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Payment Notification
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Envio de notificação de pagamento para um dado pedido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Save Configuration
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração do módulo de Pedidos.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Descrição curta da alteração.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Resend Last Email
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Reenvio do último email relacionado àquele pedido no Message Center.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
+    </td>
+  </tr>
+</table>
+
+## Pedidos
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Action</strong>
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descrição do evento</strong>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event description</strong>
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalhes do evento</strong>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Event details</strong>
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Start Handling
+   <td class="t-body pa5" style="min-width: 15rem;">Change State
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Ação que sinaliza para a VTEX que a loja iniciou o manuseio de um dado pedido. Isso desencadeia a continuidade do fluxo deste pedido.
+   <td class="t-body pa5" style="min-width: 15rem;">Mudança de status do pedido.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Change Status
+   <td class="t-body pa5" style="min-width: 15rem;">Order Cancellation
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Mudança de status de um pedido.
+   <td class="t-body pa5" style="min-width: 15rem;">Cancelamento de pedido.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Payment Notification
+    <td class="t-body pa5" style="min-width: 15rem;">Start Handling
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Ação que sinaliza para a VTEX que a loja iniciou o manuseio de um dado pedido. Isso desencadeia a continuidade do fluxo deste pedido.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
+    </td>
+   </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">Notify Payment
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Envio de notificação de pagamento para um dado pedido.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Save Configuration
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração do módulo de pedidos.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Short description of the change.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Resend Last Email
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Reenvio do último email relacionado àquele pedido no Message Center.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">ID do pedido.
    </td>
@@ -260,6 +316,16 @@ Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://
   </tr>
 </table>
 
+## Catálogo (API)
+
+| Ação | Descrição | Detalhes do evento |
+|---|---|---|
+| SKU Seller Binding Removal | Remoção de vínculo de SKU. | ID do SKU no seller e ID do seller. |
+| Seller Update | Atualização de seller. | ID do seller. |
+| Seller Creation | Criação de seller. | ID do seller. |
+| SKU Seller Binding Activation | Ativação de vínculo de SKU. | ID do SKU no seller e ID do seller. |
+| SKU Seller Binding Inactivation | Inativação de vínculo de SKU. | ID do SKU no seller e ID do seller. |
+
 ## Preços
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
@@ -343,9 +409,86 @@ Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://
    <td class="t-body pa5" style="min-width: 15rem;">Identificação do preço alterado.
    </td>
   </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Change Rnb Config
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração de preços em novas contas.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Nome da conta que fez a alteração.
+    </td>
+   </tr>
 </table>
 
 ## Promoções
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Ação</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Descrição do evento</strong>
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalhes do evento</strong>
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Archive Coupon
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Arquivamento de cupom.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Código do cupom.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Unarchive Coupon
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Desarquivamento de cupom.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Código do cupom.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Change Rate Configuration
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração de taxa.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID da configuração da taxa.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Change Promotion Configuration
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração de promoção.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID da configuração da promoção.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Change Coupon Configuration
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Alteração em coupom.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Código do cupom.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Unarchived Calculator
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Desarquivamento de promoção ou taxa.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID da configuração da promoção ou taxa.
+    </td>
+  </tr>
+  <tr class="bb b--muted-3">
+    <td class="t-body pa5" style="min-width: 15rem;">Archived Calculator
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">Arquivamento de promoção ou taxa.
+    </td>
+    <td class="t-body pa5" style="min-width: 15rem;">ID da configuração da promoção ou taxa.
+    </td>
+  </tr>
+</table>
+
+## Carteiras
 
 <table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
   <tr class="bb b--muted-3">
@@ -357,35 +500,11 @@ Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Change Rate Configuration
+   <td class="t-body pa5" style="min-width: 15rem;">TOGGLE_WALLET
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração de taxa.
+   <td class="t-body pa5" style="min-width: 15rem;">Ativar ou desativar uma carteira digital.
    </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID da configuração da taxa.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Change Promotion Configuration
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração de promoção.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID da configuração da promoção.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Change Coupon Configuration
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração em coupom.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Código do cupom.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Unarchived Calculator
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Desarquivamento de promoção ou taxa.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">ID da configuração da promoção ou taxa.
+   <td class="t-body pa5" style="min-width: 15rem;">toggle-wallet-action
    </td>
   </tr>
 </table>
@@ -402,7 +521,7 @@ Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://
    </td>
   </tr>
   <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Configurated OrderForm
+   <td class="t-body pa5" style="min-width: 15rem;">SaveOrderFormConfiguration
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Alteração de configurações do OrderForm, objeto que rege o funcionamento do checkout da loja.
    </td>
@@ -444,59 +563,6 @@ Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://
    <td class="t-body pa5" style="min-width: 15rem;">Exclusão de arquivo.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Nome e ID do arquivo alterado.
-   </td>
-  </tr>
-</table>
-
-## Portal
-
-<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Ação</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descrição do evento</strong>
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalhes do evento</strong>
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Configuration Updated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração de configuração do portal.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">“*”
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">File Saved
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração de arquivo do portal.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nome do arquivo alterado.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Site Created
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Criação de site.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nome do site criado.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Template Updated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração de template do portal.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nome do template alterado.
-   </td>
-  </tr>
-  <tr class="bb b--muted-3">
-   <td class="t-body pa5" style="min-width: 15rem;">Page Updated
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Alteração de página.
-   </td>
-   <td class="t-body pa5" style="min-width: 15rem;">Nome da página
    </td>
   </tr>
 </table>
@@ -659,6 +725,27 @@ Confira a seguir a lista dos possíveis eventos disponíveis no [Audit](https://
    <td class="t-body pa5" style="min-width: 15rem;">Mudança de configurações de provedor de identidade. Por exemplo: criação de integração OAuth customizada, alteração de informações em configuração de OAuth existente, entre outros.
    </td>
    <td class="t-body pa5" style="min-width: 15rem;">Provedor de identidade.
+   </td>
+  </tr>
+</table>
+
+## Master Data
+
+<table class="w-100 center mv7 bb b--gray" style="border-spacing: 0px; border-collapse: collapse;">
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Ação</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Descrição do evento</strong>
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;"><strong>Detalhes do evento</strong>
+   </td>
+  </tr>
+  <tr class="bb b--muted-3">
+   <td class="t-body pa5" style="min-width: 15rem;">DeleteDocument
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">Exclusão de documento.
+   </td>
+   <td class="t-body pa5" style="min-width: 15rem;">ID do documento.
    </td>
   </tr>
 </table>

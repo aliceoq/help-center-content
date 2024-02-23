@@ -3,8 +3,8 @@ title: 'Al usar filtros horizontales, después de elegir tres de ellos, las opci
 id: 7xPLXjZMqwxQmWwJsd63eC
 status: PUBLISHED
 createdAt: 2023-07-11T12:30:50.198Z
-updatedAt: 2023-07-11T12:33:35.372Z
-publishedAt: 2023-07-11T12:33:35.372Z
+updatedAt: 2024-02-16T19:16:06.662Z
+publishedAt: 2024-02-16T19:16:06.662Z
 firstPublishedAt: 2023-07-11T12:30:50.962Z
 contentType: knownIssue
 productTeam: Store Framework

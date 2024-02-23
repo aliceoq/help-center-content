@@ -3,8 +3,8 @@ title: 'Managing Singleton content types'
 id: VBibMN1BqV2OFmavUFCdo
 status: PUBLISHED
 createdAt: 2023-04-05T17:55:26.748Z
-updatedAt: 2023-07-10T20:41:14.829Z
-publishedAt: 2023-07-10T20:41:14.829Z
+updatedAt: 2024-01-04T20:59:25.019Z
+publishedAt: 2024-01-04T20:59:25.019Z
 firstPublishedAt: 2023-04-06T19:11:57.614Z
 contentType: tutorial
 productTeam: VTEX IO
@@ -35,8 +35,9 @@ You can only create the Singleton once. The Singleton page will not be displayed
 
 ## Editing the Singleton
 1. Access the **Admin > Storefront > Headless CMS**.
-2. Select the Singleton that you created, for example, **Home**.
-3. On the **Home** page, edit as you desire by adding new sections.
+2. Click on the project where the Singleton were created.
+3. Select the Singleton that you created, for example, **Home**.
+4. On the **Home** page, edit as you desire by adding new sections.
 
 ## Deleting the Singleton
 1. On the Singleton page, select `more`(kebab menu) and choose `Delete`.

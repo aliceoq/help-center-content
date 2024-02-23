@@ -3,8 +3,8 @@ title: 'Regras de merchandising'
 id: 5tBSYXb9EIdePa0MWTnFd0
 status: PUBLISHED
 createdAt: 2020-03-05T18:53:37.305Z
-updatedAt: 2023-06-29T19:36:09.359Z
-publishedAt: 2023-06-29T19:36:09.359Z
+updatedAt: 2024-01-29T17:07:18.414Z
+publishedAt: 2024-01-29T17:07:18.414Z
 firstPublishedAt: 2020-03-05T19:58:55.021Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -24,8 +24,6 @@ As Regras de merchandising são uma configuração prioritária. Portanto, se vo
 * **Produtos:** Outra possibilidade é promover um produto específico. Por exemplo: definir que quando pesquisar “camiseta de corrida”, o produto “Camiseta Running” seja o primeiro resultado apresentado na listagem.
 
 O que define em quais casos aplicar uma regra de merchandising são as Regras de ativação, definidas durante a criação da regra de merchandising. Elas permitem criar condições para identificar os cenários em que o efeito será ativado.
-
-## Listagem de Regras de Merchandising
 
 No Admin VTEX, a página **Storefront** > **Intelligent Search** > **Regras de merchandising** permite que você realize as seguintes ações: 
 
@@ -51,9 +49,11 @@ Para configurar uma regra de merchandising, clique em `+ Adicionar`. Saiba mais 
 
 #### Tipos de edição
 
-Ao criar Regras de merchandising, você pode escolher entre dois tipos de edição disponíveis: o [Editor manual](https://help.vtex.com/pt/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2FpbarYzsnbg7aZZn3TGF8) e o [Editor visual (Beta)](https://help.vtex.com/pt/tutorial/criar-regra-de-merchandising-editor-visual-beta--6xteumx9MsDt0uEppbChu3). Veja a seguir as funcionalidades disponíveis em cada um para decidir qual é o mais adaptado ao seu caso de uso:
+Existem dois tipos de edição para criar Regras de merchandising: o [Editor manual](https://help.vtex.com/pt/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2FpbarYzsnbg7aZZn3TGF8) e o [Editor visual](https://help.vtex.com/pt/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/2ejly01m1w28RsZlCKowEr).
 
-| Funcionalidade | Descrição | Editor manual | Editor visual (Beta) |
+Veja a seguir as funcionalidades de cada editor:
+
+| Funcionalidade | Descrição | Editor manual | Editor visual |
 |---|---|---|---|
 | Regras de ativação  | Definir condições para a Regra de merchandising ser ativada. | Sim | Sim |
 | Regras de customização | Controlar os resultados de busca a partir de condições específicas. | Sim | Não |

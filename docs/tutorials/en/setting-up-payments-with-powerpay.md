@@ -3,8 +3,8 @@ title: 'Setting up payments with Powerpay'
 id: 4v3ohBfSTxIyi06aqvlrPp
 status: PUBLISHED
 createdAt: 2023-09-08T18:31:43.851Z
-updatedAt: 2023-09-08T19:52:57.907Z
-publishedAt: 2023-09-08T19:52:57.907Z
+updatedAt: 2024-01-23T21:22:03.339Z
+publishedAt: 2024-01-23T21:22:03.339Z
 firstPublishedAt: 2023-09-08T19:50:37.486Z
 contentType: tutorial
 productTeam: Financial
@@ -15,13 +15,13 @@ legacySlug: setting-up-payments-with-powerpay
 subcategory: 3tDGibM2tqMyqIyukqmmMw
 ---
 
-At VTEX, it is possible to integrate with the Powerpay payment provider. With this connector, your store can make sales through the Powerpay.
+At VTEX, it is possible to integrate with the Powerpay payment provider. With this provider, your store can make sales through the Powerpay.
 
-To configure Powerpay affiliation, follow the steps below:
+To configure Powerpay, follow the steps below:
 
-1. In the VTEX Admin, go to __Store Settings__ > __Payment__ > __Settings__, or type __Settings__ in the search bar at the top of the page.
-2. In the __Gateway affiliations__ tab, click on the __"+"__ button.
-3. Click on the __Powerpay__ connector.
+1. In the VTEX Admin, go to __Store Settings > Payment > Providers__, or type __Providers__ in the search bar at the top of the page.
+2. On the providers screen, click the `New Provider` button.
+3. Type the name __Powerpay__ in the search bar and click on the name of the provider.
 4. Fill in the __Application Key__, __Application Token__, __secretKey__ and __merchant_id__ fields with the data provided by Powerpay.
 5. In the __Payment capture__ field, select one of the following option:
 <br>

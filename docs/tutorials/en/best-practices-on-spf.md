@@ -3,8 +3,8 @@ title: 'Best Practices on Sender Policy Framework (SPF)'
 id: 42t0lkl2VyC6Yewc4wA6wI
 status: PUBLISHED
 createdAt: 2017-08-09T16:58:00.716Z
-updatedAt: 2023-08-15T17:15:09.621Z
-publishedAt: 2023-08-15T17:15:09.621Z
+updatedAt: 2024-02-22T18:11:49.023Z
+publishedAt: 2024-02-22T18:11:49.023Z
 firstPublishedAt: 2017-08-10T00:04:19.239Z
 contentType: tutorial
 productTeam: Reliability
@@ -25,13 +25,13 @@ For syntax details, we recommend that you read the documentation [Sender Policy 
 
 In the DNS manager, the SPF will be a TXT entry in the domain root (ex.: site.com) with the following format:
 
-`site.com. IN TXT “v=spf1 a mx ip4:192.0.2.32/27 include:provedor.com -all”`
+`site.com. IN TXT “v=spf1 a mx ip4:192.0.2.32/27 include:provedor.com ~all”`
 
 We can divide the policy above into the following sections:
 
 - `v=spf1`: required prefix.
 - `a mx ip4:192.0.2.32/27 include:provedor.com`: authorized senders.
-- `-all`: condition for including or excluding senders except the ones previously declared.
+- `~all`: condition for including or excluding senders except the ones previously declared.
 
 When applied for authorized senders, the above rules mean a server can send messages on behalf of the given domain (site.com) if:
 

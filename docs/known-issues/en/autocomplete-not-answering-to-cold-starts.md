@@ -3,8 +3,8 @@ title: 'Autocomplete not answering to cold starts'
 id: 2lgYjT8lmFIvLV3vKOXKmt
 status: PUBLISHED
 createdAt: 2022-02-23T22:01:05.141Z
-updatedAt: 2022-11-25T21:58:01.186Z
-publishedAt: 2022-11-25T21:58:01.186Z
+updatedAt: 2024-02-16T20:25:17.535Z
+publishedAt: 2024-02-16T20:25:17.535Z
 firstPublishedAt: 2022-02-23T22:01:05.666Z
 contentType: knownIssue
 productTeam: Intelligent Search
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Intelligent Search
 slug: autocomplete-not-answering-to-cold-starts
 locale: en
-kiStatus: Backlog
+kiStatus: No Fix
 internalReference: 418573
 ---
 

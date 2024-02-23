@@ -3,8 +3,8 @@ title: 'Precios restringidos al valor máximo "Int32" en la API de cambio de pre
 id: 5mzOjCUYs7vXUkttbsK0za
 status: PUBLISHED
 createdAt: 2022-04-25T17:28:05.159Z
-updatedAt: 2023-10-18T17:13:07.559Z
-publishedAt: 2023-10-18T17:13:07.559Z
+updatedAt: 2024-02-16T20:26:04.281Z
+publishedAt: 2024-02-16T20:26:04.281Z
 firstPublishedAt: 2022-04-25T17:28:05.773Z
 contentType: knownIssue
 productTeam: Checkout
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Checkout
 slug: precios-restringidos-al-valor-maximo-int32-en-la-api-de-cambio-de-precio
 locale: es
-kiStatus: Backlog
+kiStatus: No Fix
 internalReference: 566142
 ---
 

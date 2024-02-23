@@ -3,8 +3,8 @@ title: 'Google Pay'
 id: 61JMBvM5Vanqj6RaJsP8CT
 status: PUBLISHED
 createdAt: 2023-06-27T21:28:37.755Z
-updatedAt: 2023-07-14T14:05:48.929Z
-publishedAt: 2023-07-14T14:05:48.929Z
+updatedAt: 2023-12-18T21:07:47.217Z
+publishedAt: 2023-12-18T21:07:47.217Z
 firstPublishedAt: 2023-06-27T21:46:39.537Z
 contentType: trackArticle
 productTeam: Shopping
@@ -50,6 +50,10 @@ Para utilizar Google Pay deben cumplirse los siguientes requisitos:
   <p>En las tiendas que tengan el flujo de autenticación <a href="https://help.vtex.com/es/tutorial/o-que-e-3d-secure--1eWPdop8mECuaEomQgkAIa">3DS</a> configurado y admitido por el adquirente, el pago con Google Pay seguirá el flujo nativo de la tarjeta y también utilizará 3DS. Para más información sobre este tema, accede a <a href="https://help.vtex.com/es/tutorial/configurar-fluxo-de-autenticacao-3ds-2--58XMn5LOA6fwrSkoDoAsg2">Configurar flujo de autenticación 3DS 2</a>.</p>
 </div>
 
+<div class="alert alert-info">
+<p>También puedes configurar Google Pay para que se procese con Adyen o Stripe. Para hacer esto, acceda a la pantalla <b>Condiciones de pago</b> en Admin, haga clic en <b>Google Pay</b> y seleccione la opción deseada.</p>
+</div>
+
 ## Consultar transacciones finalizadas con Google Pay
 
 Para consultar y verificar las transacciones finalizadas con Google Pay, sigue los pasos indicados en el artículo [Ver detalles de la transacción](https://help.vtex.com/es/tracks/pagamentos--6GAS7ZzGAm7AGoEAwDbwJG/3Nt40DMEWkvhlpaL5PlBy). En la barra de búsqueda de la página de transacciones, escriba **Google Pay** para filtrar las transacciones realizadas con este tipo de pago.
@@ -59,6 +63,10 @@ Para consultar y verificar las transacciones finalizadas con Google Pay, sigue l
 Después de acceder a la transacción deseada, haga clic en "+ Información" para verificar la información de **Google Pay** descrita en el campo `paymentOrigin`.
 
 ![Google Pay Transaction_2](//images.ctfassets.net/alneenqid6w5/6nLdqOG38LEUbmSKth5FRP/394481aab2e3d50703ab836080f1e1c9/Google_Pay_Transaction2_ES.png)
+
+<div class="alert alert-warning">
+  <p>También es posible identificar las transacciones realizadas con Google Pay a través de la página <b>Todos los pedidos</b> en Admin. Sólo necesitas seleccionar el periodo de búsqueda deseado, <a href="https://help.vtex.com/es/tracks/pedidos--2xkTisx4SXOWXQel8Jg8sa/6rVCf9KLn1jgTaxS0xuByu">exportar los pedidos</a> en un informe en formato . csv y localizar la información de Google Pay en el campo "payment origin".</p>
+</div>
 
 ## Agregar información de Google Pay en la plantilla de compra
 

@@ -3,8 +3,8 @@ title: 'Anuncios de VTEX Sales App'
 id: 3UtOFwbwD4muz3p72RBPmC
 status: PUBLISHED
 createdAt: 2023-05-25T17:16:06.902Z
-updatedAt: 2023-10-20T13:56:09.280Z
-publishedAt: 2023-10-20T13:56:09.280Z
+updatedAt: 2024-01-11T16:27:18.374Z
+publishedAt: 2024-01-11T16:27:18.374Z
 firstPublishedAt: 2023-05-26T22:11:51.769Z
 contentType: tutorial
 productTeam: Shopping
@@ -92,7 +92,7 @@ https://{account}.myvtex.com/admin/portal/#/sites
 5. En el objeto `window.INSTORE_CONFIG`, agrega la flag `enableExplore: true,`.
 ![window.INSTORE_CONFIG](//images.ctfassets.net/alneenqid6w5/6kpTp7g4zRuIsyYGdo5Bio/c0003c9637209f503401fea07db839cb/image.png)
 6. Haz clic en <i class="fas fa-save"></i> `Guardar`. 
-7. Opcionalmente, puedes determinar que la página de inicio del vendedor sea la página de anuncios. Para lograrlo, agrega la flag `initialPage : advertisements,` en el objeto `window.INSTORE_CONFIG`.
+7. Opcionalmente, puedes determinar que la página de inicio del vendedor sea la página de anuncios. Para lograrlo, agrega la flag `initialPage : 'advertisements',` en el objeto `window.INSTORE_CONFIG`.
 ![initialPage : advertisements](//images.ctfassets.net/alneenqid6w5/1zS4dgPnw7Q0ZP2w0thQdt/88e4f64f2707fd1dbbe95d6b9861e712/image.png)
 
 ## Acceder a los anuncios en VTEX Sales App

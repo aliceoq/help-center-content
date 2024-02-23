@@ -3,8 +3,8 @@ title: 'La regex de Mastercard no está actualizada, lo que hace que identifique
 id: 5gx4dSY2P5gGE0JI661hGL
 status: PUBLISHED
 createdAt: 2022-08-20T00:03:11.640Z
-updatedAt: 2023-11-30T15:10:48.393Z
-publishedAt: 2023-11-30T15:10:48.393Z
+updatedAt: 2024-02-16T20:23:52.381Z
+publishedAt: 2024-02-16T20:23:52.381Z
 firstPublishedAt: 2022-08-20T00:03:12.490Z
 contentType: knownIssue
 productTeam: Payments
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Payments
 slug: la-regex-de-mastercard-no-esta-actualizada-lo-que-hace-que-identifiquemos-mal-algunos-bins
 locale: es
-kiStatus: Backlog
+kiStatus: No Fix
 internalReference: 642136
 ---
 

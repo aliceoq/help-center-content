@@ -3,8 +3,8 @@ title: 'Os pagamentos de débito usando o conector Firstdata não podem ser liqu
 id: 6imTj4PTpJGGFqyhSLTPu9
 status: PUBLISHED
 createdAt: 2022-03-03T21:59:55.119Z
-updatedAt: 2023-06-23T17:24:50.529Z
-publishedAt: 2023-06-23T17:24:50.529Z
+updatedAt: 2024-02-16T20:24:59.932Z
+publishedAt: 2024-02-16T20:24:59.932Z
 firstPublishedAt: 2022-03-03T21:59:55.506Z
 contentType: knownIssue
 productTeam: Payments
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Payments
 slug: os-pagamentos-de-debito-usando-o-conector-firstdata-nao-podem-ser-liquidados-devido-a-um-erro-no-campo-transactionstate
 locale: pt
-kiStatus: Backlog
+kiStatus: No Fix
 internalReference: 461095
 ---
 

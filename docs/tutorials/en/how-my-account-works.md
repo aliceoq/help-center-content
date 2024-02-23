@@ -3,8 +3,8 @@ title: 'How My Account works'
 id: 2BQ3GiqhqGJTXsWVuio3Xh
 status: PUBLISHED
 createdAt: 2019-04-11T21:14:26.117Z
-updatedAt: 2023-08-30T19:05:28.835Z
-publishedAt: 2023-08-30T19:05:28.835Z
+updatedAt: 2023-12-21T14:09:42.863Z
+publishedAt: 2023-12-21T14:09:42.863Z
 firstPublishedAt: 2019-05-21T19:48:15.019Z
 contentType: tutorial
 productTeam: Identity
@@ -78,7 +78,7 @@ The `Add address` button allows customers to include new addresses besides the o
 ## Orders
 
 <div class = "alert alert-info">
-In <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>, customers can only access their orders from the last two years. For information about orders from previous years, merchants need to contact <a href="https://support.vtex.com/hc/pt-br/requests">our Support</a>. Access to previous order data is temporary and will be available for 15 days.
+In <a href="https://help.vtex.com/en/tutorial/how-my-account-works--2BQ3GiqhqGJTXsWVuio3Xh">My Account</a>, customers can only access their orders from the last two years.
 </div>
 
 This section displays a list of all orders placed by the customer in your store. The list is sorted by creation date and displays details such as order date, total price of the order, order ID, status, and items purchased.

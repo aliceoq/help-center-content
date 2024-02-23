@@ -3,8 +3,8 @@ title: 'Seller group creation does not add selected sellers'
 id: 5J14RCg9E4LzBcvJQyOAYy
 status: PUBLISHED
 createdAt: 2023-10-27T17:33:45.625Z
-updatedAt: 2023-10-27T17:33:46.214Z
-publishedAt: 2023-10-27T17:33:46.214Z
+updatedAt: 2024-01-26T16:54:12.089Z
+publishedAt: 2024-01-26T16:54:12.089Z
 firstPublishedAt: 2023-10-27T17:33:46.214Z
 contentType: knownIssue
 productTeam: Marketplace
@@ -12,7 +12,7 @@ author: 2mXZkbi0oi061KicTExNjo
 tag: Marketplace
 slug: seller-group-creation-does-not-add-selected-sellers
 locale: en
-kiStatus: Backlog
+kiStatus: Fixed
 internalReference: 926969
 ---
 

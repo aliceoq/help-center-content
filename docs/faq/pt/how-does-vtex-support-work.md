@@ -3,8 +3,8 @@ title: 'Como funciona o suporte da VTEX?'
 id: 3kACEfni4m8Yxa1vnf2ebe
 status: PUBLISHED
 createdAt: 2019-03-10T19:06:12.818Z
-updatedAt: 2023-12-01T18:52:06.733Z
-publishedAt: 2023-12-01T18:52:06.733Z
+updatedAt: 2024-01-08T19:15:40.782Z
+publishedAt: 2024-01-08T19:15:40.782Z
 firstPublishedAt: 2019-03-10T19:08:36.723Z
 contentType: frequentlyAskedQuestion
 productTeam: Others
@@ -50,9 +50,7 @@ Para acessá-la, vá até o menu __Configurações da Conta__ e clique em __Pesq
 
 ### Monitoramento em tempo real
 
-Prezamos pela transparência quanto à integridade dos nossos sistemas. Por isso, sempre que houver um problema crítico que afete vendas das lojas ou impacte o funcionamento da plataforma, faremos a comunicação proativa com clientes e parceiros por meio de três canais:
-
-- O painel [Healthcheck](http://healthcheck.vtex.com/) apresenta módulos responsáveis pelo monitoramento de cada serviço da VTEX em tempo real. Exibimos um indicador do funcionamento de cada módulo e o horário da última atualização, alertando quando algum recurso estiver indisponível ou com funcionamento degradado. 
+Prezamos pela transparência quanto à integridade dos nossos sistemas. Por isso, sempre que houver um problema crítico que afete vendas das lojas ou impacte o funcionamento da plataforma, faremos a comunicação proativa com clientes e parceiros por meio dos canais a seguir:
 
 - A página de [Status](https://status.vtex.com/) exibe uma linha do tempo com o histórico recente de incidentes do sistema. Nesse histórico, detalhamos as informações de cada incidente: o que aconteceu, quais módulos foram afetados, a sequência de ações até sua resolução e um resumo do ocorrido ao final.
 

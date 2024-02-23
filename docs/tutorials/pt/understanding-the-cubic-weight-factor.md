@@ -3,8 +3,8 @@ title: 'Calcular o fator cúbico de peso'
 id: tutorials_128
 status: PUBLISHED
 createdAt: 2017-04-27T22:17:52.970Z
-updatedAt: 2023-08-08T20:38:41.469Z
-publishedAt: 2023-08-08T20:38:41.469Z
+updatedAt: 2023-12-19T17:17:26.713Z
+publishedAt: 2023-12-19T17:17:26.713Z
 firstPublishedAt: 2017-04-27T23:00:44.419Z
 contentType: tutorial
 productTeam: Post-purchase
@@ -23,10 +23,10 @@ A cubagem é a relação existente entre o volume e o peso da mercadoria, que é
 
 A função da cubagem no transporte é evitar que se ocupe todo o espaço físico do veículo sem utilizar toda a sua capacidade em peso ou vice-versa. Desta forma, o conceito de cubagem está ligado à capacidade de se preencher a carga de um veículo utilizando-se todo o seu volume disponível para carga e capacidade de peso ou tonelagem.
 
-- __Peso Real:__ é aquele indicado na balança.
-- __Peso Cubado:__ é a forma de cálculo que determina o espaço efetivamente ocupado pelo pacote no veículo de transporte.
+- __Peso mínimo:__ é aquele indicado na balança.
+- __Peso cúbico:__ é a forma de cálculo que determina o espaço efetivamente ocupado pelo pacote no veículo de transporte.
 
-## Fator de Cubagem
+## Fator de cubagem
 
 O fator de cubagem é o coeficiente resultante da relação entre peso e volume mais adequada e comercialmente justa à cubagem de aeronaves, conforme recomendado pela IATA (entidade internacional que congrega as empresas aéreas).
 
@@ -43,11 +43,11 @@ Observe o exemplo a seguir:
 ![](//images.contentful.com/alneenqid6w5/3KZDUQlPBYEY8mSwqQgW6k/15cef41598f4fc1359f482cddbcca756/pesocubado.jpg)
 
 - __Dimensões do pacote:__ `50cm x 60cm x 15cm`
-- __Peso real do pacote:__ `9kg`
+- __Peso mínimo do pacote:__ `9kg`
 - __Fator de cubagem:__ `6.000`
-- __Peso cubado:__ `50cm * 60cm * 15cm / 6.000 = 7,5kg`
+- __Peso cúbico:__ `50cm * 60cm * 15cm / 6.000 = 7,5kg`
 
-Ao comparar o peso real com o peso cubado do pacote, a transportadora fará a cobrança pelo peso real, pois ele é maior que o peso cubado.
+Ao comparar o peso mínimo com o peso cúbico do pacote, a transportadora fará a cobrança pelo peso mínimo, pois ele é maior que o peso cubado.
 
 Porém, o cálculo acima é apenas ilustrativo. Na transportadora, o valor cadastrado como fator cúbico será multiplicado ao produto de `Comprimento x Largura x Altura`. Ou seja, o cálculo a ser feito será `Comprimento x Largura x Altura x Fator Cúbico`.
 
@@ -59,5 +59,5 @@ Ao realizar o cadastro da sua transportadora, esse é o valor que você deve pre
 
 Portanto, o cálculo final seria:
 - __Dimensões do pacote:__ `50cm x 60cm x 15cm`
-- __Peso real do pacote:__ 9kg
-- __Peso cubado__: `50cm x 60cm x 15cm x 0,167 = 7.515kg`
+- __Peso mínimo do pacote:__ `9kg`
+- __Peso cúbico__: `50cm x 60cm x 15cm x 0,167 = 7.515kg`

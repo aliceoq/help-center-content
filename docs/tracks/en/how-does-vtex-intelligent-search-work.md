@@ -3,8 +3,8 @@ title: 'How does VTEX Intelligent Search work?'
 id: 23mytRDsEduqLO0Lo7yufy
 status: PUBLISHED
 createdAt: 2020-03-05T14:57:22.014Z
-updatedAt: 2023-07-11T19:10:43.325Z
-publishedAt: 2023-07-11T19:10:43.325Z
+updatedAt: 2024-02-07T13:18:52.194Z
+publishedAt: 2024-02-07T13:18:52.194Z
 firstPublishedAt: 2020-03-05T19:54:00.932Z
 contentType: trackArticle
 productTeam: Marketing & Merchandising
@@ -100,9 +100,11 @@ VTEX Intelligent Search limits search results to 50 pages. This feature encourag
 
 It is possible to search by the ID of one or more items in the search bar or by adding search parameters (*query*) in the store URL.
 
-### Search bar
+### Partial match
 
-Enter only the exact first digits of the ID in the search bar. Please note that the search must be exact: for example, if the ID is `0123-456-789` and you search for `123`, the product will not be displayed.
+By entering the exact first digits of the product ID (`ProductID`), product reference code (`ProductRefID`), SKU ID (`SKUID`), SKU reference code (`SKURefID`), or EAN in the search bar, Intelligent Search will partially match products and SKUs active in the store, adding them to the search results.
+
+For example, if the product ID is `123456789` and you search for `123`, it will be listed in the search results. However, the product will not be displayed if the search is `234` and does not include any of the first ID numbers.
 
 ### URL
 

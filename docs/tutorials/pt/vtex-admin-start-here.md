@@ -1,9 +1,9 @@
 ---
 title: 'Admin VTEX: Comece Aqui'
 id: 531cHtUCUi3puRXNDmKziw
-status: PUBLISHED
+status: CHANGED
 createdAt: 2019-02-04T15:41:26.380Z
-updatedAt: 2023-11-08T14:15:16.929Z
+updatedAt: 2024-01-31T23:13:35.591Z
 publishedAt: 2023-11-08T14:15:16.929Z
 firstPublishedAt: 2019-02-04T15:51:04.667Z
 contentType: tutorial
@@ -12,7 +12,7 @@ author: 0QBQws7rk0t5Mnu8fgfUv
 slug: admin-vtex-comece-aqui
 locale: pt
 legacySlug: encontre-aqui-todas-as-respostas-que-voce-precisa
-subcategory: 
+subcategory: 1VvCpaa8NCA6a0MK6W6oWg
 ---
 
 O Admin permite que os comerciantes gerenciem toda sua experiência de comércio digital em um só lugar, de uma maneira simples e inteligente.  É onde acompanham pedidos, cadastram produtos, configuram fulfillment e todos os outros aspectos de uma operação de comércio unificado. 

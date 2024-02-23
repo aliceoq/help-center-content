@@ -1,10 +1,10 @@
 ---
 title: 'Amazon: novo modelo de mapeamento de categorias'
 id: 584nPLYkI8tnOGz1s4X5LE
-status: DRAFT
+status: PUBLISHED
 createdAt: 2023-11-27T23:08:37.697Z
-updatedAt: 2023-11-27T23:25:20.596Z
-publishedAt: 
+updatedAt: 2023-12-18T15:49:17.763Z
+publishedAt: 2023-12-18T15:49:17.763Z
 contentType: updates
 productTeam: Channels
 author: 2p7evLfTcDrhc5qtrzbLWD
@@ -32,5 +32,5 @@ Veja alguns benefícios do mapeamento de categorias e atributos via Admin VTEX:
 
 ## O que precisa ser feito?  
 
-A funcionalidade estará disponível para todas as [contas VTEX que atuam como seller](https://help.vtex.com/pt/tutorial/estrategias-de-marketplace-na-vtex--tutorials_402#sendo-seller-vtex) a partir de **29 de novembro de 2023.** Para utilizá-la, você precisa ter a sua conta VTEX [integrada](https://help.vtex.com/pt/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5sYA9MlRo92jJIxKF1MTXb) à Amazon e fazer o envio dos produtos utilizando o tutorial de [Envio e mapeamento de categorias dos produtos para a Amazon](https://help.vtex.com/pt/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5xklf2wSdeztQh4iy5kJvD).  
+A funcionalidade estará disponível para todas as [contas VTEX que atuam como seller](https://help.vtex.com/pt/tutorial/estrategias-de-marketplace-na-vtex--tutorials_402#sendo-seller-vtex) a partir de **18 de dezembro de 2023.** Para utilizá-la, você precisa ter a sua conta VTEX [integrada](https://help.vtex.com/pt/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5sYA9MlRo92jJIxKF1MTXb) à Amazon e fazer o envio dos produtos utilizando o tutorial de [Envio e mapeamento de categorias dos produtos para a Amazon](https://help.vtex.com/pt/tracks/configurar-integracao-com-a-amazon--6sgd4Pagy3wNsWKBvmIFrP/5xklf2wSdeztQh4iy5kJvD).  
 

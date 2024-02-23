@@ -1,9 +1,9 @@
 ---
 title: 'Offer Status (BETA)'
 id: 2OE87wU26F7lApl99OdwvJ
-status: PUBLISHED
+status: CHANGED
 createdAt: 2023-09-29T19:16:05.771Z
-updatedAt: 2023-10-21T00:34:24.058Z
+updatedAt: 2024-01-31T19:48:28.499Z
 publishedAt: 2023-10-21T00:34:24.058Z
 firstPublishedAt: 2023-09-29T20:07:16.003Z
 contentType: tutorial
@@ -19,7 +19,11 @@ The **Offer Status** module allows sellers to track the sending and syncing of t
 
 **Offer Status** allows you to track offers sent only to VTEX marketplaces. To access the module, in the VTEX Admin, go to **Marketplace > Connections > Offer Status**, or type **Offer Status** in the search bar.
 
+![Overview Offer Status](//images.ctfassets.net/alneenqid6w5/5xsOfb9yELGwATNWgsaO9g/927cf94777a1b8197c80f065c51bd74a/-Reduzido-_EN-OfferStatus-GIF.gif)
+
 The **Offer Status** page comprises three tabs: [**Published**](#published-tab), [**Issues**](#issue-tab), and [**Awaiting Completion**](#awaiting-completion-tab), all listing your offers according to their status. You can access and view details of each offer, such as their status, inventory, price, update date, and reasons for being rejected by the marketplace.
+
+![Offer Status schema](//images.ctfassets.net/alneenqid6w5/mC78m1ROUDWruOE5V5XEk/4d8fe1a14fdcfc61f9ec87be31fa2c0a/offer-status-schema-en.png)
 
 ## Published tab
 
@@ -27,7 +31,8 @@ In the **Published** tab, you can track the offers sent and approved by the mark
 
 - [Search for and filter offers](#searching-for-and-filtering-offers) 
 - [View offer details](#viewing-offer-details)  
-- [Edit offer details](#editing-offer-details)  
+- [Edit offer details](#editing-offer-details)
+- [Export published offer list](#export-published-offer-list)  
 
 ### Searching for and filtering offers
 
@@ -45,12 +50,16 @@ To filter the offers by **Marketplace**, click the down arrow, select the desire
 
 To filter the offers by **Inventory**, click the down arrow, enter the minimum and/or maximum inventory, and click **Apply**.
 
+![Filtro estoque offer status](//images.ctfassets.net/alneenqid6w5/p6cXcm4zP1pYWyTGbQcoE/48708c0e98b5c01060748b5def3c6184/inventory-filter.png)
+
 To filter the offers by **Update**, click the down arrow, select one of the options, and then click **Apply.**
 
 See below the options available for this filter:
 
 - **Updated**: Offers that had their price and/or inventory updated by the seller and have been processed successfully.
 - **Error updating:** Offers that had inconsistencies and failed to update.
+
+![Filtro atualizado offer status](//images.ctfassets.net/alneenqid6w5/VBAg96YrCwBHB358eJS7r/92bc3b3358618470087e57c1566215ae/update-filter.png)
 
 You can use a single filter or combine them in a single search. The filters are not selected by default, so the home page displays the total number of existing offers.
 
@@ -93,6 +102,16 @@ To update any details of an already published offer, you must do the following:
 
 You will be redirected to the corresponding page to make the necessary changes.
 
+![Ações offer status](//images.ctfassets.net/alneenqid6w5/3SzA8sqcAKJx2L4GrdLcQ2/990566155ec8712979614688eb549ad0/Aspose.Words.978c189a-0715-46de-a85d-4a215e29140f.006.jpeg)
+
+### Export published offer list
+
+To export the published offer list in XLSX format, click the down arrow icon at the top of the interface. The file will be sent to the email of the logged-in user. The export time depends on the volume of offers exported and on the processing circumstances of the VTEX platform.
+
+<div class="alert alert-info">
+  The exported content refers to all items in the offer list at the moment of exporting. If any of the filters are active, only the selected offers will be exported.
+  </div>
+
 ## Issues tab
 
 In the **Issues** tab, you can track the offers that have been sent but were rejected by the marketplace. In this tab, you can also do the following:
@@ -100,6 +119,7 @@ In the **Issues** tab, you can track the offers that have been sent but were rej
 - [Search for and filter offers with issues](#searching-for-and-filtering-offers-with-issues)
 - [View issue details](#viewing-issue-details)
 - [Edit offer details](#editing-offer-details)
+- [Export issues offer list](#export-issues-offer-list)
 
 ### Searching for and filtering offers with issues
 
@@ -121,6 +141,7 @@ To filter the offers by **Marketplace**, click the down arrow, select the desire
 To filter the offers by **Sent**, click the down arrow, select one of the options, and then click **Apply.**  
 
 To filter the offers by **Inventory**, click the down arrow, enter the minimum and/or maximum inventory, and click **Apply**.  
+![Filtro estoque offer status](//images.ctfassets.net/alneenqid6w5/p6cXcm4zP1pYWyTGbQcoE/48708c0e98b5c01060748b5def3c6184/inventory-filter.png)
 
 You can use a single filter or combine them in a single search. The filters are not selected by default, so the home page displays the total number of existing offers.  
 
@@ -156,12 +177,21 @@ To update any details of an offer with issues, please follow the steps below:
 
 You will be redirected to the corresponding page to make the necessary changes.
 
+### Export issues offer list
+
+To export the issues offer list in XLSX format, click the down arrow icon at the top of the interface. The file will be sent to the email of the logged-in user. The export time depends on the volume of offers exported and on the processing circumstances of the VTEX platform.
+
+<div class="alert alert-info">
+  The exported content refers to all items in the offer list at the moment of exporting. If any of the filters are active, only the selected offers will be exported.
+  </div>
+
 ## Awaiting Completion tab
 
 In the **Awaiting Completion** tab, you can track the offers that are awaiting review from the marketplace. In this tab, you can also do the following:  
 
 - [Search for and filter offers under review](#searching-for-and-filtering-offers-under-review)
 - [Edit offer details](#editing-offer-details)
+- [Export awaiting completion offer list](#export-awating-completion-offer-list)
 
 ### Searching for and filtering offers under review
 
@@ -201,3 +231,11 @@ You can click the column names to sort the offers in ascending or descending ord
   - **Edit Content**
 
 You will be redirected to the corresponding page to make the necessary changes.
+
+### Export awaiting completion offer list
+
+To export the awaiting offer list in XLSX format, click the down arrow icon at the top of the interface. The file will be sent to the email of the logged-in user. The export time depends on the volume of offers exported and on the processing circumstances of the VTEX platform.
+
+<div class="alert alert-info">
+  The exported content refers to all items in the offer list at the moment of exporting. If any of the filters are active, only the selected offers will be exported.
+  </div>
